@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationMap component children matches snapshot 1`] = `
+<Fragment>
+  <ListingLocationMap
+    address="street, city, state zipCode, country"
+    mapContainerRef={null}
+  />
+  <EditListingFooter
+    disabled={false}
+    isLoading={false}
+    onSave={[MockFunction]}
+  />
+</Fragment>
+`;
+
+exports[`LocationMap component matches snapshot 1`] = `
+<Wrapper>
+  <LocationMap />
+</Wrapper>
+`;

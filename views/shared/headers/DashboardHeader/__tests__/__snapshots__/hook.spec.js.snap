@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardHeader useContainer hook matches snapshot 1`] = `
+Object {
+  "menuItems": Array [
+    Object {
+      "className": "main-menu__item ant-menu-item-selected",
+      "key": "INDEX",
+      "label": <Link
+        href="/dashboard"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.dashboard"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "MESSAGES",
+      "label": <Link
+        href="/dashboard/messages"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.messages"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "BOOKINGS",
+      "label": <Link
+        href="/dashboard/bookings"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.bookings"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "CALENDAR",
+      "label": <Link
+        href="/dashboard/calendar"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.calendar"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "LISTINGS",
+      "label": <Link
+        href="/dashboard/listings"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.listings"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "REVIEWS",
+      "label": <Link
+        href="/dashboard/reviews"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.reviews"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "REPORTS",
+      "label": <Link
+        href="/dashboard/reports"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.reports"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "HELP",
+      "label": <Link
+        href="/dashboard/help"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.help"
+          />
+        </a>
+      </Link>,
+    },
+  ],
+}
+`;
+
+exports[`DashboardHeader useContainer hook matches snapshot when selectedKey is present 1`] = `
+Object {
+  "menuItems": Array [
+    Object {
+      "className": "main-menu__item",
+      "key": "INDEX",
+      "label": <Link
+        href="/dashboard"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.dashboard"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "MESSAGES",
+      "label": <Link
+        href="/dashboard/messages"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.messages"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "BOOKINGS",
+      "label": <Link
+        href="/dashboard/bookings"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.bookings"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "CALENDAR",
+      "label": <Link
+        href="/dashboard/calendar"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.calendar"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item ant-menu-item-selected",
+      "key": "LISTINGS",
+      "label": <Link
+        href="/dashboard/listings"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.listings"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "REVIEWS",
+      "label": <Link
+        href="/dashboard/reviews"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.reviews"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "REPORTS",
+      "label": <Link
+        href="/dashboard/reports"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.reports"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "className": "main-menu__item",
+      "key": "HELP",
+      "label": <Link
+        href="/dashboard/help"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.help"
+          />
+        </a>
+      </Link>,
+    },
+  ],
+}
+`;

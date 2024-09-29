@@ -1,0 +1,120 @@
+{
+  "fail": {
+    "text": ":red_circle: Job Failed :red_circle:",
+    "blocks": [
+      {
+        "type": "section",
+        "text": {
+          "text": ":red_circle: *Job failed* :red_circle:",
+          "type": "mrkdwn"
+        },
+        "fields": [
+          {
+            "type": "mrkdwn",
+            "text": "*Job*: $CIRCLE_JOB"
+          },
+          {
+            "type": "mrkdwn",
+            "text": "*Author*: $CIRCLE_USERNAME"
+          },
+          {
+            "type": "mrkdwn",
+            "text": "*Branch*: $CIRCLE_BRANCH"
+          },
+          {
+            "type": "mrkdwn",
+            "text": "*Message*: ${GIT_COMMIT_DESC-merge}"
+          }
+        ],
+        "accessory": {
+          "type": "image",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/102-weary-cat-face.svg/240px-102-weary-cat-face.svg.png",
+          "alt_text": "sad cat"
+        }
+      },
+      {
+        "type": "actions",
+        "elements": [
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "View Job"
+            },
+            "url": "$CIRCLE_BUILD_URL"
+          },
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Github"
+            },
+            "url": "${CIRCLE_PULL_REQUEST-$GITHUB_REPOSITORY_URL}"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      }
+    ]
+  },
+  "pass": {
+    "text": ":tada: Job Successful :tada:",
+    "blocks": [
+      {
+        "type": "section",
+        "text": {
+          "text": ":tada: *Job Successful* :tada:",
+          "type": "mrkdwn"
+        },
+        "fields": [
+          {
+            "type": "mrkdwn",
+            "text": "*Job*: $CIRCLE_JOB"
+          },
+          {
+            "type": "mrkdwn",
+            "text": "*Author*: $CIRCLE_USERNAME"
+          },
+          {
+            "type": "mrkdwn",
+            "text": "*Branch*: $CIRCLE_BRANCH"
+          },
+          {
+            "type": "mrkdwn",
+            "text": "*Message*: ${GIT_COMMIT_DESC-merge}"
+          }
+        ],
+        "accessory": {
+          "type": "image",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/097-grinning-cat-face-with-smiling-eyes.svg/240px-097-grinning-cat-face-with-smiling-eyes.svg.png",
+          "alt_text": "cute cat"
+        }
+      },
+      {
+        "type": "actions",
+        "elements": [
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "View Job"
+            },
+            "url": "$CIRCLE_BUILD_URL"
+          },
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Github"
+            },
+            "url": "${CIRCLE_PULL_REQUEST-$GITHUB_REPOSITORY_URL}"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      }
+    ]
+  }
+}

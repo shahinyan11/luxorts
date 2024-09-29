@@ -1,0 +1,18 @@
+.calendar-header {
+  padding-right: 16px;
+  padding-left: 16px;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.calendar-header__container {
+  @include container;
+}
+.calendar-header__title {
+  @include text-display-2;
+}
+.calendar-header__description {
+  @include text-body;
+  color: get-color(text, black);
+}

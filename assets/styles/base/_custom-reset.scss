@@ -1,0 +1,123 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  line-height: 1;
+  scroll-behavior: smooth;
+  // stylelint-disable-next-line
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(black, 0);
+}
+body {
+  @include text-body;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #13284c;
+  font-family: Poppins, Arial, Helvetica, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  // stylelint-disable-next-line
+  > #__next {
+    width: 100%;
+    height: 100%;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+img,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: #13284c;
+}
+ul {
+  list-style: none;
+}
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+button {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: 0 0;
+  color: inherit;
+  font-family: Open-Sans, Arial, Helvetica, sans-serif;
+  font-size: inherit;
+  cursor: pointer;
+  &:focus {
+    outline: 0;
+  }
+  // scss-lint:disable VendorPrefix
+  &::-moz-focus-inner {
+    padding: 0;
+    border: none;
+    outline: 0;
+  }
+  // scss-lint:enable VendorPrefix
+}
+input {
+  padding: 0;
+  font-family: Open-Sans, Arial, Helvetica, sans-serif !important;
+  &::placeholder {
+    opacity: 1;
+    font: inherit !important;
+  }
+}
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+textarea {
+  font-family: Open-Sans, Arial, Helvetica, sans-serif !important;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  &:focus {
+    outline: 0;
+  }
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+input:-webkit-autofill {
+  // stylelint-disable-next-line
+  -webkit-background-clip: text;
+}

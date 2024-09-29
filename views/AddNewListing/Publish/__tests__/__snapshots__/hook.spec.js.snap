@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Publish useContainer hook matches snapshot 1`] = `
+Object {
+  "isLoading": false,
+  "onPublishListingClickHandler": [Function],
+  "onSaveAsDraftClickHandler": [Function],
+  "publishAfterAvatarUploading": [Function],
+  "setPublishRequested": [Function],
+  "showSkeleton": false,
+}
+`;

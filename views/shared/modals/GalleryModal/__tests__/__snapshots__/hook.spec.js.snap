@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GalleryModal useContainer hook matches snapshot 1`] = `
+Object {
+  "activeIndex": 0,
+  "onMountHandler": [Function],
+  "onSlideChangeHandler": [Function],
+  "slideNext": [Function],
+  "slidePrev": [Function],
+  "swiperRef": Object {
+    "current": Object {
+      "swiper": Object {
+        "slideNext": [MockFunction],
+        "slidePrev": [MockFunction],
+        "slideTo": [MockFunction] {
+          "calls": Array [
+            Array [
+              0,
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      },
+    },
+  },
+}
+`;

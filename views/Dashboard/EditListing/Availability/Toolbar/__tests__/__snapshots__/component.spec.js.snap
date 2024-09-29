@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toolbar component matches snapshot 1`] = `
+<div
+  className="booking-calendar-toolbar mb-24"
+>
+  <div
+    className="booking-calendar-toolbar__controls"
+  >
+    <GradientButton
+      addonAfter={null}
+      addonBefore={null}
+      className="main-btn--medium mr-16"
+      onClick={[MockFunction]}
+      text={
+        Object {
+          "id": "shared.today",
+        }
+      }
+      variant="tertiary"
+    />
+    <GradientButton
+      addonAfter={null}
+      addonBefore={
+        <SvgIcon
+          icon="arrow-left"
+        />
+      }
+      className="main-btn--icon main-btn--medium mr-8"
+      onClick={[MockFunction]}
+      variant="tertiary"
+    />
+    <GradientButton
+      addonAfter={null}
+      addonBefore={
+        <SvgIcon
+          icon="arrow-right"
+        />
+      }
+      className="main-btn--icon main-btn--medium mr-16"
+      onClick={[MockFunction]}
+      variant="tertiary"
+    />
+    <p
+      className="text-headline-2 mb-0"
+    >
+      label
+    </p>
+  </div>
+  <div
+    className="booking-calendar-toolbar__links"
+  >
+    <Button
+      className="main-text-btn mr-16"
+      type="button"
+    >
+      <Memo(FormattedMessage)
+        id="shared.availabilitySettings"
+      />
+    </Button>
+    <Button
+      className="main-text-btn"
+      type="button"
+    >
+      <Memo(FormattedMessage)
+        id="shared.pricingSettings"
+      />
+    </Button>
+  </div>
+</div>
+`;

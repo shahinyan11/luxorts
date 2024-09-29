@@ -1,0 +1,42 @@
+.social {
+  padding-right: 16px;
+  padding-left: 16px;
+  text-align: center;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.social__title {
+  @include text-display-2;
+}
+.social__description {
+  @include text-subheader;
+  color: get-color(text, black);
+}
+.social__list {
+  @include container;
+  display: flex;
+  gap: 24px;
+}
+.social__item {
+  flex-grow: 1;
+}
+.social__link {
+  @include text-subheader;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1100);
+  }
+  &:active {
+    color: get-color(primary, 1200);
+  }
+}
+.social__icon {
+  width: 48px;
+  height: 48px;
+}

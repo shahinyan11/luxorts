@@ -1,0 +1,145 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: flex-start;
+  gap: 24px;
+  padding-right: 16px;
+  padding-left: 16px;
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+  }
+  @include media-breakpoint-up(lg) {
+    gap: 40px;
+  }
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+    gap: 60px;
+  }
+}
+.profile--one-column {
+  flex-direction: column;
+  gap: 0;
+}
+.profile__header {
+  flex-shrink: 0;
+  width: 100%;
+  padding: 90px 24px 24px;
+  border: 1px solid get-color(secondary, 200);
+  border-radius: 10px;
+  background-image: url('/images/profile-header-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 180px;
+  @include media-breakpoint-up(md) {
+    width: 248px;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 328px;
+  }
+}
+.profile__header-avatar {
+  display: inline-block;
+  border: 2px solid get-color(text, white);
+  border-radius: 50%;
+}
+.profile__header-title {
+  @include text-headline-2;
+}
+.profile__note {
+  @include text-body;
+  color: get-color(text, black);
+}
+.profile__info {
+  display: flex;
+  gap: 8px;
+  @include media-breakpoint-up(md) {
+    flex-direction: column;
+  }
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+    gap: 16px;
+  }
+}
+.profile__info-icon {
+  width: 20px;
+  height: 20px;
+}
+.profile__info-text {
+  @include text-body;
+  display: flex;
+  align-items: center;
+}
+.profile__info-icon--star {
+  fill: get-color(accent-2, 1100);
+}
+.profile__confirmed {
+  border-top: 1px solid get-color(secondary, 100);
+}
+.profile__content {
+  flex-grow: 1;
+  max-width: 752px;
+}
+.profile__title {
+  @include text-display-2;
+}
+.profile__subtitle {
+  @include text-headline-2;
+}
+.profile__description {
+  border-bottom: 1px solid get-color(secondary, 100);
+}
+.profile__text {
+  @include text-body;
+}
+.profile__text--overflow {
+  // stylelint-disable-next-line
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  // stylelint-disable-next-line
+  -webkit-box-orient: vertical;
+  // stylelint-disable-next-line
+  box-orient: vertical;
+  // stylelint-disable-next-line
+  text-overflow: ellipsis;
+}
+.profile__listings {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  .apartment-card {
+    @include media-breakpoint-up(sm) {
+      max-width: 544px;
+    }
+    @include media-breakpoint-up(md) {
+      max-width: 464px;
+    }
+    @include media-breakpoint-up(xl) {
+      max-width: 364px;
+    }
+  }
+}
+.profile__buttons {
+  margin-top: auto;
+  border-top: 1px solid get-color(secondary, 100);
+}
+.profile__container {
+  width: 100%;
+  max-width: 558px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.profile__label {
+  @include text-body;
+  color: get-color(text, black);
+}
+.profile__upload {
+  min-height: initial;
+  padding: 0;
+  border: none;
+}
+.profile__rate {
+  width: 56px;
+  height: 56px;
+}

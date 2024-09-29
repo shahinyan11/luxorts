@@ -1,0 +1,17 @@
+.ant-popover-inner {
+  @include shadow-4;
+  border-radius: $border-radius-secondary;
+}
+.ant-popover-placement-topRight {
+  padding-bottom: 0;
+}
+.ant-popover-arrow {
+  display: none;
+}
+.ant-popover-title {
+  @include text-subheader-2;
+  padding: 16px 64px 16px 24px;
+}
+.ant-popover-inner-content {
+  padding: 24px;
+}

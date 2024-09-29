@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Availability component matches snapshot 1`] = `
+<AddNewListingLayout
+  isDirty={false}
+  isLoading={false}
+  onNext={[MockFunction]}
+  showSkeleton={false}
+  stepStatus="initial"
+  title={
+    Object {
+      "id": "shared.availability",
+    }
+  }
+>
+  <div
+    className="new-listing__container mb-8"
+  >
+    <h1
+      className="new-listing__title mb-8"
+    >
+      <Memo(FormattedMessage)
+        id="shared.setAvailability"
+      />
+    </h1>
+    <p
+      className="new-listing__description mb-32"
+    >
+      <Memo(FormattedMessage)
+        id="listing.availability.description"
+      />
+    </p>
+    <div
+      className="calendar-legend mb-32"
+    >
+      <div
+        className="calendar-legend__item"
+      >
+        <p
+          className="calendar-legend__sign m-0"
+        >
+          <Memo(FormattedMessage)
+            id="shared.n"
+          />
+        </p>
+        <p
+          className="calendar-legend__description m-0"
+        >
+          <Memo(FormattedMessage)
+            id="shared.available"
+          />
+        </p>
+      </div>
+      <div
+        className="calendar-legend__item"
+      >
+        <p
+          className="calendar-legend__sign calendar-legend__sign--blocked m-0"
+        >
+          <Memo(FormattedMessage)
+            id="shared.n"
+          />
+        </p>
+        <p
+          className="calendar-legend__description m-0"
+        >
+          <Memo(FormattedMessage)
+            id="shared.blocked"
+          />
+        </p>
+      </div>
+    </div>
+    <ForwardRef
+      className="aviability-calendar mb-32"
+      components={
+        Object {
+          "dateCellWrapper": [Function],
+          "toolbar": [Function],
+        }
+      }
+      localizer={
+        DateLocalizer {
+          "add": [Function],
+          "ceil": [Function],
+          "continuesAfter": [Function],
+          "continuesPrior": [Function],
+          "diff": [Function],
+          "endOf": [Function],
+          "eq": [Function],
+          "firstVisibleDay": [Function],
+          "format": [Function],
+          "formats": Object {
+            "agendaDateFormat": "ddd MMM DD",
+            "agendaHeaderFormat": [Function],
+            "agendaTimeFormat": "LT",
+            "agendaTimeRangeFormat": [Function],
+            "dateFormat": "DD",
+            "dayFormat": "DD ddd",
+            "dayHeaderFormat": "dddd MMM DD",
+            "dayRangeHeaderFormat": [Function],
+            "eventTimeRangeEndFormat": [Function],
+            "eventTimeRangeFormat": [Function],
+            "eventTimeRangeStartFormat": [Function],
+            "monthHeaderFormat": "MMMM YYYY",
+            "selectRangeFormat": [Function],
+            "timeGutterFormat": "LT",
+            "weekdayFormat": "ddd",
+          },
+          "getDstOffset": [Function],
+          "getMinutesFromMidnight": [Function],
+          "getSlotDate": [Function],
+          "getTimezoneOffset": [Function],
+          "getTotalMin": [Function],
+          "gt": [Function],
+          "gte": [Function],
+          "inEventRange": [Function],
+          "inRange": [Function],
+          "isSameDate": [Function],
+          "lastVisibleDay": [Function],
+          "lt": [Function],
+          "lte": [Function],
+          "max": [Function],
+          "merge": [Function],
+          "min": [Function],
+          "minutes": [Function],
+          "neq": [Function],
+          "propType": [Function],
+          "range": [Function],
+          "segmentOffset": 0,
+          "sortEvents": [Function],
+          "startAndEndAreDateOnly": [Function],
+          "startOf": [Function],
+          "startOfWeek": [Function],
+          "visibleDays": [Function],
+        }
+      }
+      onNavigate={[MockFunction]}
+      onSelectSlot={[MockFunction]}
+      selectable={true}
+    />
+  </div>
+</AddNewListingLayout>
+`;

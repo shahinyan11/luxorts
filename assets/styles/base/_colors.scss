@@ -1,0 +1,71 @@
+$app-colors: (
+  primary: (
+    50: #f9effa,
+    100: #f3e0f5,
+    200: #ecd0f1,
+    300: #e6c1ec,
+    800: #cd82d9,
+    1000: #a537b5,
+    1100: #9c35ac,
+    1200: #8e309c,
+  ),
+  secondary: (
+    50: #f8f9fb,
+    100: #f0f3f7,
+    200: #dce2ec,
+    300: #c8d2e2,
+    800: #a3acbd,
+    900: #586a86,
+    1000: #13284c,
+  ),
+  accent-1: (
+    100: #eafcf7,
+    200: #cff8eb,
+    800: #92eccf,
+    1000: #36c697,
+    1100: #0bb07b,
+  ),
+  accent-2: (
+    100: #fffcf5,
+    200: #fff6e4,
+    800: #ffecc7,
+    1000: #ffbb38,
+    1100: #ff8f00,
+  ),
+  accent-3: (
+    100: #fae9e9,
+    200: #fadada,
+    250: #facaca,
+    300: #fbbfbf,
+    800: #fd9c9c,
+    1000: #ff5657,
+  ),
+  accent-4: (
+    100: #e6ebfa,
+    200: #d2dcfa,
+    800: #71a6ff,
+    1000: #0864ff,
+    1100: #075ae7,
+  ),
+  text: (
+    active-dark: #13284c,
+    black: #586a86,
+    secondary-black: #a3acbd,
+    primary: #a537b5,
+    accent: #ff5657,
+    disabled-black: #f0f3f7,
+    disabled-grey: #c8d2e2,
+    disabled-white: rgba(#fff, 0.5),
+    secondary-white: rgba(#fff, 0.75),
+    white: #fff,
+    grey: #eee,
+  ),
+);
+
+@each $group-name, $group-color in $app-colors {
+  @each $color-name, $color in $group-color {
+    .color-#{$group-name + '-' + $color-name} {
+      background-color: $color;
+    }
+  }
+}

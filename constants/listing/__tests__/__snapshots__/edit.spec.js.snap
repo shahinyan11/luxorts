@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`edit constants match snapshot 1`] = `
+Object {
+  "EDIT_LISTING_TABS": Array [
+    Object {
+      "KEY": "PROPERTY_TYPE",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.propertyType",
+        },
+      },
+      "PATH": "/dashboard/listings/property-type/[id]",
+    },
+    Object {
+      "KEY": "ACCOMMODATION",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.accommodation",
+        },
+      },
+      "PATH": "/dashboard/listings/accommodation/[id]",
+    },
+    Object {
+      "KEY": "LOCATION",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.location",
+        },
+      },
+      "PATH": "/dashboard/listings/location/[id]",
+    },
+    Object {
+      "KEY": "LOCATION_MAP",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.locationMap",
+        },
+      },
+      "PATH": "/dashboard/listings/location-map/[id]",
+    },
+    Object {
+      "KEY": "AMENITIES",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.amenities",
+        },
+      },
+      "PATH": "/dashboard/listings/amenities/[id]",
+    },
+    Object {
+      "KEY": "CAPABILITIES",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.capabilities",
+        },
+      },
+      "PATH": "/dashboard/listings/capabilities/[id]",
+    },
+    Object {
+      "KEY": "SERVICES",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.services",
+        },
+      },
+      "PATH": "/dashboard/listings/services/[id]",
+    },
+    Object {
+      "KEY": "PHOTOS",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.photos",
+        },
+      },
+      "PATH": "/dashboard/listings/photos/[id]",
+    },
+    Object {
+      "KEY": "DESCRIPTION",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.description",
+        },
+      },
+      "PATH": "/dashboard/listings/description/[id]",
+    },
+    Object {
+      "KEY": "HOUSE_RULES",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.houseRules",
+        },
+      },
+      "PATH": "/dashboard/listings/house-rules/[id]",
+    },
+    Object {
+      "KEY": "RESERVATION_PREFERENCES",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.reservationPreferences",
+        },
+      },
+      "PATH": "/dashboard/listings/reservation-preferences/[id]",
+    },
+    Object {
+      "KEY": "AVAILABILITY",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.availabilityAndPricing",
+        },
+      },
+      "PATH": "/dashboard/listings/availability/[id]",
+    },
+    Object {
+      "KEY": "PRICING_AND_DISCOUNTS",
+      "META": Object {
+        "TITLE": Object {
+          "id": "shared.pricingAndDiscounts",
+        },
+      },
+      "PATH": "/dashboard/listings/pricing-and-discounts/[id]",
+    },
+  ],
+}
+`;

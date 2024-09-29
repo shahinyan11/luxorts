@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyState component matches snapshot 1`] = `
+<div
+  className="listing__empty pt-64 pt-md-128 pb-64 pb-md-128"
+>
+  <div
+    className="mb-24"
+  >
+    <Image
+      alt=""
+      height="136"
+      src="/images/empty.png"
+      width="136"
+    />
+  </div>
+  <p
+    className="listing__text mb-32"
+  >
+    <Memo(FormattedMessage)
+      id="shared.noListingsYet"
+    />
+  </p>
+  <Link
+    href="/add-new-listing"
+  >
+    <a>
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="min-width-180"
+        text={
+          Object {
+            "id": "shared.listYourProperty",
+          }
+        }
+        variant="primary"
+      />
+    </a>
+  </Link>
+</div>
+`;
+
+exports[`EmptyState component matches snapshot when showNoResults and hasAppliedFilters equal true 1`] = `
+<div
+  className="listing__empty pt-64 pt-md-128 pb-64 pb-md-128"
+>
+  <div
+    className="mb-24"
+  >
+    <Image
+      alt=""
+      height="136"
+      src="/images/no-results.png"
+      width="136"
+    />
+  </div>
+  <p
+    className="listing__text mb-32"
+  >
+    <Memo(FormattedMessage)
+      id="shared.noResultsFound"
+    />
+  </p>
+  <GradientButton
+    addonAfter={null}
+    addonBefore={null}
+    className="min-width-140"
+    onClick={[MockFunction]}
+    text={
+      Object {
+        "id": "shared.clearAllFilters",
+      }
+    }
+    variant="primary"
+  />
+</div>
+`;
+
+exports[`EmptyState component matches snapshot when showNoResults equals true 1`] = `
+<div
+  className="listing__empty pt-64 pt-md-128 pb-64 pb-md-128"
+>
+  <div
+    className="mb-24"
+  >
+    <Image
+      alt=""
+      height="136"
+      src="/images/no-results.png"
+      width="136"
+    />
+  </div>
+  <p
+    className="listing__text mb-32"
+  >
+    <Memo(FormattedMessage)
+      id="shared.noResultsFound"
+    />
+  </p>
+</div>
+`;

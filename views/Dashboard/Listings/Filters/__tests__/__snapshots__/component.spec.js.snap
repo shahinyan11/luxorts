@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters component matches snapshot 1`] = `
+<div
+  className="table-head d-flex mb-24"
+>
+  <ForwardRef(InternalForm)
+    layout="inline"
+    size="middle"
+  >
+    <FormItem>
+      <Search
+        allowClear={
+          Object {
+            "clearIcon": <SvgIcon
+              icon="cross"
+            />,
+          }
+        }
+        className="max-width-364"
+        defaultValue="searchQuery"
+        enterButton={
+          <SvgIcon
+            icon="search"
+          />
+        }
+        onChange={[MockFunction]}
+        placeholder="{Translation id: shared.searchListing}"
+      />
+    </FormItem>
+    <AccommodationFilter
+      filters={
+        Object {
+          "bathrooms_amount-eq": 0,
+          "bedrooms_amount-eq": 0,
+          "beds_amount-eq": 0,
+          "guests_number-eq": 0,
+        }
+      }
+      onFilter={[MockFunction]}
+    />
+    <AmenitiesFilter
+      amenities={Array []}
+      filters={
+        Object {
+          "amenities-in": Array [],
+        }
+      }
+      onFilter={[MockFunction]}
+    />
+    <StatusFilter
+      filters={
+        Object {
+          "status-in": Array [],
+        }
+      }
+      onFilter={[MockFunction]}
+    />
+  </ForwardRef(InternalForm)>
+</div>
+`;

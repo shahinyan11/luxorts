@@ -1,0 +1,50 @@
+$text-aligns: center, justify, left, right, inherit;
+$displays: block, inline-block, inline, flex, inline-flex, table, none;
+
+@each $text-align in $text-aligns {
+  .text-align-#{$text-align} {
+    text-align: $text-align;
+  }
+}
+@each $display in $displays {
+  .d-#{$display} {
+    display: $display !important;
+  }
+}
+@each $display in $displays {
+  @include media-breakpoint-up(sm) {
+    .d-sm-#{$display} {
+      display: $display !important;
+    }
+  }
+}
+@each $display in $displays {
+  @include media-breakpoint-up(md) {
+    .d-md-#{$display} {
+      display: $display !important;
+    }
+  }
+}
+@each $display in $displays {
+  @include media-breakpoint-up(lg) {
+    .d-lg-#{$display} {
+      display: $display !important;
+    }
+  }
+}
+
+.container-two-items {
+  @include media-breakpoint-up(sm) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+  }
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

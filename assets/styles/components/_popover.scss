@@ -1,0 +1,35 @@
+.popover__close {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  color: get-color(secondary, 800);
+  &:hover,
+  &:focus,
+  &:active {
+    color: get-color(primary, 1000);
+  }
+}
+.popover__content {
+  display: flex;
+  flex-direction: column;
+  width: 364px;
+  max-width: 100%;
+  gap: 16px;
+}
+.popover__info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  gap: 16px;
+}
+.popover__text {
+  @include text-body;
+  color: get-color(text, active-dark);
+}
+.popover__value {
+  @include text-body-2;
+  color: get-color(text, active-dark);
+}
+.popover__value--accent {
+  color: get-color(accent-1, 1100);
+}

@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component matches snapshot 1`] = `
+<header
+  className="main-header"
+>
+  <div
+    className="main-header__container"
+  >
+    <Link
+      href="/"
+    >
+      <a
+        className="main-header__logo"
+      >
+        <Image
+          alt=""
+          height="32"
+          src="/images/logo.svg"
+          width="138"
+        />
+      </a>
+    </Link>
+  </div>
+</header>
+`;
+
+exports[`Header component matches snapshot when isLoggedInUserWidgetVisible equals true 1`] = `
+<header
+  className="main-header"
+>
+  <div
+    className="main-header__container"
+  >
+    <Link
+      href="/"
+    >
+      <a
+        className="main-header__logo"
+      >
+        <Image
+          alt=""
+          height="32"
+          src="/images/logo.svg"
+          width="138"
+        />
+      </a>
+    </Link>
+    <LoggedInUserWidget
+      switchToHostingRoute="switchToHostingRoute"
+    />
+  </div>
+</header>
+`;
+
+exports[`Header component matches snapshot when isLoggedOutUserWidgetVisible equals true 1`] = `
+<header
+  className="main-header"
+>
+  <div
+    className="main-header__container"
+  >
+    <Link
+      href="/"
+    >
+      <a
+        className="main-header__logo"
+      >
+        <Image
+          alt=""
+          height="32"
+          src="/images/logo.svg"
+          width="138"
+        />
+      </a>
+    </Link>
+    <LoggedOutUserWidget />
+  </div>
+</header>
+`;
+
+exports[`Header component matches snapshot when isSignIn equals true 1`] = `
+<header
+  className="main-header"
+>
+  <div
+    className="main-header__container"
+  >
+    <Link
+      href="/"
+    >
+      <a
+        className="main-header__logo"
+      >
+        <Image
+          alt=""
+          height="32"
+          src="/images/logo.svg"
+          width="138"
+        />
+      </a>
+    </Link>
+    <div
+      className="d-flex flex-column flex-sm-row align-items-center"
+    >
+      <span
+        className="main-header__caption mb-8 mb-sm-0"
+      >
+        <Memo(FormattedMessage)
+          id="shared.dontHaveAnAccountYet"
+        />
+      </span>
+      <Link
+        href="/sign-up"
+      >
+        <a>
+          <GradientButton
+            addonAfter={null}
+            addonBefore={null}
+            className="main-btn--md main-header__button ml-sm-16 min-width-120"
+            text={
+              Object {
+                "id": "shared.signUp",
+              }
+            }
+            variant="secondary"
+          />
+        </a>
+      </Link>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`Header component matches snapshot when isSignUp equals true 1`] = `
+<header
+  className="main-header"
+>
+  <div
+    className="main-header__container"
+  >
+    <Link
+      href="/"
+    >
+      <a
+        className="main-header__logo"
+      >
+        <Image
+          alt=""
+          height="32"
+          src="/images/logo.svg"
+          width="138"
+        />
+      </a>
+    </Link>
+    <div
+      className="d-flex flex-column flex-sm-row align-items-center"
+    >
+      <span
+        className="main-header__caption mb-8 mb-sm-0"
+      >
+        <Memo(FormattedMessage)
+          id="shared.alreadyHaveAnAccount"
+        />
+      </span>
+      <Link
+        href="/sign-in"
+      >
+        <a>
+          <GradientButton
+            addonAfter={null}
+            addonBefore={null}
+            className="main-btn--md main-header__button ml-sm-16 min-width-120"
+            text={
+              Object {
+                "id": "shared.signIn",
+              }
+            }
+            variant="secondary"
+          />
+        </a>
+      </Link>
+    </div>
+  </div>
+</header>
+`;

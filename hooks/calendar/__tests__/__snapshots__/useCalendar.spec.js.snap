@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useCalendar hook matches snapshot 1`] = `
+Object {
+  "currentDate": 2022-02-01T00:00:00.000Z,
+  "onNavigate": [Function],
+  "setCurrentDate": [Function],
+}
+`;

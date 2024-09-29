@@ -1,0 +1,11 @@
+.ant-dropdown-menu {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.ant-dropdown-menu-item {
+  padding: 8px 16px;
+}
+.ant-dropdown-menu-title-content {
+  @include text-body;
+  color: get-color(text, active-dark);
+}

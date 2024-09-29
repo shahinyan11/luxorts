@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component matches snapshot 1`] = `
+<footer
+  className="main-footer"
+>
+  <div
+    className="main-footer__wrapper"
+  >
+    <div
+      className="main-footer__container"
+    />
+  </div>
+</footer>
+`;
+
+exports[`Footer component matches snapshot when isAccount equals true 1`] = `
+<footer
+  className="main-footer"
+>
+  <div
+    className="main-footer__wrapper"
+  >
+    <div
+      className="main-footer__container"
+    >
+      <p
+        className="main-footer__deactivate text-align-center text-body mb-4"
+      >
+        <Memo(FormattedMessage)
+          id="footer.needToDeactivateYourAccount"
+        />
+      </p>
+      <p
+        className="text-align-center mb-0"
+      >
+        <a
+          className="main-link main-link--secondary"
+          onClick={[Function]}
+          role="button"
+        >
+          <Memo(FormattedMessage)
+            id="footer.clickHereToDeactivate"
+          />
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>
+`;
+
+exports[`Footer component matches snapshot when isRegistration equals true 1`] = `
+<footer
+  className="main-footer"
+>
+  <div
+    className="main-footer__wrapper"
+  >
+    <div
+      className="main-footer__container"
+    >
+      <p
+        className="main-footer__deactivate text-align-center text-body mb-4"
+      >
+        <Memo(FormattedMessage)
+          id="footer.needToDeactivateYourAccount"
+        />
+      </p>
+      <p
+        className="text-align-center mb-0"
+      >
+        <a
+          className="main-link main-link--secondary"
+          onClick={[Function]}
+          role="button"
+        >
+          <Memo(FormattedMessage)
+            id="footer.clickHereToDeactivate"
+          />
+        </a>
+      </p>
+      <p
+        className="main-footer__text text-align-center mb-0"
+      >
+        <Memo(FormattedMessage)
+          id="footer.termsAndPolicy"
+          values={
+            Object {
+              "policyLink": <a
+                className="main-footer__link main-link"
+                href="/privacy-policy"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <Memo(FormattedMessage)
+                  id="shared.privacyPolicy"
+                />
+              </a>,
+              "termsLink": <a
+                className="main-footer__link main-link"
+                href="/terms-of-service"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <Memo(FormattedMessage)
+                  id="shared.termsOfService"
+                />
+              </a>,
+            }
+          }
+        />
+      </p>
+    </div>
+  </div>
+</footer>
+`;

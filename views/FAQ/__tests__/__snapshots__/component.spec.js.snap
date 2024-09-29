@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQ component matches snapshot 1`] = `
+<section
+  className="faq"
+>
+  <div
+    className="faq__head pt-40 pt-md-80 pb-40 pb-md-80 text-align-center"
+  >
+    <h1
+      className="faq__title mb-8"
+    >
+      <Memo(FormattedMessage)
+        id="faq.title"
+      />
+    </h1>
+    <p
+      className="faq__description mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="faq.description"
+      />
+    </p>
+  </div>
+  <div
+    className="faq__content question mt-32 mt-md-60 mb-40 mb-md-80"
+  >
+    <Tabs
+      className="w-100"
+      defaultActiveKey="1"
+    >
+      <TabPane
+        key="tab_1"
+        tab="{Translation id: shared.forGuests}"
+      >
+        <div
+          className="question__content pt-16"
+        >
+          <ul
+            className="question__list mb-40"
+          >
+            <QuestionCard
+              id="1"
+              key="1"
+              text={
+                Object {
+                  "id": "faq.question.creatingAnAccount.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.creatingAccount.title",
+                }
+              }
+            />
+            <QuestionCard
+              id="2"
+              key="2"
+              text={
+                Object {
+                  "id": "faq.question.bookingTrip.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.bookingTrip.title",
+                }
+              }
+            />
+            <QuestionCard
+              id="3"
+              key="3"
+              text={
+                Object {
+                  "id": "faq.question.cancelMyReservation.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.cancelMyReservation.title",
+                }
+              }
+            />
+            <QuestionCard
+              id="4"
+              key="4"
+              text={
+                Object {
+                  "id": "faq.question.payOutsideOfThePlatform.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.payOutsideOfThePlatform.title",
+                }
+              }
+            />
+            <QuestionCard
+              id="5"
+              key="5"
+              text={
+                Object {
+                  "id": "faq.question.updateOrRecoverPassword.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.updateOrRecoverPassword.title",
+                }
+              }
+            />
+            <QuestionCard
+              id="6"
+              key="6"
+              text={
+                Object {
+                  "id": "faq.question.whatIsLuxorts.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.whatIsLuxorts.title",
+                }
+              }
+            />
+          </ul>
+          <Link
+            href="#"
+          >
+            <a
+              className="main-btn main-btn--secondary min-width-160"
+            >
+              <Memo(FormattedMessage)
+                id="faq.browseAllTopics"
+              />
+            </a>
+          </Link>
+        </div>
+      </TabPane>
+      <TabPane
+        key="tab_2"
+        tab="{Translation id: shared.forHosts}"
+      >
+        <div
+          className="question__content pt-16"
+        >
+          <ul
+            className="question__list mb-40"
+          >
+            <QuestionCard
+              id="6"
+              key="6"
+              text={
+                Object {
+                  "id": "faq.question.whatIsLuxorts.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.whatIsLuxorts.title",
+                }
+              }
+            />
+            <QuestionCard
+              id="1"
+              key="1"
+              text={
+                Object {
+                  "id": "faq.question.creatingAnAccount.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.creatingAccount.title",
+                }
+              }
+            />
+            <QuestionCard
+              id="3"
+              key="3"
+              text={
+                Object {
+                  "id": "faq.question.cancelMyReservation.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.cancelMyReservation.title",
+                }
+              }
+            />
+            <QuestionCard
+              id="4"
+              key="4"
+              text={
+                Object {
+                  "id": "faq.question.payOutsideOfThePlatform.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.payOutsideOfThePlatform.title",
+                }
+              }
+            />
+            <QuestionCard
+              id="5"
+              key="5"
+              text={
+                Object {
+                  "id": "faq.question.updateOrRecoverPassword.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.updateOrRecoverPassword.title",
+                }
+              }
+            />
+          </ul>
+          <Link
+            href="#"
+          >
+            <a
+              className="main-btn main-btn--secondary min-width-160"
+            >
+              <Memo(FormattedMessage)
+                id="faq.browseAllTopics"
+              />
+            </a>
+          </Link>
+        </div>
+      </TabPane>
+      <TabPane
+        key="tab_3"
+        tab="{Translation id: shared.general}"
+      >
+        <div
+          className="question__content pt-16"
+        >
+          <ul
+            className="question__list mb-40"
+          >
+            <QuestionCard
+              id="3"
+              key="3"
+              text={
+                Object {
+                  "id": "faq.question.cancelMyReservation.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.cancelMyReservation.title",
+                }
+              }
+            />
+            <QuestionCard
+              id="4"
+              key="4"
+              text={
+                Object {
+                  "id": "faq.question.payOutsideOfThePlatform.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.payOutsideOfThePlatform.title",
+                }
+              }
+            />
+            <QuestionCard
+              id="5"
+              key="5"
+              text={
+                Object {
+                  "id": "faq.question.updateOrRecoverPassword.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.updateOrRecoverPassword.title",
+                }
+              }
+            />
+            <QuestionCard
+              id="6"
+              key="6"
+              text={
+                Object {
+                  "id": "faq.question.whatIsLuxorts.text",
+                }
+              }
+              title={
+                Object {
+                  "id": "faq.question.whatIsLuxorts.title",
+                }
+              }
+            />
+          </ul>
+          <Link
+            href="#"
+          >
+            <a
+              className="main-btn main-btn--secondary min-width-160"
+            >
+              <Memo(FormattedMessage)
+                id="faq.browseAllTopics"
+              />
+            </a>
+          </Link>
+        </div>
+      </TabPane>
+    </Tabs>
+  </div>
+  <div
+    className="faq__footer pt-40 pt-md-80 pb-40 pb-md-80"
+  >
+    <div
+      className="faq__column"
+    >
+      <h2
+        className="faq__subtitle mb-8"
+      >
+        <Memo(FormattedMessage)
+          id="faq.notFindingWhatYouNeed"
+        />
+      </h2>
+      <p
+        className="faq__text mb-0"
+      >
+        <Memo(FormattedMessage)
+          id="faq.findCategorySpecificContent"
+        />
+      </p>
+    </div>
+    <Link
+      href="/contact-us"
+    >
+      <a
+        className="main-btn main-btn--primary min-width-140"
+      >
+        <Memo(FormattedMessage)
+          id="shared.contactUs"
+        />
+      </a>
+    </Link>
+  </div>
+</section>
+`;

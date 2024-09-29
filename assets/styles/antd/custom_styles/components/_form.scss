@@ -1,0 +1,73 @@
+.ant-form-vertical .ant-form-item-label {
+  @include text-caption;
+  color: get-color(text, active-dark);
+}
+.ant-form-item-label > label,
+.ant-form label {
+  color: get-color(text, active-dark);
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.ant-form-item {
+  margin-bottom: 16px;
+}
+.ant-form-item--light .ant-form-item-control-input-content {
+  border-color: get-color(secondary, 100);
+}
+.ant-form-item .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: none;
+}
+.ant-form-item .subline-message {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.ant-form-large .ant-form-item-label > label,
+.ant-form-small .ant-form-item-label > label {
+  height: auto;
+}
+.ant-form-item-has-error .ant-form-item-control-input-content {
+  border-color: get-color(accent-3, 1000);
+  &:hover,
+  &:focus-within {
+    border-color: get-color(accent-3, 1000);
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+  background-color: transparent;
+  &:hover,
+  &:focus-within {
+    border-color: get-color(accent-3, 1000);
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+.ant-form-item--edit-number {
+  .ant-form-item-control-input-content {
+    display: flex;
+    border-color: get-color(secondary, 300);
+  }
+  .ant-input {
+    width: calc(100% - 140px);
+  }
+}
+.ant-input-affix-wrapper {
+  border: none;
+}
+.ant-form-inline {
+  gap: 8px;
+}
+.ant-form-inline .ant-form-item {
+  margin-right: 16px;
+}
+.ant-form-item-has-error
+  :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper {
+  background-color: transparent;
+  &:hover {
+    background-color: transparent;
+  }
+}
+.ant-form-item-explain-error .subline-message {
+  align-items: center;
+}

@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResetPassword component matches snapshot 1`] = `
+<div
+  className="sign-up"
+>
+  <h1
+    className="sign-up__title text-align-center"
+  >
+    <Memo(FormattedMessage)
+      id="shared.lostYourPassword"
+    />
+  </h1>
+  <p
+    className="sign-up__caption text-align-center"
+  >
+    <Memo(FormattedMessage)
+      id="resetPassword.description"
+    />
+  </p>
+  <ForwardRef(InternalForm)
+    layout="vertical"
+    size="large"
+  >
+    <ContextProvider
+      value={
+        Object {
+          "dirty": true,
+          "handleSubmit": [MockFunction],
+          "isValid": true,
+          "resetForm": [MockFunction],
+          "setFieldTouched": [MockFunction],
+          "setFieldValue": [MockFunction],
+          "setValues": [MockFunction],
+          "validateForm": [MockFunction],
+          "values": Object {},
+        }
+      }
+    >
+      <div
+        className="sign-up__container mb-32"
+      >
+        <InputField
+          asComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "Group": [Function],
+              "Password": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "action": "click",
+                  "iconRender": [Function],
+                  "visibilityToggle": true,
+                },
+                "render": [Function],
+              },
+              "Search": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "TextArea": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          label={
+            Object {
+              "id": "shared.email",
+            }
+          }
+          name="email"
+          numbersOnly={false}
+          placeholder="jeremy.bogan@gmail.com"
+          type="email"
+          withFormItem={true}
+        />
+      </div>
+      <div
+        className="d-flex justify-content-space-between align-items-center"
+      >
+        <Link
+          href="/sign-in"
+        >
+          <a>
+            <GradientButton
+              addonAfter={null}
+              addonBefore={null}
+              className={null}
+              disabled={false}
+              text={
+                Object {
+                  "id": "shared.backToSignIn",
+                }
+              }
+              variant="tertiary"
+            />
+          </a>
+        </Link>
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="min-width-140"
+          loading={false}
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.recover",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </ContextProvider>
+  </ForwardRef(InternalForm)>
+</div>
+`;

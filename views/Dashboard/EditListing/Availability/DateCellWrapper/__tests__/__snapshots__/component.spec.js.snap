@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateCellWrapper component matches snapshot 1`] = `
+<div
+  className="rbc-day rbc-day-bg--overdue"
+>
+  $64
+</div>
+`;
+
+exports[`DateCellWrapper component matches snapshot when date is actual 1`] = `
+<div
+  className="rbc-day"
+>
+  $99
+</div>
+`;

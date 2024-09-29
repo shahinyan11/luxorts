@@ -1,0 +1,372 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdditionalItems component matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="new-listing__additional-box mb-16"
+    key="id"
+  >
+    <div
+      className="new-listing__additional-info"
+    >
+      <h3
+        className="new-listing__additional-title mb-4"
+      >
+        name
+      </h3>
+      <p
+        className="new-listing__text mb-0"
+      >
+        description
+      </p>
+    </div>
+    <GradientButton
+      addonAfter={
+        <SvgIcon
+          className="icon-right"
+          icon="cross"
+        />
+      }
+      addonBefore={null}
+      className="main-btn--icon"
+      variant="tertiary"
+    />
+  </div>
+  <InputField
+    asComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "Group": [Function],
+        "Password": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "action": "click",
+            "iconRender": [Function],
+            "visibilityToggle": true,
+          },
+          "render": [Function],
+        },
+        "Search": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "TextArea": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    name="additional.name"
+    numbersOnly={false}
+    placeholder={
+      Object {
+        "id": "namePlaceholder.id",
+      }
+    }
+    withFormItem={true}
+  />
+  <InputField
+    asComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "Group": [Function],
+        "Password": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "action": "click",
+            "iconRender": [Function],
+            "visibilityToggle": true,
+          },
+          "render": [Function],
+        },
+        "Search": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "TextArea": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    formItemClassName="mb-24"
+    name="additional.description"
+    numbersOnly={false}
+    placeholder={
+      Object {
+        "id": "descriptionPlaceholder.id",
+      }
+    }
+    withFormItem={true}
+  />
+  <GradientButton
+    addonAfter={null}
+    addonBefore={null}
+    className="min-width-140"
+    disabled={false}
+    loading={false}
+    onClick={[MockFunction]}
+    text={
+      Object {
+        "id": "shared.add",
+      }
+    }
+    variant="secondary"
+  />
+</Fragment>
+`;
+
+exports[`AdditionalItems component matches snapshot when withDescription equals false 1`] = `
+<Fragment>
+  <div
+    className="new-listing__additional-box mb-16"
+    key="id"
+  >
+    <div
+      className="new-listing__additional-info"
+    >
+      <h3
+        className="new-listing__additional-title mb-4"
+      >
+        name
+        <SvgIcon
+          className="new-listing__additional-icon new-listing__additional-icon--free"
+          icon="dot"
+        />
+      </h3>
+      <p
+        className="new-listing__text mb-0"
+      >
+        description
+      </p>
+    </div>
+    <GradientButton
+      addonAfter={
+        <SvgIcon
+          className="icon-right"
+          icon="cross"
+        />
+      }
+      addonBefore={null}
+      className="main-btn--icon"
+      variant="tertiary"
+    />
+  </div>
+  <InputField
+    asComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "Group": [Function],
+        "Password": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "action": "click",
+            "iconRender": [Function],
+            "visibilityToggle": true,
+          },
+          "render": [Function],
+        },
+        "Search": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "TextArea": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    name="additional.name"
+    numbersOnly={false}
+    placeholder={
+      Object {
+        "id": "namePlaceholder.id",
+      }
+    }
+    withFormItem={true}
+  />
+  <RadioGroupField
+    className="new-listig__radio-group mb-24"
+    items={
+      Array [
+        Object {
+          "className": "ant-radio-wrapper--positive",
+          "label": Object {
+            "id": "shared.free",
+          },
+          "value": false,
+        },
+        Object {
+          "className": "ant-radio-wrapper--negative",
+          "label": Object {
+            "id": "shared.paid",
+          },
+          "value": true,
+        },
+      ]
+    }
+    name="additional.paid"
+  />
+  <GradientButton
+    addonAfter={null}
+    addonBefore={null}
+    className="min-width-140"
+    disabled={false}
+    loading={false}
+    onClick={[MockFunction]}
+    text={
+      Object {
+        "id": "shared.add",
+      }
+    }
+    variant="secondary"
+  />
+</Fragment>
+`;
+
+exports[`AdditionalItems component matches snapshot when withPaid equals true 1`] = `
+<Fragment>
+  <div
+    className="new-listing__additional-box mb-16"
+    key="id"
+  >
+    <div
+      className="new-listing__additional-info"
+    >
+      <h3
+        className="new-listing__additional-title mb-4"
+      >
+        name
+        <SvgIcon
+          className="new-listing__additional-icon new-listing__additional-icon--free"
+          icon="dot"
+        />
+      </h3>
+      <p
+        className="new-listing__text mb-0"
+      >
+        description
+      </p>
+    </div>
+    <GradientButton
+      addonAfter={
+        <SvgIcon
+          className="icon-right"
+          icon="cross"
+        />
+      }
+      addonBefore={null}
+      className="main-btn--icon"
+      variant="tertiary"
+    />
+  </div>
+  <InputField
+    asComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "Group": [Function],
+        "Password": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "action": "click",
+            "iconRender": [Function],
+            "visibilityToggle": true,
+          },
+          "render": [Function],
+        },
+        "Search": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "TextArea": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    name="additional.name"
+    numbersOnly={false}
+    placeholder={
+      Object {
+        "id": "namePlaceholder.id",
+      }
+    }
+    withFormItem={true}
+  />
+  <InputField
+    asComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "Group": [Function],
+        "Password": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "action": "click",
+            "iconRender": [Function],
+            "visibilityToggle": true,
+          },
+          "render": [Function],
+        },
+        "Search": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "TextArea": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    formItemClassName="mb-24"
+    name="additional.description"
+    numbersOnly={false}
+    placeholder={
+      Object {
+        "id": "descriptionPlaceholder.id",
+      }
+    }
+    withFormItem={true}
+  />
+  <RadioGroupField
+    className="new-listig__radio-group mb-24"
+    items={
+      Array [
+        Object {
+          "className": "ant-radio-wrapper--positive",
+          "label": Object {
+            "id": "shared.free",
+          },
+          "value": false,
+        },
+        Object {
+          "className": "ant-radio-wrapper--negative",
+          "label": Object {
+            "id": "shared.paid",
+          },
+          "value": true,
+        },
+      ]
+    }
+    name="additional.paid"
+  />
+  <GradientButton
+    addonAfter={null}
+    addonBefore={null}
+    className="min-width-140"
+    disabled={false}
+    loading={false}
+    onClick={[MockFunction]}
+    text={
+      Object {
+        "id": "shared.add",
+      }
+    }
+    variant="secondary"
+  />
+</Fragment>
+`;

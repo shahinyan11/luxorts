@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeactivateAccountModal component matches snapshot 1`] = `
+<Modal
+  className="modal"
+  closable={true}
+  closeIcon={
+    <SvgIcon
+      className="modal__icon"
+      icon="modal-cross"
+    />
+  }
+  confirmLoading={false}
+  footer={
+    <div
+      className="d-flex justify-content-flex-end w-100"
+    >
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium mr-16"
+        disabled={false}
+        onClick={null}
+        text={
+          Object {
+            "id": "shared.cancel",
+          }
+        }
+        variant="tertiary"
+      />
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium min-width-120"
+        loading={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.deactivate",
+          }
+        }
+        variant="warning"
+      />
+    </div>
+  }
+  okType="primary"
+  onCancel={null}
+  title={
+    <Memo(FormattedMessage)
+      id="shared.deactivateAccount"
+    />
+  }
+  visible={true}
+  width={558}
+>
+  <div
+    className="modal__content"
+  >
+    <div
+      className="d-flex flex-column"
+    >
+      <p
+        className="text-body mb-16"
+      >
+        <Memo(FormattedMessage)
+          id="shared.deactivateQuestion"
+        />
+      </p>
+      <p
+        className="text-body mb-24"
+      >
+        <Memo(FormattedMessage)
+          id="shared.deactivateDescription"
+        />
+      </p>
+      <ForwardRef(InternalForm)
+        layout="vertical"
+        size="large"
+      >
+        <ContextProvider
+          value={
+            Object {
+              "dirty": true,
+              "handleSubmit": [MockFunction],
+              "initialValues": Object {
+                "currentPassword": "",
+              },
+              "isValid": true,
+              "onSubmit": [Function],
+              "resetForm": [MockFunction],
+              "setFieldTouched": [MockFunction],
+              "setFieldValue": [MockFunction],
+              "setValues": [MockFunction],
+              "validateForm": [MockFunction],
+              "validationSchema": ObjectSchema {
+                "_blacklist": ReferenceSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_blacklistError": undefined,
+                "_excludedEdges": Array [],
+                "_nodes": Array [
+                  "currentPassword",
+                ],
+                "_sortErrors": [Function],
+                "_typeError": [Function],
+                "_whitelist": ReferenceSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_whitelistError": undefined,
+                "conditions": Array [],
+                "deps": Array [],
+                "exclusiveTests": Object {},
+                "fields": Object {
+                  "currentPassword": StringSchema {
+                    "_blacklist": ReferenceSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_blacklistError": undefined,
+                    "_mutate": undefined,
+                    "_typeError": [Function],
+                    "_whitelist": ReferenceSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_whitelistError": undefined,
+                    "conditions": Array [],
+                    "deps": Array [],
+                    "exclusiveTests": Object {
+                      "max": true,
+                      "min": true,
+                      "required": true,
+                    },
+                    "spec": Object {
+                      "abortEarly": true,
+                      "nullable": false,
+                      "presence": "required",
+                      "recursive": true,
+                      "strict": false,
+                      "strip": false,
+                    },
+                    "tests": Array [
+                      [Function],
+                      [Function],
+                      [Function],
+                    ],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "string",
+                  },
+                },
+                "spec": Object {
+                  "abortEarly": true,
+                  "nullable": false,
+                  "presence": "optional",
+                  "recursive": true,
+                  "strict": false,
+                  "strip": false,
+                },
+                "tests": Array [],
+                "transforms": Array [
+                  [Function],
+                ],
+                "type": "object",
+              },
+              "values": Object {},
+            }
+          }
+        >
+          <div
+            className="d-flex justify-content-space-between"
+          >
+            <label
+              className="input-text__label"
+              htmlFor="currentPassword"
+            >
+              <Memo(FormattedMessage)
+                id="shared.password"
+              />
+            </label>
+            <Link
+              href="/reset-password"
+            >
+              <a
+                className="main-text-btn fz-12"
+                onClick={null}
+                role="button"
+              >
+                <Memo(FormattedMessage)
+                  id="shared.forgotPassword"
+                />
+              </a>
+            </Link>
+          </div>
+          <PasswordField
+            name="currentPassword"
+            placeholder={
+              Object {
+                "id": "shared.password",
+              }
+            }
+            withProgress={false}
+          />
+        </ContextProvider>
+      </ForwardRef(InternalForm)>
+    </div>
+  </div>
+</Modal>
+`;

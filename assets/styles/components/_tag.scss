@@ -1,0 +1,72 @@
+.tag {
+  @include text-caption;
+  display: flex;
+  align-items: center;
+  margin-right: 0;
+  padding: 4px 8px;
+  transition: background-color 0.3s border-color 0.3s;
+  border: none;
+  border-radius: $border-radius-secondary;
+}
+.tag__icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+.tag--primary {
+  background-color: get-color(primary, 100);
+  color: get-color(primary, 1000);
+  &:hover,
+  &:focus {
+    background-color: get-color(primary, 200);
+  }
+  &:active {
+    background-color: get-color(primary, 300);
+  }
+}
+.tag--success {
+  background-color: get-color(accent-1, 200);
+  color: get-color(accent-1, 1100);
+}
+.tag--cancel {
+  background-color: get-color(secondary, 100);
+  color: get-color(text, active-dark);
+}
+.tag--warning {
+  background-color: get-color(accent-2, 200);
+  color: get-color(accent-2, 1100);
+}
+.tag--draft {
+  background-color: get-color(secondary, 100);
+  color: get-color(text, black);
+}
+.tag--error {
+  background-color: get-color(accent-3, 200);
+  color: get-color(accent-3, 1000);
+}
+.tag--border-solid {
+  border: 1px solid get-color(primary, 1000);
+  background-color: get-color(text, white);
+  color: get-color(primary, 1000);
+  &:hover,
+  &:focus {
+    background-color: get-color(primary, 100);
+  }
+  &:active {
+    background-color: get-color(primary, 200);
+  }
+}
+.tag--add {
+  border: 1px dashed get-color(secondary, 300);
+  color: get-color(primary, 1000);
+  &:hover,
+  &:focus {
+    border-color: get-color(primary, 1100);
+  }
+  &:active {
+    border-color: get-color(primary, 1200);
+  }
+}
+.tag--large {
+  padding: 8px 16px;
+}

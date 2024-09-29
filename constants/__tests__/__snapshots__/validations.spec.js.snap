@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validations constants match snapshot 1`] = `
+Object {
+  "ACCEPT_AVATAR_TYPES": "image/jpeg,image/jpg,image/png",
+  "AVATAR_UPLOAD_BOUNDARIES": Object {
+    "ASPECT": 1,
+    "DEFAULT_CROP_DIAMETER": 240,
+    "MAX_HEIGHT": 480,
+    "MAX_WIDTH": 480,
+    "MIN_HEIGHT": 120,
+    "MIN_WIDTH": 120,
+  },
+  "MAX_LISTING_TITLE_LENGTH": 80,
+  "MAX_PERCENTS": 100,
+  "PHOTOS_VALIDATION": Object {
+    "IMAGE_TYPES": Array [
+      ".jpeg",
+      ".png",
+      ".jpg",
+    ],
+    "MAX": Object {
+      "COUNT": 24,
+      "SIZE": 10000000,
+    },
+  },
+  "PHOTO_ERROR_MESSAGE_BY_DROPZONE_ERROR_CODE": Object {
+    "file-invalid-type": Object {
+      "MULTIPLE": Object {
+        "id": "validations.imageFormatMultiple",
+      },
+      "SINGLE": Object {
+        "id": "validations.imageFormat",
+      },
+    },
+    "file-too-large": Object {
+      "MULTIPLE": Object {
+        "id": "validations.imageSizeMultiple",
+        "values": Object {
+          "value": 10,
+        },
+      },
+      "SINGLE": Object {
+        "id": "validations.imageSize",
+        "values": Object {
+          "value": 10,
+        },
+      },
+    },
+  },
+  "SIGN_UP_VALIDATION": Object {
+    "AGE": Object {
+      "MIN": 18,
+    },
+    "CODE": Object {
+      "LENGTH": 4,
+    },
+    "PASSWORD": Object {
+      "MAX": 72,
+      "MIN": 6,
+    },
+  },
+  "ZIP_CODE": Object {
+    "MAX": 10,
+    "MIN": 5,
+  },
+}
+`;

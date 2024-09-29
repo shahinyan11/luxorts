@@ -1,0 +1,793 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonalInformation useContainer hook matches snapshot 1`] = `
+Object {
+  "formik": Object {
+    "dirty": true,
+    "handleSubmit": [MockFunction],
+    "initialValues": Object {
+      "about": null,
+      "apartmentNumber": undefined,
+      "city": "city",
+      "country": "country",
+      "dateOfBirth": "01/01/1994",
+      "drivingLicenseFirstName": "Evhenii",
+      "drivingLicenseLastName": "Test",
+      "firstName": "Evhenii",
+      "gender": null,
+      "lastName": "Test",
+      "state": "state",
+      "street": "street",
+      "zipCode": "zipCode",
+    },
+    "isValid": true,
+    "onSubmit": [Function],
+    "resetForm": [MockFunction],
+    "setFieldTouched": [MockFunction],
+    "setFieldValue": [MockFunction],
+    "setValues": [MockFunction],
+    "validateForm": [MockFunction],
+    "validationSchema": ObjectSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_excludedEdges": Array [
+        Array [
+          "drivingLicenseLastName",
+          "drivingLicenseFirstName",
+        ],
+        Array [
+          "country",
+          "street",
+        ],
+        Array [
+          "country",
+          "city",
+        ],
+        Array [
+          "country",
+          "state",
+        ],
+        Array [
+          "country",
+          "zipCode",
+        ],
+        Array [
+          "street",
+          "city",
+        ],
+        Array [
+          "street",
+          "state",
+        ],
+        Array [
+          "street",
+          "zipCode",
+        ],
+        Array [
+          "city",
+          "state",
+        ],
+        Array [
+          "city",
+          "zipCode",
+        ],
+        Array [
+          "state",
+          "zipCode",
+        ],
+      ],
+      "_nodes": Array [
+        "apartmentNumber",
+        "country",
+        "street",
+        "city",
+        "state",
+        "zipCode",
+        "about",
+        "drivingLicenseLastName",
+        "drivingLicenseFirstName",
+        "dateOfBirth",
+        "lastName",
+        "firstName",
+      ],
+      "_sortErrors": [Function],
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {},
+      "fields": Object {
+        "about": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {
+            "max": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": true,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+        "apartmentNumber": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {
+            "max": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": true,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+        "city": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [
+            Condition {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "country",
+                  "map": undefined,
+                  "path": "country",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "street",
+                  "map": undefined,
+                  "path": "street",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "state",
+                  "map": undefined,
+                  "path": "state",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "zipCode",
+                  "map": undefined,
+                  "path": "zipCode",
+                },
+              ],
+            },
+          ],
+          "deps": Array [
+            "country",
+            "street",
+            "state",
+            "zipCode",
+          ],
+          "exclusiveTests": Object {
+            "max": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+        "country": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [
+            Condition {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "street",
+                  "map": undefined,
+                  "path": "street",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "city",
+                  "map": undefined,
+                  "path": "city",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "state",
+                  "map": undefined,
+                  "path": "state",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "zipCode",
+                  "map": undefined,
+                  "path": "zipCode",
+                },
+              ],
+            },
+          ],
+          "deps": Array [
+            "street",
+            "city",
+            "state",
+            "zipCode",
+          ],
+          "exclusiveTests": Object {},
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+        "dateOfBirth": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_mutate": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {
+            "minAge": false,
+            "required": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "required",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+        "drivingLicenseFirstName": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [
+            Condition {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "drivingLicenseLastName",
+                  "map": undefined,
+                  "path": "drivingLicenseLastName",
+                },
+              ],
+            },
+          ],
+          "deps": Array [
+            "drivingLicenseLastName",
+          ],
+          "exclusiveTests": Object {
+            "max": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+        "drivingLicenseLastName": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [
+            Condition {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "drivingLicenseFirstName",
+                  "map": undefined,
+                  "path": "drivingLicenseFirstName",
+                },
+              ],
+            },
+          ],
+          "deps": Array [
+            "drivingLicenseFirstName",
+          ],
+          "exclusiveTests": Object {
+            "max": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+        "firstName": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_mutate": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {
+            "max": true,
+            "required": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "required",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+        "lastName": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_mutate": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {
+            "max": true,
+            "required": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "required",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+        "state": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [
+            Condition {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "country",
+                  "map": undefined,
+                  "path": "country",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "street",
+                  "map": undefined,
+                  "path": "street",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "city",
+                  "map": undefined,
+                  "path": "city",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "zipCode",
+                  "map": undefined,
+                  "path": "zipCode",
+                },
+              ],
+            },
+          ],
+          "deps": Array [
+            "country",
+            "street",
+            "city",
+            "zipCode",
+          ],
+          "exclusiveTests": Object {},
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+        "street": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [
+            Condition {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "country",
+                  "map": undefined,
+                  "path": "country",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "city",
+                  "map": undefined,
+                  "path": "city",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "state",
+                  "map": undefined,
+                  "path": "state",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "zipCode",
+                  "map": undefined,
+                  "path": "zipCode",
+                },
+              ],
+            },
+          ],
+          "deps": Array [
+            "country",
+            "city",
+            "state",
+            "zipCode",
+          ],
+          "exclusiveTests": Object {
+            "max": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+        "zipCode": StringSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [
+            Condition {
+              "fn": [Function],
+              "refs": Array [
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "country",
+                  "map": undefined,
+                  "path": "country",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "street",
+                  "map": undefined,
+                  "path": "street",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "city",
+                  "map": undefined,
+                  "path": "city",
+                },
+                Reference {
+                  "getter": [Function],
+                  "isContext": false,
+                  "isSibling": true,
+                  "isValue": false,
+                  "key": "state",
+                  "map": undefined,
+                  "path": "state",
+                },
+              ],
+            },
+          ],
+          "deps": Array [
+            "country",
+            "street",
+            "city",
+            "state",
+          ],
+          "exclusiveTests": Object {
+            "max": true,
+            "min": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "string",
+        },
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "optional",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "object",
+    },
+    "values": Object {},
+  },
+}
+`;

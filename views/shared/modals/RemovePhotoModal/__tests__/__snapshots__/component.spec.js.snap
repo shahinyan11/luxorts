@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemovePhotoModal component matches snapshot 1`] = `
+<Modal
+  className="modal"
+  closable={true}
+  closeIcon={
+    <SvgIcon
+      className="modal__icon"
+      icon="modal-cross"
+    />
+  }
+  confirmLoading={false}
+  footer={
+    <div
+      className="d-flex justify-content-flex-end"
+    >
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium mr-16"
+        disabled={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.cancel",
+          }
+        }
+        variant="tertiary"
+      />
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium min-width-120"
+        loading={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.remove",
+          }
+        }
+        variant="primary"
+      />
+    </div>
+  }
+  okType="primary"
+  onCancel={[MockFunction]}
+  title={
+    <Memo(FormattedMessage)
+      id="shared.id"
+    />
+  }
+  visible={true}
+  width={412}
+>
+  <div
+    className="modal__content"
+  >
+    <p
+      className="modal__text mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="shared.areYouSureYouWantToRemoveProfileImage"
+      />
+    </p>
+  </div>
+</Modal>
+`;

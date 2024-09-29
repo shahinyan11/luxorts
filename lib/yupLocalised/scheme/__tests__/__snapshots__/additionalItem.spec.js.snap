@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Additional item validation schema matches snapshot 1`] = `
+Object {
+  "fields": Object {
+    "additional": Object {
+      "fields": Object {
+        "description": Object {
+          "label": undefined,
+          "meta": undefined,
+          "notOneOf": Array [],
+          "oneOf": Array [],
+          "tests": Array [],
+          "type": "string",
+        },
+        "name": Object {
+          "label": undefined,
+          "meta": undefined,
+          "notOneOf": Array [],
+          "oneOf": Array [],
+          "tests": Array [],
+          "type": "string",
+        },
+      },
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [],
+      "type": "object",
+    },
+  },
+  "label": undefined,
+  "meta": undefined,
+  "notOneOf": Array [],
+  "oneOf": Array [],
+  "tests": Array [],
+  "type": "object",
+}
+`;

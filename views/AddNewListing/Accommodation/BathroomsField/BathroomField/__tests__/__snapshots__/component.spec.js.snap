@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BathroomField component matches snapshot 1`] = `
+<div
+  className="new-listing__add mb-24 pb-8"
+>
+  <div
+    className="new-listing__add-header d-flex justify-content-space-between align-item-center mb-8"
+  >
+    <h3
+      className="new-listing__add-title mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="shared.bathroomNumber"
+        values={
+          Object {
+            "number": 1,
+          }
+        }
+      />
+    </h3>
+    <Button
+      className="main-link"
+      htmlType="button"
+      onClick={[MockFunction]}
+    >
+      <Memo(FormattedMessage)
+        id="shared.addBaths"
+      />
+    </Button>
+  </div>
+  <p
+    className="new-listing__add-info mb-16"
+  >
+    <Memo(FormattedMessage)
+      id="shared.bathsAmount"
+      values={
+        Object {
+          "amount": 0,
+        }
+      }
+    />
+  </p>
+</div>
+`;
+
+exports[`BathroomField component matches snapshot when bathsList is present 1`] = `
+<div
+  className="new-listing__add mb-24 pb-8"
+>
+  <div
+    className="new-listing__add-header d-flex justify-content-space-between align-item-center mb-8"
+  >
+    <h3
+      className="new-listing__add-title mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="shared.bathroomNumber"
+        values={
+          Object {
+            "number": 1,
+          }
+        }
+      />
+    </h3>
+    <Button
+      className="main-link"
+      htmlType="button"
+      onClick={[MockFunction]}
+    >
+      <Memo(FormattedMessage)
+        id="shared.editBaths"
+      />
+    </Button>
+  </div>
+  <p
+    className="new-listing__add-info mb-16 new-listing__add-info--filled"
+  >
+    1 bath
+  </p>
+</div>
+`;
+
+exports[`BathroomField component matches snapshot when isEdit equals true 1`] = `
+<div
+  className="new-listing__add mb-24 pb-8"
+>
+  <div
+    className="new-listing__add-header d-flex justify-content-space-between align-item-center mb-8"
+  >
+    <h3
+      className="new-listing__add-title mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="shared.bathroomNumber"
+        values={
+          Object {
+            "number": 1,
+          }
+        }
+      />
+    </h3>
+  </div>
+  <p
+    className="new-listing__add-info mb-16"
+  >
+    <Memo(FormattedMessage)
+      id="shared.bathsAmount"
+      values={
+        Object {
+          "amount": 0,
+        }
+      }
+    />
+  </p>
+  <div
+    className="new-listing__add-options max-width-364 mb-8"
+  >
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.bathtub"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bathrooms[0].defaultBaths[0].amount"
+      withFormItem={true}
+    />
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.shower"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bathrooms[0].defaultBaths[1].amount"
+      withFormItem={true}
+    />
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.jettedTub"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bathrooms[0].defaultBaths[2].amount"
+      withFormItem={true}
+    />
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.doubleVanity"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bathrooms[0].defaultBaths[3].amount"
+      withFormItem={true}
+    />
+  </div>
+  <Button
+    className="main-link mb-24 mt-8"
+    htmlType="button"
+    onClick={[MockFunction]}
+  >
+    <Memo(FormattedMessage)
+      id="shared.addAnotherBath"
+    />
+  </Button>
+  <GradientButton
+    addonAfter={null}
+    addonBefore={null}
+    className="min-width-140 mb-16"
+    onClick={[MockFunction]}
+    text={
+      Object {
+        "id": "shared.done",
+      }
+    }
+    variant="secondary"
+  />
+</div>
+`;
+
+exports[`BathroomField component matches snapshot when isEdit equals true and customBaths are present 1`] = `
+<div
+  className="new-listing__add mb-24 pb-8"
+>
+  <div
+    className="new-listing__add-header d-flex justify-content-space-between align-item-center mb-8"
+  >
+    <h3
+      className="new-listing__add-title mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="shared.bathroomNumber"
+        values={
+          Object {
+            "number": 1,
+          }
+        }
+      />
+    </h3>
+  </div>
+  <p
+    className="new-listing__add-info mb-16"
+  >
+    <Memo(FormattedMessage)
+      id="shared.bathsAmount"
+      values={
+        Object {
+          "amount": 0,
+        }
+      }
+    />
+  </p>
+  <div
+    className="new-listing__add-options max-width-364 mb-8"
+  >
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.bathtub"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bathrooms[0].defaultBaths[0].amount"
+      withFormItem={true}
+    />
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.shower"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bathrooms[0].defaultBaths[1].amount"
+      withFormItem={true}
+    />
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.jettedTub"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bathrooms[0].defaultBaths[2].amount"
+      withFormItem={true}
+    />
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.doubleVanity"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bathrooms[0].defaultBaths[3].amount"
+      withFormItem={true}
+    />
+  </div>
+  <div
+    className="d-flex"
+    key="bath-1"
+  >
+    <FormItem
+      className="mb-16 ant-form-item--edit-number width-364"
+    >
+      <InputField
+        asComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "Group": [Function],
+            "Password": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "action": "click",
+                "iconRender": [Function],
+                "visibilityToggle": true,
+              },
+              "render": [Function],
+            },
+            "Search": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            },
+            "TextArea": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            },
+            "render": [Function],
+          }
+        }
+        name="bathrooms[0].customBaths[0].kind"
+        numbersOnly={false}
+        placeholder={
+          Object {
+            "id": "shared.enterBathTitle",
+          }
+        }
+        withFormItem={false}
+      />
+      <InputNumberField
+        max={16}
+        min={0}
+        name="bathrooms[0].customBaths[0].amount"
+        withFormItem={false}
+      />
+    </FormItem>
+    <GradientButton
+      addonAfter={
+        <SvgIcon
+          className="icon-right"
+          icon="cross"
+        />
+      }
+      addonBefore={null}
+      className="main-btn--icon ml-8"
+      onClick={[MockFunction]}
+      variant="tertiary"
+    />
+  </div>
+  <Button
+    className="main-link mb-24 mt-8"
+    htmlType="button"
+    onClick={[MockFunction]}
+  >
+    <Memo(FormattedMessage)
+      id="shared.addAnotherBath"
+    />
+  </Button>
+  <GradientButton
+    addonAfter={null}
+    addonBefore={null}
+    className="min-width-140 mb-16"
+    onClick={[MockFunction]}
+    text={
+      Object {
+        "id": "shared.done",
+      }
+    }
+    variant="secondary"
+  />
+</div>
+`;

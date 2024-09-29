@@ -1,0 +1,225 @@
+@mixin text-mega {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 7.2rem;
+  font-weight: 400;
+  line-height: calc(80 / 72);
+}
+@mixin text-mega-2 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 7.2rem;
+  font-weight: 600;
+  line-height: calc(80 / 72);
+}
+@mixin text-jumbo {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: calc(64 / 48);
+}
+@mixin text-jumbo-2 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: calc(64 / 48);
+}
+@mixin text-display {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: calc(48 / 36);
+}
+@mixin text-display-2 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: calc(48 / 36);
+}
+@mixin text-headline {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: calc(32 / 24);
+}
+@mixin text-headline-2 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: calc(32 / 24);
+}
+@mixin text-title {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: calc(32 / 20);
+}
+@mixin text-title-2 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: calc(32 / 20);
+}
+@mixin text-subheader-big {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: calc(24 / 18);
+}
+@mixin text-subheader-big-2 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: calc(24 / 18);
+}
+@mixin text-subheader {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: calc(24 / 16);
+}
+@mixin text-subheader-2 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  line-height: calc(24 / 16);
+}
+@mixin text-body {
+  font-family: Open-Sans, Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: calc(24 / 14);
+}
+@mixin text-body-strikethrough {
+  @include text-body;
+  text-decoration: line-through;
+}
+@mixin text-body-underline {
+  @include text-body;
+  text-decoration: underline;
+}
+@mixin text-body-2 {
+  font-family: Open-Sans, Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: calc(24 / 14);
+}
+@mixin text-caption {
+  font-family: Open-Sans, Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: calc(16 / 12);
+}
+@mixin text-caption-strikethrough {
+  @include text-caption;
+  text-decoration: line-through;
+}
+@mixin text-caption-underline {
+  @include text-caption;
+  text-decoration: underline;
+}
+@mixin text-caption-2 {
+  font-family: Open-Sans, Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: calc(16 / 12);
+}
+@mixin text-small {
+  font-family: Open-Sans, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: calc(16 / 10);
+}
+@mixin text-small-2 {
+  font-family: Open-Sans, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: calc(16 / 10);
+}
+
+.text-mega {
+  @include text-mega;
+}
+.text-mega-2 {
+  @include text-mega-2;
+}
+.text-jumbo {
+  @include text-jumbo;
+}
+.text-jumbo-2 {
+  @include text-jumbo-2;
+}
+.text-display {
+  @include text-display;
+}
+.text-display-2 {
+  @include text-display-2;
+}
+.text-headline {
+  @include text-headline;
+}
+.text-headline-2 {
+  @include text-headline-2;
+}
+.text-title {
+  @include text-title;
+}
+.text-title-2 {
+  @include text-title-2;
+}
+.text-subheader-big {
+  @include text-subheader-big;
+}
+.text-subheader-big-2 {
+  @include text-subheader-big-2;
+}
+.text-subheader {
+  @include text-subheader;
+}
+.text-subheader-2 {
+  @include text-subheader-2;
+}
+.text-body {
+  @include text-body;
+}
+.text-body-strikethrough {
+  @include text-body-strikethrough;
+}
+.text-body-underline {
+  @include text-body-underline;
+}
+.text-body-2 {
+  @include text-body-2;
+}
+.text-caption {
+  @include text-caption;
+}
+.text-caption-strikethrough {
+  @include text-caption-strikethrough;
+}
+.text-caption-underline {
+  @include text-caption-underline;
+}
+.text-caption-2 {
+  @include text-caption-2;
+}
+.text-small {
+  @include text-small;
+}
+.text-small-2 {
+  @include text-small-2;
+}
+
+$font-sizes: 12;
+
+@each $font-size in $font-sizes {
+  .fz-#{$font-size} {
+    font-size: #{$font-sizes}px !important;
+  }
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}

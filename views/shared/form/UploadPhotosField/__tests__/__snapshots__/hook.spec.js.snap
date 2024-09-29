@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadPhotosField useContainer hook matches snapshot 1`] = `
+Object {
+  "dropzoneRef": Object {
+    "current": null,
+  },
+  "editPhotoIdx": null,
+  "handleEditFile": [Function],
+  "handleOrderUpdate": [Function],
+  "inputFileRef": Object {
+    "current": null,
+  },
+  "onDropHandler": [Function],
+  "onDropRejectedHandler": [Function],
+  "onEditPhotoCreator": [Function],
+  "onMountHandler": [Function],
+  "onPreviewPhotoCreator": [Function],
+  "onRemovePhotoCreator": [Function],
+  "order": Array [],
+  "updateOrder": [Function],
+  "uploadPhotosClickHandler": [Function],
+  "value": Array [
+    Object {
+      "id": "1",
+    },
+  ],
+}
+`;

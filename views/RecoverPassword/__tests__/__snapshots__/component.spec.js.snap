@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecoverPassword component matches snapshot 1`] = `
+<div
+  className="confirm d-flex flex-column align-items-center"
+>
+  <div
+    className="mb-32"
+  >
+    <Image
+      alt=""
+      height="136"
+      src="/images/email.png"
+      width="136"
+    />
+  </div>
+  <h1
+    className="mb-8 confirm__title"
+  >
+    <Memo(FormattedMessage)
+      id="shared.recoverYourPassword"
+    />
+  </h1>
+  <p
+    className="confirm__text mb-0"
+  >
+    <Memo(FormattedMessage)
+      id="shared.weSentEmailToAddress"
+      values={
+        Object {
+          "address": <b
+            className="confirm__text-bold"
+          >
+            email
+          </b>,
+        }
+      }
+    />
+  </p>
+  <p
+    className="confirm__text mb-32"
+  >
+    <Memo(FormattedMessage)
+      id="shared.enterSecurityCodeToSetNewPassword"
+    />
+  </p>
+  <ForwardRef(InternalForm)
+    className="w-100"
+    layout="vertical"
+    size="large"
+  >
+    <ContextProvider
+      value={
+        Object {
+          "dirty": true,
+          "handleSubmit": [MockFunction],
+          "isValid": true,
+          "resetForm": [MockFunction],
+          "setFieldTouched": [MockFunction],
+          "setFieldValue": [MockFunction],
+          "setValues": [MockFunction],
+          "validateForm": [MockFunction],
+          "values": Object {},
+        }
+      }
+    >
+      <InputField
+        asComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "Group": [Function],
+            "Password": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "action": "click",
+                "iconRender": [Function],
+                "visibilityToggle": true,
+              },
+              "render": [Function],
+            },
+            "Search": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            },
+            "TextArea": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            },
+            "render": [Function],
+          }
+        }
+        formItemClassName="mb-32"
+        name="code"
+        numbersOnly={false}
+        placeholder={
+          Object {
+            "id": "shared.enterSecurityCode",
+          }
+        }
+        withFormItem={true}
+      />
+      <div
+        className="confirm__buttons d-flex flex-column flex-sm-row align-items-center justify-content-space-between w-100"
+      >
+        <Link
+          href="/sign-in"
+        >
+          <a>
+            <GradientButton
+              addonAfter={null}
+              addonBefore={null}
+              className="mb-16 mb-sm-0"
+              disabled={false}
+              text={
+                Object {
+                  "id": "shared.backToSignIn",
+                }
+              }
+              variant="tertiary"
+            />
+          </a>
+        </Link>
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="min-width-140 ml-sm-auto mr-sm-16 mb-16 mb-sm-0"
+          disabled={false}
+          loading={false}
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.resendEmail",
+            }
+          }
+          variant="secondary"
+        />
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="min-width-140 mb-16 mb-sm-0"
+          disabled={false}
+          loading={false}
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.confirm",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </ContextProvider>
+  </ForwardRef(InternalForm)>
+</div>
+`;

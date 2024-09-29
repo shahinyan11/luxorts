@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`statuses constants match snapshot 1`] = `
+Object {
+  "ACCOUNT_STATUS": Object {
+    "DEACTIVATED_BY_USER": "deactivated_by_user",
+  },
+  "ACTIVE": "active",
+  "PASSWORD_UPDATE_SUCCESS_STATUS": "success",
+}
+`;

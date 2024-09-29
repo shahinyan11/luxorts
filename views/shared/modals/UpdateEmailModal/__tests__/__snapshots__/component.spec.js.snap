@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdateEmailModal component matches snapshot 1`] = `
+<Modal
+  className="modal"
+  closable={true}
+  closeIcon={
+    <SvgIcon
+      className="modal__icon"
+      icon="modal-cross"
+    />
+  }
+  confirmLoading={false}
+  footer={
+    <div
+      className="d-flex justify-content-flex-end w-100"
+    >
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium mr-16"
+        disabled={false}
+        loading={false}
+        onClick={[Function]}
+        text={
+          Object {
+            "id": "shared.resendEmail",
+          }
+        }
+        variant="secondary"
+      />
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="ml-sm-auto main-btn--medium mr-16"
+        disabled={false}
+        onClick={null}
+        text={
+          Object {
+            "id": "shared.cancel",
+          }
+        }
+        variant="tertiary"
+      />
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium min-width-120"
+        disabled={false}
+        loading={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.confirm",
+          }
+        }
+        variant="primary"
+      />
+    </div>
+  }
+  okType="primary"
+  onCancel={null}
+  title={
+    <Memo(FormattedMessage)
+      id="emailConfirmation.title"
+    />
+  }
+  visible={true}
+  width={558}
+>
+  <div
+    className="modal__content"
+  >
+    <div
+      className="d-flex flex-column align-items-center"
+    >
+      <div
+        className="mb-24"
+      >
+        <Image
+          alt=""
+          height="136"
+          src="/images/email.png"
+          width="136"
+        />
+      </div>
+      <p
+        className="confirm__text mb-0"
+      >
+        <Memo(FormattedMessage)
+          id="shared.weSentEmailToAddress"
+          values={
+            Object {
+              "address": <b
+                className="confirm__text-bold"
+              >
+                email
+              </b>,
+            }
+          }
+        />
+      </p>
+      <p
+        className="confirm__text mb-24"
+      >
+        <Memo(FormattedMessage)
+          id="emailConfirmation.enterCode"
+        />
+      </p>
+      <ForwardRef(InternalForm)
+        className="w-100"
+        layout="vertical"
+        size="large"
+      >
+        <ContextProvider
+          value={
+            Object {
+              "dirty": true,
+              "handleSubmit": [MockFunction],
+              "initialValues": Object {
+                "code": "",
+              },
+              "isValid": true,
+              "onSubmit": [Function],
+              "resetForm": [MockFunction],
+              "setFieldTouched": [MockFunction],
+              "setFieldValue": [MockFunction],
+              "setValues": [MockFunction],
+              "validateForm": [MockFunction],
+              "validationSchema": ObjectSchema {
+                "_blacklist": ReferenceSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_blacklistError": undefined,
+                "_excludedEdges": Array [],
+                "_nodes": Array [
+                  "code",
+                ],
+                "_sortErrors": [Function],
+                "_typeError": [Function],
+                "_whitelist": ReferenceSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_whitelistError": undefined,
+                "conditions": Array [],
+                "deps": Array [],
+                "exclusiveTests": Object {},
+                "fields": Object {
+                  "code": StringSchema {
+                    "_blacklist": ReferenceSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_blacklistError": undefined,
+                    "_mutate": undefined,
+                    "_typeError": [Function],
+                    "_whitelist": ReferenceSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_whitelistError": undefined,
+                    "conditions": Array [],
+                    "deps": Array [],
+                    "exclusiveTests": Object {
+                      "required": true,
+                      "stringLength": false,
+                    },
+                    "spec": Object {
+                      "abortEarly": true,
+                      "nullable": false,
+                      "presence": "required",
+                      "recursive": true,
+                      "strict": false,
+                      "strip": false,
+                    },
+                    "tests": Array [
+                      [Function],
+                      [Function],
+                    ],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "string",
+                  },
+                },
+                "spec": Object {
+                  "abortEarly": true,
+                  "nullable": false,
+                  "presence": "optional",
+                  "recursive": true,
+                  "strict": false,
+                  "strip": false,
+                },
+                "tests": Array [],
+                "transforms": Array [
+                  [Function],
+                ],
+                "type": "object",
+              },
+              "values": Object {},
+            }
+          }
+        >
+          <InputField
+            asComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "Group": [Function],
+                "Password": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": Object {
+                    "action": "click",
+                    "iconRender": [Function],
+                    "visibilityToggle": true,
+                  },
+                  "render": [Function],
+                },
+                "Search": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+                "TextArea": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+                "render": [Function],
+              }
+            }
+            name="code"
+            numbersOnly={false}
+            placeholder={
+              Object {
+                "id": "shared.enterSecurityCode",
+              }
+            }
+            withFormItem={true}
+          />
+        </ContextProvider>
+      </ForwardRef(InternalForm)>
+    </div>
+  </div>
+</Modal>
+`;

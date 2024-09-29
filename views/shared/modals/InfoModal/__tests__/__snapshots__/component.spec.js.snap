@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoModal component matches snapshot 1`] = `
+<Modal
+  className="modal"
+  closeIcon={
+    <SvgIcon
+      className="modal__icon"
+      icon="modal-cross"
+    />
+  }
+  confirmLoading={false}
+  footer={null}
+  okType="primary"
+  visible={true}
+  width={520}
+>
+  <div
+    className="modal__content"
+  >
+    <p
+      className="modal__text"
+    >
+      <Memo(FormattedMessage)
+        id="description.id"
+      />
+    </p>
+  </div>
+</Modal>
+`;
+
+exports[`InfoModal component matches snapshot when confirmText is present 1`] = `
+<Modal
+  className="modal"
+  closeIcon={
+    <SvgIcon
+      className="modal__icon"
+      icon="modal-cross"
+    />
+  }
+  confirmLoading={false}
+  footer={
+    <div
+      className="d-flex justify-content-flex-end"
+    >
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium min-width-120"
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "confirmText.id",
+          }
+        }
+        variant="primary"
+      />
+    </div>
+  }
+  okType="primary"
+  visible={true}
+  width={520}
+>
+  <div
+    className="modal__content"
+  >
+    <p
+      className="modal__text"
+    >
+      <Memo(FormattedMessage)
+        id="description.id"
+      />
+    </p>
+  </div>
+</Modal>
+`;
+
+exports[`InfoModal component matches snapshot when onConfirm is present 1`] = `
+<Modal
+  className="modal"
+  closeIcon={
+    <SvgIcon
+      className="modal__icon"
+      icon="modal-cross"
+    />
+  }
+  confirmLoading={false}
+  footer={
+    <div
+      className="d-flex justify-content-flex-end"
+    >
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium min-width-120"
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.ok",
+          }
+        }
+        variant="primary"
+      />
+    </div>
+  }
+  okType="primary"
+  visible={true}
+  width={520}
+>
+  <div
+    className="modal__content"
+  >
+    <p
+      className="modal__text"
+    >
+      <Memo(FormattedMessage)
+        id="description.id"
+      />
+    </p>
+  </div>
+</Modal>
+`;

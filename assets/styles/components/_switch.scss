@@ -1,0 +1,16 @@
+$default-switch-width: 40px;
+$default-swith-margin-right: 8px;
+
+.switch {
+  display: flex;
+  align-items: flex-start;
+}
+.switch__button {
+  flex-shrink: 0;
+  width: $default-switch-width;
+  margin-right: $default-swith-margin-right;
+}
+.switch__label {
+  @include text-body;
+  max-width: calc(100% - $default-switch-width - $default-swith-margin-right);
+}

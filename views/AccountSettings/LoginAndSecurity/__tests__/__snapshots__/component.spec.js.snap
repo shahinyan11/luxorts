@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginAndSecurity component matches snapshot 1`] = `
+<div
+  className="personal-information"
+>
+  <Breadcrumb />
+  <h1
+    className="text-display-2 mb-lg-64 mb-32"
+  >
+    <Memo(FormattedMessage)
+      id="loginAndSecurity.title"
+    />
+  </h1>
+  <div
+    className="personal-information__content"
+  >
+    <div
+      className="personal-information__user"
+    >
+      <div
+        className="personal-information__item mb-24"
+      >
+        <div
+          className="personal-information__header d-flex justify-content-space-between mb-8"
+        >
+          <p
+            className="personal-information__label mb-0"
+          >
+            <Memo(FormattedMessage)
+              id="shared.password"
+            />
+          </p>
+          <a
+            className="main-text-btn personal-information__edit personal-information__edit--active text-body-2 ml-auto mr-16"
+            onClick={[MockFunction]}
+            role="button"
+          >
+            <Memo(FormattedMessage)
+              id="shared.recover"
+            />
+          </a>
+          <a
+            className="main-text-btn personal-information__edit personal-information__edit--active text-body-2"
+            onClick={[MockFunction]}
+            role="button"
+          >
+            <Memo(FormattedMessage)
+              id="shared.update"
+            />
+          </a>
+        </div>
+        <p
+          className="personal-information__value mb-24"
+        >
+          <Memo(FormattedMessage)
+            id="loginAndSecurity.lastUpdateTime"
+            values={
+              Object {
+                "time": "date",
+              }
+            }
+          />
+        </p>
+      </div>
+    </div>
+    <PageInfo
+      description={
+        Object {
+          "id": "loginAndSecurity.info.description",
+        }
+      }
+      icon={
+        <SvgIcon
+          className="personal-information__icon"
+          icon="user-shield"
+        />
+      }
+      title={
+        Object {
+          "id": "loginAndSecurity.title",
+        }
+      }
+    />
+  </div>
+</div>
+`;

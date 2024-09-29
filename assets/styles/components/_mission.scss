@@ -1,0 +1,65 @@
+.mission {
+  padding-right: 16px;
+  padding-left: 16px;
+  text-align: center;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.mission__title {
+  @include text-jumbo-2;
+}
+.mission__accent {
+  @include gradient-violent;
+  background-clip: text;
+  color: get-color(primary, 800);
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  /* stylelint-disable property-no-unknown */
+  text-fill-color: transparent;
+  /* stylelint-enable property-no-unknown */
+}
+.mission__description {
+  @include text-subheader;
+  max-width: 752px;
+  margin-right: auto;
+  margin-left: auto;
+  color: get-color(text, black);
+}
+.mission__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+.mission__image {
+  width: 100%;
+  height: auto;
+  @include media-breakpoint-up(md) {
+    width: calc(100% / 3);
+  }
+}
+.mission__caption {
+  @include text-subheader-2;
+  text-transform: uppercase;
+}
+.mission__subtitle {
+  @include text-display-2;
+  max-width: 752px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mission__text {
+  @include text-subheader;
+  max-width: 752px;
+  margin-right: auto;
+  margin-left: auto;
+  color: get-color(text, black);
+}

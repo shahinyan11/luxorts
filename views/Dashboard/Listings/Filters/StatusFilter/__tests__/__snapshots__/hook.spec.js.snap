@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusFilter useContainer hook matches snapshot 1`] = `
+Object {
+  "formik": Object {
+    "dirty": true,
+    "enableReinitialize": true,
+    "handleSubmit": [MockFunction],
+    "initialValues": Object {},
+    "isValid": true,
+    "resetForm": [MockFunction],
+    "setFieldTouched": [MockFunction],
+    "setFieldValue": [MockFunction],
+    "setValues": [MockFunction],
+    "validateForm": [MockFunction],
+    "values": Object {},
+  },
+  "onApply": [Function],
+  "onClear": [Function],
+  "onVisibilityChangeHandler": [Function],
+  "setVisible": [Function],
+  "visible": false,
+}
+`;

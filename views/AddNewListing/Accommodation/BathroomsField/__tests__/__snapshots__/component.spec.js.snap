@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BathroomsField component matches snapshot 1`] = `
+<div
+  className="new-listing__item mb-24"
+>
+  <h2
+    className="new-listing__subtitle mb-8"
+  >
+    <Memo(FormattedMessage)
+      id="bathroomArrangements.title"
+    />
+  </h2>
+  <p
+    className="new-listing__description mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="bathroomArrangements.description"
+    />
+  </p>
+  <BathroomField
+    handleAddCustomBath={[MockFunction]}
+    handleRemoveCustomBathCreator={[MockFunction]}
+    index={0}
+    key="bathroom-1"
+  />
+</div>
+`;
+
+exports[`BathroomsField component matches snapshot when bathrooms aren\`t present 1`] = `
+<div
+  className="new-listing__item mb-24"
+>
+  <h2
+    className="new-listing__subtitle mb-8"
+  >
+    <Memo(FormattedMessage)
+      id="bathroomArrangements.title"
+    />
+  </h2>
+  <p
+    className="new-listing__description mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="bathroomArrangements.description"
+    />
+  </p>
+</div>
+`;

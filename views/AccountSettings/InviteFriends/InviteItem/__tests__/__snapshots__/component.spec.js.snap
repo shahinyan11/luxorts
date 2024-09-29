@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InviteItem component matches snapshot 1`] = `
+<div
+  className="personal-information__item mb-24"
+/>
+`;

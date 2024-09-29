@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateCellWrapper useContainer hook matches snapshot 1`] = `
+Object {
+  "isActual": false,
+  "isAnotherMonth": false,
+  "isBlocked": false,
+  "isSelectedCell": false,
+  "isToday": false,
+}
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountSettingsLayout component matches snapshot 1`] = `
+<div
+  className="main-layout"
+>
+  <Header
+    isGuest={false}
+    isSignIn={false}
+    isSignUp={false}
+    isWithFilter={false}
+  />
+  <div
+    className="main-layout__content"
+  >
+    Foo
+  </div>
+  <Footer
+    isAccount={true}
+    isFooterMenu={false}
+    isLanding={false}
+    isRegistration={false}
+  />
+</div>
+`;

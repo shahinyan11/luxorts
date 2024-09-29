@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component matches snapshot 1`] = `
+<Fragment>
+  <section
+    className="intro"
+  >
+    <div
+      className="intro__container"
+    >
+      <h1
+        className="intro__title mb-16"
+      >
+        <Memo(FormattedMessage)
+          id="home.findYour"
+        />
+        <span
+          className="intro__title-accent"
+        >
+          <Memo(FormattedMessage)
+            id="home.perfectApartments"
+          />
+        </span>
+      </h1>
+      <p
+        className="intro__text mb-40"
+      >
+        <Memo(FormattedMessage)
+          id="home.discoverAndBookApartments"
+        />
+      </p>
+      <ForwardRef(InternalForm)
+        className="intro__search search search--home"
+        layout="vertical"
+        size="large"
+      >
+        <ContextProvider
+          value={
+            Object {
+              "dirty": true,
+              "handleSubmit": [MockFunction],
+              "initialValues": Object {
+                "date": "",
+                "location": "",
+              },
+              "isValid": true,
+              "resetForm": [MockFunction],
+              "setFieldTouched": [MockFunction],
+              "setFieldValue": [MockFunction],
+              "setValues": [MockFunction],
+              "validateForm": [MockFunction],
+              "values": Object {},
+            }
+          }
+        >
+          <div
+            className="search__location"
+          >
+            <InputField
+              allowClear={
+                Object {
+                  "clearIcon": <SvgIcon
+                    icon="cross"
+                  />,
+                }
+              }
+              asComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "Group": [Function],
+                  "Password": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "action": "click",
+                      "iconRender": [Function],
+                      "visibilityToggle": true,
+                    },
+                    "render": [Function],
+                  },
+                  "Search": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "TextArea": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              className="search__input"
+              formItemClassName="search__item"
+              label={
+                Object {
+                  "id": "shared.location",
+                }
+              }
+              name="location"
+              numbersOnly={false}
+              placeholder={
+                Object {
+                  "id": "shared.whereAreYouGoing",
+                }
+              }
+              withFormItem={true}
+            />
+          </div>
+          <div
+            className="search__dates"
+          >
+            <div
+              className="search__labels"
+            >
+              <p
+                className="search__label"
+              >
+                <Memo(FormattedMessage)
+                  id="shared.checkIn"
+                />
+              </p>
+              <p
+                className="search__label"
+              >
+                <Memo(FormattedMessage)
+                  id="shared.checkOut"
+                />
+              </p>
+            </div>
+            <RangePickerField
+              className="w-100"
+              learIcon={
+                <SvgIcon
+                  icon="cross"
+                />
+              }
+              name="date"
+              placeholder={
+                Array [
+                  Object {
+                    "id": "shared.dateIn",
+                  },
+                  Object {
+                    "id": "shared.dateOut",
+                  },
+                ]
+              }
+              separator={false}
+              size="large"
+              suffixIcon={false}
+            />
+          </div>
+          <div
+            className="search__guests"
+          >
+            <InputField
+              allowClear={
+                Object {
+                  "clearIcon": <SvgIcon
+                    icon="cross"
+                  />,
+                }
+              }
+              asComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "Group": [Function],
+                  "Password": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": Object {
+                      "action": "click",
+                      "iconRender": [Function],
+                      "visibilityToggle": true,
+                    },
+                    "render": [Function],
+                  },
+                  "Search": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "TextArea": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              className="search__input"
+              formItemClassName="search__item mb-0"
+              label={
+                Object {
+                  "id": "shared.guests",
+                }
+              }
+              name="guests"
+              numbersOnly={false}
+              placeholder={
+                Object {
+                  "id": "shared.addGuests",
+                }
+              }
+              withFormItem={true}
+            />
+            <GradientButton
+              addonAfter={null}
+              addonBefore={
+                <SvgIcon
+                  className="icon-right"
+                  icon="search"
+                />
+              }
+              className="search__submit main-btn--icon"
+              variant="primary"
+            />
+          </div>
+        </ContextProvider>
+      </ForwardRef(InternalForm)>
+      <img
+        alt=""
+        className="intro__img"
+        height="380"
+        src="/images/intro.jpg"
+        width="1140"
+      />
+    </div>
+  </section>
+  <section
+    className="trending pt-40 pt-md-80 pb-40 pb-md-40"
+  >
+    <div
+      className="trending__container"
+    >
+      <h2
+        className="trending__title mb-8"
+      >
+        <Memo(FormattedMessage)
+          id="home.trendingLocationsTitle"
+        />
+      </h2>
+      <p
+        className="trending__description mb-40"
+      >
+        <Memo(FormattedMessage)
+          id="home.trendingLocationsText"
+        />
+      </p>
+      <div
+        className="trending__pictures"
+      >
+        <TrendingCard
+          city="Baltimore"
+          country="United States"
+          id="united-states-pennsylvania-mineral-point"
+          image="/images/trending-location-01.jpg"
+          key="united-states-pennsylvania-mineral-point"
+          small={false}
+          state="Maryland"
+        />
+      </div>
+    </div>
+  </section>
+  <section
+    className="property"
+  >
+    <div
+      className="property__container pt-40 pt-md-80"
+    >
+      <h2
+        className="property__title mb-8"
+      >
+        <Memo(FormattedMessage)
+          id="home.propertyTypesTitle"
+        />
+      </h2>
+      <p
+        className="property__description mb-40"
+      >
+        <Memo(FormattedMessage)
+          id="home.propertyTypesText"
+        />
+      </p>
+      <div
+        className="property__cards pb-40 pb-md-80"
+      >
+        <PropertyCard
+          id="d46e3bec-bb9a-4574-ba6d-1a3e19332b5a"
+          image="/images/property-01.jpg"
+          key="d46e3bec-bb9a-4574-ba6d-1a3e19332b5a"
+          listingsCount={1}
+          name="totam"
+        />
+      </div>
+    </div>
+  </section>
+  <section
+    className="popular-apartment pt-40 pt-md-80 pb-40 pb-md-80"
+  >
+    <div
+      className="popular-apartment__container"
+    >
+      <h2
+        className="popular-apartment__title mb-8 mb-md-0"
+      >
+        <Memo(FormattedMessage)
+          id="home.popularApartmentsTitle"
+        />
+      </h2>
+      <div
+        className="d-flex flex-column mb-40"
+      >
+        <p
+          className="popular-apartment__description mb-8 mb-md-0"
+        >
+          <Memo(FormattedMessage)
+            id="home.popularApartmentsText"
+          />
+        </p>
+        <div
+          className="popular-apartment__column d-flex align-items-center ml-md-auto"
+        >
+          <p
+            className="counter ml-auto mr-16"
+          >
+            <span
+              className="counter__number counter__number--current"
+            >
+              1
+            </span>
+            <span
+              className="counter__divider"
+            >
+              /
+            </span>
+            <span
+              className="counter__number"
+            >
+              7
+            </span>
+          </p>
+          <GradientButton
+            addonAfter={null}
+            addonBefore={
+              <SvgIcon
+                className="icon-right"
+                icon="arrow-left"
+              />
+            }
+            className="main-btn--icon main-btn--small mr-16"
+            disabled={true}
+            onClick={[Function]}
+            variant="primary"
+          />
+          <GradientButton
+            addonAfter={null}
+            addonBefore={
+              <SvgIcon
+                className="icon-right"
+                icon="arrow-right"
+              />
+            }
+            className="main-btn--icon main-btn--small"
+            disabled={false}
+            onClick={[Function]}
+            variant="primary"
+          />
+        </div>
+      </div>
+      <div
+        className="popular-apartment__slider"
+      >
+        <div
+          className="popular-apartment__slider-wrapper"
+        >
+          <ApartmentCard
+            bathsAmount={28}
+            bedroomsAmount={1}
+            bedsAmount={10}
+            description="Vanessa Swift"
+            guestsNumber={3}
+            id="06a30f07-23b5-4900-b83c-b56986f119bc"
+            key="06a30f07-23b5-4900-b83c-b56986f119bc"
+            limitedListingPhotos={
+              Array [
+                Object {
+                  "id": "115e2205-856f-4ed4-9f17-1dd6f37f7520",
+                  "photoUrls": Object {
+                    "small": "https://luxorts-backend-staging.s3.us-east-2.amazonaws.com/uploads/listingphoto/115e2205-856f-4ed4-9f17-1dd6f37f7520/photo/small-cf3518983b1ecf97422a2bda10eca45b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXWPQSY4555KWNWFP%2F20220717%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220717T094425Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=128ecc291ddb112fec4d57ff3e1fb7b91249045e54e653d8b083113e9b9115a7",
+                  },
+                },
+              ]
+            }
+            pricePerDay={6860000}
+            propertyTypeMame="voluptatum"
+            title="Alta Kling"
+            typeOfPlace="shared_room"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="cta pt-40 pt-md-80 pb-40 pb-md-80"
+  >
+    <div
+      className="cta__container"
+    >
+      <div
+        className="cta__content"
+      >
+        <h2
+          className="cta__title mb-8"
+        >
+          <Memo(FormattedMessage)
+            id="home.tryHosting"
+            values={
+              Object {
+                "styledWord": <span
+                  className="cta__accent"
+                >
+                  <Memo(FormattedMessage)
+                    id="home.hosting"
+                  />
+                </span>,
+              }
+            }
+          />
+        </h2>
+        <p
+          className="cta__description mb-32"
+        >
+          <Memo(FormattedMessage)
+            id="home.listYourPropertyText"
+          />
+        </p>
+        <Link
+          href="/add-new-listing"
+        >
+          <a
+            className="main-btn main-btn--primary min-width-160"
+          >
+            <Memo(FormattedMessage)
+              id="home.listYourProperty"
+            />
+          </a>
+        </Link>
+      </div>
+    </div>
+  </section>
+</Fragment>
+`;

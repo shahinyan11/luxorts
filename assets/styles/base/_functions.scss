@@ -1,0 +1,6 @@
+@function get-color($color-name, $lightness) {
+  @return map-get(map-get($app-colors, $color-name), $lightness);
+}
+@function shadow($name) {
+  @return map-get($shadows, $name);
+}

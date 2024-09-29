@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useListingPropertyType hook matches snapshot 1`] = `
+Object {
+  "formik": Object {
+    "values": Object {
+      "listingPropertyType": Object {
+        "propertyTypeId": "51e35121-c27e-46fc-9feb-b51dab2490ee",
+        "typeOfPlace": "private_place",
+      },
+    },
+  },
+  "isLoading": false,
+  "propertyTypesOptions": Array [
+    Object {
+      "description": "description repudiandae",
+      "label": "repudiandae",
+      "value": "51e35121-c27e-46fc-9feb-b51dab2490ee",
+    },
+    Object {
+      "description": "description molestias",
+      "label": "molestias",
+      "value": "995c5714-185d-4085-8512-690903334f6e",
+    },
+  ],
+  "showSkeleton": false,
+  "stepStatus": "accomodation",
+  "tooltip": "description repudiandae",
+}
+`;

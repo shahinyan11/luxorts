@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InviteFriends useContainer hook matches snapshot 1`] = `
+Object {
+  "formik": Object {
+    "dirty": true,
+    "enableReinitialize": true,
+    "handleSubmit": [MockFunction],
+    "initialValues": Object {
+      "userInvitations": Array [],
+    },
+    "isValid": true,
+    "onSubmit": [Function],
+    "resetForm": [MockFunction],
+    "setFieldTouched": [MockFunction],
+    "setFieldValue": [MockFunction],
+    "setValues": [MockFunction],
+    "validateForm": [MockFunction],
+    "validationSchema": ObjectSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_excludedEdges": Array [],
+      "_nodes": Array [
+        "userInvitations",
+      ],
+      "_sortErrors": [Function],
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {},
+      "fields": Object {
+        "userInvitations": ArraySchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {},
+          "innerType": StringSchema {
+            "_blacklist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_blacklistError": undefined,
+            "_typeError": [Function],
+            "_whitelist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_whitelistError": undefined,
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "email": false,
+              "max": true,
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "nullable": false,
+              "presence": "optional",
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "array",
+        },
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "optional",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "object",
+    },
+    "values": Object {},
+  },
+  "isDisabled": false,
+  "isLoading": false,
+  "onPageChange": [Function],
+  "pagination": Object {
+    "number": 1,
+    "size": 20,
+  },
+  "userInvitation": Array [
+    Object {
+      "created_at": "2022-06-23T06:32:55.588Z",
+      "email": "12@mail.ru",
+      "id": "52080e19-c5e0-45bb-af58-edbbe70e78fa",
+      "lastSentAt": "2022-06-23T06:32:55.474Z",
+      "resendable": true,
+      "status": "pending",
+      "userAccountId": "7211ccc2-1fca-4799-b1e1-4005e9fc42be",
+    },
+  ],
+  "userInvitationCount": 1,
+}
+`;

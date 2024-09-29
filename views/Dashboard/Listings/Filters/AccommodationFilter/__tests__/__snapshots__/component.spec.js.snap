@@ -1,0 +1,395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccommodationFilter component matches snapshot 1`] = `
+<Dropdown
+  className="table-head__dropdown-payment"
+  mouseEnterDelay={0.15}
+  mouseLeaveDelay={0.1}
+  onVisibleChange={[MockFunction]}
+  overlay={
+    <div
+      className="table-head__dropdown-content"
+    >
+      <div
+        className="d-flex flex-column mb-0 table-head__content"
+      >
+        <ForwardRef(InternalForm)
+          className="pl-24 pr-24 pt-24 pb-24"
+          layout="vertical"
+          size="large"
+        >
+          <Context.Provider
+            value={
+              Object {
+                "dirty": true,
+                "handleSubmit": [MockFunction],
+                "isValid": true,
+                "resetForm": [MockFunction],
+                "setFieldTouched": [MockFunction],
+                "setFieldValue": [MockFunction],
+                "setValues": [MockFunction],
+                "validateForm": [MockFunction],
+                "values": Object {},
+              }
+            }
+          >
+            <InputNumberField
+              addonBefore={
+                <Memo(FormattedMessage)
+                  id="shared.guests"
+                />
+              }
+              formItemClassName="mb-8 width-312 ant-form-item--light"
+              max={16}
+              min={0}
+              name="guests_number-eq"
+              withFormItem={true}
+            />
+            <InputNumberField
+              addonBefore={
+                <Memo(FormattedMessage)
+                  id="shared.bedrooms"
+                />
+              }
+              formItemClassName="mb-8 width-312 ant-form-item--light"
+              max={16}
+              min={0}
+              name="bedrooms_amount-eq"
+              withFormItem={true}
+            />
+            <InputNumberField
+              addonBefore={
+                <Memo(FormattedMessage)
+                  id="shared.beds"
+                />
+              }
+              formItemClassName="mb-8 width-312 ant-form-item--light"
+              max={16}
+              min={0}
+              name="beds_amount-eq"
+              withFormItem={true}
+            />
+            <InputNumberField
+              addonBefore={
+                <Memo(FormattedMessage)
+                  id="shared.baths"
+                />
+              }
+              formItemClassName="mb-0 width-312 ant-form-item--light"
+              max={16}
+              min={0}
+              name="bathrooms_amount-eq"
+              withFormItem={true}
+            />
+          </Context.Provider>
+        </ForwardRef(InternalForm)>
+      </div>
+      <div
+        className="table-head__actions pt-24 pb-24 d-flex justify-content-flex-end"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium min-width-120"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.apply",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </div>
+  }
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <GradientButton
+    addonAfter={
+      <SvgIcon
+        className="icon-right"
+        icon="arrow-down"
+      />
+    }
+    addonBefore={null}
+    className="main-btn--medium"
+    text={
+      Object {
+        "id": "shared.accommodation",
+      }
+    }
+    variant="filter"
+  />
+</Dropdown>
+`;
+
+exports[`AccommodationFilter component matches snapshot when appliedFilters equals 1 1`] = `
+<Dropdown
+  className="table-head__dropdown-payment"
+  mouseEnterDelay={0.15}
+  mouseLeaveDelay={0.1}
+  onVisibleChange={[MockFunction]}
+  overlay={
+    <div
+      className="table-head__dropdown-content"
+    >
+      <div
+        className="d-flex flex-column mb-0 table-head__content"
+      >
+        <ForwardRef(InternalForm)
+          className="pl-24 pr-24 pt-24 pb-24"
+          layout="vertical"
+          size="large"
+        >
+          <Context.Provider
+            value={
+              Object {
+                "dirty": true,
+                "handleSubmit": [MockFunction],
+                "isValid": true,
+                "resetForm": [MockFunction],
+                "setFieldTouched": [MockFunction],
+                "setFieldValue": [MockFunction],
+                "setValues": [MockFunction],
+                "validateForm": [MockFunction],
+                "values": Object {},
+              }
+            }
+          >
+            <InputNumberField
+              addonBefore={
+                <Memo(FormattedMessage)
+                  id="shared.guests"
+                />
+              }
+              formItemClassName="mb-8 width-312 ant-form-item--light"
+              max={16}
+              min={0}
+              name="guests_number-eq"
+              withFormItem={true}
+            />
+            <InputNumberField
+              addonBefore={
+                <Memo(FormattedMessage)
+                  id="shared.bedrooms"
+                />
+              }
+              formItemClassName="mb-8 width-312 ant-form-item--light"
+              max={16}
+              min={0}
+              name="bedrooms_amount-eq"
+              withFormItem={true}
+            />
+            <InputNumberField
+              addonBefore={
+                <Memo(FormattedMessage)
+                  id="shared.beds"
+                />
+              }
+              formItemClassName="mb-8 width-312 ant-form-item--light"
+              max={16}
+              min={0}
+              name="beds_amount-eq"
+              withFormItem={true}
+            />
+            <InputNumberField
+              addonBefore={
+                <Memo(FormattedMessage)
+                  id="shared.baths"
+                />
+              }
+              formItemClassName="mb-0 width-312 ant-form-item--light"
+              max={16}
+              min={0}
+              name="bathrooms_amount-eq"
+              withFormItem={true}
+            />
+          </Context.Provider>
+        </ForwardRef(InternalForm)>
+      </div>
+      <div
+        className="table-head__actions pt-24 pb-24 d-flex justify-content-flex-end"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium min-width-120"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.apply",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </div>
+  }
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <GradientButton
+    addonAfter={
+      <SvgIcon
+        className="icon-right"
+        icon="arrow-down"
+      />
+    }
+    addonBefore={null}
+    className="main-btn--medium main-btn--filter-active"
+    text={
+      Object {
+        "id": "shared.accommodationCount",
+        "values": Object {
+          "count": <span
+            className="main-btn__amount"
+          >
+            1
+          </span>,
+        },
+      }
+    }
+    variant="filter"
+  />
+</Dropdown>
+`;
+
+exports[`AccommodationFilter component matches snapshot when clearButtonVisible equals true 1`] = `
+<Dropdown
+  className="table-head__dropdown-payment"
+  mouseEnterDelay={0.15}
+  mouseLeaveDelay={0.1}
+  onVisibleChange={[MockFunction]}
+  overlay={
+    <div
+      className="table-head__dropdown-content"
+    >
+      <div
+        className="d-flex flex-column mb-0 table-head__content"
+      >
+        <ForwardRef(InternalForm)
+          className="pl-24 pr-24 pt-24 pb-24"
+          layout="vertical"
+          size="large"
+        >
+          <Context.Provider
+            value={
+              Object {
+                "dirty": true,
+                "handleSubmit": [MockFunction],
+                "isValid": true,
+                "resetForm": [MockFunction],
+                "setFieldTouched": [MockFunction],
+                "setFieldValue": [MockFunction],
+                "setValues": [MockFunction],
+                "validateForm": [MockFunction],
+                "values": Object {},
+              }
+            }
+          >
+            <InputNumberField
+              addonBefore={
+                <Memo(FormattedMessage)
+                  id="shared.guests"
+                />
+              }
+              formItemClassName="mb-8 width-312 ant-form-item--light"
+              max={16}
+              min={0}
+              name="guests_number-eq"
+              withFormItem={true}
+            />
+            <InputNumberField
+              addonBefore={
+                <Memo(FormattedMessage)
+                  id="shared.bedrooms"
+                />
+              }
+              formItemClassName="mb-8 width-312 ant-form-item--light"
+              max={16}
+              min={0}
+              name="bedrooms_amount-eq"
+              withFormItem={true}
+            />
+            <InputNumberField
+              addonBefore={
+                <Memo(FormattedMessage)
+                  id="shared.beds"
+                />
+              }
+              formItemClassName="mb-8 width-312 ant-form-item--light"
+              max={16}
+              min={0}
+              name="beds_amount-eq"
+              withFormItem={true}
+            />
+            <InputNumberField
+              addonBefore={
+                <Memo(FormattedMessage)
+                  id="shared.baths"
+                />
+              }
+              formItemClassName="mb-0 width-312 ant-form-item--light"
+              max={16}
+              min={0}
+              name="bathrooms_amount-eq"
+              withFormItem={true}
+            />
+          </Context.Provider>
+        </ForwardRef(InternalForm)>
+      </div>
+      <div
+        className="table-head__actions pt-24 pb-24 d-flex justify-content-flex-end"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium mr-16"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.clear",
+            }
+          }
+          variant="tertiary"
+        />
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium min-width-120"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.apply",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </div>
+  }
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <GradientButton
+    addonAfter={
+      <SvgIcon
+        className="icon-right"
+        icon="arrow-down"
+      />
+    }
+    addonBefore={null}
+    className="main-btn--medium"
+    text={
+      Object {
+        "id": "shared.accommodation",
+      }
+    }
+    variant="filter"
+  />
+</Dropdown>
+`;

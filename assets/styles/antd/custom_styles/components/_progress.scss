@@ -1,0 +1,10 @@
+.ant-progress-inner {
+  border-radius: 0;
+  background-color: get-color(secondary, 100);
+}
+.ant-progress-bg {
+  height: 6px !important;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: get-color(primary, 1000);
+}

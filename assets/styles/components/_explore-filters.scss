@@ -1,0 +1,48 @@
+.explore-filters {
+  padding: 16px;
+  border-bottom: 1px solid get-color(secondary, 100);
+  @include media-breakpoint-up(md) {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+.explore-filters__container {
+  @include container;
+  display: flex;
+  max-width: initial;
+}
+.explore-filters__dropdowns {
+  display: flex;
+  border-right: 1px solid get-color(secondary, 100);
+}
+.explore-filters__dropdown {
+  @include shadow-3;
+  border-radius: $border-radius-secondary;
+  background-color: get-color(text, white);
+}
+.explore-filters__dropdown-title {
+  @include text-body;
+  min-width: 312px;
+  padding: 24px 24px 0;
+  color: get-color(text, active-dark);
+}
+.explore-filters__dropdown-actions {
+  padding-right: 24px;
+  padding-left: 24px;
+  border-top: 1px solid get-color(secondary, 100);
+}
+.explore-filters__dropdown-checkboxes {
+  padding: 16px 24px 24px;
+  gap: 16px;
+  .ant-checkbox-wrapper + .ant-checkbox-wrapper {
+    margin-left: 0;
+  }
+}
+.explore-filters__range-divider {
+  @include text-body;
+  align-self: flex-end;
+  margin-right: 8px;
+  margin-bottom: 13px;
+  margin-left: 8px;
+  color: get-color(text, active-dark);
+}

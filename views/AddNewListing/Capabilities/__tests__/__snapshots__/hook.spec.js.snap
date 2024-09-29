@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Capabilities useContainer hook matches snapshot 1`] = `
+Object {
+  "approvedCapabilities": Object {
+    "11da7909-9f4c-45d6-a2a0-8a105b067ed2": Object {
+      "checked": false,
+      "description": "Vel commodi ad incidunt repellendus a molestias delectus nam.",
+      "id": "11da7909-9f4c-45d6-a2a0-8a105b067ed2",
+      "name": "Tonya Wunsch",
+      "status": "active",
+    },
+    "b84c898e-2176-4ac8-9dfa-54186ccef6cb": Object {
+      "checked": false,
+      "description": "Maxime nostrum ex iste velit nulla incidunt.",
+      "id": "b84c898e-2176-4ac8-9dfa-54186ccef6cb",
+      "name": "Edwin Greenholt",
+      "status": "active",
+    },
+  },
+  "formik": Object {
+    "handleSubmit": [MockFunction],
+    "setFieldValue": [MockFunction],
+    "setValues": [MockFunction],
+    "values": Object {
+      "additional": Object {
+        "description": "",
+        "name": "",
+      },
+      "capabilities": Object {
+        "APPROVED": Object {
+          "11da7909-9f4c-45d6-a2a0-8a105b067ed2": Object {
+            "checked": false,
+            "description": "Vel commodi ad incidunt repellendus a molestias delectus nam.",
+            "id": "11da7909-9f4c-45d6-a2a0-8a105b067ed2",
+            "name": "Tonya Wunsch",
+            "status": "active",
+          },
+          "b84c898e-2176-4ac8-9dfa-54186ccef6cb": Object {
+            "checked": false,
+            "description": "Maxime nostrum ex iste velit nulla incidunt.",
+            "id": "b84c898e-2176-4ac8-9dfa-54186ccef6cb",
+            "name": "Edwin Greenholt",
+            "status": "active",
+          },
+        },
+      },
+      "listingId": "listingId",
+    },
+  },
+  "handleAddNotApprovedCapability": [Function],
+  "handleRemoveNotApprovedCapabilityCreator": [Function],
+  "handleSubmit": [Function],
+  "isAddButtonDisabled": true,
+  "isLoading": false,
+  "notApprovedCapabilities": Array [],
+  "onBackRoute": "/add-new-listing/amenities/listingId",
+  "showSkeleton": false,
+  "stepStatus": "accomodation",
+}
+`;

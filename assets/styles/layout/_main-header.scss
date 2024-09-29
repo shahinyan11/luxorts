@@ -1,0 +1,104 @@
+.main-header {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid get-color(secondary, 100);
+}
+.main-header__container {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.main-header__container--filter {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  @include media-breakpoint-up(xl) {
+    flex-direction: row;
+    gap: 0;
+    justify-content: flex-start;
+  }
+}
+.main-header__container--narrow {
+  max-width: 1140px;
+}
+.main-header__logo {
+  display: flex;
+  flex-shrink: 0;
+  width: 100px;
+  @include media-breakpoint-up(sm) {
+    width: 138px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.main-header__caption {
+  @include text-caption;
+}
+.main-header__nav {
+  @include shadow-4;
+  margin-top: 20px;
+}
+.main-header__menu {
+  width: 240px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  &:not(:last-child) {
+    border-bottom: 1px solid get-color(secondary, 100);
+  }
+  .ant-menu-vertical > .ant-menu-item {
+    @include text-body;
+    padding: 8px 48px 8px 16px;
+    color: get-color(text, active-dark);
+  }
+}
+.main-header__menu-counter {
+  @include text-caption-2;
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: $border-radius-secondary;
+  background-color: get-color(accent-3, 200);
+  color: get-color(accent-3, 1000);
+  vertical-align: top;
+}
+.main-header__profile {
+  display: flex;
+  align-items: center;
+  order: -1;
+  margin-bottom: 16px;
+  margin-left: 12px;
+  @include media-breakpoint-up(sm) {
+    order: initial;
+    margin-bottom: 0;
+    margin-left: 24px;
+  }
+}
+.main-header__profile-notification {
+  color: get-color(secondary, 800);
+  &:hover,
+  &:focus {
+    color: get-color(text, active-dark);
+  }
+  &:active {
+    color: get-color(primary, 1200);
+  }
+}
+.main-header__profile-notification--active {
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: get-color(accent-3, 1000);
+  }
+}

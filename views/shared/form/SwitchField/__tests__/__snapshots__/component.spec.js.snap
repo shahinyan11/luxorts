@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchField component matches snapshot 1`] = `
+<div
+  className="switch"
+>
+  <Switch
+    checked={true}
+    className="switch__button"
+    onChange={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`SwitchField component matches snapshot when title is present 1`] = `
+<div
+  className="switch"
+>
+  <Switch
+    checked={true}
+    className="switch__button"
+    onChange={[MockFunction]}
+  />
+  <span
+    className="new-listing__switch-label switch__label"
+  >
+    <FormattedOrRawMessage
+      message="title"
+    />
+  </span>
+</div>
+`;
+
+exports[`SwitchField component matches snapshot when tooltip is present 1`] = `
+<div
+  className="switch"
+>
+  <Switch
+    checked={true}
+    className="switch__button"
+    onChange={[MockFunction]}
+  />
+  <Tooltip
+    arrowPointAtCenter={false}
+    autoAdjustOverflow={true}
+    mouseEnterDelay={0.1}
+    mouseLeaveDelay={0.1}
+    placement="topLeft"
+    title={
+      <FormattedOrRawMessage
+        message="tooltip"
+      />
+    }
+  >
+    <span
+      className="tooltip"
+    >
+      <SvgIcon
+        className="new-listig__option-icon"
+        icon="info"
+      />
+    </span>
+  </Tooltip>
+</div>
+`;

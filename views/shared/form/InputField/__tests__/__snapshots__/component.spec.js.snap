@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField component matches snapshot when asComponent is present 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <asComponent
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot when formItemClassName is present 1`] = `
+<FormItem
+  className="test"
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot when label is present 1`] = `
+<FormItem
+  htmlFor="name"
+  label={
+    <Memo(FormattedMessage)
+      id="label.id"
+    />
+  }
+  validateStatus={false}
+>
+  <ForwardRef
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot when placeholder is present 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    placeholder="{Translation id: placeholder.id}"
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot when tooltip is present 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "tooltip.id",
+        }
+      }
+    />
+  }
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot when touched and has error 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "error.id",
+        }
+      }
+      type="error"
+    />
+  }
+  htmlFor="name"
+  validateStatus="error"
+>
+  <ForwardRef
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot when touched and has error and tooltip is present 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "error.id",
+        }
+      }
+      type="error"
+    />
+  }
+  htmlFor="name"
+  validateStatus="error"
+>
+  <ForwardRef
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot when touched and has no error 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={null}
+>
+  <ForwardRef
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot when withFormItem equals false 1`] = `
+<ForwardRef
+  id="name"
+  name="name"
+  onBlur={[MockFunction]}
+  onChange={[MockFunction]}
+  onKeyDown={[MockFunction]}
+  value="value"
+/>
+`;
+
+exports[`InputField component matches snapshot with default props 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;

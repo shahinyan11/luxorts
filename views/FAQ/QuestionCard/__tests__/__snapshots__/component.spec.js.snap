@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionCard component matches snapshot 1`] = `
+<li
+  className="question__item"
+>
+  <h3
+    className="question__title"
+  >
+    <Memo(FormattedMessage) />
+  </h3>
+  <p
+    className="question__text"
+  >
+    <Memo(FormattedMessage) />
+  </p>
+  <Link
+    href="#"
+  >
+    <a
+      className="question__link main-text-btn"
+    >
+      <SvgIcon
+        className="icon-left"
+        icon="arrow-right"
+      />
+      <Memo(FormattedMessage)
+        id="shared.readMore"
+      />
+    </a>
+  </Link>
+</li>
+`;

@@ -1,0 +1,24 @@
+@mixin gradient-light-blue {
+  background-image: linear-gradient(180deg, #1285ff 0%, #20d1ff 100%);
+}
+@mixin gradient-green {
+  background-image: linear-gradient(135deg, #57d968 2.52%, #00d590 100%);
+}
+@mixin gradient-red {
+  background-image: linear-gradient(135deg, #ff5980 1.46%, #ffa882 98.22%);
+}
+@mixin gradient-blue {
+  background-image: linear-gradient(129.58deg, #4639ff -34.22%, #5698ff 128.31%);
+}
+@mixin gradient-violent {
+  background-image: linear-gradient(135deg, #d438ff 1.46%, #8c58ff 98.22%);
+}
+@mixin gradient-primary {
+  background-image: linear-gradient(135deg, #a537b5 1.46%, #541f5c 98.22%);
+}
+@mixin gradient-primary-hover {
+  background-image: linear-gradient(135deg, #9c35ac 1.46%, #46194d 98.22%);
+}
+@mixin gradient-primary-pressed {
+  background-image: linear-gradient(135deg, #8e309c 1.46%, #38143d 98.22%);
+}

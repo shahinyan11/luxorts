@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PasswordField component matches snapshot 1`] = `
+<FormItem
+  help={null}
+  htmlFor="name"
+  validateStatus={false}
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    visibilityToggle={true}
+  />
+</FormItem>
+`;
+
+exports[`PasswordField component matches snapshot when formItemClassName is present 1`] = `
+<FormItem
+  className="test"
+  help={null}
+  htmlFor="name"
+  validateStatus={false}
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    visibilityToggle={true}
+  />
+</FormItem>
+`;
+
+exports[`PasswordField component matches snapshot when helperProps.hasError equals true 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "error.id",
+        }
+      }
+      type="error"
+    />
+  }
+  htmlFor="name"
+  validateStatus="error"
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    visibilityToggle={true}
+  />
+</FormItem>
+`;
+
+exports[`PasswordField component matches snapshot when label is present 1`] = `
+<FormItem
+  help={null}
+  htmlFor="name"
+  label={
+    <Memo(FormattedMessage)
+      id="label.id"
+    />
+  }
+  validateStatus={false}
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    visibilityToggle={true}
+  />
+</FormItem>
+`;
+
+exports[`PasswordField component matches snapshot when withProgress equals true 1`] = `
+<FormItem
+  help={
+    <PasswordHelper
+      hasError={false}
+      icon="alert"
+      text={
+        Object {
+          "id": "text.id",
+        }
+      }
+    />
+  }
+  htmlFor="name"
+  validateStatus={false}
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    visibilityToggle={true}
+  />
+</FormItem>
+`;

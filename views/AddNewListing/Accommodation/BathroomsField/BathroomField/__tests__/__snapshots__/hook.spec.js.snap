@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BathroomField useContainer hook matches snapshot 1`] = `
+Object {
+  "bathsList": Array [],
+  "disableInputs": [Function],
+  "field": Object {
+    "value": Object {
+      "bathsForDeleting": Array [],
+      "customBaths": Array [],
+      "defaultBaths": Array [
+        Object {
+          "amount": 0,
+          "kind": "bathtub",
+          "uuid": "uuid/v4",
+        },
+        Object {
+          "amount": 0,
+          "kind": "shower",
+          "uuid": "uuid/v4",
+        },
+        Object {
+          "amount": 0,
+          "kind": "jetted_tub",
+          "uuid": "uuid/v4",
+        },
+        Object {
+          "amount": 0,
+          "kind": "double_vanity",
+          "uuid": "uuid/v4",
+        },
+      ],
+    },
+  },
+  "isEdit": false,
+  "onEditHandler": [Function],
+}
+`;

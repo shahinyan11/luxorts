@@ -1,0 +1,124 @@
+.aviability-calendar {
+  width: 100%;
+  max-width: 100%;
+  height: 560px;
+  margin-right: auto;
+  margin-left: auto;
+  @include media-breakpoint-up(sm) {
+    max-width: 558px;
+  }
+  .rbc-month-view {
+    border: none;
+  }
+  .rbc-month-row {
+    max-height: 80px;
+    border-right: 1px solid get-color(secondary, 100);
+    border-left: 1px solid get-color(secondary, 100);
+    &:last-child {
+      border-bottom: 1px solid get-color(secondary, 100);
+      /* stylelint-disable selector-max-compound-selectors */
+      .rbc-day-bg:not(.rbc-off-range-bg) + .rbc-off-range-bg {
+        border-left: 1px solid get-color(secondary, 100);
+      }
+      /* stylelint-enable selector-max-compound-selectors */
+    }
+    + .rbc-month-row {
+      border-top: 1px solid get-color(secondary, 100);
+    }
+  }
+  .rbc-header {
+    @include text-caption;
+    padding-bottom: 8px;
+    padding-left: 0;
+    border-bottom: 1px solid get-color(secondary, 100);
+    color: get-color(text, secondary-black);
+    text-align-last: left;
+    + .rbc-header {
+      border-left: none;
+    }
+  }
+  .rbc-button-link {
+    display: none;
+  }
+  .rbc-off-range {
+    background-color: transparent;
+  }
+  .rbc-off-range-bg {
+    border: none;
+    background-color: transparent;
+  }
+  .rbc-off-range-bg + .rbc-day-bg:not(.rbc-off-range-bg),
+  .rbc-day-bg + .rbc-day-bg:not(.rbc-off-range-bg) {
+    border-left: 1px solid get-color(secondary, 100);
+  }
+  .rbc-event {
+    position: absolute;
+    top: 0;
+    height: 80px;
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+  }
+  .rbc-today {
+    background-color: transparent;
+  }
+  .rbc-current {
+    color: get-color(primary, 1000);
+  }
+  .rbc-date-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: calc(100% / 7);
+    padding-right: 0;
+    text-align: center;
+    @include media-breakpoint-up(sm) {
+      min-width: 78px;
+    }
+  }
+  .rbc-row:not(.rbc-month-header),
+  .rbc-row-content {
+    height: 80px;
+    pointer-events: none;
+  }
+  .rbc-event:focus,
+  .rbc-day-slot .rbc-background-event:focus {
+    outline: none;
+  }
+}
+.aviability-calendar--loading {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.aviability-calendar__event {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 7 - 2px);
+  height: 80px;
+  cursor: pointer;
+  @include media-breakpoint-up(sm) {
+    min-width: 78px;
+  }
+}
+.aviability-calendar__event--overdue .aviability-calendar__counter {
+  color: get-color(secondary, 300);
+}
+.aviability-calendar__event--today .aviability-calendar__counter {
+  color: get-color(primary, 1000);
+}
+.rbc-selected-cell {
+  .aviability-calendar__event--blocked {
+    background-color: get-color(secondary, 200);
+  }
+}
+.aviability-calendar__event--blocked {
+  background-color: get-color(secondary, 50);
+  .aviability-calendar__counter {
+    @include text-body-strikethrough;
+  }
+}
+.aviability-calendar__counter {
+  @include text-body;
+  color: get-color(text, active-dark);
+}

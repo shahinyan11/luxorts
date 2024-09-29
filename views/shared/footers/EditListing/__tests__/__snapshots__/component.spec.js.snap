@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditListingFooter component matches snapshot 1`] = `
+<div
+  className="new-listing__footer pt-24 pb-24"
+>
+  <div
+    className="new-listing__container d-flex flex-column flex-sm-row justify-content-space-between"
+  >
+    <GradientButton
+      addonAfter={null}
+      addonBefore={null}
+      className="min-width-140 ml-sm-auto"
+      disabled={false}
+      loading={true}
+      onClick={[MockFunction]}
+      text={
+        Object {
+          "id": "shared.save",
+        }
+      }
+      variant="primary"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+.breadcrumbs {
+  display: flex;
+  row-gap: 4px;
+}
+.breadcrumbs__item {
+  @include text-caption;
+  display: flex;
+  color: get-color(text, black);
+  .breadcrumbs__link {
+    text-transform: capitalize;
+  }
+  &:last-child .breadcrumbs__link {
+    color: get-color(primary, 1000);
+  }
+}
+.breadcrumbs__icon {
+  width: 16px;
+  height: 16px;
+}

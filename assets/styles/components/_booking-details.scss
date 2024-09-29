@@ -1,0 +1,130 @@
+.booking-details {
+  position: relative;
+}
+.booking-details__container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 96px;
+  padding-left: 150px;
+  gap: 120px;
+}
+.booking-details__title {
+  @include text-display-2;
+  color: get-color(text, active-dark);
+}
+.booking-details__location {
+  @include text-body;
+  color: get-color(text, black);
+}
+.booking-details__column {
+  flex-shrink: 0;
+  width: 558px;
+}
+.booking-details__slider {
+  width: 558px;
+}
+.booking-details__subtitle {
+  @include text-headline-2;
+  color: get-color(text, active-dark);
+}
+.booking-details__info {
+  border-bottom: 1px solid get-color(secondary, 100);
+}
+.booking-details__item {
+  display: flex;
+  justify-content: space-between;
+}
+.booking-details__item--modal {
+  justify-content: flex-start;
+  gap: 20px;
+}
+.booking-details__info-title {
+  @include text-body-2;
+  color: get-color(text, active-dark);
+}
+.booking-details__value,
+.booking-details__value-title {
+  @include text-body;
+  color: get-color(text, active-dark);
+}
+.booking-details__feature {
+  @include text-body-underline;
+  color: get-color(text, active-dark);
+}
+.booking-details__total {
+  @include text-title-2;
+  color: get-color(text, active-dark);
+}
+.booking-details__map {
+  flex-grow: 1;
+}
+.booking-details__footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px 150px;
+  border-top: 1px solid get-color(secondary, 100);
+  background-color: get-color(text, white);
+}
+.booking-details__host {
+  display: flex;
+  gap: 16px;
+}
+.booking-details__name {
+  @include text-body-2;
+  color: get-color(text, active-dark);
+}
+.booking-details__date {
+  @include text-caption;
+  color: get-color(text, black);
+}
+.booking-details__phone {
+  color: get-color(text, black);
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1100);
+  }
+  &:active {
+    color: get-color(primary, 1200);
+  }
+}
+.booking-details__rules {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 24px;
+  row-gap: 16px;
+}
+.booking-details__rule {
+  @include text-body;
+  display: flex;
+  width: 100%;
+  color: get-color(text, active-dark);
+  gap: 8px;
+  @include media-breakpoint-up(md) {
+    width: calc(50% - 12px);
+  }
+}
+.booking-details__item-column {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+}
+.booking-details__note {
+  padding: 16px;
+  border-radius: $border-radius-primary;
+  background-color: get-color(secondary, 50);
+}
+.booking-details__reason {
+  @include text-caption;
+  color: get-color(text, secondary-black);
+}
+.booking-details__sidebar {
+  padding: 16px 24px 32px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.booking-details__sidebar-subtitle {
+  @include text-body-2;
+}

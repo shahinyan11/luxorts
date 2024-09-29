@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreadcrumbItem component matches snapshot 1`] = `
+<li
+  className="breadcrumbs__item"
+>
+  <Link
+    href="test-href"
+  >
+    <a
+      className="breadcrumbs__link"
+    >
+      test-label
+    </a>
+  </Link>
+  <SvgIcon
+    className="breadcrumbs__icon"
+    icon="arrow-right"
+  />
+</li>
+`;

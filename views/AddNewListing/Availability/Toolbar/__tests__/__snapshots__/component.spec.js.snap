@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toolbar component matches snapshot 1`] = `
+<div
+  className="d-flex justify-content-space-between align-items-center mb-24"
+>
+  <div
+    className="d-flex align-items-center"
+  >
+    <GradientButton
+      addonAfter={null}
+      addonBefore={
+        <SvgIcon
+          icon="arrow-left"
+        />
+      }
+      className="main-btn--icon"
+      onClick={[MockFunction]}
+      variant="secondary"
+    />
+    <p
+      className="text-headline-2 ml-16 mr-16 mb-0"
+    >
+      label
+    </p>
+    <GradientButton
+      addonAfter={null}
+      addonBefore={
+        <SvgIcon
+          icon="arrow-right"
+        />
+      }
+      className="main-btn--icon"
+      onClick={[MockFunction]}
+      variant="secondary"
+    />
+  </div>
+  <Button
+    className="main-text-btn"
+    loading={false}
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <Memo(FormattedMessage)
+      id="shared.blockThisMonth"
+    />
+  </Button>
+</div>
+`;
+
+exports[`Toolbar component matches snapshot when isFullMonthBlocked equals true 1`] = `
+<div
+  className="d-flex justify-content-space-between align-items-center mb-24"
+>
+  <div
+    className="d-flex align-items-center"
+  >
+    <GradientButton
+      addonAfter={null}
+      addonBefore={
+        <SvgIcon
+          icon="arrow-left"
+        />
+      }
+      className="main-btn--icon"
+      onClick={[MockFunction]}
+      variant="secondary"
+    />
+    <p
+      className="text-headline-2 ml-16 mr-16 mb-0"
+    >
+      label
+    </p>
+    <GradientButton
+      addonAfter={null}
+      addonBefore={
+        <SvgIcon
+          icon="arrow-right"
+        />
+      }
+      className="main-btn--icon"
+      onClick={[MockFunction]}
+      variant="secondary"
+    />
+  </div>
+  <Button
+    className="main-text-btn"
+    loading={false}
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <Memo(FormattedMessage)
+      id="shared.unblockThisMonth"
+    />
+  </Button>
+</div>
+`;

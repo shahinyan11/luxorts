@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PricingAndDiscounts useContainer hook matches snapshot 1`] = `
+Object {
+  "formik": Object {
+    "values": Object {
+      "extraCharges": null,
+      "listingId": "listingId",
+      "mounthlyDiscount": null,
+      "pricePerDay": null,
+      "weeklyDiscount": null,
+    },
+  },
+  "isLoading": false,
+  "monthlyDiscountTooltip": Object {
+    "id": "listing.pricingAndDiscounts.monthlyDiscount.tooltip",
+  },
+  "onBackRoute": "/add-new-listing/availability/listingId",
+  "showSkeleton": false,
+  "stepStatus": "accomodation",
+  "weeklyDiscountTooltip": Object {
+    "id": "listing.pricingAndDiscounts.weeklyDiscount.tooltip",
+  },
+}
+`;
+
+exports[`PricingAndDiscounts useContainer hook matches snapshot for monthlyDiscountTooltip when mounthlyDiscount and pricePerDay are present 1`] = `
+Object {
+  "id": "shared.monthlyPriceTooltip",
+  "values": Object {
+    "discount": "$396.8",
+    "percents": "20%",
+  },
+}
+`;
+
+exports[`PricingAndDiscounts useContainer hook matches snapshot for weeklyDiscountTooltip when weeklyDiscount and pricePerDay are present 1`] = `
+Object {
+  "id": "shared.weeklyPriceTooltip",
+  "values": Object {
+    "discount": "$44.8",
+    "percents": "10%",
+  },
+}
+`;

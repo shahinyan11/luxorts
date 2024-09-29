@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listings useContainer hook matches snapshot 1`] = `
+Object {
+  "amenities": Array [],
+  "clearAllFilters": [Function],
+  "dataSource": Array [
+    Object {
+      "baths": 1,
+      "bedrooms": 1,
+      "beds": 16,
+      "dateCreated": "Jul 8, 2022",
+      "guests": 13,
+      "hiddenTitle": "Bess Greenfelder",
+      "key": "7c749da7-752d-49c8-80ea-aa6977bee6bc",
+      "lastUpdated": "Jul 8, 2022",
+      "listing": <ListingColumn
+        listing={
+          Object {
+            "applicationStep": "finished",
+            "bathroomsAmount": 1,
+            "bedroomsAmount": 1,
+            "bedsAmount": 16,
+            "createdAt": "2022-07-08T08:38:03.619Z",
+            "guestsNumber": 13,
+            "hiddenTitle": "Bess Greenfelder",
+            "id": "7c749da7-752d-49c8-80ea-aa6977bee6bc",
+            "location": "Baltimore, Maryland, United States",
+            "mainListingPhoto": Object {
+              "description": "b6ej7q6xv7unn1w3w4dkq841c597dfxu0e7vm3y9a5c2q37x9uwwkb0zdc60es2mheo05e6yovbsr6slqesa5uz6t0yh0rk88n713s80fu82mbq1ane5imzzs9mv7ovyvqjyd4kv43d9oov1odov4bxl3naoutrryql0auzvucqyr1ojqxbey0lolqkiv8n7wtpkrlncakkx3sztk9k7zquioyh12ogiz7fuepy8k9im1ybvduvw17exhwq0h2o",
+              "id": "5c51fcbe-6303-4c5d-af99-e983138d42ae",
+              "photoUrls": Object {
+                "medium": "memory://listingphoto/5c51fcbe-6303-4c5d-af99-e983138d42ae/photo/medium-0478517e0a2ba650ae0554fe128f57d4.jpg",
+                "original": "memory://listingphoto/5c51fcbe-6303-4c5d-af99-e983138d42ae/photo/f8c45073f7146f4e6b3fb95455e9118e.jpg",
+                "small": "memory://listingphoto/5c51fcbe-6303-4c5d-af99-e983138d42ae/photo/small-65e0a9233425086de361327ab0b71516.jpg",
+              },
+              "position": 1,
+            },
+            "status": "in_draft",
+            "title": "Lenora Spinka",
+            "updatedAt": "2022-07-08T08:38:03.619Z",
+          }
+        }
+      />,
+      "location": "Baltimore, Maryland, United States",
+      "settings": <Settings
+        id="7c749da7-752d-49c8-80ea-aa6977bee6bc"
+        status="in_draft"
+        stepStatus="finished"
+      />,
+      "status": <Tag
+        className="tag tag--draft"
+      >
+        <Memo(FormattedMessage)
+          id="shared.draft"
+        />
+      </Tag>,
+    },
+  ],
+  "filters": Object {
+    "foo": "bar",
+  },
+  "hasAppliedFilters": true,
+  "isFetching": false,
+  "onFilter": [Function],
+  "onPaginationChangeHandler": [Function],
+  "onSearch": [Function],
+  "onSettingsChangeHandler": [Function],
+  "onSettingsVisibleChangeHandler": [Function],
+  "onSortClickHandler": [Function],
+  "onUnmountHandler": [Function],
+  "pagination": Object {
+    "number": 1,
+    "size": 20,
+  },
+  "searchQuery": "searchQuery",
+  "settings": Array [],
+  "settingsVisible": false,
+  "sort": Object {
+    "direction": "ascend",
+    "sortKey": "sortKey",
+  },
+  "tableColumns": Array [],
+  "total": 1,
+}
+`;

@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecoverPassword component matches snapshot 1`] = `
+<Fragment>
+  <p
+    className="personal-information__descr text-body mb-16"
+  >
+    <Memo(FormattedMessage)
+      id="loginAndSecurity.description"
+    />
+  </p>
+  <ForwardRef(InternalForm)
+    layout="vertical"
+    size="large"
+  >
+    <ContextProvider
+      value={
+        Object {
+          "dirty": true,
+          "handleSubmit": [MockFunction],
+          "initialValues": Object {
+            "message": Object {
+              "description": Object {
+                "id": "shared.yourPasswordHasBeenUpdated",
+              },
+            },
+            "password": "",
+            "redirectRoute": "/account-settings/login-and-security",
+          },
+          "isValid": true,
+          "onSubmit": [Function],
+          "resetForm": [MockFunction],
+          "setFieldTouched": [MockFunction],
+          "setFieldValue": [MockFunction],
+          "setValues": [MockFunction],
+          "validateForm": [MockFunction],
+          "validateOnMount": true,
+          "validationSchema": ObjectSchema {
+            "_blacklist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_blacklistError": undefined,
+            "_excludedEdges": Array [],
+            "_nodes": Array [
+              "password",
+            ],
+            "_sortErrors": [Function],
+            "_typeError": [Function],
+            "_whitelist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_whitelistError": undefined,
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {},
+            "fields": Object {
+              "password": StringSchema {
+                "_blacklist": ReferenceSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_blacklistError": undefined,
+                "_mutate": undefined,
+                "_typeError": [Function],
+                "_whitelist": ReferenceSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_whitelistError": undefined,
+                "conditions": Array [],
+                "deps": Array [],
+                "exclusiveTests": Object {
+                  "max": true,
+                  "min": true,
+                  "required": true,
+                },
+                "spec": Object {
+                  "abortEarly": true,
+                  "nullable": false,
+                  "presence": "required",
+                  "recursive": true,
+                  "strict": false,
+                  "strip": false,
+                },
+                "tests": Array [
+                  [Function],
+                  [Function],
+                  [Function],
+                ],
+                "transforms": Array [
+                  [Function],
+                ],
+                "type": "string",
+              },
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "nullable": false,
+              "presence": "optional",
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "object",
+          },
+          "values": Object {},
+        }
+      }
+    >
+      <div
+        className="input-text w-100 mb-28"
+      >
+        <PasswordField
+          autoComplete="new-password"
+          label={
+            Object {
+              "id": "shared.newPassword",
+            }
+          }
+          name="password"
+          withProgress={true}
+        />
+      </div>
+      <div
+        className="d-flex mb-24"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="min-width-120 mr-16"
+          disabled={false}
+          onClick={[Function]}
+          text={
+            Object {
+              "id": "shared.cancel",
+            }
+          }
+          variant="tertiary"
+        />
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="min-width-140 mr-16"
+          loading={false}
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.submit",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </ContextProvider>
+  </ForwardRef(InternalForm)>
+</Fragment>
+`;

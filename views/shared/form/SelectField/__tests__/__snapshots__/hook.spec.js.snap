@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectField useContainer hook matches snapshot 1`] = `
+Object {
+  "field": Object {},
+  "meta": Object {},
+  "onBlurHandler": [Function],
+  "onChangeHandler": [Function],
+}
+`;

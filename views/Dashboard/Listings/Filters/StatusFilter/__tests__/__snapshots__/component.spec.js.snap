@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusFilter component matches snapshot 1`] = `
+<Dropdown
+  className="table-head__dropdown-payment"
+  mouseEnterDelay={0.15}
+  mouseLeaveDelay={0.1}
+  onVisibleChange={[MockFunction]}
+  overlay={
+    <div
+      className="table-head__dropdown-content"
+    >
+      <Context.Provider
+        value={
+          Object {
+            "values": Object {
+              "status-in": Array [],
+            },
+          }
+        }
+      >
+        <CheckboxGroupField
+          className="d-flex flex-column mb-0 table-head__checkboxes"
+          items={
+            Array [
+              Object {
+                "label": Object {
+                  "id": "shared.published",
+                },
+                "value": "published",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.unpublished",
+                },
+                "value": "unpublished",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.onModeration",
+                },
+                "value": "on_moderation",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.draft",
+                },
+                "value": "in_draft",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.blocked",
+                },
+                "value": "blocked",
+              },
+            ]
+          }
+          name="status-in"
+        />
+      </Context.Provider>
+      <div
+        className="table-head__actions pt-24 pb-24 d-flex justify-content-flex-end"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium min-width-120"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.apply",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </div>
+  }
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <GradientButton
+    addonAfter={
+      <SvgIcon
+        className="icon-right"
+        icon="arrow-down"
+      />
+    }
+    addonBefore={null}
+    className="main-btn--medium"
+    text={
+      Object {
+        "id": "shared.status",
+      }
+    }
+    variant="filter"
+  />
+</Dropdown>
+`;
+
+exports[`StatusFilter component matches snapshot when filters[LISTING_FILTER_KEY.STATUS_IN].length more than 0 1`] = `
+<Dropdown
+  className="table-head__dropdown-payment"
+  mouseEnterDelay={0.15}
+  mouseLeaveDelay={0.1}
+  onVisibleChange={[MockFunction]}
+  overlay={
+    <div
+      className="table-head__dropdown-content"
+    >
+      <Context.Provider
+        value={
+          Object {
+            "values": Object {
+              "status-in": Array [],
+            },
+          }
+        }
+      >
+        <CheckboxGroupField
+          className="d-flex flex-column mb-0 table-head__checkboxes"
+          items={
+            Array [
+              Object {
+                "label": Object {
+                  "id": "shared.published",
+                },
+                "value": "published",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.unpublished",
+                },
+                "value": "unpublished",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.onModeration",
+                },
+                "value": "on_moderation",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.draft",
+                },
+                "value": "in_draft",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.blocked",
+                },
+                "value": "blocked",
+              },
+            ]
+          }
+          name="status-in"
+        />
+      </Context.Provider>
+      <div
+        className="table-head__actions pt-24 pb-24 d-flex justify-content-flex-end"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium min-width-120"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.apply",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </div>
+  }
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <GradientButton
+    addonAfter={
+      <SvgIcon
+        className="icon-right"
+        icon="arrow-down"
+      />
+    }
+    addonBefore={null}
+    className="main-btn--medium main-btn--filter-active"
+    text={
+      Object {
+        "id": "shared.statusCount",
+        "values": Object {
+          "count": <span
+            className="main-btn__amount"
+          >
+            1
+          </span>,
+        },
+      }
+    }
+    variant="filter"
+  />
+</Dropdown>
+`;
+
+exports[`StatusFilter component matches snapshot when formik.values[LISTING_FILTER_KEY.STATUS_IN].length more than 0 1`] = `
+<Dropdown
+  className="table-head__dropdown-payment"
+  mouseEnterDelay={0.15}
+  mouseLeaveDelay={0.1}
+  onVisibleChange={[MockFunction]}
+  overlay={
+    <div
+      className="table-head__dropdown-content"
+    >
+      <Context.Provider
+        value={
+          Object {
+            "values": Object {
+              "status-in": Array [
+                Object {},
+              ],
+            },
+          }
+        }
+      >
+        <CheckboxGroupField
+          className="d-flex flex-column mb-0 table-head__checkboxes"
+          items={
+            Array [
+              Object {
+                "label": Object {
+                  "id": "shared.published",
+                },
+                "value": "published",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.unpublished",
+                },
+                "value": "unpublished",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.onModeration",
+                },
+                "value": "on_moderation",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.draft",
+                },
+                "value": "in_draft",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.blocked",
+                },
+                "value": "blocked",
+              },
+            ]
+          }
+          name="status-in"
+        />
+      </Context.Provider>
+      <div
+        className="table-head__actions pt-24 pb-24 d-flex justify-content-flex-end"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium mr-16"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.clear",
+            }
+          }
+          variant="tertiary"
+        />
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium min-width-120"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.apply",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </div>
+  }
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <GradientButton
+    addonAfter={
+      <SvgIcon
+        className="icon-right"
+        icon="arrow-down"
+      />
+    }
+    addonBefore={null}
+    className="main-btn--medium"
+    text={
+      Object {
+        "id": "shared.status",
+      }
+    }
+    variant="filter"
+  />
+</Dropdown>
+`;

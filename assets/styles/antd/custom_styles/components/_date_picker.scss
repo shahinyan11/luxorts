@@ -1,0 +1,171 @@
+.ant-picker {
+  @include text-body;
+  transition: border 0.3s;
+  border: none;
+  border-radius: $border-radius-primary;
+  color: get-color(secondary, 800);
+}
+.ant-picker-focused {
+  box-shadow: none;
+}
+.ant-picker-large {
+  padding: 12px;
+}
+.ant-picker-suffix {
+  transition: color 0.3s;
+  font-size: 17px;
+}
+.ant-picker-panel-container {
+  @include shadow-3;
+  @include text-body;
+  padding: 24px;
+}
+.ant-picker-header {
+  padding: 8px 16px;
+  border-bottom-color: get-color(secondary, 100);
+}
+.ant-picker-panel .ant-picker-footer {
+  border-top-color: get-color(secondary, 100);
+}
+.ant-picker-today-btn {
+  @include text-body;
+  color: get-color(primary, 1000);
+}
+.ant-picker-header-view button {
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1000);
+  }
+}
+.ant-picker-header > button {
+  color: get-color(secondary, 900);
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1000);
+  }
+}
+.ant-picker-content th {
+  @include text-caption;
+  color: get-color(secondary, 800);
+  text-align: center;
+}
+.ant-picker-cell-in-view {
+  color: get-color(secondary, 1000);
+}
+.ant-picker-content td {
+  min-width: 46px;
+}
+.ant-picker-cell {
+  padding: 0;
+}
+.ant-picker-cell .ant-picker-cell-inner {
+  min-width: 46px;
+  height: 46px;
+  line-height: 46px;
+}
+.ant-picker-large .ant-picker-input > input {
+  @include text-body;
+  color: get-color(secondary, 1000);
+}
+.ant-picker-cell-in-view.ant-picker-cell-today {
+  .ant-picker-cell-inner {
+    color: get-color(primary, 1000);
+    &:before {
+      border-radius: $border-radius-secondary;
+      border-color: get-color(primary, 1000);
+    }
+  }
+}
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+  border-radius: $border-radius-secondary;
+  background-color: get-color(primary, 1000);
+  color: get-color(text, white);
+}
+.ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single):not(.ant-picker-cell-range-start)
+  .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single):not(.ant-picker-cell-range-end)
+  .ant-picker-cell-inner {
+  border-radius: $border-radius-secondary;
+}
+.ant-picker-cell:hover:not(.ant-picker-cell-selected):not(.ant-picker-cell-range-start):not(.ant-picker-cell-range-end):not(.ant-picker-cell-range-hover-start):not(.ant-picker-cell-range-hover-end)
+  .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single):before,
+.ant-picker-cell-in-view.ant-picker-cell-in-range:before,
+.ant-picker-date-panel
+  .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-end
+  .ant-picker-cell-inner:after,
+.ant-picker-cell-range-hover-end,
+.ant-picker-cell-range-hover-start,
+.ant-picker-cell-range-hover,
+.ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover:before {
+  background-color: get-color(primary, 100);
+}
+.ant-picker-date-panel
+  .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-end
+  .ant-picker-cell-inner:after {
+  left: 0;
+}
+.ant-picker-cell:before {
+  height: 46px;
+}
+.ant-picker-time-panel-column {
+  width: 64px;
+  /* stylelint-disable selector-no-qualifying-type */
+  li.ant-picker-time-panel-cell .ant-picker-time-panel-cell-inner {
+    height: 40px;
+    padding: 10px 16px;
+    &:hover {
+      background-color: get-color(secondary, 100);
+      color: get-color(secondary, 1000);
+    }
+  }
+  li.ant-picker-time-panel-cell-selected .ant-picker-time-panel-cell-inner {
+    background-color: get-color(primary, 1000);
+    color: get-color(text, white);
+  }
+  /* stylelint-enable selector-no-qualifying-type */
+}
+.ant-picker-cell-in-view.ant-picker-cell-range-hover-end:not(.ant-picker-cell-in-range):not(.ant-picker-cell-range-start):not(.ant-picker-cell-range-end):after,
+.ant-picker-cell-in-view.ant-picker-cell-range-hover:not(.ant-picker-cell-in-range):after {
+  left: 0;
+  width: 46px;
+  height: 46px;
+  border: none;
+  background-color: get-color(primary, 100);
+}
+.ant-picker-date-panel tr > .ant-picker-cell-in-view.ant-picker-cell-range-hover:last-child:after,
+.ant-picker-date-panel tr > .ant-picker-cell-in-view.ant-picker-cell-range-hover:first-child:after {
+  border: none;
+}
+.ant-picker-range .ant-picker-active-bar {
+  display: none;
+}
+.ant-picker-clear {
+  font-size: 20px;
+}
+.ant-picker-date-panel .ant-picker-content {
+  width: 326px;
+}
+.ant-picker-date-panel .ant-picker-content th {
+  width: 46px;
+}
+.ant-picker-date-panel .ant-picker-body {
+  padding: 20px 16px;
+}
+.ant-picker-date-panel {
+  width: 356px;
+}
+.ant-picker-date-range-wrapper {
+  .ant-picker-header-super-next-btn,
+  .ant-picker-header-super-prev-btn {
+    display: none;
+  }
+  .ant-picker-panel + .ant-picker-panel {
+    margin-left: 24px;
+  }
+}
+.ant-picker-panel {
+  border: none;
+}

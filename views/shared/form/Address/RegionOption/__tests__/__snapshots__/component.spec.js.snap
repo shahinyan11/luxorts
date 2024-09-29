@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegionOption component matches snapshot 1`] = `
+<Option
+  key="name"
+  label="name"
+  value="name"
+>
+  name
+</Option>
+`;

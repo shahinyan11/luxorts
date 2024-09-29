@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BedroomsField component matches snapshot 1`] = `
+<div
+  className="new-listing__item mb-24"
+>
+  <h2
+    className="new-listing__subtitle mb-8"
+  >
+    <Memo(FormattedMessage)
+      id="sleepingArrangements.title"
+    />
+  </h2>
+  <p
+    className="new-listing__description mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="sleepingArrangements.description"
+    />
+  </p>
+  <BedroomField
+    handleAddCustomBed={[MockFunction]}
+    handleRemoveCustomBedCreator={[MockFunction]}
+    index={0}
+    key="bedroom-1"
+    onBedAmountChangeHandlerCreator={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`BedroomsField component matches snapshot when bedrooms aren\`t present 1`] = `
+<div
+  className="new-listing__item mb-24"
+>
+  <h2
+    className="new-listing__subtitle mb-8"
+  >
+    <Memo(FormattedMessage)
+      id="sleepingArrangements.title"
+    />
+  </h2>
+  <p
+    className="new-listing__description mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="sleepingArrangements.description"
+    />
+  </p>
+</div>
+`;

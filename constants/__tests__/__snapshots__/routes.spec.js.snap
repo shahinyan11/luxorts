@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`routes constants match snapshot 1`] = `
+Object {
+  "AUTH_ROUTES": Array [
+    "/sign-up",
+    "/sign-in",
+  ],
+  "default": Object {
+    "ABOUT_US": Object {
+      "KEY": "ABOUT_US",
+      "PATH": "/about-us",
+    },
+    "ACCOUNT_SETTINGS": Object {
+      "INDEX": Object {
+        "KEY": "INDEX",
+        "PATH": "/account-settings",
+      },
+      "INVITE_FRIENDS": Object {
+        "KEY": "INVITE_FRIENDS",
+        "PATH": "/account-settings/invite-friends",
+      },
+      "LOGIN_AND_SECURITY": Object {
+        "KEY": "LOGIN_AND_SECURITY",
+        "PATH": "/account-settings/login-and-security",
+      },
+      "PERSONAL_INFORMATION": Object {
+        "KEY": "PERSONAL_INFORMATION",
+        "PATH": "/account-settings/personal-information",
+      },
+    },
+    "ADD_NEW_LISTING": Object {
+      "ACCOMMODATION": Object {
+        "KEY": "ACCOMMODATION",
+        "PATH": "/add-new-listing/accommodation/[id]",
+      },
+      "AMENITIES": Object {
+        "KEY": "AMENITIES",
+        "PATH": "/add-new-listing/amenities/[id]",
+      },
+      "AVAILABILITY": Object {
+        "KEY": "AVAILABILITY",
+        "PATH": "/add-new-listing/availability/[id]",
+      },
+      "CAPABILITIES": Object {
+        "KEY": "CAPABILITIES",
+        "PATH": "/add-new-listing/capabilities/[id]",
+      },
+      "DESCRIPTION": Object {
+        "KEY": "DESCRIPTION",
+        "PATH": "/add-new-listing/description/[id]",
+      },
+      "HOUSE_RULES": Object {
+        "KEY": "HOUSE_RULES",
+        "PATH": "/add-new-listing/house-rules/[id]",
+      },
+      "INDEX": Object {
+        "KEY": "INDEX",
+        "PATH": "/add-new-listing",
+      },
+      "LOCATION": Object {
+        "KEY": "LOCATION",
+        "PATH": "/add-new-listing/location/[id]",
+      },
+      "LOCATION_MAP": Object {
+        "KEY": "LOCATION_MAP",
+        "PATH": "/add-new-listing/location-map/[id]",
+      },
+      "PHOTOS": Object {
+        "KEY": "PHOTOS",
+        "PATH": "/add-new-listing/photos/[id]",
+      },
+      "PRICING_AND_DISCOUNTS": Object {
+        "KEY": "PRICING_AND_DISCOUNTS",
+        "PATH": "/add-new-listing/pricing-and-discounts/[id]",
+      },
+      "PROPERTY_TYPE": Object {
+        "KEY": "PROPERTY_TYPE",
+        "PATH": "/add-new-listing/property-type/[id]",
+      },
+      "PUBLISH": Object {
+        "KEY": "PUBLISH",
+        "PATH": "/add-new-listing/publish/[id]",
+      },
+      "RESERVATION_PREFERENCES": Object {
+        "KEY": "RESERVATION_PREFERENCES",
+        "PATH": "/add-new-listing/reservation-preferences/[id]",
+      },
+      "SERVICES": Object {
+        "KEY": "SERVICES",
+        "PATH": "/add-new-listing/services/[id]",
+      },
+    },
+    "CONTACT_US": Object {
+      "KEY": "CONTACT_US",
+      "PATH": "/contact-us",
+    },
+    "DASHBOARD": Object {
+      "BOOKINGS": Object {
+        "KEY": "BOOKINGS",
+        "META": Object {
+          "TITLE": Object {
+            "id": "shared.bookings",
+          },
+        },
+        "PATH": "/dashboard/bookings",
+      },
+      "CALENDAR": Object {
+        "KEY": "CALENDAR",
+        "META": Object {
+          "TITLE": Object {
+            "id": "shared.calendar",
+          },
+        },
+        "PATH": "/dashboard/calendar",
+      },
+      "HELP": Object {
+        "KEY": "HELP",
+        "META": Object {
+          "TITLE": Object {
+            "id": "shared.help",
+          },
+        },
+        "PATH": "/dashboard/help",
+      },
+      "INDEX": Object {
+        "KEY": "INDEX",
+        "META": Object {
+          "TITLE": Object {
+            "id": "shared.dashboard",
+          },
+        },
+        "PATH": "/dashboard",
+      },
+      "LISTINGS": Object {
+        "ACCOMMODATION": Object {
+          "KEY": "ACCOMMODATION",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.accommodation",
+            },
+          },
+          "PATH": "/dashboard/listings/accommodation/[id]",
+        },
+        "AMENITIES": Object {
+          "KEY": "AMENITIES",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.amenities",
+            },
+          },
+          "PATH": "/dashboard/listings/amenities/[id]",
+        },
+        "AVAILABILITY": Object {
+          "KEY": "AVAILABILITY",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.availabilityAndPricing",
+            },
+          },
+          "PATH": "/dashboard/listings/availability/[id]",
+        },
+        "CAPABILITIES": Object {
+          "KEY": "CAPABILITIES",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.capabilities",
+            },
+          },
+          "PATH": "/dashboard/listings/capabilities/[id]",
+        },
+        "DESCRIPTION": Object {
+          "KEY": "DESCRIPTION",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.description",
+            },
+          },
+          "PATH": "/dashboard/listings/description/[id]",
+        },
+        "HOUSE_RULES": Object {
+          "KEY": "HOUSE_RULES",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.houseRules",
+            },
+          },
+          "PATH": "/dashboard/listings/house-rules/[id]",
+        },
+        "KEY": "LISTINGS",
+        "LOCATION": Object {
+          "KEY": "LOCATION",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.location",
+            },
+          },
+          "PATH": "/dashboard/listings/location/[id]",
+        },
+        "LOCATION_MAP": Object {
+          "KEY": "LOCATION_MAP",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.locationMap",
+            },
+          },
+          "PATH": "/dashboard/listings/location-map/[id]",
+        },
+        "META": Object {
+          "TITLE": Object {
+            "id": "shared.listings",
+          },
+        },
+        "PATH": "/dashboard/listings",
+        "PHOTOS": Object {
+          "KEY": "PHOTOS",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.photos",
+            },
+          },
+          "PATH": "/dashboard/listings/photos/[id]",
+        },
+        "PRICING_AND_DISCOUNTS": Object {
+          "KEY": "PRICING_AND_DISCOUNTS",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.pricingAndDiscounts",
+            },
+          },
+          "PATH": "/dashboard/listings/pricing-and-discounts/[id]",
+        },
+        "PROPERTY_TYPE": Object {
+          "KEY": "PROPERTY_TYPE",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.propertyType",
+            },
+          },
+          "PATH": "/dashboard/listings/property-type/[id]",
+        },
+        "RESERVATION_PREFERENCES": Object {
+          "KEY": "RESERVATION_PREFERENCES",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.reservationPreferences",
+            },
+          },
+          "PATH": "/dashboard/listings/reservation-preferences/[id]",
+        },
+        "SERVICES": Object {
+          "KEY": "SERVICES",
+          "META": Object {
+            "TITLE": Object {
+              "id": "shared.services",
+            },
+          },
+          "PATH": "/dashboard/listings/services/[id]",
+        },
+      },
+      "MESSAGES": Object {
+        "KEY": "MESSAGES",
+        "META": Object {
+          "TITLE": Object {
+            "id": "shared.messages",
+          },
+        },
+        "PATH": "/dashboard/messages",
+      },
+      "REPORTS": Object {
+        "KEY": "REPORTS",
+        "META": Object {
+          "TITLE": Object {
+            "id": "shared.reports",
+          },
+        },
+        "PATH": "/dashboard/reports",
+      },
+      "REVIEWS": Object {
+        "KEY": "REVIEWS",
+        "META": Object {
+          "TITLE": Object {
+            "id": "shared.reviews",
+          },
+        },
+        "PATH": "/dashboard/reviews",
+      },
+    },
+    "EMAIL_VERIFICATION": Object {
+      "KEY": "EMAIL_VERIFICATION",
+      "PATH": "/email-verification",
+    },
+    "FAQ": Object {
+      "KEY": "FAQ",
+      "PATH": "/faq",
+    },
+    "INDEX": Object {
+      "KEY": "INDEX",
+      "PATH": "/",
+    },
+    "LISTING": Object {
+      "KEY": "LISTING",
+      "PATH": "/listing/[id]",
+    },
+    "NEW_PASSWORD": Object {
+      "KEY": "NEW_PASSWORD",
+      "PATH": "/new-password",
+    },
+    "PHONE_VERIFICATION": Object {
+      "KEY": "PHONE_VERIFICATION",
+      "PATH": "/phone-verification",
+    },
+    "POLICY": Object {
+      "KEY": "POLICY",
+      "PATH": "/privacy-policy",
+    },
+    "RECOVER_PASSWORD": Object {
+      "KEY": "RECOVER_PASSWORD",
+      "PATH": "/recover-password",
+    },
+    "RESET_PASSWORD": Object {
+      "KEY": "RESET_PASSWORD",
+      "PATH": "/reset-password",
+    },
+    "SIGN_IN": Object {
+      "KEY": "SIGN_IN",
+      "PATH": "/sign-in",
+    },
+    "SIGN_UP": Object {
+      "KEY": "SIGN_UP",
+      "PATH": "/sign-up",
+    },
+    "SUPPORT": Object {
+      "KEY": "SUPPORT",
+      "PATH": "/support",
+    },
+    "TERMS": Object {
+      "KEY": "TERMS",
+      "PATH": "/terms-of-service",
+    },
+  },
+}
+`;

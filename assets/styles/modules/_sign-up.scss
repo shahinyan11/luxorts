@@ -1,0 +1,22 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px 24px;
+  @include media-breakpoint-up(md) {
+    width: 558px;
+    padding-top: 40px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.sign-up__title {
+  @include text-display-2;
+  margin-bottom: 8px;
+}
+.sign-up__caption {
+  @include text-body;
+  margin-bottom: 32px;
+  color: get-color(text, black);
+}

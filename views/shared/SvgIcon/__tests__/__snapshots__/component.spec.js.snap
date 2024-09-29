@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SvgIcon component matches snapshot 1`] = `
+<svg
+  className="icon icon-cross className"
+>
+  <use
+    xlinkHref="#icon-cross"
+  />
+</svg>
+`;

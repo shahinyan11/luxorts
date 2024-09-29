@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listings component matches snapshot 1`] = `
+<section
+  className="listing"
+>
+  <div
+    className="listing__header mb-24"
+  >
+    <h1
+      className="listing__title"
+    >
+      <Memo(FormattedMessage)
+        id="shared.yourListingsCounter"
+        values={
+          Object {
+            "count": <span
+              className="listing__counter"
+            >
+              1
+            </span>,
+          }
+        }
+      />
+    </h1>
+    <Link
+      href="/add-new-listing"
+    >
+      <a>
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="min-width-140"
+          text={
+            Object {
+              "id": "shared.addNewListing",
+            }
+          }
+          variant="primary"
+        />
+      </a>
+    </Link>
+  </div>
+  <Filters
+    amenities={Array []}
+    filters={
+      Object {
+        "amenities-in": Array [],
+        "bathrooms_amount-eq": 0,
+        "bedrooms_amount-eq": 0,
+        "beds_amount-eq": 0,
+        "guests_number-eq": 0,
+        "status-in": Array [],
+      }
+    }
+    onFilter={[MockFunction]}
+    onSearch={[MockFunction]}
+    searchQuery="searchQuery"
+  />
+  <ForwardRef(InternalTable)
+    className="table table--listings"
+    dataSource={Array []}
+    pagination={
+      Object {
+        "current": 1,
+        "hideOnSinglePage": true,
+        "onChange": [MockFunction],
+        "pageSize": 8,
+        "position": Array [
+          "bottomLeft",
+        ],
+        "showSizeChanger": false,
+        "total": 1,
+      }
+    }
+    position="center"
+    rowKey="key"
+    scroll={
+      Object {
+        "x": 1752,
+      }
+    }
+    showSorterTooltip={false}
+    tableLayout="auto"
+  >
+    <Column
+      dataIndex="listing"
+      key="listing"
+      title={
+        <Memo(FormattedMessage)
+          id="label.id"
+        />
+      }
+    />
+    <Column
+      dataIndex="beds"
+      key="beds"
+      title={
+        <SortButton
+          onClickHandler={[MockFunction]}
+          sort={Object {}}
+          sortKey="sortKey"
+          text={
+            Object {
+              "id": "label.id",
+            }
+          }
+        />
+      }
+    />
+    <Column
+      dataIndex="settings"
+      fixed="right"
+      key="settings"
+      title={
+        <Dropdown
+          className="table__settings"
+          mouseEnterDelay={0.15}
+          mouseLeaveDelay={0.1}
+          onVisibleChange={[MockFunction]}
+          overlay={
+            <div
+              className="table__settings-content"
+            >
+              <h4
+                className="table__settings-title mb-16"
+              >
+                <Memo(FormattedMessage)
+                  id="shared.columnsSettings"
+                />
+              </h4>
+              <Memo
+                className="d-flex flex-column mb-0 table__settings-checkboxes"
+                onChange={[MockFunction]}
+                value={Array []}
+              >
+                <Checkbox
+                  className="d-none"
+                  value="listing"
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.listing"
+                  />
+                </Checkbox>
+                <Checkbox
+                  className=""
+                  value="hiddenTitle"
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.hiddenTitle"
+                  />
+                </Checkbox>
+                <Checkbox
+                  className=""
+                  value="guests"
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.guests"
+                  />
+                </Checkbox>
+                <Checkbox
+                  className=""
+                  value="bedrooms"
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.bedrooms"
+                  />
+                </Checkbox>
+                <Checkbox
+                  className=""
+                  value="beds"
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.beds"
+                  />
+                </Checkbox>
+                <Checkbox
+                  className=""
+                  value="baths"
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.baths"
+                  />
+                </Checkbox>
+                <Checkbox
+                  className=""
+                  value="location"
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.location"
+                  />
+                </Checkbox>
+                <Checkbox
+                  className=""
+                  value="dateCreated"
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.dateCreated"
+                  />
+                </Checkbox>
+                <Checkbox
+                  className=""
+                  value="lastUpdated"
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.lastUpdated"
+                  />
+                </Checkbox>
+                <Checkbox
+                  className=""
+                  value="status"
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.status"
+                  />
+                </Checkbox>
+              </Memo>
+            </div>
+          }
+          placement="bottomRight"
+          trigger="click"
+          visible={false}
+        >
+          <GradientButton
+            addonAfter={null}
+            addonBefore={
+              <SvgIcon
+                className="icon-right"
+                icon="settings"
+              />
+            }
+            className="main-btn--icon table__settings-btn"
+            variant="tertiary"
+          />
+        </Dropdown>
+      }
+      width={56}
+    />
+  </ForwardRef(InternalTable)>
+</section>
+`;
+
+exports[`Listings component matches snapshot when isFetching equals true 1`] = `
+<section
+  className="listing"
+>
+  <div
+    className="listing__header"
+  >
+    <Skeleton
+      active={true}
+      avatar={false}
+      paragraph={true}
+      title={true}
+    />
+  </div>
+</section>
+`;
+
+exports[`Listings component matches snapshot when total equals 0 1`] = `
+<section
+  className="listing"
+>
+  <div
+    className="listing__header mb-24"
+  >
+    <h1
+      className="listing__title"
+    >
+      <Memo(FormattedMessage)
+        id="shared.yourListingsCounter"
+        values={
+          Object {
+            "count": <span
+              className="listing__counter"
+            >
+              0
+            </span>,
+          }
+        }
+      />
+    </h1>
+    <Link
+      href="/add-new-listing"
+    >
+      <a>
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="min-width-140"
+          text={
+            Object {
+              "id": "shared.addNewListing",
+            }
+          }
+          variant="primary"
+        />
+      </a>
+    </Link>
+  </div>
+  <Filters
+    amenities={Array []}
+    filters={
+      Object {
+        "amenities-in": Array [],
+        "bathrooms_amount-eq": 0,
+        "bedrooms_amount-eq": 0,
+        "beds_amount-eq": 0,
+        "guests_number-eq": 0,
+        "status-in": Array [],
+      }
+    }
+    onFilter={[MockFunction]}
+    onSearch={[MockFunction]}
+    searchQuery="searchQuery"
+  />
+  <EmptyState
+    clearAllFilters={[MockFunction]}
+    hasAppliedFilters={false}
+    showNoResults={true}
+  />
+</section>
+`;

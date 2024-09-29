@@ -1,0 +1,17 @@
+.rating {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+.rating__icon {
+  width: 20px;
+  height: 20px;
+  fill: get-color(accent-2, 1100);
+}
+.rating__value {
+  @include text-body;
+  color: get-color(text, black);
+}
+.rating__amount {
+  @include text-body-2;
+}

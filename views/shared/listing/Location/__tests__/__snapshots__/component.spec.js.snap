@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingLocation component matches snapshot 1`] = `
+<div
+  className="new-listing__container mb-8"
+>
+  <h1
+    className="new-listing__title mb-32"
+  >
+    <Memo(FormattedMessage)
+      id="addNewListing.location.title"
+    />
+  </h1>
+  <ForwardRef(InternalForm)
+    layout="vertical"
+    size="large"
+  >
+    <ContextProvider
+      value={
+        Object {
+          "dirty": true,
+          "handleSubmit": [MockFunction],
+          "isValid": true,
+          "resetForm": [MockFunction],
+          "setFieldTouched": [MockFunction],
+          "setFieldValue": [MockFunction],
+          "setValues": [MockFunction],
+          "validateForm": [MockFunction],
+          "values": Object {},
+        }
+      }
+    >
+      <div
+        className="new-listing__item mb-24"
+      >
+        <Address />
+      </div>
+    </ContextProvider>
+  </ForwardRef(InternalForm)>
+</div>
+`;

@@ -1,0 +1,77 @@
+.ant-radio-group {
+  gap: 16px;
+}
+.ant-radio-group-with-captions {
+  gap: 0;
+}
+.ant-radio-wrapper,
+.ant-radio-wrapper span {
+  @include text-body;
+}
+/* stylelint-disable selector-no-qualifying-type */
+span.ant-radio + * {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+/* stylelint-enable selector-no-qualifying-type */
+.ant-radio-inner {
+  width: 18px;
+  height: 18px;
+  border-width: 2px;
+  border-color: get-color(secondary, 800);
+  &:after {
+    background-color: get-color(primary, 1000);
+  }
+}
+.ant-radio-checked .ant-radio-inner {
+  border-color: get-color(primary, 1000);
+}
+.ant-radio-wrapper:hover,
+.ant-radio-wrapper:active {
+  .ant-radio-inner {
+    border-color: get-color(primary, 1000);
+    &:after {
+      background-color: get-color(primary, 1000);
+    }
+  }
+}
+.ant-radio-wrapper:hover .ant-radio,
+.ant-radio:hover .ant-radio-inner {
+  border-color: get-color(primary, 1000);
+}
+/* stylelint-disable selector-no-qualifying-type */
+.ant-form input[type='radio']:focus {
+  border-color: get-color(primary, 1000);
+  outline-color: get-color(primary, 1000);
+}
+/* stylelint-enable selector-no-qualifying-type */
+.ant-radio-input:focus + .ant-radio-inner {
+  border-color: get-color(primary, 1000);
+  box-shadow: none;
+}
+.ant-radio-disabled + span {
+  color: get-color(text, active-dark);
+}
+.ant-radio-disabled .ant-radio-inner {
+  border-color: get-color(secondary, 300);
+  background-color: transparent;
+  &:after {
+    background-color: get-color(secondary, 300);
+  }
+}
+.ant-radio-wrapper--positive .ant-radio-checked {
+  .ant-radio-inner {
+    border-color: get-color(accent-1, 1100);
+    &:after {
+      background-color: get-color(accent-1, 1100);
+    }
+  }
+}
+.ant-radio-wrapper--negative .ant-radio-checked {
+  .ant-radio-inner {
+    border-color: get-color(accent-3, 1000);
+    &:after {
+      background-color: get-color(accent-3, 1000);
+    }
+  }
+}

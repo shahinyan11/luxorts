@@ -1,0 +1,61 @@
+.flash-message {
+  position: relative;
+  padding: 12px 44px;
+  border-radius: 6px;
+  font-family: Open-Sans, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.flash-message--info-primary {
+  background-color: get-color(primary, 1000);
+  color: white;
+  .icon {
+    fill: white;
+  }
+}
+.flash-message--info-secondary {
+  background-color: get-color(primary, 100);
+  color: get-color(text, primary);
+  .icon {
+    fill: get-color(text, primary);
+  }
+}
+.flash-message--success {
+  background-color: get-color(accent-1, 200);
+  color: get-color(accent-1, 1100);
+  .icon {
+    fill: get-color(accent-1, 1100);
+  }
+}
+.flash-message--warning {
+  background-color: get-color(accent-2, 200);
+  color: get-color(accent-2, 1100);
+  .icon {
+    fill: get-color(accent-2, 1100);
+  }
+}
+.flash-message--error {
+  background-color: get-color(accent-3, 200);
+  color: get-color(text, accent);
+  .icon {
+    fill: get-color(text, accent);
+  }
+}
+.flash-message--custom {
+  background-color: white;
+  color: get-color(text, secondary-black);
+  .icon {
+    fill: get-color(text, secondary-black);
+  }
+}
+.flash-message__left-icon,
+.flash-message__right-icon {
+  @include absolute-vertical-center;
+  width: 24px;
+  height: 24px;
+}
+.flash-message__left-icon {
+  left: 12px;
+}
+.flash-message__right-icon {
+  right: 12px;
+}

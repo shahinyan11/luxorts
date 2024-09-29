@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GalleryModal component matches snapshot 1`] = `
+<Modal
+  className="modal-gallery"
+  closeIcon={
+    <SvgIcon
+      className="modal__icon"
+      icon="modal-cross"
+    />
+  }
+  confirmLoading={false}
+  footer={null}
+  okType="primary"
+  onCancel={[MockFunction]}
+  visible={true}
+  width={520}
+>
+  <div
+    className="modal__content"
+  >
+    <p
+      className="modal__text text-align-center mb-32 mb-lg-124"
+    >
+      1 / 
+      <span
+        className="modal__text-note"
+      >
+        1
+      </span>
+    </p>
+    <Swiper
+      onSlideChange={[MockFunction]}
+    >
+      <SwiperSlide
+        key="id"
+      >
+        <div
+          className="modal-gallery__slide-inner ml-auto mr-auto"
+        >
+          <Image
+            alt=""
+            blurDataURL="src"
+            layout="fill"
+            loading="eager"
+            objectFit="contain"
+            placeholder="blur"
+            src="src"
+          />
+        </div>
+        <p
+          className="modal__text text-align-center mt-24 mb-0 mb-lg-112"
+        >
+          description
+        </p>
+      </SwiperSlide>
+      <GradientButton
+        addonAfter={null}
+        addonBefore={
+          <SvgIcon
+            icon="arrow-left"
+          />
+        }
+        className="modal-gallery__nav modal-gallery__nav--prev main-btn--icon"
+        disabled={true}
+        onClick={[MockFunction]}
+        variant="secondary"
+      />
+      <GradientButton
+        addonAfter={null}
+        addonBefore={
+          <SvgIcon
+            icon="arrow-right"
+          />
+        }
+        className="modal-gallery__nav modal-gallery__nav--next main-btn--icon"
+        disabled={true}
+        onClick={[MockFunction]}
+        variant="secondary"
+      />
+    </Swiper>
+  </div>
+</Modal>
+`;

@@ -1,0 +1,440 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactUs component matches snapshot 1`] = `
+<Fragment>
+  <section
+    className="contact-us pt-40 pt-md-80 pb-72 pb-md-140"
+  >
+    <div
+      className="contact-us__container text-align-center"
+    >
+      <h1
+        className="contact-us__title mb-8"
+      >
+        <Memo(FormattedMessage)
+          id="contactUs.title"
+        />
+      </h1>
+      <p
+        className="contact-us__description mb-0"
+      >
+        <Memo(FormattedMessage)
+          id="contactUs.haveAnyQuestions"
+        />
+      </p>
+    </div>
+  </section>
+  <section
+    className="conversation mb-40 mb-80"
+  >
+    <ForwardRef(InternalForm)
+      className="conversation__content pt-76 pt-md-152 pb-40 pb-md-80"
+      layout="vertical"
+      size="large"
+    >
+      <ContextProvider
+        value={
+          Object {
+            "dirty": true,
+            "handleSubmit": [MockFunction],
+            "initialValues": Object {
+              "email": "",
+              "firstName": "",
+              "lastName": "",
+              "message": "",
+              "phoneNumber": "",
+            },
+            "isValid": true,
+            "onSubmit": [Function],
+            "resetForm": [MockFunction],
+            "setFieldTouched": [MockFunction],
+            "setFieldValue": [MockFunction],
+            "setValues": [MockFunction],
+            "validateForm": [MockFunction],
+            "validationSchema": ObjectSchema {
+              "_blacklist": ReferenceSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_blacklistError": undefined,
+              "_excludedEdges": Array [],
+              "_nodes": Array [
+                "message",
+                "phoneNumber",
+                "email",
+                "lastName",
+                "firstName",
+              ],
+              "_sortErrors": [Function],
+              "_typeError": [Function],
+              "_whitelist": ReferenceSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_whitelistError": undefined,
+              "conditions": Array [],
+              "deps": Array [],
+              "exclusiveTests": Object {},
+              "fields": Object {
+                "email": StringSchema {
+                  "_blacklist": ReferenceSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_blacklistError": undefined,
+                  "_mutate": undefined,
+                  "_typeError": [Function],
+                  "_whitelist": ReferenceSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_whitelistError": undefined,
+                  "conditions": Array [],
+                  "deps": Array [],
+                  "exclusiveTests": Object {
+                    "email": false,
+                    "max": true,
+                    "required": true,
+                  },
+                  "spec": Object {
+                    "abortEarly": true,
+                    "nullable": false,
+                    "presence": "required",
+                    "recursive": true,
+                    "strict": false,
+                    "strip": false,
+                  },
+                  "tests": Array [
+                    [Function],
+                    [Function],
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                  "type": "string",
+                },
+                "firstName": StringSchema {
+                  "_blacklist": ReferenceSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_blacklistError": undefined,
+                  "_mutate": undefined,
+                  "_typeError": [Function],
+                  "_whitelist": ReferenceSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_whitelistError": undefined,
+                  "conditions": Array [],
+                  "deps": Array [],
+                  "exclusiveTests": Object {
+                    "max": true,
+                    "required": true,
+                  },
+                  "spec": Object {
+                    "abortEarly": true,
+                    "nullable": false,
+                    "presence": "required",
+                    "recursive": true,
+                    "strict": false,
+                    "strip": false,
+                  },
+                  "tests": Array [
+                    [Function],
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                  "type": "string",
+                },
+                "lastName": StringSchema {
+                  "_blacklist": ReferenceSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_blacklistError": undefined,
+                  "_mutate": undefined,
+                  "_typeError": [Function],
+                  "_whitelist": ReferenceSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_whitelistError": undefined,
+                  "conditions": Array [],
+                  "deps": Array [],
+                  "exclusiveTests": Object {
+                    "max": true,
+                    "required": true,
+                  },
+                  "spec": Object {
+                    "abortEarly": true,
+                    "nullable": false,
+                    "presence": "required",
+                    "recursive": true,
+                    "strict": false,
+                    "strip": false,
+                  },
+                  "tests": Array [
+                    [Function],
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                  "type": "string",
+                },
+                "message": StringSchema {
+                  "_blacklist": ReferenceSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_blacklistError": undefined,
+                  "_typeError": [Function],
+                  "_whitelist": ReferenceSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_whitelistError": undefined,
+                  "conditions": Array [],
+                  "deps": Array [],
+                  "exclusiveTests": Object {
+                    "max": true,
+                  },
+                  "spec": Object {
+                    "abortEarly": true,
+                    "nullable": true,
+                    "presence": "optional",
+                    "recursive": true,
+                    "strict": false,
+                    "strip": false,
+                  },
+                  "tests": Array [
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                  "type": "string",
+                },
+                "phoneNumber": StringSchema {
+                  "_blacklist": ReferenceSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_blacklistError": undefined,
+                  "_mutate": undefined,
+                  "_typeError": [Function],
+                  "_whitelist": ReferenceSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_whitelistError": undefined,
+                  "conditions": Array [],
+                  "deps": Array [],
+                  "exclusiveTests": Object {
+                    "required": true,
+                  },
+                  "spec": Object {
+                    "abortEarly": true,
+                    "nullable": false,
+                    "presence": "required",
+                    "recursive": true,
+                    "strict": false,
+                    "strip": false,
+                  },
+                  "tests": Array [
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                  "type": "string",
+                },
+              },
+              "spec": Object {
+                "abortEarly": true,
+                "nullable": false,
+                "presence": "optional",
+                "recursive": true,
+                "strict": false,
+                "strip": false,
+              },
+              "tests": Array [],
+              "transforms": Array [
+                [Function],
+              ],
+              "type": "object",
+            },
+            "values": Object {},
+          }
+        }
+      >
+        <h2
+          className="conversation__title mb-40"
+        >
+          <Memo(FormattedMessage)
+            id="contactUs.letsStartConversation"
+          />
+        </h2>
+        <div
+          className="container-two-items"
+        >
+          <InputField
+            asComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "Group": [Function],
+                "Password": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": Object {
+                    "action": "click",
+                    "iconRender": [Function],
+                    "visibilityToggle": true,
+                  },
+                  "render": [Function],
+                },
+                "Search": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+                "TextArea": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+                "render": [Function],
+              }
+            }
+            label={
+              Object {
+                "id": "shared.firstName",
+              }
+            }
+            name="firstName"
+            numbersOnly={false}
+            withFormItem={true}
+          />
+          <InputField
+            asComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "Group": [Function],
+                "Password": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": Object {
+                    "action": "click",
+                    "iconRender": [Function],
+                    "visibilityToggle": true,
+                  },
+                  "render": [Function],
+                },
+                "Search": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+                "TextArea": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+                "render": [Function],
+              }
+            }
+            label={
+              Object {
+                "id": "shared.lastName",
+              }
+            }
+            name="lastName"
+            numbersOnly={false}
+            withFormItem={true}
+          />
+        </div>
+        <div
+          className="container-two-items"
+        >
+          <InputField
+            asComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "Group": [Function],
+                "Password": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": Object {
+                    "action": "click",
+                    "iconRender": [Function],
+                    "visibilityToggle": true,
+                  },
+                  "render": [Function],
+                },
+                "Search": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+                "TextArea": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+                "render": [Function],
+              }
+            }
+            label={
+              Object {
+                "id": "shared.email",
+              }
+            }
+            name="email"
+            numbersOnly={false}
+            type="email"
+            withFormItem={true}
+          />
+          <PhoneField
+            className="main-phone-input"
+            label={
+              Object {
+                "id": "shared.phoneNumber",
+              }
+            }
+            name="phoneNumber"
+          />
+        </div>
+        <InputField
+          asComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            }
+          }
+          formItemClassName="mb-32"
+          name="message"
+          numbersOnly={false}
+          placeholder={
+            Object {
+              "id": "contactUs.message.placeholder",
+            }
+          }
+          withFormItem={true}
+        />
+        <div
+          className="d-flex justify-content-flex-end"
+        >
+          <GradientButton
+            addonAfter={null}
+            addonBefore={null}
+            className="min-width-140"
+            loading={false}
+            onClick={[MockFunction]}
+            text={
+              Object {
+                "id": "shared.submit",
+              }
+            }
+            variant="primary"
+          />
+        </div>
+      </ContextProvider>
+    </ForwardRef(InternalForm)>
+  </section>
+</Fragment>
+`;

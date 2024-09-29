@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlashMessagesRoot component matches snapshot 1`] = `
+<Fragment>
+  <FlashMessage
+    description={Object {}}
+    duration={3}
+    id="1"
+    key="1"
+    messageType="success"
+  />
+</Fragment>
+`;

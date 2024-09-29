@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneNumberConfirm component matches snapshot 1`] = `
+<div
+  className="personal-information__item mb-24"
+>
+  <div
+    className="personal-information__header d-flex justify-content-space-between mb-8"
+  >
+    <p
+      className="personal-information__label personal-information__label--active mb-0 "
+    >
+      <Memo(FormattedMessage)
+        id="shared.phoneNumber"
+      />
+    </p>
+  </div>
+  <p
+    className="personal-information__descr text-body mb-16"
+  >
+    <Memo(FormattedMessage)
+      id="personalInformation.phoneNumber.description"
+    />
+  </p>
+  <p
+    className="text-body mb-16"
+  >
+    <Memo(FormattedMessage)
+      id="shared.weTextedYourSecurityCode"
+      values={
+        Object {
+          "phone": <b
+            className="confirm__text-bold"
+          >
+            phone
+          </b>,
+        }
+      }
+    />
+  </p>
+  <ContextProvider
+    value={
+      Object {
+        "dirty": true,
+        "handleSubmit": [MockFunction],
+        "initialValues": Object {
+          "code": "",
+        },
+        "isValid": true,
+        "onSubmit": [Function],
+        "resetForm": [MockFunction],
+        "setFieldTouched": [MockFunction],
+        "setFieldValue": [MockFunction],
+        "setValues": [MockFunction],
+        "validateForm": [MockFunction],
+        "validationSchema": ObjectSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_excludedEdges": Array [],
+          "_nodes": Array [
+            "code",
+          ],
+          "_sortErrors": [Function],
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {},
+          "fields": Object {
+            "code": StringSchema {
+              "_blacklist": ReferenceSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_blacklistError": undefined,
+              "_mutate": undefined,
+              "_typeError": [Function],
+              "_whitelist": ReferenceSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_whitelistError": undefined,
+              "conditions": Array [],
+              "deps": Array [],
+              "exclusiveTests": Object {
+                "required": true,
+                "stringLength": false,
+              },
+              "spec": Object {
+                "abortEarly": true,
+                "nullable": false,
+                "presence": "required",
+                "recursive": true,
+                "strict": false,
+                "strip": false,
+              },
+              "tests": Array [
+                [Function],
+                [Function],
+              ],
+              "transforms": Array [
+                [Function],
+              ],
+              "type": "string",
+            },
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "object",
+        },
+        "values": Object {},
+      }
+    }
+  >
+    <InputField
+      asComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "Group": [Function],
+          "Password": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "action": "click",
+              "iconRender": [Function],
+              "visibilityToggle": true,
+            },
+            "render": [Function],
+          },
+          "Search": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "TextArea": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      name="code"
+      numbersOnly={false}
+      placeholder={
+        Object {
+          "id": "shared.enterSecurityCode",
+        }
+      }
+      withFormItem={true}
+    />
+  </ContextProvider>
+  <p
+    className="personal-information__confirm text-caption d-flex mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="shared.didNotGetIt"
+    />
+    <a
+      className="main-text-btn text-caption-2 personal-information__confirm-link ml-4"
+      onClick={[Function]}
+      role="button"
+    >
+      <Memo(FormattedMessage)
+        id="shared.tryAgain"
+      />
+    </a>
+  </p>
+  <div
+    className="d-flex mb-24"
+  >
+    <GradientButton
+      addonAfter={null}
+      addonBefore={null}
+      className="min-width-140 mr-16"
+      loading={false}
+      onClick={[MockFunction]}
+      text={
+        Object {
+          "id": "shared.confirm",
+        }
+      }
+      variant="primary"
+    />
+  </div>
+</div>
+`;

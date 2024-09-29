@@ -1,0 +1,342 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings useContainer hook matches snapshot when status equals blocked 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "key": "shared.republish",
+      "label": <Memo(FormattedMessage)
+        id="shared.republish"
+      />,
+      "onClick": [Function],
+    },
+    Object {
+      "key": "shared.edit",
+      "label": <Link
+        href="/add-new-listing/accommodation/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.finishYourListing"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.preview",
+      "label": <Link
+        href="/listing/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.preview"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.remove",
+      "label": <Memo(FormattedMessage)
+        id="shared.remove"
+      />,
+      "onClick": [Function],
+    },
+  ],
+  "onPublish": [Function],
+  "onRemove": [Function],
+  "onRepublish": [Function],
+  "onUnpublish": [Function],
+  "onVisibilityChangeHandler": [Function],
+  "setVisible": [Function],
+  "visible": false,
+}
+`;
+
+exports[`Settings useContainer hook matches snapshot when status equals deleted 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "key": "shared.edit",
+      "label": <Link
+        href="/add-new-listing/accommodation/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.finishYourListing"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.preview",
+      "label": <Link
+        href="/listing/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.preview"
+          />
+        </a>
+      </Link>,
+    },
+  ],
+  "onPublish": [Function],
+  "onRemove": [Function],
+  "onRepublish": [Function],
+  "onUnpublish": [Function],
+  "onVisibilityChangeHandler": [Function],
+  "setVisible": [Function],
+  "visible": false,
+}
+`;
+
+exports[`Settings useContainer hook matches snapshot when status equals in_draft 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "key": "shared.edit",
+      "label": <Link
+        href="/add-new-listing/accommodation/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.finishYourListing"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.preview",
+      "label": <Link
+        href="/listing/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.preview"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.remove",
+      "label": <Memo(FormattedMessage)
+        id="shared.remove"
+      />,
+      "onClick": [Function],
+    },
+  ],
+  "onPublish": [Function],
+  "onRemove": [Function],
+  "onRepublish": [Function],
+  "onUnpublish": [Function],
+  "onVisibilityChangeHandler": [Function],
+  "setVisible": [Function],
+  "visible": false,
+}
+`;
+
+exports[`Settings useContainer hook matches snapshot when status equals on_moderation 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "key": "shared.edit",
+      "label": <Link
+        href="/add-new-listing/accommodation/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.finishYourListing"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.preview",
+      "label": <Link
+        href="/listing/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.preview"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.remove",
+      "label": <Memo(FormattedMessage)
+        id="shared.remove"
+      />,
+      "onClick": [Function],
+    },
+  ],
+  "onPublish": [Function],
+  "onRemove": [Function],
+  "onRepublish": [Function],
+  "onUnpublish": [Function],
+  "onVisibilityChangeHandler": [Function],
+  "setVisible": [Function],
+  "visible": false,
+}
+`;
+
+exports[`Settings useContainer hook matches snapshot when status equals published 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "key": "shared.unpublish",
+      "label": <Memo(FormattedMessage)
+        id="shared.unpublish"
+      />,
+      "onClick": [Function],
+    },
+    Object {
+      "key": "shared.edit",
+      "label": <Link
+        href="/add-new-listing/accommodation/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.finishYourListing"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.preview",
+      "label": <Link
+        href="/listing/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.preview"
+          />
+        </a>
+      </Link>,
+    },
+  ],
+  "onPublish": [Function],
+  "onRemove": [Function],
+  "onRepublish": [Function],
+  "onUnpublish": [Function],
+  "onVisibilityChangeHandler": [Function],
+  "setVisible": [Function],
+  "visible": false,
+}
+`;
+
+exports[`Settings useContainer hook matches snapshot when status equals unpublished 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "key": "shared.publish",
+      "label": <Memo(FormattedMessage)
+        id="shared.publish"
+      />,
+      "onClick": [Function],
+    },
+    Object {
+      "key": "shared.edit",
+      "label": <Link
+        href="/add-new-listing/accommodation/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.finishYourListing"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.preview",
+      "label": <Link
+        href="/listing/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.preview"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.remove",
+      "label": <Memo(FormattedMessage)
+        id="shared.remove"
+      />,
+      "onClick": [Function],
+    },
+  ],
+  "onPublish": [Function],
+  "onRemove": [Function],
+  "onRepublish": [Function],
+  "onUnpublish": [Function],
+  "onVisibilityChangeHandler": [Function],
+  "setVisible": [Function],
+  "visible": false,
+}
+`;
+
+exports[`Settings useContainer hook matches snapshot when stepStatus equals finished 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "key": "shared.publish",
+      "label": <Memo(FormattedMessage)
+        id="shared.publish"
+      />,
+      "onClick": [Function],
+    },
+    Object {
+      "key": "shared.edit",
+      "label": <Link
+        href="/dashboard/listings/property-type/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.edit"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.viewCalendar",
+      "label": <Link
+        href="/dashboard/listings/availability/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.viewCalendar"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.preview",
+      "label": <Link
+        href="/listing/listingId"
+      >
+        <a>
+          <Memo(FormattedMessage)
+            id="shared.preview"
+          />
+        </a>
+      </Link>,
+    },
+    Object {
+      "key": "shared.remove",
+      "label": <Memo(FormattedMessage)
+        id="shared.remove"
+      />,
+      "onClick": [Function],
+    },
+  ],
+  "onPublish": [Function],
+  "onRemove": [Function],
+  "onRepublish": [Function],
+  "onUnpublish": [Function],
+  "onVisibilityChangeHandler": [Function],
+  "setVisible": [Function],
+  "visible": false,
+}
+`;

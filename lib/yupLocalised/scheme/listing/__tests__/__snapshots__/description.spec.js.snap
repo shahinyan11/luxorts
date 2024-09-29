@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add new listing. Description validation schema matches snapshot 1`] = `
+Object {
+  "fields": Object {
+    "description": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+      ],
+      "type": "string",
+    },
+    "hiddenTitle": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 80,
+          },
+        },
+      ],
+      "type": "string",
+    },
+    "title": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 80,
+          },
+        },
+        Object {
+          "name": "required",
+          "params": undefined,
+        },
+      ],
+      "type": "string",
+    },
+  },
+  "label": undefined,
+  "meta": undefined,
+  "notOneOf": Array [],
+  "oneOf": Array [],
+  "tests": Array [],
+  "type": "object",
+}
+`;

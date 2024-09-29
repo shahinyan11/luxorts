@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadPhotosField. Photo component matches snapshot 1`] = `
+<div
+  className="upload-photos__item"
+  id="id"
+>
+  <div
+    className="upload-photos__card"
+    onClick={[MockFunction]}
+    role="button"
+    style={
+      Object {
+        "backgroundImage": "url(src)",
+      }
+    }
+  >
+    <div
+      className="upload-photos__card-actions d-flex justify-content-space-between"
+    >
+      <div
+        className="upload-photos__card-action"
+        onClick={[MockFunction]}
+        role="button"
+      >
+        <SvgIcon
+          className="icon-left"
+          icon="edit"
+        />
+      </div>
+      <div
+        className="upload-photos__card-action"
+        onClick={[MockFunction]}
+        role="button"
+      >
+        <SvgIcon
+          className="icon-left"
+          icon="cross"
+        />
+      </div>
+    </div>
+  </div>
+  <InputField
+    asComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "Group": [Function],
+        "Password": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "action": "click",
+            "iconRender": [Function],
+            "visibilityToggle": true,
+          },
+          "render": [Function],
+        },
+        "Search": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "TextArea": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    name="descriptionPath"
+    numbersOnly={false}
+    placeholder={
+      Object {
+        "id": "shared.addCaption",
+      }
+    }
+    withFormItem={true}
+  />
+</div>
+`;
+
+exports[`UploadPhotosField. Photo component matches snapshot when isMain equals true 1`] = `
+<div
+  className="upload-photos__item"
+  id="id"
+>
+  <div
+    className="upload-photos__card"
+    onClick={[MockFunction]}
+    role="button"
+    style={
+      Object {
+        "backgroundImage": "url(src)",
+      }
+    }
+  >
+    <div
+      className="upload-photos__card-actions d-flex justify-content-space-between"
+    >
+      <div
+        className="upload-photos__card-action"
+        onClick={[MockFunction]}
+        role="button"
+      >
+        <SvgIcon
+          className="icon-left"
+          icon="edit"
+        />
+      </div>
+      <div
+        className="upload-photos__card-action"
+        onClick={[MockFunction]}
+        role="button"
+      >
+        <SvgIcon
+          className="icon-left"
+          icon="cross"
+        />
+      </div>
+    </div>
+    <div
+      className="upload-photos__card-main-label"
+    >
+      <Memo(FormattedMessage)
+        id="shared.mainPhoto"
+      />
+    </div>
+  </div>
+  <InputField
+    asComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "Group": [Function],
+        "Password": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "action": "click",
+            "iconRender": [Function],
+            "visibilityToggle": true,
+          },
+          "render": [Function],
+        },
+        "Search": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "TextArea": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    name="descriptionPath"
+    numbersOnly={false}
+    placeholder={
+      Object {
+        "id": "shared.addCaption",
+      }
+    }
+    withFormItem={true}
+  />
+</div>
+`;

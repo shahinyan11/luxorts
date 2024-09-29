@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadProfileImageModal useContainer hook matches snapshot 1`] = `
+Object {
+  "crop": Object {
+    "height": 240,
+    "image": null,
+    "unit": "px",
+    "width": 240,
+    "x": 0,
+    "y": 0,
+  },
+  "imgSrc": "initialImgSrc",
+  "isLoading": false,
+  "onCropChange": [Function],
+  "onFileChange": [Function],
+  "onImageLoad": [Function],
+  "onSave": [Function],
+}
+`;

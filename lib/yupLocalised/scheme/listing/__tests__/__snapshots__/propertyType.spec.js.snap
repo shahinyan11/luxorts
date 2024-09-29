@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add new listing. Property Type validation schema matches snapshot 1`] = `
+Object {
+  "fields": Object {
+    "listingPropertyType": Object {
+      "fields": Object {
+        "propertyTypeId": Object {
+          "label": undefined,
+          "meta": undefined,
+          "notOneOf": Array [],
+          "oneOf": Array [],
+          "tests": Array [
+            Object {
+              "name": "required",
+              "params": undefined,
+            },
+          ],
+          "type": "string",
+        },
+      },
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [],
+      "type": "object",
+    },
+  },
+  "label": undefined,
+  "meta": undefined,
+  "notOneOf": Array [],
+  "oneOf": Array [],
+  "tests": Array [],
+  "type": "object",
+}
+`;

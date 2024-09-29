@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Amenities component matches snapshot 1`] = `
+<AddNewListingLayout
+  formik={
+    Object {
+      "dirty": true,
+      "handleSubmit": [MockFunction],
+      "isValid": true,
+      "resetForm": [MockFunction],
+      "setFieldTouched": [MockFunction],
+      "setFieldValue": [MockFunction],
+      "setValues": [MockFunction],
+      "validateForm": [MockFunction],
+      "values": Object {},
+    }
+  }
+  isDirty={false}
+  isLoading={false}
+  onNext={[MockFunction]}
+  showSkeleton={false}
+  stepStatus="initial"
+  title={
+    Object {
+      "id": "shared.amenities",
+    }
+  }
+>
+  <div
+    className="new-listing__container mb-32"
+  >
+    <h1
+      className="new-listing__title mb-32"
+    >
+      <Memo(FormattedMessage)
+        id="addNewListing.amenities.title"
+      />
+    </h1>
+    <ForwardRef(InternalForm)
+      layout="vertical"
+      size="large"
+    >
+      <ContextProvider
+        value={
+          Object {
+            "dirty": true,
+            "handleSubmit": [MockFunction],
+            "isValid": true,
+            "resetForm": [MockFunction],
+            "setFieldTouched": [MockFunction],
+            "setFieldValue": [MockFunction],
+            "setValues": [MockFunction],
+            "validateForm": [MockFunction],
+            "values": Object {},
+          }
+        }
+      >
+        <h2
+          className="new-listing__subtitle mb-24"
+        >
+          Bathroom
+        </h2>
+        <CheckboxGroup
+          items={
+            Array [
+              Object {
+                "description": "description",
+                "id": "foo",
+                "name": "name",
+              },
+            ]
+          }
+          path="amenities.Bathroom"
+          withPaid={false}
+        />
+        <h2
+          className="new-listing__subtitle mb-24"
+        >
+          <Memo(FormattedMessage)
+            id="shared.additionalAmenities"
+          />
+        </h2>
+        <AdditionalItems
+          descriptionPlaceholder={
+            Object {
+              "id": "shared.describeAmenity",
+            }
+          }
+          isAddButtonDisabled={false}
+          isLoading={false}
+          items={
+            Array [
+              Object {
+                "description": "description",
+                "id": "bar",
+                "name": "name",
+              },
+            ]
+          }
+          namePlaceholder={
+            Object {
+              "id": "shared.enterAmenityTitle",
+            }
+          }
+          onAdd={[MockFunction]}
+          onRemove={[MockFunction]}
+          withDescription={true}
+          withPaid={false}
+        />
+      </ContextProvider>
+    </ForwardRef(InternalForm)>
+  </div>
+</AddNewListingLayout>
+`;

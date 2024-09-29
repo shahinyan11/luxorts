@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Address component matches snapshot 1`] = `
+<Fragment>
+  <SelectField
+    label={
+      Object {
+        "id": "shared.country",
+      }
+    }
+    name="country"
+    optionComponent={[Function]}
+    options={
+      Array [
+        Object {
+          "countryName": "countryName",
+        },
+      ]
+    }
+    placeholder={
+      Object {
+        "id": "shared.selectCountry",
+      }
+    }
+    showSearch={true}
+  />
+  <InputField
+    asComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "Group": [Function],
+        "Password": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "action": "click",
+            "iconRender": [Function],
+            "visibilityToggle": true,
+          },
+          "render": [Function],
+        },
+        "Search": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "TextArea": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    label={
+      Object {
+        "id": "shared.street",
+      }
+    }
+    name="street"
+    numbersOnly={false}
+    withFormItem={true}
+  />
+  <InputField
+    asComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "Group": [Function],
+        "Password": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "action": "click",
+            "iconRender": [Function],
+            "visibilityToggle": true,
+          },
+          "render": [Function],
+        },
+        "Search": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "TextArea": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    label={
+      Object {
+        "id": "shared.suiteApartmentNumberOptional",
+      }
+    }
+    name="apartmentNumber"
+    numbersOnly={false}
+    withFormItem={true}
+  />
+  <div
+    className="container-two-items"
+  >
+    <InputField
+      asComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "Group": [Function],
+          "Password": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "action": "click",
+              "iconRender": [Function],
+              "visibilityToggle": true,
+            },
+            "render": [Function],
+          },
+          "Search": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "TextArea": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      disabled={true}
+      label={
+        Object {
+          "id": "shared.city",
+        }
+      }
+      name="city"
+      numbersOnly={false}
+      withFormItem={true}
+    />
+    <SelectField
+      disabled={true}
+      label={
+        Object {
+          "id": "shared.stateRegion",
+        }
+      }
+      name="state"
+      optionComponent={[Function]}
+      options={Array []}
+      placeholder={
+        Object {
+          "id": "shared.selectStateRegion",
+        }
+      }
+      showSearch={true}
+    />
+  </div>
+  <div
+    className="container-two-items"
+  >
+    <InputField
+      asComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "Group": [Function],
+          "Password": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "action": "click",
+              "iconRender": [Function],
+              "visibilityToggle": true,
+            },
+            "render": [Function],
+          },
+          "Search": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "TextArea": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      label={
+        Object {
+          "id": "shared.zipCode",
+        }
+      }
+      name="zipCode"
+      numbersOnly={true}
+      withFormItem={true}
+    />
+  </div>
+</Fragment>
+`;

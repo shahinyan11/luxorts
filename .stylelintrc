@@ -1,0 +1,3 @@
+{
+  "extends": "@rubygarage/stylelint-scss-config"
+}

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputHelp component matches snapshot 1`] = `
+<p
+  className="subline-message align-items-flex-start"
+>
+  <SvgIcon
+    icon="alert"
+  />
+  <FormattedOrRawMessage
+    message={
+      Object {
+        "id": "text.id",
+      }
+    }
+  />
+</p>
+`;
+
+exports[`InputHelp component matches snapshot when icon is present 1`] = `
+<p
+  className="subline-message align-items-flex-start"
+>
+  <SvgIcon
+    icon="checked"
+  />
+  <FormattedOrRawMessage
+    message={
+      Object {
+        "id": "text.id",
+      }
+    }
+  />
+</p>
+`;
+
+exports[`InputHelp component matches snapshot when type is present 1`] = `
+<p
+  className="subline-message align-items-flex-start subline-message--success"
+>
+  <SvgIcon
+    icon="alert"
+  />
+  <FormattedOrRawMessage
+    message={
+      Object {
+        "id": "text.id",
+      }
+    }
+  />
+</p>
+`;

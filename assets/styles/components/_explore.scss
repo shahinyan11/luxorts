@@ -1,0 +1,90 @@
+.explore__container {
+  @include container;
+  display: flex;
+  max-width: initial;
+}
+.explore__content {
+  flex-shrink: 0;
+  width: 732px;
+  padding: 24px 16px;
+  @include media-breakpoint-up(md) {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+.explore__map {
+  flex-grow: 1;
+  width: 708px;
+}
+.explore__title {
+  @include text-display-2;
+}
+.explore__description {
+  @include text-body;
+}
+.explore__sorter {
+  display: flex;
+  align-items: center;
+  &:hover,
+  &.ant-dropdown-open {
+    .explore__sort,
+    .explore__sort-text {
+      color: get-color(primary, 1000);
+    }
+    .explore__sort-btn-icon {
+      transform: rotate(180deg);
+    }
+    .explore__sort-icon {
+      fill: get-color(primary, 1000);
+    }
+  }
+}
+.explore__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.explore__sort {
+  min-width: initial;
+  height: auto;
+  min-height: initial;
+  padding: 0;
+  color: get-color(text, active-dark);
+}
+.explore__sort-icon {
+  width: 10px !important;
+  height: 10px !important;
+}
+.explore__sort-text {
+  @include text-body-2;
+  margin-right: 4px;
+  transition: color 0.3s;
+}
+.explore__sort-dropdown {
+  margin-left: auto;
+}
+.explore__sort-btn {
+  @include text-body;
+  padding: 0;
+  color: get-color(text, active-dark);
+  &:hover,
+  &:focus,
+  &:active {
+    color: get-color(text, active-dark);
+  }
+}
+.explore__sort-btn-icon {
+  fill: get-color(secondary, 800);
+  color: initial;
+}
+.explore__pagination-text {
+  @include text-body;
+  color: get-color(text, active-dark);
+}
+.explore__no-results {
+  border-bottom: 1px solid get-color(secondary, 100);
+}

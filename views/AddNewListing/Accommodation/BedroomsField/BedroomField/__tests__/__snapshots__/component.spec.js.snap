@@ -1,0 +1,376 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BedroomField component matches snapshot 1`] = `
+<div
+  className="new-listing__add mb-24 pb-8"
+>
+  <div
+    className="new-listing__add-header d-flex justify-content-space-between align-item-center mb-8"
+  >
+    <h3
+      className="new-listing__add-title mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="shared.bedroomNumber"
+        values={
+          Object {
+            "number": 1,
+          }
+        }
+      />
+    </h3>
+    <Button
+      className="main-link"
+      htmlType="button"
+      onClick={[MockFunction]}
+    >
+      <Memo(FormattedMessage)
+        id="shared.addBeds"
+      />
+    </Button>
+  </div>
+  <p
+    className="new-listing__add-info mb-16"
+  >
+    <Memo(FormattedMessage)
+      id="shared.bedsAmount"
+      values={
+        Object {
+          "amount": 0,
+        }
+      }
+    />
+  </p>
+</div>
+`;
+
+exports[`BedroomField component matches snapshot when bedsList is present 1`] = `
+<div
+  className="new-listing__add mb-24 pb-8"
+>
+  <div
+    className="new-listing__add-header d-flex justify-content-space-between align-item-center mb-8"
+  >
+    <h3
+      className="new-listing__add-title mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="shared.bedroomNumber"
+        values={
+          Object {
+            "number": 1,
+          }
+        }
+      />
+    </h3>
+    <Button
+      className="main-link"
+      htmlType="button"
+      onClick={[MockFunction]}
+    >
+      <Memo(FormattedMessage)
+        id="shared.editBeds"
+      />
+    </Button>
+  </div>
+  <p
+    className="new-listing__add-info mb-16 new-listing__add-info--filled"
+  >
+    1 sofa bed
+  </p>
+</div>
+`;
+
+exports[`BedroomField component matches snapshot when isEdit equals true 1`] = `
+<div
+  className="new-listing__add mb-24 pb-8"
+>
+  <div
+    className="new-listing__add-header d-flex justify-content-space-between align-item-center mb-8"
+  >
+    <h3
+      className="new-listing__add-title mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="shared.bedroomNumber"
+        values={
+          Object {
+            "number": 1,
+          }
+        }
+      />
+    </h3>
+  </div>
+  <p
+    className="new-listing__add-info mb-16"
+  >
+    <Memo(FormattedMessage)
+      id="shared.bedsAmount"
+      values={
+        Object {
+          "amount": 0,
+        }
+      }
+    />
+  </p>
+  <div
+    className="new-listing__add-options max-width-364 mb-8"
+  >
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.double"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bedrooms[0].defaultBeds[0].amount"
+      onStep={[MockFunction]}
+      withFormItem={true}
+    />
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.queen"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bedrooms[0].defaultBeds[1].amount"
+      onStep={[MockFunction]}
+      withFormItem={true}
+    />
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.single"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bedrooms[0].defaultBeds[2].amount"
+      onStep={[MockFunction]}
+      withFormItem={true}
+    />
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.sofaBed"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bedrooms[0].defaultBeds[3].amount"
+      onStep={[MockFunction]}
+      withFormItem={true}
+    />
+  </div>
+  <Button
+    className="main-link mb-24 mt-8"
+    htmlType="button"
+    onClick={[MockFunction]}
+  >
+    <Memo(FormattedMessage)
+      id="shared.addAnotherBed"
+    />
+  </Button>
+  <GradientButton
+    addonAfter={null}
+    addonBefore={null}
+    className="min-width-140 mb-16"
+    onClick={[MockFunction]}
+    text={
+      Object {
+        "id": "shared.done",
+      }
+    }
+    variant="secondary"
+  />
+</div>
+`;
+
+exports[`BedroomField component matches snapshot when isEdit equals true and customBeds are present 1`] = `
+<div
+  className="new-listing__add mb-24 pb-8"
+>
+  <div
+    className="new-listing__add-header d-flex justify-content-space-between align-item-center mb-8"
+  >
+    <h3
+      className="new-listing__add-title mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="shared.bedroomNumber"
+        values={
+          Object {
+            "number": 1,
+          }
+        }
+      />
+    </h3>
+  </div>
+  <p
+    className="new-listing__add-info mb-16"
+  >
+    <Memo(FormattedMessage)
+      id="shared.bedsAmount"
+      values={
+        Object {
+          "amount": 0,
+        }
+      }
+    />
+  </p>
+  <div
+    className="new-listing__add-options max-width-364 mb-8"
+  >
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.double"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bedrooms[0].defaultBeds[0].amount"
+      onStep={[MockFunction]}
+      withFormItem={true}
+    />
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.queen"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bedrooms[0].defaultBeds[1].amount"
+      onStep={[MockFunction]}
+      withFormItem={true}
+    />
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.single"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bedrooms[0].defaultBeds[2].amount"
+      onStep={[MockFunction]}
+      withFormItem={true}
+    />
+    <InputNumberField
+      addonBefore={
+        <Memo(FormattedMessage)
+          id="shared.sofaBed"
+        />
+      }
+      formItemClassName="mb-8 ant-form-item--light"
+      key="uuid/v4"
+      max={16}
+      min={0}
+      name="bedrooms[0].defaultBeds[3].amount"
+      onStep={[MockFunction]}
+      withFormItem={true}
+    />
+  </div>
+  <div
+    className="d-flex"
+    key="bed-1"
+  >
+    <FormItem
+      className="mb-16 ant-form-item--edit-number width-364"
+    >
+      <InputField
+        asComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "Group": [Function],
+            "Password": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "action": "click",
+                "iconRender": [Function],
+                "visibilityToggle": true,
+              },
+              "render": [Function],
+            },
+            "Search": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            },
+            "TextArea": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            },
+            "render": [Function],
+          }
+        }
+        name="bedrooms[0].customBeds[0].kind"
+        numbersOnly={false}
+        placeholder={
+          Object {
+            "id": "shared.enterBedTitle",
+          }
+        }
+        withFormItem={false}
+      />
+      <InputNumberField
+        max={16}
+        min={0}
+        name="bedrooms[0].customBeds[0].amount"
+        onStep={[MockFunction]}
+        withFormItem={false}
+      />
+    </FormItem>
+    <GradientButton
+      addonAfter={
+        <SvgIcon
+          className="icon-right"
+          icon="cross"
+        />
+      }
+      addonBefore={null}
+      className="main-btn--icon ml-8"
+      onClick={[MockFunction]}
+      variant="tertiary"
+    />
+  </div>
+  <Button
+    className="main-link mb-24 mt-8"
+    htmlType="button"
+    onClick={[MockFunction]}
+  >
+    <Memo(FormattedMessage)
+      id="shared.addAnotherBed"
+    />
+  </Button>
+  <GradientButton
+    addonAfter={null}
+    addonBefore={null}
+    className="min-width-140 mb-16"
+    onClick={[MockFunction]}
+    text={
+      Object {
+        "id": "shared.done",
+      }
+    }
+    variant="secondary"
+  />
+</div>
+`;

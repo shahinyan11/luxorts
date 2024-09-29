@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Event component matches snapshot 1`] = `
+<div
+  className="booking-calendar__event booking-calendar__event--preparation"
+/>
+`;
+
+exports[`Event component matches snapshot when description and icon are presents 1`] = `
+<div
+  className="booking-calendar__event booking-calendar__event--booked"
+>
+  <p
+    className="booking-calendar__description mb-0"
+  >
+    <SvgIcon
+      className="booking-calendar__icon"
+      icon="clock"
+    />
+    <span
+      className="booking-calendar__text"
+    >
+      <FormattedOrRawMessage
+        message="description"
+      />
+    </span>
+  </p>
+</div>
+`;
+
+exports[`Event component matches snapshot when description is present 1`] = `
+<div
+  className="booking-calendar__event booking-calendar__event--booked"
+>
+  <p
+    className="booking-calendar__description mb-0"
+  >
+    <span
+      className="booking-calendar__text"
+    >
+      <FormattedOrRawMessage
+        message="description"
+      />
+    </span>
+  </p>
+</div>
+`;
+
+exports[`Event component matches snapshot when event.start date from another month 1`] = `""`;
+
+exports[`Event component matches snapshot when kind is available 1`] = `""`;
+
+exports[`Event component matches snapshot when kind is blocked 1`] = `
+<div
+  className="booking-calendar__event booking-calendar__event--blocked"
+/>
+`;
+
+exports[`Event component matches snapshot when kind is booking 1`] = `
+<div
+  className="booking-calendar__event booking-calendar__event--booked"
+/>
+`;

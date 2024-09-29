@@ -1,0 +1,43 @@
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.main-layout__content {
+  @include container;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.main-layout__content--wide {
+  max-width: 1440px;
+}
+.main-layout__content--full-width {
+  max-width: none;
+}
+.main-layout__content--with-paddings {
+  padding-right: 16px;
+  padding-left: 16px;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.main-header__language {
+  color: get-color(secondary, 800);
+}
+.main-layout__message {
+  display: flex;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 12px 44px;
+}
+.main-layout__progress {
+  margin-top: -1px;
+  font-size: 0;
+  .ant-progress-outer {
+    font-size: 0;
+  }
+}

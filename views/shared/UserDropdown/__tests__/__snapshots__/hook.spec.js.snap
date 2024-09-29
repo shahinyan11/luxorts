@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDropdown useContainer hook matches snapshot 1`] = `
+Object {
+  "currentUser": [Function],
+  "onLogOutHandler": [Function],
+}
+`;

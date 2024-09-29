@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioGroupField component matches snapshot 1`] = `
+<Fragment>
+  <Memo(ForwardRef)>
+    <Radio
+      value="value"
+    >
+      <FormattedOrRawMessage
+        message={
+          Object {
+            "id": "label.id",
+          }
+        }
+      />
+    </Radio>
+  </Memo(ForwardRef)>
+</Fragment>
+`;
+
+exports[`RadioGroupField component matches snapshot when children is present 1`] = `
+<Fragment>
+  <Memo(ForwardRef)>
+    <div>
+      Foo
+    </div>
+    <Radio
+      value="value"
+    >
+      <FormattedOrRawMessage
+        message={
+          Object {
+            "id": "label.id",
+          }
+        }
+      />
+    </Radio>
+    <p
+      className="new-listing__description mb-16 pl-32"
+    >
+      <FormattedOrRawMessage
+        message={
+          Object {
+            "id": "description.id",
+          }
+        }
+      />
+    </p>
+  </Memo(ForwardRef)>
+</Fragment>
+`;
+
+exports[`RadioGroupField component matches snapshot when items aren\`t present 1`] = `
+<Fragment>
+  <Memo(ForwardRef) />
+</Fragment>
+`;
+
+exports[`RadioGroupField component matches snapshot when items with description 1`] = `
+<Fragment>
+  <Memo(ForwardRef)>
+    <Radio
+      value="value"
+    >
+      <FormattedOrRawMessage
+        message={
+          Object {
+            "id": "label.id",
+          }
+        }
+      />
+    </Radio>
+    <p
+      className="new-listing__description mb-16 pl-32"
+    >
+      <FormattedOrRawMessage
+        message={
+          Object {
+            "id": "description.id",
+          }
+        }
+      />
+    </p>
+  </Memo(ForwardRef)>
+</Fragment>
+`;

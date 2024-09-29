@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmenitiesFilter useContainer hook matches snapshot 1`] = `
+Object {
+  "formik": Object {
+    "dirty": true,
+    "enableReinitialize": true,
+    "handleSubmit": [MockFunction],
+    "initialValues": Object {},
+    "isValid": true,
+    "resetForm": [MockFunction],
+    "setFieldTouched": [MockFunction],
+    "setFieldValue": [MockFunction],
+    "setValues": [MockFunction],
+    "validateForm": [MockFunction],
+    "values": Object {},
+  },
+  "items": Array [
+    Object {
+      "label": "name",
+      "value": "id",
+    },
+  ],
+  "onApply": [Function],
+  "onClear": [Function],
+  "onSearchChangeHandler": [Function],
+  "onVisibilityChangeHandler": [Function],
+  "search": "",
+  "setVisible": [Function],
+  "visible": false,
+}
+`;

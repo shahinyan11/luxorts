@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Availability useContainer hook matches snapshot 1`] = `
+Object {
+  "getAvailableStartDate": [Function],
+  "isFullMonthBlocked": false,
+  "isListingUpdating": false,
+  "isLoading": false,
+  "isTimePeriodsCreating": false,
+  "listingBlockedTimePeriods": Array [
+    "25/07/2022",
+    "26/07/2022",
+    "27/07/2022",
+    "29/07/2022",
+  ],
+  "onBackRoute": "/add-new-listing/reservation-preferences/listingId",
+  "onNavigate": [Function],
+  "onNext": [Function],
+  "onSelectSlot": [Function],
+  "setCurrentDate": [Function],
+  "showSkeleton": false,
+  "stepStatus": "accomodation",
+  "toggleMonthAvailability": [Function],
+}
+`;

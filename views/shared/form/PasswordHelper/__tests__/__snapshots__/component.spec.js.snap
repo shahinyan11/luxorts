@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PasswordHelper component matches snapshot 1`] = `
+<div
+  className="password-progress mt-4"
+>
+  <div
+    className="password-progress__line"
+  />
+  <InputHelp
+    icon="alert"
+    text={
+      Object {
+        "id": "text.id",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`PasswordHelper component matches snapshot when error is present and hasError equals true 1`] = `
+<div
+  className="password-progress mt-4"
+>
+  <div
+    className="password-progress__line"
+  />
+  <InputHelp
+    icon="alert"
+    text={
+      Object {
+        "id": "error.id",
+      }
+    }
+    type="error"
+  />
+</div>
+`;
+
+exports[`PasswordHelper component matches snapshot when error is present and hasError is not present 1`] = `
+<div
+  className="password-progress mt-4"
+>
+  <div
+    className="password-progress__line"
+  />
+  <InputHelp
+    icon="alert"
+    text={
+      Object {
+        "id": "text.id",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`PasswordHelper component matches snapshot when icon is present 1`] = `
+<div
+  className="password-progress mt-4"
+>
+  <div
+    className="password-progress__line"
+  />
+  <InputHelp
+    icon="checked"
+    text={
+      Object {
+        "id": "text.id",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`PasswordHelper component matches snapshot when type is present 1`] = `
+<div
+  className="password-progress mt-4"
+>
+  <div
+    className="password-progress__line password-progress__line--success"
+  />
+  <InputHelp
+    icon="alert"
+    text={
+      Object {
+        "id": "text.id",
+      }
+    }
+    type="success"
+  />
+</div>
+`;

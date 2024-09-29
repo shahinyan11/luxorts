@@ -1,0 +1,128 @@
+{
+  "name": "luxorts-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next -- -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000",
+    "lint": "eslint --format codeframe ./",
+    "lint:sass": "stylelint './assets/styles/**/*.scss'",
+    "style": "prettier --write '**/*.{js,jsx}'",
+    "prepare": "husky install",
+    "test": "jest",
+    "test:circle": "jest --coverage --maxWorkers=3",
+    "complete": "yarn lint && yarn style && yarn test -u --coverage"
+  },
+  "jest": {
+    "modulePaths": [
+      "<rootDir>"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/testConfig.js"
+    ],
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!**/views/stubs/**",
+      "!postcss.config.js",
+      "!next.config.js",
+      "!ecosystem.config.js",
+      "!pages/_app.js",
+      "!.next/**"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 100
+      }
+    },
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/.*/__mocks__"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|scss)$": "identity-obj-proxy"
+    },
+    "globalSetup": "<rootDir>/globalTestSetup.js",
+    "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.16.7",
+    "@babel/plugin-proposal-optional-chaining": "^7.17.12",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "antd": "^4.18.7",
+    "axios": "^0.27.2",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "babel-plugin-import": "^1.13.5",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "bootstrap": "^5.1.3",
+    "classnames": "^2.3.1",
+    "component-cookie": "^1.1.5",
+    "cookie": "^0.5.0",
+    "country-region-data": "^2.3.0",
+    "formik": "^2.2.9",
+    "http-status": "^1.5.2",
+    "json-api-normalizer": "^1.0.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "next": "12.1.5",
+    "next-cookies": "^2.0.3",
+    "next-redux-wrapper": "^7.0.5",
+    "postcss": "^8.4.14",
+    "postcss-preset-env": "^7.7.2",
+    "prop-types": "^15.8.1",
+    "qs": "^6.11.0",
+    "ramda": "^0.28.0",
+    "react": "^17.0.2",
+    "react-big-calendar": "^0.40.1",
+    "react-currency-input-field": "^3.6.4",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^14.2.1",
+    "react-image-crop": "^10.0.4",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-intl": "^6.0.3",
+    "react-intl-redux": "^2.2.0",
+    "react-phone-number-input": "^3.2.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logic": "^3.0.3",
+    "redux-object": "^1.0.1",
+    "redux-persist": "^6.0.0",
+    "reselect": "^4.1.5",
+    "sass": "^1.53.0",
+    "sortablejs": "^1.15.0",
+    "swiper": "6.8.4",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@rubygarage/stylelint-scss-config": "^0.1.2",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
+    "babel-eslint": "^10.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.1",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-cypress": "^2.11.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.2.1",
+    "redux-mock-store": "^1.5.4",
+    "stylelint": "^14.7.1"
+  }
+}

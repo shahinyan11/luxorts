@@ -1,0 +1,110 @@
+.ant-input-number-group-wrapper {
+  width: 100%;
+}
+.ant-input-number {
+  background-color: transparent;
+}
+.ant-input-number-group-addon {
+  @include text-body;
+  display: inline-block;
+  width: calc(100% - 140px);
+  padding: 12px;
+  border: none;
+  background-color: transparent;
+  color: get-color(text, active-dark);
+  text-align: left;
+}
+.ant-input-number-group .ant-input-number {
+  width: 140px;
+  float: right;
+}
+.ant-input-number-focused {
+  box-shadow: none;
+}
+.ant-input-number-lg {
+  width: 140px;
+  padding: 0 48px;
+  border: none;
+  input {
+    height: 48px;
+    text-align: center;
+  }
+}
+.ant-input-number-narrow {
+  width: 113px;
+  padding: 0 36px;
+  .ant-input-number-handler-wrap {
+    width: 113px;
+  }
+}
+.ant-input-number-input {
+  @include text-body;
+}
+.ant-input-number-input-wrap {
+  position: relative;
+  z-index: 3;
+}
+.ant-input-number-handler-down-inner,
+.ant-input-number-handler-up-inner {
+  right: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 0;
+  stroke: get-color(secondary, 1000);
+  color: transparent;
+  vertical-align: 0;
+}
+.ant-input-number-handler:hover .ant-input-number-handler-up-inner,
+.ant-input-number-handler:focus .ant-input-number-handler-up-inner,
+.ant-input-number-handler:hover .ant-input-number-handler-down-inner,
+.ant-input-number-handler:focus .ant-input-number-handler-down-inner {
+  stroke: get-color(secondary, 900);
+  color: transparent;
+}
+.ant-input-number-handler-down-disabled .ant-input-number-handler-down-inner,
+.ant-input-number-handler-down-disabled .ant-input-number-handler-up-inner {
+  stroke: get-color(secondary, 300);
+  color: transparent;
+}
+.ant-input-number-handler:active {
+  stroke: get-color(secondary, 800);
+  background-color: transparent;
+  color: transparent;
+}
+.ant-input-number-handler-up-inner {
+  top: 0;
+  margin-top: 0;
+}
+.ant-input-number-handler {
+  border: none;
+}
+.ant-input-number-handler-up {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 24px;
+  height: 24px;
+}
+.ant-input-number-handler-down {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+}
+.ant-input-number-handler-wrap {
+  left: 0;
+  width: 140px;
+  opacity: 1;
+  background-color: transparent;
+}
+.ant-input-number-handler-up:hover,
+.ant-input-number-handler-wrap:hover .ant-input-number-handler {
+  height: 50% !important;
+}
+.ant-input-number-wide {
+  width: 100%;
+  .ant-input-number-handler-wrap {
+    width: 100%;
+  }
+}

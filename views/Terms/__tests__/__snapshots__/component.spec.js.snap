@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Terms component matches snapshot 1`] = `
+<section
+  className="terms"
+>
+  <div
+    className="terms__container"
+  >
+    <div
+      className="terms__content"
+    >
+      <div
+        className="terms__column"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "htmlString",
+          }
+        }
+      />
+      <div
+        className="terms__navigation"
+      >
+        <h3
+          className="terms__item-title mb-24 mt-76"
+        >
+          <Memo(FormattedMessage)
+            id="shared.tableOfContents"
+          />
+        </h3>
+        <div
+          className="terms__group"
+          key="h2_id"
+        >
+          <h5
+            className="terms__group-title"
+          >
+            h2 text
+          </h5>
+          <ol
+            className="terms__anchor-list"
+          >
+            <li
+              className="terms__anchor-item"
+              key="h3_id"
+            >
+              <a
+                className="terms__anchor-link"
+                href="#h3_id"
+              >
+                1. h3 text
+              </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

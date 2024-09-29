@@ -1,0 +1,115 @@
+version: 2.1
+
+orbs:
+  slack: circleci/slack@4.8.2
+  aws-cli: circleci/aws-cli@2.1.0
+
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: cimg/node:17.6.0
+
+caches:
+  - &yarn_cache v1-dependencies-{{ checksum "yarn.lock" }}
+
+commands:
+  notify_slack:
+    steps:
+      - slack/notify:
+          template: FAILURE_SLACK_TEMPLATE
+          event: fail
+      - slack/notify:
+          template: PASS_SLACK_TEMPLATE
+          event: pass
+
+references:
+  restore_yarn_cache: &restore_yarn_cache
+    restore_cache:
+      name: Restoring Yarn Package Cache
+      keys:
+        - *yarn_cache
+
+  yarn_install: &yarn_install
+    run:
+      name: Installing packages
+      command: yarn install
+
+  save_yarn_cache: &save_yarn_cache
+    save_cache:
+      name: Save Yarn Package Cache
+      key: *yarn_cache
+      paths:
+        - ~/.cache
+
+  set_env_variables: &set_env_variables
+    run:
+      name: Define environment variables for notifications
+      command: |
+        echo 'export GIT_COMMIT_DESC=$(git log --format=%B -n 1 $CIRCLE_SHA1 | head -1)' >> $BASH_ENV
+        echo 'export FAILURE_SLACK_TEMPLATE=$(jq .fail .circleci/slack_template.json)' >> $BASH_ENV
+        echo 'export PASS_SLACK_TEMPLATE=$(jq .pass .circleci/slack_template.json)' >> $BASH_ENV
+        source $BASH_ENV
+
+jobs:
+  linters:
+    <<: *defaults
+
+    steps:
+      - checkout
+      - <<: *restore_yarn_cache
+      - <<: *yarn_install
+      - <<: *save_yarn_cache
+      - <<: *set_env_variables
+      - run:
+          name: Run linters
+          command: yarn lint
+      - notify_slack
+
+  tests:
+    <<: *defaults
+
+    steps:
+      - checkout
+
+      - <<: *restore_yarn_cache
+      - <<: *yarn_install
+      - <<: *save_yarn_cache
+      - <<: *set_env_variables
+
+      - run:
+          name: Running tests
+          command: yarn test:circle
+      - notify_slack
+
+      - store_artifacts:
+          name: Saving Jest coverage
+          path: ~/repo/coverage/lcov-report
+          destination: /jest-coverage
+
+  deploy_staging:
+    <<: *defaults
+
+    steps:
+      - aws-cli/install
+      - checkout
+      - <<: *set_env_variables
+      - setup_remote_docker:
+          version: 19.03.13
+      - run:
+          name: Deploy
+          command: .deploy/bin/deploy/staging.sh
+      - notify_slack
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - linters
+      - tests
+      - deploy_staging:
+          requires:
+            - tests
+            - linters
+          filters:
+            branches:
+              only: develop

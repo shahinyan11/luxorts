@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeactivatedByUserModal component matches snapshot 1`] = `
+<Modal
+  className="modal"
+  closable={false}
+  confirmLoading={false}
+  footer={
+    <div
+      className="d-flex justify-content-flex-end"
+    >
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium mr-16"
+        disabled={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "signIn.deactivatedByUserModal.cancel",
+          }
+        }
+        variant="tertiary"
+      />
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium"
+        loading={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "signIn.deactivatedByUserModal.confirm",
+          }
+        }
+        variant="primary"
+      />
+    </div>
+  }
+  okType="primary"
+  visible={true}
+  width={520}
+>
+  <div
+    className="modal__content"
+  >
+    <p
+      className="modal__text"
+    >
+      <Memo(FormattedMessage)
+        id="signIn.deactivatedByUserModal.description"
+      />
+    </p>
+  </div>
+</Modal>
+`;

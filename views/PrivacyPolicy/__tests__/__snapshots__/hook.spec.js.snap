@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrivacyPolicy useContainer hook matches snapshot 1`] = `
+Object {
+  "htmlString": "htmlString",
+  "titles": Array [
+    Object {
+      "id": "h2_id",
+      "text": "h2 text",
+    },
+  ],
+}
+`;

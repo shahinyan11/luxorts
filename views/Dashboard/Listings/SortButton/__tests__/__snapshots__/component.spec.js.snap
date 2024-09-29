@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortButton component matches snapshot 1`] = `
+<button
+  className="d-flex"
+  onClick={[MockFunction]}
+  type="button"
+>
+  <Memo(FormattedMessage)
+    id="text.id"
+  />
+  <SvgIcon
+    className="rotate-180 icon--color-primary"
+    icon="arrow-down"
+  />
+</button>
+`;

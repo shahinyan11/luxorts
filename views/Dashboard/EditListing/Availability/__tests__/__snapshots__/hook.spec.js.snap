@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Availability useContainer hook matches snapshot 1`] = `
+Object {
+  "currentDate": "currentDate",
+  "customPrice": Object {
+    "01/09/2022": 64,
+    "02/09/2022": 64,
+    "03/09/2022": 64,
+    "04/09/2022": 64,
+    "05/09/2022": 64,
+  },
+  "events": Array [
+    Object {
+      "id": "event-1",
+    },
+  ],
+  "isLoading": false,
+  "onNavigate": [MockFunction],
+  "pricePerDay": 64,
+  "showSkeleton": false,
+}
+`;

@@ -1,0 +1,16 @@
+.img-crop-modal .img-crop-container {
+  border-radius: $border-radius-secondary;
+}
+/* stylelint-disable selector-class-pattern */
+.img-crop-modal .reactEasyCrop_CropArea {
+  border: 1px dashed get-color(primary, 1000);
+  color: rgba(0, 1, 40, 0.65);
+}
+/* stylelint-enable selector-class-pattern */
+.ReactCrop--circular-crop {
+  border-radius: $border-radius-primary;
+  .ReactCrop__crop-selection {
+    border: 1px dashed #222a5a;
+    box-shadow: 0 0 0 9999em rgba(0, 1, 40, 0.65);
+  }
+}

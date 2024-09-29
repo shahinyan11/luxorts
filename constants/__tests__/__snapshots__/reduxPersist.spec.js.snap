@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reduxPersist constants match snapshot 1`] = `
+Object {
+  "listingsPersistConfig": Object {
+    "key": "listings",
+    "storage": Object {
+      "getItem": [Function],
+      "removeItem": [Function],
+      "setItem": [Function],
+    },
+    "whitelist": Array [
+      "listingTableSettings",
+    ],
+  },
+}
+`;

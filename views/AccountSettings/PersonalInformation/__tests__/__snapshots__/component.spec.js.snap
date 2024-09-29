@@ -1,0 +1,433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonalInformation component matches snapshot 1`] = `
+<div
+  className="personal-information"
+>
+  <Breadcrumb />
+  <h1
+    className="text-display-2 mb-lg-64 mb-32"
+  >
+    <Memo(FormattedMessage)
+      id="personalInformation.title"
+    />
+  </h1>
+  <div
+    className="personal-information__content"
+  >
+    <div
+      className="personal-information__user"
+    >
+      <ForwardRef(InternalForm)
+        layout="vertical"
+        size="large"
+      >
+        <ContextProvider
+          value={
+            Object {
+              "dirty": true,
+              "handleSubmit": [MockFunction],
+              "isValid": true,
+              "resetForm": [MockFunction],
+              "setFieldTouched": [MockFunction],
+              "setFieldValue": [MockFunction],
+              "setValues": [MockFunction],
+              "validateForm": [MockFunction],
+              "values": Object {
+                "email": "evhenii.hryhoriev+10@rubygarage.org",
+                "id": "5c5d814c-8e06-433d-b006-4119311585bd",
+                "publicId": "c4toxHVi",
+                "userInvitation": Array [
+                  Object {
+                    "created_at": "2022-06-23T06:32:55.588Z",
+                    "email": "12@mail.ru",
+                    "id": "52080e19-c5e0-45bb-af58-edbbe70e78fa",
+                    "last_sent_at": "2022-06-23T06:32:55.474Z",
+                    "resendable": true,
+                    "status": "pending",
+                    "user_account_id": "7211ccc2-1fca-4799-b1e1-4005e9fc42be",
+                  },
+                ],
+                "userProfile": Object {
+                  "about": null,
+                  "address": null,
+                  "avatarUrls": Object {
+                    "original": "/avatar-img-url",
+                  },
+                  "city": "city",
+                  "country": "country",
+                  "dateOfBirth": "1994-01-01",
+                  "drivingLicenseFirstName": "Evhenii",
+                  "drivingLicenseLastName": "Test",
+                  "firstName": "Evhenii",
+                  "gender": null,
+                  "id": "52080e19-c5e0-45bb-af58-edbbe70e78fa",
+                  "lastName": "Test",
+                  "phoneNumber": "+299999999",
+                  "state": "state",
+                  "street": "street",
+                  "zipCode": "zipCode",
+                },
+                "userType": "traveller_account",
+                "verifiedStatus": "unverified",
+              },
+            }
+          }
+        >
+          <FieldWrapper
+            changeMode={true}
+            description={
+              Object {
+                "id": "personalInformation.fullName.description",
+              }
+            }
+            fieldNames={
+              Array [
+                "firstName",
+                "lastName",
+              ]
+            }
+            hideButtons={false}
+            isLoading={false}
+            label={
+              Object {
+                "id": "shared.fullName",
+              }
+            }
+            value=""
+          >
+            <div
+              className="container-two-items mb-8"
+            >
+              <InputField
+                asComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "Group": [Function],
+                    "Password": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "defaultProps": Object {
+                        "action": "click",
+                        "iconRender": [Function],
+                        "visibilityToggle": true,
+                      },
+                      "render": [Function],
+                    },
+                    "Search": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "TextArea": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "render": [Function],
+                  }
+                }
+                label={
+                  Object {
+                    "id": "shared.firstName",
+                  }
+                }
+                name="firstName"
+                numbersOnly={false}
+                withFormItem={true}
+              />
+              <InputField
+                asComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "Group": [Function],
+                    "Password": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "defaultProps": Object {
+                        "action": "click",
+                        "iconRender": [Function],
+                        "visibilityToggle": true,
+                      },
+                      "render": [Function],
+                    },
+                    "Search": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "TextArea": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "render": [Function],
+                  }
+                }
+                label={
+                  Object {
+                    "id": "shared.lastName",
+                  }
+                }
+                name="lastName"
+                numbersOnly={false}
+                withFormItem={true}
+              />
+            </div>
+          </FieldWrapper>
+          <FieldWrapper
+            changeMode={true}
+            description={null}
+            fieldNames={
+              Array [
+                "gender",
+              ]
+            }
+            hideButtons={false}
+            isLoading={false}
+            label={
+              Object {
+                "id": "shared.gender",
+              }
+            }
+            value={null}
+          >
+            <SelectField
+              name="gender"
+              optionComponent={[Function]}
+              options={
+                Array [
+                  Object {
+                    "label": Object {
+                      "id": "shared.male",
+                    },
+                    "value": "Male",
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "shared.female",
+                    },
+                    "value": "Female",
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "shared.other",
+                    },
+                    "value": "Other",
+                  },
+                ]
+              }
+              placeholder={
+                Object {
+                  "id": "shared.selectGender",
+                }
+              }
+              showSearch={true}
+            />
+          </FieldWrapper>
+          <FieldWrapper
+            changeMode={true}
+            description={null}
+            fieldNames={
+              Array [
+                "dateOfBirth",
+              ]
+            }
+            hideButtons={false}
+            isLoading={false}
+            label={
+              Object {
+                "id": "shared.dateOfBirth",
+              }
+            }
+            value={null}
+          >
+            <div
+              className="d-flex justify-content-space-between mb-24 flex-wrap"
+            >
+              <DateField
+                className="w-100"
+                formItemClassName="w-100"
+                name="dateOfBirth"
+                placeholder={
+                  Object {
+                    "id": "shared.dateFormat",
+                  }
+                }
+                size="large"
+                tooltip={
+                  Object {
+                    "id": "personalInformation.dateOfBirth.description",
+                  }
+                }
+              />
+            </div>
+          </FieldWrapper>
+          <FieldWrapper
+            changeMode={true}
+            description={
+              Object {
+                "id": "personalInformation.about.description",
+              }
+            }
+            fieldNames={
+              Array [
+                "about",
+              ]
+            }
+            hideButtons={false}
+            isLoading={false}
+            label={
+              Object {
+                "id": "shared.about",
+              }
+            }
+            value={null}
+          >
+            <InputField
+              asComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                }
+              }
+              formItemClassName="mb-24"
+              name="about"
+              numbersOnly={false}
+              withFormItem={true}
+            />
+          </FieldWrapper>
+          <Email />
+          <PhoneNumber />
+          <FieldWrapper
+            changeMode={true}
+            description={
+              Object {
+                "id": "personalInformation.address.description",
+              }
+            }
+            fieldNames={null}
+            hideButtons={false}
+            isLoading={false}
+            label={
+              Object {
+                "id": "shared.address",
+              }
+            }
+            value=""
+          >
+            <Address />
+          </FieldWrapper>
+          <FieldWrapper
+            changeMode={true}
+            description={
+              Object {
+                "id": "personalInformation.driverLicense.description",
+              }
+            }
+            fieldNames={
+              Array [
+                "drivingLicenseFirstName",
+                "drivingLicenseLastName",
+              ]
+            }
+            hideButtons={false}
+            isLoading={false}
+            label={
+              Object {
+                "id": "shared.nameOnDriverLicense",
+              }
+            }
+            value=""
+          >
+            <div
+              className="container-two-items mb-8"
+            >
+              <InputField
+                asComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "Group": [Function],
+                    "Password": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "defaultProps": Object {
+                        "action": "click",
+                        "iconRender": [Function],
+                        "visibilityToggle": true,
+                      },
+                      "render": [Function],
+                    },
+                    "Search": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "TextArea": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "render": [Function],
+                  }
+                }
+                label={
+                  Object {
+                    "id": "shared.firstName",
+                  }
+                }
+                name="drivingLicenseFirstName"
+                numbersOnly={false}
+                withFormItem={true}
+              />
+              <InputField
+                asComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "Group": [Function],
+                    "Password": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "defaultProps": Object {
+                        "action": "click",
+                        "iconRender": [Function],
+                        "visibilityToggle": true,
+                      },
+                      "render": [Function],
+                    },
+                    "Search": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "TextArea": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "render": [Function],
+                  }
+                }
+                label={
+                  Object {
+                    "id": "shared.lastName",
+                  }
+                }
+                name="drivingLicenseLastName"
+                numbersOnly={false}
+                withFormItem={true}
+              />
+            </div>
+          </FieldWrapper>
+        </ContextProvider>
+      </ForwardRef(InternalForm)>
+    </div>
+    <PageInfo
+      description={
+        Object {
+          "id": "personalInformation.description",
+        }
+      }
+      icon={
+        <SvgIcon
+          className="personal-information__icon"
+          icon="profile"
+        />
+      }
+      title={
+        Object {
+          "id": "personalInformation.descriptionTitle",
+        }
+      }
+    />
+  </div>
+</div>
+`;

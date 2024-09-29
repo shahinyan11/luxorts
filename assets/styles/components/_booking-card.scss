@@ -1,0 +1,84 @@
+.booking-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+  border: 1px solid get-color(secondary, 200);
+  border-radius: $border-radius-primary;
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+    align-items: stretch;
+  }
+}
+.booking-card__img {
+  flex-shrink: 0;
+  align-self: center;
+  border-radius: $border-radius-primary;
+  @include media-breakpoint-up(md) {
+    align-self: flex-start;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+.booking-card__content {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 16px;
+  @include media-breakpoint-up(lg) {
+    padding: 24px;
+  }
+}
+.booking-card__info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.booking-card__title {
+  @include text-subheader-big-2;
+  color: get-color(text, active-dark);
+}
+.booking-card__description {
+  @include text-body;
+  color: get-color(text, black);
+}
+.booking-card__price {
+  @include text-subheader;
+  margin-top: auto;
+  color: get-color(text, black);
+}
+.booking-card__accent {
+  @include text-subheader-2;
+  color: get-color(text, active-dark);
+}
+.booking-card__dot {
+  width: 6px;
+  height: 6px;
+  margin-right: 4px;
+  margin-left: 4px;
+  color: get-color(text, black);
+}
+.booking-card__details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: right;
+  .booking-card__menu-btn {
+    min-width: inherit;
+    height: auto;
+    padding: 2px;
+  }
+}
+.booking-card__date {
+  @include text-subheader;
+  color: get-color(text, black);
+}
+.booking-card__menu-btn {
+  color: get-color(secondary, 800);
+  &:hover,
+  &.ant-dropdown-open {
+    color: get-color(primary, 1000);
+  }
+}

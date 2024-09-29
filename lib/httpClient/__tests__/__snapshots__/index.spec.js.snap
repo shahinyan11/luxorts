@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`buildHttpClient() returns new instance of axios 1`] = `
+Object {
+  "baseURL": "http://localhost:3000/api/v1",
+  "headers": Object {
+    "common": Object {},
+  },
+  "paramsSerializer": [Function],
+}
+`;

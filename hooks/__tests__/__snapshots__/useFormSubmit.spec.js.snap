@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useFormSubmit hook when reset is present matches snapshot 1`] = `[Function]`;
+
+exports[`useFormSubmit hook when reset isn\`t present matches snapshot 1`] = `[Function]`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add new listing. House rules validation schema matches snapshot 1`] = `
+Object {
+  "fields": Object {
+    "additional": Object {
+      "fields": Object {
+        "name": Object {
+          "label": undefined,
+          "meta": undefined,
+          "notOneOf": Array [],
+          "oneOf": Array [],
+          "tests": Array [
+            Object {
+              "name": "max",
+              "params": Object {
+                "max": 255,
+              },
+            },
+          ],
+          "type": "string",
+        },
+      },
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [],
+      "type": "object",
+    },
+  },
+  "label": undefined,
+  "meta": undefined,
+  "notOneOf": Array [],
+  "oneOf": Array [],
+  "tests": Array [],
+  "type": "object",
+}
+`;

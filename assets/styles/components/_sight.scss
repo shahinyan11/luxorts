@@ -1,0 +1,105 @@
+.sight__image {
+  width: calc(100% / 3);
+  height: auto;
+}
+.sight__container {
+  @include container;
+  padding-right: 16px;
+  padding-left: 16px;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.sight__buttons {
+  position: relative;
+  z-index: 1;
+  margin-top: -64px;
+}
+.sight__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 48px;
+  @include media-breakpoint-up(xl) {
+    flex-direction: row;
+  }
+}
+.sight__map {
+  flex-shrink: 0;
+  width: 364px;
+  max-width: 100%;
+  height: 364px;
+}
+.sight__content {
+  width: 100%;
+  max-width: 655px;
+}
+.sight__title {
+  @include text-display-2;
+  color: get-color(text, active-dark);
+}
+.sight__header {
+  display: flex;
+  padding-bottom: 32px;
+  overflow: hidden;
+  border-bottom: 1px solid get-color(secondary, 100);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sight__subtitle {
+  @include text-body;
+  margin-right: 8px;
+  padding-right: 8px;
+  border-right: 1px solid get-color(secondary, 100);
+  color: get-color(text, black);
+}
+.sight__rating {
+  @include text-body;
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  margin-bottom: 0;
+  padding-right: 8px;
+  border-right: 1px solid get-color(secondary, 100);
+  color: get-color(text, black);
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    fill: get-color(accent-2, 1100);
+  }
+}
+.sight__rate {
+  margin-right: 4px;
+  color: get-color(text, active-dark);
+  font-weight: 600;
+}
+.sight__address {
+  @include text-body;
+  flex-shrink: 1;
+  margin-bottom: 0;
+  overflow: hidden;
+  color: get-color(text, black);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sight__about {
+  @include text-headline-2;
+}
+.sight__text {
+  @include text-body;
+}
+.sight__text--overflow {
+  // stylelint-disable-next-line
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 6;
+  // stylelint-disable-next-line
+  -webkit-box-orient: vertical;
+  // stylelint-disable-next-line
+  box-orient: vertical;
+  // stylelint-disable-next-line
+  text-overflow: ellipsis;
+}

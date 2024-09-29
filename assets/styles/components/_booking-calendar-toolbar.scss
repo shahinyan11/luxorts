@@ -1,0 +1,22 @@
+.booking-calendar-toolbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+  }
+}
+.booking-calendar-toolbar__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 16px;
+  @include media-breakpoint-up(lg) {
+    flex-wrap: nowrap;
+    row-gap: 0;
+  }
+}
+.booking-calendar-toolbar__links {
+  display: flex;
+}

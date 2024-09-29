@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrencyInputField component matches snapshot when allowNegativeValue is present and equals true 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <CurrencyInput
+    allowNegativeValue={true}
+    className="ant-input ant-input-lg"
+    id="name"
+    name="name"
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`CurrencyInputField component matches snapshot when formItemClassName is present 1`] = `
+<FormItem
+  className="test"
+  htmlFor="name"
+  validateStatus={false}
+>
+  <CurrencyInput
+    allowNegativeValue={false}
+    className="ant-input ant-input-lg"
+    id="name"
+    name="name"
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`CurrencyInputField component matches snapshot when label is present 1`] = `
+<FormItem
+  htmlFor="name"
+  label={
+    <Memo(FormattedMessage)
+      id="label.id"
+    />
+  }
+  validateStatus={false}
+>
+  <CurrencyInput
+    allowNegativeValue={false}
+    className="ant-input ant-input-lg"
+    id="name"
+    name="name"
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`CurrencyInputField component matches snapshot when placeholder is present 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <CurrencyInput
+    allowNegativeValue={false}
+    className="ant-input ant-input-lg"
+    id="name"
+    name="name"
+    placeholder="{Translation id: placeholder.id}"
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`CurrencyInputField component matches snapshot when suffix is present 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <CurrencyInput
+    allowNegativeValue={false}
+    className="ant-input ant-input-lg"
+    id="name"
+    name="name"
+    suffix="{Translation id: suffix.id}"
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`CurrencyInputField component matches snapshot when tooltip is present 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "tooltip.id",
+        }
+      }
+    />
+  }
+  htmlFor="name"
+  validateStatus={false}
+>
+  <CurrencyInput
+    allowNegativeValue={false}
+    className="ant-input ant-input-lg"
+    id="name"
+    name="name"
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`CurrencyInputField component matches snapshot when touched and has error 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "error.id",
+        }
+      }
+      type="error"
+    />
+  }
+  htmlFor="name"
+  validateStatus="error"
+>
+  <CurrencyInput
+    allowNegativeValue={false}
+    className="ant-input ant-input-lg"
+    id="name"
+    name="name"
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`CurrencyInputField component matches snapshot when touched and has error and tooltip is present 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "error.id",
+        }
+      }
+      type="error"
+    />
+  }
+  htmlFor="name"
+  validateStatus="error"
+>
+  <CurrencyInput
+    allowNegativeValue={false}
+    className="ant-input ant-input-lg"
+    id="name"
+    name="name"
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`CurrencyInputField component matches snapshot when touched and has no error 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={null}
+>
+  <CurrencyInput
+    allowNegativeValue={false}
+    className="ant-input ant-input-lg"
+    id="name"
+    name="name"
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`CurrencyInputField component matches snapshot with default props 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <CurrencyInput
+    allowNegativeValue={false}
+    className="ant-input ant-input-lg"
+    id="name"
+    name="name"
+    value="value"
+  />
+</FormItem>
+`;

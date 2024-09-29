@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserAvatar component matches snapshot 1`] = `
+<Avatar
+  className="ant-avatar--xl"
+  shape="circle"
+  size="default"
+  src="/avatar-img-url"
+>
+  ET
+</Avatar>
+`;
+
+exports[`UserAvatar component matches snapshot when className is present 1`] = `
+<Avatar
+  className="ant-avatar--xl className"
+  shape="circle"
+  size="default"
+  src="/avatar-img-url"
+>
+  ET
+</Avatar>
+`;

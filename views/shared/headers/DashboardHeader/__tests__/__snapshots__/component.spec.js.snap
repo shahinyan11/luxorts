@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardHeader component matches snapshot 1`] = `
+<header
+  className="main-header"
+>
+  <div
+    className="main-header__container"
+  >
+    <Link
+      href="/"
+    >
+      <a
+        className="main-header__logo"
+      >
+        <Image
+          alt=""
+          height="32"
+          src="/images/logo.svg"
+          width="138"
+        />
+      </a>
+    </Link>
+    <div
+      className="d-flex flex-wrap flex-sm-nowrap justify-content-flex-end align-items-center w-100"
+    >
+      <Menu
+        className="main-menu ant-menu--main"
+        items={
+          Object {
+            "key": "key",
+            "label": "label",
+          }
+        }
+        mode="horizontal"
+      />
+      <div
+        className="main-header__profile"
+      >
+        <a
+          className="main-header__profile-notification main-header__profile-notification--active mr-24"
+        >
+          <SvgIcon
+            className="main-header__notification-icon"
+            icon="notification"
+          />
+        </a>
+        <UserDropdown
+          size="xs"
+        />
+      </div>
+    </div>
+  </div>
+</header>
+`;

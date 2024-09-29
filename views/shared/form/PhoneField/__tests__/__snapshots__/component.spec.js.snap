@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneField component matches snapshot 1`] = `
+Object {
+  "className": undefined,
+  "help": undefined,
+  "htmlFor": "name",
+  "label": undefined,
+  "validateStatus": false,
+}
+`;
+
+exports[`PhoneField component matches snapshot 2`] = `
+Object {
+  "defaultCountry": "US",
+  "id": "name",
+  "international": true,
+  "limitMaxLength": true,
+  "onBlur": [MockFunction],
+  "onChange": [MockFunction],
+  "value": "value",
+}
+`;
+
+exports[`PhoneField component matches snapshot when formItemClassName is present 1`] = `
+Object {
+  "className": "test",
+  "help": undefined,
+  "htmlFor": "name",
+  "label": undefined,
+  "validateStatus": false,
+}
+`;
+
+exports[`PhoneField component matches snapshot when label is present 1`] = `
+Object {
+  "className": undefined,
+  "help": undefined,
+  "htmlFor": "name",
+  "label": <Memo(FormattedMessage)
+    id="label.id"
+  />,
+  "validateStatus": false,
+}
+`;
+
+exports[`PhoneField component matches snapshot when touched and has error 1`] = `
+Object {
+  "className": undefined,
+  "help": <InputHelp
+    icon="alert"
+    text={
+      Object {
+        "id": "error.id",
+      }
+    }
+    type="error"
+  />,
+  "htmlFor": "name",
+  "label": undefined,
+  "validateStatus": "error",
+}
+`;
+
+exports[`PhoneField component matches snapshot when touched and has no error 1`] = `
+Object {
+  "className": undefined,
+  "help": undefined,
+  "htmlFor": "name",
+  "label": undefined,
+  "validateStatus": null,
+}
+`;

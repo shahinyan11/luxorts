@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`general listing constants match snapshot 1`] = `
+Object {
+  "ACCOMMODATION_VALIDATION": Object {
+    "ARRANGEMENT": Object {
+      "MAX": 16,
+      "MIN": 0,
+    },
+    "BASE": Object {
+      "MAX": 16,
+      "MIN": 1,
+    },
+  },
+  "BATH_NAME_BY_TYPE": Object {
+    "bathtub": Object {
+      "id": "shared.bathtub",
+    },
+    "double_vanity": Object {
+      "id": "shared.doubleVanity",
+    },
+    "jetted_tub": Object {
+      "id": "shared.jettedTub",
+    },
+    "shower": Object {
+      "id": "shared.shower",
+    },
+  },
+  "BATH_TYPE": Object {
+    "BATHTUB": "bathtub",
+    "DOUBLE_VANITY": "double_vanity",
+    "JETTED_TUB": "jetted_tub",
+    "SHOWER": "shower",
+  },
+  "BED_NAME_BY_TYPE": Object {
+    "double": Object {
+      "id": "shared.double",
+    },
+    "queen": Object {
+      "id": "shared.queen",
+    },
+    "single": Object {
+      "id": "shared.single",
+    },
+    "sofa_bed": Object {
+      "id": "shared.sofaBed",
+    },
+  },
+  "BED_TYPE": Object {
+    "DOUBLE": "double",
+    "QUEEN": "queen",
+    "SINGLE": "single",
+    "SOFA_BED": "sofa_bed",
+  },
+  "DEFAULT_BATHROOM_CONFIG": Object {
+    "bathsForDeleting": Array [],
+    "customBaths": Array [],
+    "defaultBaths": Array [
+      Object {
+        "amount": 0,
+        "kind": "bathtub",
+        "uuid": "uuid/v4",
+      },
+      Object {
+        "amount": 0,
+        "kind": "shower",
+        "uuid": "uuid/v4",
+      },
+      Object {
+        "amount": 0,
+        "kind": "jetted_tub",
+        "uuid": "uuid/v4",
+      },
+      Object {
+        "amount": 0,
+        "kind": "double_vanity",
+        "uuid": "uuid/v4",
+      },
+    ],
+  },
+  "DEFAULT_BEDROOM_CONFIG": Object {
+    "bedsForDeleting": Array [],
+    "customBeds": Array [],
+    "defaultBeds": Array [
+      Object {
+        "amount": 0,
+        "kind": "double",
+        "uuid": "uuid/v4",
+      },
+      Object {
+        "amount": 0,
+        "kind": "queen",
+        "uuid": "uuid/v4",
+      },
+      Object {
+        "amount": 0,
+        "kind": "single",
+        "uuid": "uuid/v4",
+      },
+      Object {
+        "amount": 0,
+        "kind": "sofa_bed",
+        "uuid": "uuid/v4",
+      },
+    ],
+  },
+  "INITIAL_BATHROOM": Object {
+    "bathsForDeleting": Array [],
+    "customBaths": Array [],
+    "defaultBaths": Array [
+      Object {
+        "amount": 0,
+        "kind": "bathtub",
+        "uuid": "uuid/v4",
+      },
+      Object {
+        "amount": 0,
+        "kind": "shower",
+        "uuid": "uuid/v4",
+      },
+      Object {
+        "amount": 0,
+        "kind": "jetted_tub",
+        "uuid": "uuid/v4",
+      },
+      Object {
+        "amount": 0,
+        "kind": "double_vanity",
+        "uuid": "uuid/v4",
+      },
+    ],
+    "uuid": "uuid/v4",
+  },
+  "INITIAL_BEDROOM": Object {
+    "bedsForDeleting": Array [],
+    "customBeds": Array [],
+    "defaultBeds": Array [
+      Object {
+        "amount": 0,
+        "kind": "double",
+        "uuid": "uuid/v4",
+      },
+      Object {
+        "amount": 0,
+        "kind": "queen",
+        "uuid": "uuid/v4",
+      },
+      Object {
+        "amount": 0,
+        "kind": "single",
+        "uuid": "uuid/v4",
+      },
+      Object {
+        "amount": 0,
+        "kind": "sofa_bed",
+        "uuid": "uuid/v4",
+      },
+    ],
+    "uuid": "uuid/v4",
+  },
+  "LISTING_DEFAULT_BATHS": Array [
+    Object {
+      "amount": 0,
+      "kind": "bathtub",
+      "uuid": "uuid/v4",
+    },
+    Object {
+      "amount": 0,
+      "kind": "shower",
+      "uuid": "uuid/v4",
+    },
+    Object {
+      "amount": 0,
+      "kind": "jetted_tub",
+      "uuid": "uuid/v4",
+    },
+    Object {
+      "amount": 0,
+      "kind": "double_vanity",
+      "uuid": "uuid/v4",
+    },
+  ],
+  "LISTING_DEFAULT_BEDS": Array [
+    Object {
+      "amount": 0,
+      "kind": "double",
+      "uuid": "uuid/v4",
+    },
+    Object {
+      "amount": 0,
+      "kind": "queen",
+      "uuid": "uuid/v4",
+    },
+    Object {
+      "amount": 0,
+      "kind": "single",
+      "uuid": "uuid/v4",
+    },
+    Object {
+      "amount": 0,
+      "kind": "sofa_bed",
+      "uuid": "uuid/v4",
+    },
+  ],
+  "LISTING_IMAGE_PLACEHOLDER": "/images/housing-preview-01.png",
+  "LISTING_PATH_BY_STATUS": Object {
+    "accomodation": "/add-new-listing/accommodation/[id]",
+    "amenities": "/add-new-listing/amenities/[id]",
+    "availability": "/add-new-listing/availability/[id]",
+    "capabilities": "/add-new-listing/capabilities/[id]",
+    "description": "/add-new-listing/description/[id]",
+    "finished": "/add-new-listing/publish/[id]",
+    "house_rules": "/add-new-listing/house-rules/[id]",
+    "initial": "/add-new-listing",
+    "location": "/add-new-listing/location/[id]",
+    "location_map": "/add-new-listing/location-map/[id]",
+    "photos": "/add-new-listing/photos/[id]",
+    "preferences": "/add-new-listing/reservation-preferences/[id]",
+    "pricing": "/add-new-listing/pricing-and-discounts/[id]",
+    "services": "/add-new-listing/services/[id]",
+  },
+  "LISTING_PLACE_OPTIONS": Array [
+    Object {
+      "label": Object {
+        "id": "shared.entirePlace",
+      },
+      "value": "entire_room",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.privateRoom",
+      },
+      "value": "private_place",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.sharedRoom",
+      },
+      "value": "shared_room",
+    },
+  ],
+  "LISTING_PLACE_TYPE": Object {
+    "ENTIRE_ROOM": "entire_room",
+    "PRIVATE_PLACE": "private_place",
+    "SHARED_ROOM": "shared_room",
+  },
+  "LISTING_PROGRESS_BY_STATUS": Object {
+    "accomodation": 20,
+    "amenities": 38,
+    "availability": 80,
+    "capabilities": 44,
+    "description": 62,
+    "finished": 100,
+    "house_rules": 68,
+    "initial": 14,
+    "location": 26,
+    "location_map": 32,
+    "photos": 56,
+    "preferences": 74,
+    "pricing": 86,
+    "services": 50,
+  },
+  "LISTING_STATUS": Object {
+    "BLOCKED": "blocked",
+    "DELETED": "deleted",
+    "IN_DRAFT": "in_draft",
+    "ON_MODERATION": "on_moderation",
+    "PUBLISHED": "published",
+    "UNPUBLISHED": "unpublished",
+  },
+  "LISTING_STEP_STATUS": Object {
+    "ACCOMODATION": "accomodation",
+    "AMENITIES": "amenities",
+    "AVAILABILITY": "availability",
+    "CAPABILITIES": "capabilities",
+    "DESCRIPTION": "description",
+    "FINISHED": "finished",
+    "HOUSE_RULES": "house_rules",
+    "INITIAL": "initial",
+    "LOCATION": "location",
+    "LOCATION_MAP": "location_map",
+    "PHOTOS": "photos",
+    "PREFERENCES": "preferences",
+    "PRICING": "pricing",
+    "SERVICES": "services",
+  },
+  "TIME_PERIOD_DESCRIPTION_BY_KIND": Object {
+    "blocked": Object {
+      "id": "shared.blocked",
+    },
+    "booking": Object {
+      "id": "shared.booked",
+    },
+    "preparation": Object {
+      "id": "shared.preparationTime",
+    },
+  },
+  "TIME_PERIOD_ICON_BY_KIND": Object {
+    "blocked": "clock",
+    "booking": "clock",
+    "preparation": "clock",
+  },
+  "TIME_PERIOD_KIND": Object {
+    "AVAILABLE": "available",
+    "BLOCKED": "blocked",
+    "BOOKING": "booking",
+    "PREPARATION": "preparation",
+  },
+}
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meta component matches snapshot 1`] = `
+<Head>
+  <meta
+    content="width=device-width, initial-scale=1, shrink-to-fit=no maximum-scale=1.0 user-scalable=no"
+    name="viewport"
+  />
+  <meta
+    content="ie=edge"
+    httpEquiv="x-ua-compatible"
+  />
+  <meta
+    charSet="utf-8"
+  />
+</Head>
+`;

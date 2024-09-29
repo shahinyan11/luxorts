@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getCroppedImg util should returns blob 1`] = `
+Object {
+  "name": "test",
+  "size": 1321321,
+}
+`;

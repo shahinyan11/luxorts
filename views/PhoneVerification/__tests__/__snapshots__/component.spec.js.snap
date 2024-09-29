@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneVerification component matches snapshot 1`] = `
+<div
+  className="confirm mt-40 mb-40 mt-sm-88 mb-sm-88 d-flex flex-column align-items-center"
+>
+  <div
+    className="mb-40"
+  >
+    <Image
+      alt=""
+      height="136"
+      src="/images/email.png"
+      width="136"
+    />
+  </div>
+  <h1
+    className="mb-8 confirm__title"
+  >
+    <Memo(FormattedMessage)
+      id="phoneConfirmation.title"
+    />
+  </h1>
+  <p
+    className="confirm__text mb-0"
+  >
+    <Memo(FormattedMessage)
+      id="phoneConfirmation.description"
+      values={
+        Object {
+          "phone": <b
+            className="confirm__text-bold"
+          >
+            +299999999
+          </b>,
+        }
+      }
+    />
+  </p>
+  <p
+    className="confirm__text mb-32"
+  >
+    <Memo(FormattedMessage)
+      id="phoneConfirmation.enterCode"
+    />
+  </p>
+  <ForwardRef(InternalForm)
+    className="w-100"
+    layout="vertical"
+    size="large"
+  >
+    <ContextProvider
+      value={
+        Object {
+          "dirty": true,
+          "handleSubmit": [MockFunction],
+          "isValid": true,
+          "resetForm": [MockFunction],
+          "setFieldTouched": [MockFunction],
+          "setFieldValue": [MockFunction],
+          "setValues": [MockFunction],
+          "validateForm": [MockFunction],
+          "values": Object {},
+        }
+      }
+    >
+      <InputField
+        asComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "Group": [Function],
+            "Password": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "action": "click",
+                "iconRender": [Function],
+                "visibilityToggle": true,
+              },
+              "render": [Function],
+            },
+            "Search": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            },
+            "TextArea": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            },
+            "render": [Function],
+          }
+        }
+        formItemClassName="mb-32"
+        name="code"
+        numbersOnly={false}
+        placeholder={
+          Object {
+            "id": "shared.enterSecurityCode",
+          }
+        }
+        withFormItem={true}
+      />
+      <div
+        className="confirm__buttons d-flex justify-content-flex-end w-100"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="min-width-140"
+          loading={false}
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.confirm",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </ContextProvider>
+  </ForwardRef(InternalForm)>
+</div>
+`;

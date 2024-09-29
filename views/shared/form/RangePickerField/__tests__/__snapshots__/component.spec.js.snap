@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RangePickerField component matches snapshot 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef
+    format="DD/MM/YYYY"
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  />
+</FormItem>
+`;
+
+exports[`RangePickerField component matches snapshot when formItemClassName is present 1`] = `
+<FormItem
+  className="test"
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef
+    format="DD/MM/YYYY"
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  />
+</FormItem>
+`;
+
+exports[`RangePickerField component matches snapshot when label is present 1`] = `
+<FormItem
+  htmlFor="name"
+  label={
+    <Memo(FormattedMessage)
+      id="label.id"
+    />
+  }
+  validateStatus={false}
+>
+  <ForwardRef
+    format="DD/MM/YYYY"
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  />
+</FormItem>
+`;
+
+exports[`RangePickerField component matches snapshot when placeholder is present 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef
+    format="DD/MM/YYYY"
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder={
+      Array [
+        "{Translation id: placeholder.id}",
+        "{Translation id: placeholder.id}",
+      ]
+    }
+  />
+</FormItem>
+`;
+
+exports[`RangePickerField component matches snapshot when tooltip is present 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "tooltip.id",
+        }
+      }
+    />
+  }
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef
+    format="DD/MM/YYYY"
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  />
+</FormItem>
+`;
+
+exports[`RangePickerField component matches snapshot when touched and has error 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "error.id",
+        }
+      }
+      type="error"
+    />
+  }
+  htmlFor="name"
+  validateStatus="error"
+>
+  <ForwardRef
+    format="DD/MM/YYYY"
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  />
+</FormItem>
+`;
+
+exports[`RangePickerField component matches snapshot when touched and has error and tooltip is present 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "error.id",
+        }
+      }
+      type="error"
+    />
+  }
+  htmlFor="name"
+  validateStatus="error"
+>
+  <ForwardRef
+    format="DD/MM/YYYY"
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  />
+</FormItem>
+`;
+
+exports[`RangePickerField component matches snapshot when touched and has no error 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={null}
+>
+  <ForwardRef
+    format="DD/MM/YYYY"
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  />
+</FormItem>
+`;

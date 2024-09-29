@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getTimePeriodBoundaries util matches snapshot 1`] = `
+Object {
+  "endDate": "31/07/2022",
+  "startDate": "01/05/2022",
+}
+`;

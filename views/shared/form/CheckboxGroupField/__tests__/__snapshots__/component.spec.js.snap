@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxGroupField component matches snapshot 1`] = `
+<Memo(ForwardRef(InternalCheckboxGroup))
+  onChange={[Function]}
+>
+  <Checkbox
+    key="value"
+    value="value"
+  >
+    <FormattedOrRawMessage
+      message={
+        Object {
+          "id": "label.id",
+        }
+      }
+    />
+  </Checkbox>
+</Memo(ForwardRef(InternalCheckboxGroup))>
+`;
+
+exports[`CheckboxGroupField component matches snapshot when items aren\`t present 1`] = `
+<Memo(ForwardRef(InternalCheckboxGroup))
+  onChange={[Function]}
+/>
+`;

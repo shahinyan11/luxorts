@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header useContainer hook matches snapshot 1`] = `
+Object {
+  "formik": Object {
+    "dirty": true,
+    "handleSubmit": [MockFunction],
+    "initialValues": Object {
+      "date": "",
+      "guests": "",
+      "location": "",
+    },
+    "isValid": true,
+    "resetForm": [MockFunction],
+    "setFieldTouched": [MockFunction],
+    "setFieldValue": [MockFunction],
+    "setValues": [MockFunction],
+    "validateForm": [MockFunction],
+    "values": Object {},
+  },
+  "isLoggedInUserWidgetVisible": false,
+  "isLoggedOutUserWidgetVisible": false,
+  "switchToHostingRoute": "/add-new-listing",
+}
+`;

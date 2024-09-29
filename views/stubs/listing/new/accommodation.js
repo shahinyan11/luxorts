@@ -1,0 +1,101 @@
+import React from 'react';
+import { Progress, Form, InputNumber, Button } from 'antd';
+import SvgIcon from 'views/stubs/shared/SvgIcon';
+import MainHeader from '../../layout/header';
+
+const Accommodation = () => (
+  <div className="main-layout">
+    <MainHeader isNewListing newListingText="Accommodation" />
+    <div className="main-layout__content main-layout__content--full-width">
+      <Progress percent={18.75} showInfo={false} className="main-layout__progress" />
+      <section className="new-listing pt-32">
+        <div className="new-listing__container mb-8">
+          <h1 className="new-listing__title mb-8">How many guests can your place accommodate?</h1>
+          <p className="new-listing__description mb-32">
+            Check that you have enough beds to accommodate all your guests comfortably.
+          </p>
+          <Form layout="vertical" size="large">
+            <div className="new-listing__item mb-24">
+              <Form.Item
+                label="Number of guests you will accommodate?"
+                htmlFor="guests"
+                className="ant-form-item--light"
+              >
+                <InputNumber
+                  addonBefore="Guests"
+                  min={0}
+                  defaultValue={0}
+                  id="guests"
+                  controls={{
+                    upIcon: <SvgIcon icon="plus-circle" />,
+                    downIcon: <SvgIcon icon="minus-circle" />,
+                  }}
+                />
+              </Form.Item>
+              <Form.Item
+                label="How many bedrooms can your guests use?"
+                htmlFor="bedrooms"
+                className="ant-form-item--light"
+              >
+                <InputNumber
+                  addonBefore="Bedrooms"
+                  min={0}
+                  defaultValue={0}
+                  id="bedrooms"
+                  controls={{
+                    upIcon: <SvgIcon icon="plus-circle" />,
+                    downIcon: <SvgIcon icon="minus-circle" />,
+                  }}
+                />
+              </Form.Item>
+              <Form.Item
+                label="How many beds can your guests use?"
+                htmlFor="beds"
+                className="ant-form-item--light"
+              >
+                <InputNumber
+                  addonBefore="Beds"
+                  min={0}
+                  defaultValue={0}
+                  id="beds"
+                  controls={{
+                    upIcon: <SvgIcon icon="plus-circle" />,
+                    downIcon: <SvgIcon icon="minus-circle" />,
+                  }}
+                />
+              </Form.Item>
+              <Form.Item
+                label="How many bathrooms can your guests use?"
+                htmlFor="bathrooms"
+                className="ant-form-item--light"
+              >
+                <InputNumber
+                  addonBefore="Bathrooms"
+                  min={0}
+                  defaultValue={0}
+                  id="bathrooms"
+                  controls={{
+                    upIcon: <SvgIcon icon="plus-circle" />,
+                    downIcon: <SvgIcon icon="minus-circle" />,
+                  }}
+                />
+              </Form.Item>
+            </div>
+          </Form>
+        </div>
+        <div className="new-listing__footer pt-24 pb-24">
+          <div className="new-listing__container d-flex justify-content-space-between">
+            <Button htmlType="button" className="main-btn main-btn--tertiary min-width-140">
+              Back
+            </Button>
+            <Button htmlType="submit" className="main-btn main-btn--primary min-width-140 ml-auto">
+              Next
+            </Button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+);
+
+export default Accommodation;

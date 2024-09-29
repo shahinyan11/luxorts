@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoggedInUserWidget component matches snapshot 1`] = `
+<div
+  className="d-flex flex-wrap justify-content-flex-end align-items-center"
+>
+  <Link
+    href="switchToHostingRoute"
+  >
+    <a>
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="mb-8 mb-sm-0"
+        text={
+          Object {
+            "id": "shared.switchToHosting",
+          }
+        }
+        variant="tertiary"
+      />
+    </a>
+  </Link>
+  <GradientButton
+    addonAfter={
+      <SvgIcon
+        className="icon-right"
+        icon="globe"
+      />
+    }
+    addonBefore={null}
+    className="main-btn--icon ml-12 mr-12 main-header__language"
+    variant="default"
+  />
+  <UserDropdown
+    size="sm"
+  />
+</div>
+`;

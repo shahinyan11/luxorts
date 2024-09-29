@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadPhotosField component children matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="upload-photos"
+    onBlur={null}
+    onClick={[Function]}
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    onFocus={null}
+    onKeyDown={null}
+    role="presentation"
+  >
+    <input
+      accept="image/*,.jpeg,.png,.jpg"
+      multiple={true}
+      onChange={[Function]}
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      tabIndex={-1}
+      type="file"
+    />
+    <div
+      className="upload-photos__items"
+      id="sortable"
+    >
+      <Photo
+        descriptionPath="name[0].description"
+        id="3bc0e5d1-cee6-4f1b-8cfb-4bc6484334b6"
+        isMain={true}
+        key="3bc0e5d1-cee6-4f1b-8cfb-4bc6484334b6"
+        onEdit={[MockFunction]}
+        onPreview={[MockFunction]}
+        onRemove={[MockFunction]}
+        src="memory://listingphoto/3bc0e5d1-cee6-4f1b-8cfb-4bc6484334b6/photo/medium-578d472f5b2b64fd58b9b058646e2432.jpg"
+      />
+    </div>
+    <GradientButton
+      addonAfter={null}
+      addonBefore={
+        <SvgIcon
+          className="icon-left"
+          icon="upload"
+        />
+      }
+      className="min-width-216 mt-32 ml-auto mr-auto mb-24"
+      disabled={false}
+      onClick={[MockFunction]}
+      text={
+        Object {
+          "id": "shared.uploadPhotos",
+        }
+      }
+      variant="primary"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`UploadPhotosField component children matches snapshot when value.length equals 0 1`] = `
+<Fragment>
+  <div
+    className="upload-photos"
+    onBlur={null}
+    onClick={[Function]}
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    onFocus={null}
+    onKeyDown={null}
+    role="presentation"
+  >
+    <input
+      accept="image/*,.jpeg,.png,.jpg"
+      multiple={true}
+      onChange={[Function]}
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      tabIndex={-1}
+      type="file"
+    />
+    <div
+      className="upload-photos__items"
+      id="sortable"
+    />
+    <GradientButton
+      addonAfter={null}
+      addonBefore={
+        <SvgIcon
+          className="icon-left"
+          icon="upload"
+        />
+      }
+      className="min-width-216 mt-32 ml-auto mr-auto mb-24"
+      disabled={false}
+      onClick={[MockFunction]}
+      text={
+        Object {
+          "id": "shared.uploadPhotos",
+        }
+      }
+      variant="primary"
+    />
+    <p
+      className="ant-upload-decor mb-16 ml-auto mr-auto"
+    >
+      <Memo(FormattedMessage)
+        id="shared.or"
+      />
+    </p>
+    <p
+      className="ant-upload-text text-align-center mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="shared.dragYourItemsIn"
+      />
+    </p>
+  </div>
+</Fragment>
+`;
+
+exports[`UploadPhotosField component matches snapshot 1`] = `
+<Fragment>
+  <input
+    accept="image/*,.jpeg,.png,.jpg"
+    className="d-none"
+    onChange={[MockFunction]}
+    type="file"
+  />
+  <Dropzone
+    accept={
+      Object {
+        "image/*": Array [
+          ".jpeg",
+          ".png",
+          ".jpg",
+        ],
+      }
+    }
+    autoFocus={false}
+    disabled={false}
+    getFilesFromEvent={[Function]}
+    maxFiles={24}
+    maxSize={10000000}
+    minSize={0}
+    multiple={true}
+    noClick={true}
+    noDrag={false}
+    noDragEventsBubbling={false}
+    noKeyboard={true}
+    onDrop={[MockFunction]}
+    onDropRejected={[MockFunction]}
+    preventDropOnDocument={true}
+    useFsAccessApi={true}
+    validator={null}
+  >
+    <Component />
+  </Dropzone>
+</Fragment>
+`;

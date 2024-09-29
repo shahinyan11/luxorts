@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoggedOutUserWidget component matches snapshot 1`] = `
+<div
+  className="d-flex flex-wrap justify-content-flex-end align-items-center"
+>
+  <Link
+    href="/sign-in?redirect=%2Fadd-new-listing"
+  >
+    <a>
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium"
+        text={
+          Object {
+            "id": "shared.listYourProperty",
+          }
+        }
+        variant="primary"
+      />
+    </a>
+  </Link>
+  <GradientButton
+    addonAfter={
+      <SvgIcon
+        className="icon-right"
+        icon="globe"
+      />
+    }
+    addonBefore={null}
+    className="main-btn--icon main-btn--medium ml-12 mr-12 main-header__language"
+    variant="default"
+  />
+  <Link
+    href="/sign-up"
+  >
+    <a
+      className="main-link main-link--primary mr-24"
+    >
+      <Memo(FormattedMessage)
+        id="shared.signUp"
+      />
+    </a>
+  </Link>
+  <Link
+    href="/sign-in"
+  >
+    <a
+      className="main-link main-link--primary"
+    >
+      <Memo(FormattedMessage)
+        id="shared.signIn"
+      />
+    </a>
+  </Link>
+</div>
+`;

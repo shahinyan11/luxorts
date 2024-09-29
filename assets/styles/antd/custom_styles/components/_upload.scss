@@ -1,0 +1,224 @@
+.ant-upload {
+  &:not(.ant-upload-select) {
+    width: 100%;
+    min-height: 280px;
+    transition: background-color 0.3s;
+    background-color: get-color(secondary, 50);
+  }
+  &:hover,
+  &:focus {
+    background-color: get-color(secondary, 100);
+    .ant-upload-drag {
+      border-color: get-color(primary, 1000);
+    }
+  }
+  &.ant-upload-drag {
+    transition: border-color 0.3s;
+    border-color: get-color(secondary, 300);
+    /* stylelint-disable selector-no-qualifying-type */
+    p.ant-upload-hint {
+      color: get-color(text, active-dark);
+    }
+    /* stylelint-enable selector-no-qualifying-type */
+  }
+}
+.ant-upload.ant-upload-drag:not(.ant-upload-disabled):hover,
+.ant-upload.ant-upload-drag:not(.ant-upload-disabled):focus {
+  border-color: get-color(primary, 1000);
+}
+.ant-upload.ant-upload-drag:not(.ant-upload-disabled):active {
+  border-color: get-color(primary, 1200);
+}
+.ant-upload--light {
+  &.ant-upload-drag,
+  .ant-upload {
+    border-radius: 10px;
+    background-color: get-color(text, white);
+  }
+  &.ant-upload-drag .ant-upload {
+    width: 100%;
+    min-height: 440px;
+    padding: 24px 24px 48px;
+  }
+}
+.ant-upload-list-item {
+  min-height: 56px;
+}
+.ant-upload-list-item-info {
+  padding: 8px 12px;
+  border: 1px solid get-color(secondary, 200);
+  border-radius: $border-radius-secondary;
+  .ant-upload-text-icon .anticon {
+    transform: rotate(180deg);
+    font-size: 24px;
+  }
+}
+.ant-upload-list-text .ant-upload-list-item-name {
+  @include text-body;
+  color: get-color(text, active-dark);
+}
+.ant-upload-list-item-card-actions-btn.ant-btn-sm {
+  width: 32px;
+  height: 32px;
+  border-radius: $border-radius-primary;
+  background-color: get-color(primary, 100);
+  color: get-color(primary, 1000);
+  font-size: 24px;
+  .anticon {
+    color: get-color(primary, 1000);
+  }
+}
+.ant-upload-decor {
+  @include text-body;
+  display: block;
+  position: relative;
+  width: 218px;
+  color: get-color(text, secondary-black);
+  text-align: center;
+  &:after,
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 92px;
+    height: 1px;
+    transform: translateY(-50%);
+    background-color: get-color(secondary, 100);
+  }
+  &:after {
+    left: 0;
+  }
+  &:before {
+    right: 0;
+  }
+}
+/* stylelint-disable selector-no-qualifying-type */
+.ant-upload.ant-upload-drag p.ant-upload-text {
+  @include text-body-2;
+  color: get-color(text, black);
+}
+/* stylelint-enable selector-no-qualifying-type */
+.ant-upload-picture-card-wrapper {
+  width: 100%;
+  min-height: 440px;
+  padding: 23px 23px 48px;
+  transition: border-color 0.3s;
+  border: 1px dashed get-color(secondary, 300);
+  border-radius: 10px;
+  background-color: transparent;
+  &:hover,
+  &:focus {
+    border-color: get-color(primary, 1000);
+    background-color: transparent;
+  }
+  .ant-upload.ant-upload-select-picture-card {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: none;
+  }
+  .ant-upload {
+    height: auto;
+    min-height: auto;
+  }
+  .ant-upload-list-item,
+  .ant-upload-list-item-info {
+    padding: 0;
+    border: none;
+  }
+  .ant-upload-list:before {
+    display: none;
+  }
+  .ant-upload-list-item-actions {
+    top: 12px;
+    right: 12px;
+    left: auto;
+    width: 80px;
+    transform: none;
+    opacity: 1;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: get-color(text, white);
+      color: get-color(secondary, 800);
+      &:hover,
+      &:focus {
+        background-color: get-color(secondary, 100);
+      }
+      &:active {
+        background-color: get-color(secondary, 200);
+      }
+      /* stylelint-disable selector-max-compound-selectors */
+      .icon {
+        width: 20px;
+        height: 20px;
+      }
+      /* stylelint-enable selector-max-compound-selectors */
+    }
+  }
+  .ant-upload-list-item-card-actions-btn {
+    opacity: 1;
+  }
+  .ant-upload-list-item-card-actions-btn.ant-btn-sm {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: get-color(text, white);
+    color: get-color(secondary, 800);
+    &:hover,
+    &:focus {
+      background-color: get-color(secondary, 100);
+    }
+    &:active {
+      background-color: get-color(secondary, 200);
+    }
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-eye,
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-download,
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-delete {
+  margin: 0 8px;
+}
+.ant-upload-list-picture-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.ant-upload-list-picture-card-container {
+  width: 100%;
+  height: auto;
+  @include media-breakpoint-up(sm) {
+    width: 164px;
+    height: 136px;
+    margin: 0;
+  }
+}
+.ant-upload-list-picture-card-container:first-child {
+  position: relative;
+  &:after {
+    @include text-caption;
+    @include shadow-1;
+    content: 'Main photo';
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    padding: 4px 8px;
+    border-radius: $border-radius-secondary;
+    background-color: get-color(text, white);
+  }
+}
+.ant-upload-list-picture-card .ant-upload-list-item:hover .ant-upload-list-item-info:before {
+  opacity: 0;
+}

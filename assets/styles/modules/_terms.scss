@@ -1,0 +1,89 @@
+.terms {
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.terms__container {
+  @include container;
+}
+.terms__title {
+  @include text-jumbo-2;
+}
+.terms__update {
+  @include text-subheader;
+  color: get-color(text, black);
+}
+.terms__content {
+  display: flex;
+  flex-direction: column-reverse;
+  @include media-breakpoint-up(lg) {
+    gap: 60px;
+    flex-direction: row;
+  }
+  @include media-breakpoint-up(xl) {
+    gap: 120px;
+  }
+}
+.terms__column {
+  flex-grow: 1;
+  max-width: 656px;
+}
+.terms__navigation {
+  flex-basis: 364px;
+  flex-shrink: 0;
+  @include media-breakpoint-up(lg) {
+    max-width: 364px;
+  }
+}
+.terms__text {
+  @include text-subheader;
+}
+.terms__subtitle {
+  @include text-display-2;
+}
+.terms__item-title {
+  @include text-headline-2;
+}
+.terms__list {
+  padding-left: 24px;
+  list-style-type: disc;
+}
+.terms__list-item {
+  @include text-subheader;
+  margin-bottom: 16px;
+}
+.terms__accent {
+  @include text-subheader-2;
+}
+.terms__group {
+  margin-bottom: 16px;
+  padding: 24px;
+  border: 1px solid get-color(secondary, 200);
+  border-radius: 10px;
+}
+.terms__group-title {
+  @include text-subheader-2;
+}
+.terms__anchor-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.terms__anchor-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.terms__anchor-link {
+  @include text-body-underline;
+  color: get-color(primary, 1000);
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1100);
+  }
+  &:active {
+    color: get-color(primary, 1200);
+  }
+}

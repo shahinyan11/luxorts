@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputNumberField component matches snapshot when formItemClassName is present 1`] = `
+<FormItem
+  className="test"
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef
+    controls={
+      Object {
+        "downIcon": <SvgIcon
+          icon="minus-circle"
+        />,
+        "upIcon": <SvgIcon
+          icon="plus-circle"
+        />,
+      }
+    }
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`InputNumberField component matches snapshot when label is present 1`] = `
+<FormItem
+  htmlFor="name"
+  label={
+    <Memo(FormattedMessage)
+      id="label.id"
+    />
+  }
+  validateStatus={false}
+>
+  <ForwardRef
+    controls={
+      Object {
+        "downIcon": <SvgIcon
+          icon="minus-circle"
+        />,
+        "upIcon": <SvgIcon
+          icon="plus-circle"
+        />,
+      }
+    }
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`InputNumberField component matches snapshot when touched and has error 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "error.id",
+        }
+      }
+      type="error"
+    />
+  }
+  htmlFor="name"
+  validateStatus="error"
+>
+  <ForwardRef
+    controls={
+      Object {
+        "downIcon": <SvgIcon
+          icon="minus-circle"
+        />,
+        "upIcon": <SvgIcon
+          icon="plus-circle"
+        />,
+      }
+    }
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`InputNumberField component matches snapshot when touched and has no error 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={null}
+>
+  <ForwardRef
+    controls={
+      Object {
+        "downIcon": <SvgIcon
+          icon="minus-circle"
+        />,
+        "upIcon": <SvgIcon
+          icon="plus-circle"
+        />,
+      }
+    }
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`InputNumberField component matches snapshot when withFormItem equals false 1`] = `
+<ForwardRef
+  controls={
+    Object {
+      "downIcon": <SvgIcon
+        icon="minus-circle"
+      />,
+      "upIcon": <SvgIcon
+        icon="plus-circle"
+      />,
+    }
+  }
+  id="name"
+  name="name"
+  onBlur={[MockFunction]}
+  onChange={[MockFunction]}
+  value="value"
+/>
+`;
+
+exports[`InputNumberField component matches snapshot with default props 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef
+    controls={
+      Object {
+        "downIcon": <SvgIcon
+          icon="minus-circle"
+        />,
+        "upIcon": <SvgIcon
+          icon="plus-circle"
+        />,
+      }
+    }
+    id="name"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    value="value"
+  />
+</FormItem>
+`;

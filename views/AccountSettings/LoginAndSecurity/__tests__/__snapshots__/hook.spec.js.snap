@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginAndSecurity useContainer hook matches snapshot 1`] = `
+Object {
+  "handleRecoverClick": [Function],
+  "lastUpdatedDate": "01/01/1970 at 00:01 AM",
+  "recoverMode": false,
+  "toggleUpdateMode": [Function],
+  "updateMode": false,
+}
+`;

@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriorNotifiedOption component matches snapshot 1`] = `
+<Radio
+  value="value"
+>
+  <FormattedOrRawMessage
+    message="label"
+  />
+</Radio>
+`;
+
+exports[`PriorNotifiedOption component matches snapshot when value and selected props equals same_day 1`] = `
+<Fragment>
+  <Radio
+    value="same_day"
+  >
+    <FormattedOrRawMessage
+      message="label"
+    />
+  </Radio>
+  <div
+    className="container-two-items"
+  >
+    <SelectField
+      formItemClassName="mb-0"
+      label={
+        Object {
+          "id": "shared.guestsCanBookBefore",
+        }
+      }
+      name="priorNotifiedTime"
+      optionComponent={[Function]}
+      options={
+        Array [
+          Object {
+            "label": Object {
+              "id": "shared.timeAm",
+              "values": Object {
+                "time": 6,
+              },
+            },
+            "value": "6:00 AM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timeAm",
+              "values": Object {
+                "time": 7,
+              },
+            },
+            "value": "7:00 AM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timeAm",
+              "values": Object {
+                "time": 8,
+              },
+            },
+            "value": "8:00 AM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timeAm",
+              "values": Object {
+                "time": 9,
+              },
+            },
+            "value": "9:00 AM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timeAm",
+              "values": Object {
+                "time": 10,
+              },
+            },
+            "value": "10:00 AM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timeAm",
+              "values": Object {
+                "time": 11,
+              },
+            },
+            "value": "11:00 AM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timePm",
+              "values": Object {
+                "time": 12,
+              },
+            },
+            "value": "12:00 PM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timePm",
+              "values": Object {
+                "time": 1,
+              },
+            },
+            "value": "1:00 PM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timePm",
+              "values": Object {
+                "time": 2,
+              },
+            },
+            "value": "2:00 PM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timePm",
+              "values": Object {
+                "time": 3,
+              },
+            },
+            "value": "3:00 PM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timePm",
+              "values": Object {
+                "time": 4,
+              },
+            },
+            "value": "4:00 PM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timePm",
+              "values": Object {
+                "time": 5,
+              },
+            },
+            "value": "5:00 PM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timePm",
+              "values": Object {
+                "time": 6,
+              },
+            },
+            "value": "6:00 PM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timePm",
+              "values": Object {
+                "time": 7,
+              },
+            },
+            "value": "7:00 PM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timePm",
+              "values": Object {
+                "time": 8,
+              },
+            },
+            "value": "8:00 PM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timePm",
+              "values": Object {
+                "time": 9,
+              },
+            },
+            "value": "9:00 PM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timePm",
+              "values": Object {
+                "time": 10,
+              },
+            },
+            "value": "10:00 PM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timePm",
+              "values": Object {
+                "time": 11,
+              },
+            },
+            "value": "11:00 PM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timeAm",
+              "values": Object {
+                "time": 12,
+              },
+            },
+            "value": "12:00 AM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timeAm",
+              "values": Object {
+                "time": 1,
+              },
+            },
+            "value": "1:00 AM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timeAm",
+              "values": Object {
+                "time": 2,
+              },
+            },
+            "value": "2:00 AM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timeAm",
+              "values": Object {
+                "time": 3,
+              },
+            },
+            "value": "3:00 AM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timeAm",
+              "values": Object {
+                "time": 4,
+              },
+            },
+            "value": "4:00 AM",
+          },
+          Object {
+            "label": Object {
+              "id": "shared.timeAm",
+              "values": Object {
+                "time": 5,
+              },
+            },
+            "value": "5:00 AM",
+          },
+        ]
+      }
+      placeholder={
+        Object {
+          "id": "shared.selectTime",
+        }
+      }
+    />
+  </div>
+</Fragment>
+`;

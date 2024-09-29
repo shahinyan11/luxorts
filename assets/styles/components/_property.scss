@@ -1,0 +1,61 @@
+.property {
+  padding-right: 16px;
+  padding-left: 16px;
+  background-image: url('/images/property-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 280px;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.property__container {
+  @include container;
+}
+.property__title {
+  @include text-display-2;
+  color: get-color(text, white);
+}
+.property__description {
+  @include text-subheader;
+  color: get-color(text, white);
+}
+.property__cards {
+  display: grid;
+  grid-gap: 24px;
+  grid-template-rows: repeat(5, auto);
+  border-bottom: 1px solid get-color(secondary, 100);
+  justify-items: center;
+  @include media-breakpoint-up(sm) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
+  }
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+  }
+}
+.property__card {
+  @include shadow-1;
+  border-radius: $border-radius-secondary;
+  &:hover,
+  &:focus,
+  &:active {
+    @include shadow-3;
+  }
+}
+.property__img {
+  border-top-left-radius: $border-radius-secondary;
+  border-top-right-radius: $border-radius-secondary;
+}
+.property__content {
+  padding: 16px 16px 24px;
+}
+.property__subtitle {
+  @include text-subheader-big-2;
+}
+.property__text {
+  @include text-body;
+  color: get-color(text, black);
+}

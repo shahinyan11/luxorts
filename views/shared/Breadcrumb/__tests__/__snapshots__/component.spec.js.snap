@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb component matches snapshot 1`] = `
+<ul
+  className="breadcrumbs mt-32 mb-16"
+>
+  <BreadcrumbItem
+    href="/account-settings"
+    key="account settings"
+    label="account settings"
+    last={true}
+  />
+</ul>
+`;

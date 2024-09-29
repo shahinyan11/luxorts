@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewPassword component matches snapshot 1`] = `
+<div
+  className="sign-up"
+>
+  <h1
+    className="sign-up__title text-align-center"
+  >
+    <Memo(FormattedMessage)
+      id="shared.newPassword"
+    />
+  </h1>
+  <p
+    className="sign-up__caption text-align-center"
+  >
+    <Memo(FormattedMessage)
+      id="newPassword.description"
+    />
+  </p>
+  <ForwardRef(InternalForm)
+    layout="vertical"
+    size="large"
+  >
+    <ContextProvider
+      value={
+        Object {
+          "dirty": true,
+          "handleSubmit": [MockFunction],
+          "isValid": true,
+          "resetForm": [MockFunction],
+          "setFieldTouched": [MockFunction],
+          "setFieldValue": [MockFunction],
+          "setValues": [MockFunction],
+          "validateForm": [MockFunction],
+          "values": Object {},
+        }
+      }
+    >
+      <div
+        className="sign-up__container mb-36"
+      >
+        <PasswordField
+          autoComplete="new-password"
+          label={
+            Object {
+              "id": "shared.newPassword",
+            }
+          }
+          name="password"
+          withProgress={true}
+        />
+      </div>
+      <div
+        className="d-flex justify-content-space-between align-items-center"
+      >
+        <Link
+          href="/sign-in"
+        >
+          <a>
+            <GradientButton
+              addonAfter={null}
+              addonBefore={null}
+              className={null}
+              disabled={false}
+              text={
+                Object {
+                  "id": "shared.backToSignIn",
+                }
+              }
+              variant="tertiary"
+            />
+          </a>
+        </Link>
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="min-width-140"
+          loading={false}
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.submit",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </ContextProvider>
+  </ForwardRef(InternalForm)>
+</div>
+`;

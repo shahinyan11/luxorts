@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Photos component matches snapshot 1`] = `
+<AddNewListingLayout
+  formik={
+    Object {
+      "dirty": true,
+      "handleSubmit": [MockFunction],
+      "isValid": true,
+      "resetForm": [MockFunction],
+      "setFieldTouched": [MockFunction],
+      "setFieldValue": [MockFunction],
+      "setValues": [MockFunction],
+      "validateForm": [MockFunction],
+      "values": Object {},
+    }
+  }
+  isDirty={false}
+  isLoading={false}
+  onNext={[MockFunction]}
+  showSkeleton={false}
+  stepStatus="initial"
+  title={
+    Object {
+      "id": "shared.photos",
+    }
+  }
+>
+  <div
+    className="new-listing__container new-listing__container--wide mb-8"
+  >
+    <h1
+      className="new-listing__title mb-8"
+    >
+      <Memo(FormattedMessage)
+        id="shared.uploadListingPhotos"
+      />
+    </h1>
+    <p
+      className="new-listing__description mb-32"
+    >
+      <Memo(FormattedMessage)
+        id="listing.photos.imageFormat"
+      />
+    </p>
+    <ForwardRef(InternalForm)
+      layout="vertical"
+      size="large"
+    >
+      <ContextProvider
+        value={
+          Object {
+            "dirty": true,
+            "handleSubmit": [MockFunction],
+            "isValid": true,
+            "resetForm": [MockFunction],
+            "setFieldTouched": [MockFunction],
+            "setFieldValue": [MockFunction],
+            "setValues": [MockFunction],
+            "validateForm": [MockFunction],
+            "values": Object {},
+          }
+        }
+      >
+        <UploadPhotosField
+          name="listingPhotos"
+          onRemove={[MockFunction]}
+        />
+      </ContextProvider>
+    </ForwardRef(InternalForm)>
+  </div>
+</AddNewListingLayout>
+`;

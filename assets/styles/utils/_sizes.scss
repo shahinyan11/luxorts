@@ -1,0 +1,78 @@
+$min-widths: 120, 140, 160, 170, 180, 200, 216, 240, 334, 360;
+$max-widths: 267, 300, 320, 364, 656, 1440;
+$widths: 170, 164, 180, 244, 248, 267, 312, 320, 328, 364, 412;
+
+@each $min-width in $min-widths {
+  .min-width-#{$min-width} {
+    min-width: #{$min-width}px !important;
+  }
+}
+@each $min-width in $min-widths {
+  .min-width-xl-#{$min-width} {
+    @include media-breakpoint-up(xl) {
+      min-width: #{$min-width}px !important;
+    }
+  }
+}
+@each $max-width in $max-widths {
+  .max-width-#{$max-width} {
+    max-width: #{$max-width}px !important;
+  }
+}
+@each $max-width in $max-widths {
+  .max-width-sm-#{$max-width} {
+    @include media-breakpoint-up(sm) {
+      max-width: #{$max-width}px !important;
+    }
+  }
+}
+@each $max-width in $max-widths {
+  .max-width-md-#{$max-width} {
+    @include media-breakpoint-up(md) {
+      max-width: #{$max-width}px !important;
+    }
+  }
+}
+@each $max-width in $max-widths {
+  .max-width-lg-#{$max-width} {
+    @include media-breakpoint-up(lg) {
+      max-width: #{$max-width}px !important;
+    }
+  }
+}
+@each $width in $widths {
+  .width-#{$width} {
+    width: #{$width}px !important;
+  }
+}
+@each $width in $widths {
+  .width-sm-#{$width} {
+    @include media-breakpoint-up(sm) {
+      width: #{$width}px !important;
+    }
+  }
+}
+@each $width in $widths {
+  .width-md-#{$width} {
+    @include media-breakpoint-up(md) {
+      width: #{$width}px !important;
+    }
+  }
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-sm-50 {
+  @include media-breakpoint-up(sm) {
+    width: 50%;
+  }
+}
+.w-sm-auto {
+  @include media-breakpoint-up(sm) {
+    width: auto;
+  }
+}

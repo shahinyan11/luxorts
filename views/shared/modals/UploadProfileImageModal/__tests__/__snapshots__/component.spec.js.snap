@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadProfileImageModal component matches snapshot 1`] = `
+<Modal
+  className="modal"
+  closeIcon={
+    <SvgIcon
+      className="modal__icon"
+      icon="modal-cross"
+    />
+  }
+  confirmLoading={false}
+  footer={
+    <div
+      className="confirm__buttons d-flex flex-column flex-sm-row justify-content-space-between w-100"
+    >
+      <Upload
+        accept="image/jpeg,image/jpg,image/png"
+        action=""
+        className=""
+        data={Object {}}
+        disabled={false}
+        listType="text"
+        multiple={false}
+        onChange={[MockFunction]}
+        showUploadList={false}
+        supportServerRender={true}
+        type="select"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium min-width-120 mb-8 mb-sm-0"
+          disabled={false}
+          text={
+            Object {
+              "id": "shared.changeImage",
+            }
+          }
+          variant="secondary"
+        />
+      </Upload>
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium mr-16 ml-sm-auto mb-8 mb-sm-0"
+        disabled={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.cancel",
+          }
+        }
+        variant="tertiary"
+      />
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium min-width-120"
+        loading={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.save",
+          }
+        }
+        variant="primary"
+      />
+    </div>
+  }
+  okType="primary"
+  onCancel={[MockFunction]}
+  title={
+    <Memo(FormattedMessage)
+      id="shared.id"
+    />
+  }
+  visible={true}
+  width={558}
+>
+  <div
+    className="modal__content"
+  >
+    <g
+      ariaLabels={
+        Object {
+          "cropArea": "Use the arrow keys to move the crop selection area",
+          "eDragHandle": "Use the up and down arrow keys to move the east drag handle to change the crop selection area",
+          "nDragHandle": "Use the up and down arrow keys to move the north drag handle to change the crop selection area",
+          "neDragHandle": "Use the arrow keys to move the north east drag handle to change the crop selection area",
+          "nwDragHandle": "Use the arrow keys to move the north west drag handle to change the crop selection area",
+          "sDragHandle": "Use the up and down arrow keys to move the south drag handle to change the crop selection area",
+          "seDragHandle": "Use the arrow keys to move the south east drag handle to change the crop selection area",
+          "swDragHandle": "Use the arrow keys to move the south west drag handle to change the crop selection area",
+          "wDragHandle": "Use the up and down arrow keys to move the west drag handle to change the crop selection area",
+        }
+      }
+      aspect={1}
+      circularCrop={true}
+      crop="crop"
+      keepSelection={true}
+      maxHeight={480}
+      maxWidth={480}
+      minHeight={120}
+      minWidth={120}
+      onChange={[MockFunction]}
+    >
+      <img
+        alt=""
+        onLoad={[MockFunction]}
+        src="imgSrc"
+      />
+    </g>
+  </div>
+</Modal>
+`;
+
+exports[`UploadProfileImageModal component matches snapshot when imgSrc isn\`t present 1`] = `
+<Modal
+  className="modal"
+  closeIcon={
+    <SvgIcon
+      className="modal__icon"
+      icon="modal-cross"
+    />
+  }
+  confirmLoading={false}
+  footer={
+    <div
+      className="confirm__buttons d-flex flex-column flex-sm-row justify-content-space-between w-100"
+    >
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium mr-16 ml-sm-auto mb-8 mb-sm-0"
+        disabled={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.cancel",
+          }
+        }
+        variant="tertiary"
+      />
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium min-width-120"
+        loading={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.save",
+          }
+        }
+        variant="primary"
+      />
+    </div>
+  }
+  okType="primary"
+  onCancel={[MockFunction]}
+  title={
+    <Memo(FormattedMessage)
+      id="shared.id"
+    />
+  }
+  visible={true}
+  width={558}
+>
+  <div
+    className="modal__content"
+  >
+    <p
+      className="modal__text mb-24"
+    >
+      <Memo(FormattedMessage)
+        id="validations.imageFormatAndMaxSize"
+      />
+    </p>
+    <Dragger
+      accept="image/jpeg,image/jpg,image/png"
+      onChange={[MockFunction]}
+      showUploadList={false}
+    >
+      <Image
+        alt=""
+        className="mb-16"
+        height="136"
+        src="/images/upload.png"
+        width="136"
+      />
+      <p
+        className="ant-upload-hint text-body mb-0"
+      >
+        <Memo(FormattedMessage)
+          id="shared.uploadImageOrDropItHere"
+        />
+      </p>
+    </Dragger>
+  </div>
+</Modal>
+`;

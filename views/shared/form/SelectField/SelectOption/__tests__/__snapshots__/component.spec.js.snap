@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectOption component matches snapshot 1`] = `
+<Option
+  key="value"
+  label={
+    <FormattedOrRawMessage
+      message="label"
+    />
+  }
+  value="value"
+>
+  <FormattedOrRawMessage
+    message="label"
+  />
+</Option>
+`;

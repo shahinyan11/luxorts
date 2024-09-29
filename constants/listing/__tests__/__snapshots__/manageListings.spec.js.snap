@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`manageListings constants match snapshot 1`] = `
+Object {
+  "ACCOMMODATION_LISTING_FILTER_KEYS": Array [
+    "beds_amount-eq",
+    "guests_number-eq",
+    "bathrooms_amount-eq",
+    "bedrooms_amount-eq",
+  ],
+  "ACCOMMODATION_VALIDATION": Object {
+    "MAX": 16,
+    "MIN": 0,
+  },
+  "LISTING_FILTERS": Object {
+    "amenities-in": Array [],
+    "bathrooms_amount-eq": 0,
+    "bedrooms_amount-eq": 0,
+    "beds_amount-eq": 0,
+    "guests_number-eq": 0,
+    "status-in": Array [],
+  },
+  "LISTING_FILTER_KEY": Object {
+    "AMENITIES_IN": "amenities-in",
+    "BATHROOMS_AMOUNT_EQ": "bathrooms_amount-eq",
+    "BEDROOMS_AMOUNT_EQ": "bedrooms_amount-eq",
+    "BEDS_AMOUNT_EQ": "beds_amount-eq",
+    "GUESTS_NUMBER_EQ": "guests_number-eq",
+    "STATUS_IN": "status-in",
+  },
+  "LISTING_PAGINATION": Object {
+    "number": 1,
+    "size": 8,
+  },
+  "LISTING_SORT": Object {
+    "direction": "descend",
+    "sortKey": "updated_at",
+  },
+  "LISTING_SORT_KEY": Object {
+    "BATHROOMS_AMOUNT": "bathrooms_amount",
+    "BEDROOMS_AMOUNT": "bedrooms_amount",
+    "BEDS_AMOUNT": "beds_amount",
+    "CREATED_AT": "created_at",
+    "GUESTS_NUMBER": "guests_number",
+    "LOCATION": "location",
+    "STATUS": "status",
+    "UPDATED_AT": "updated_at",
+  },
+  "LISTING_STATUS_OPTIONS": Array [
+    Object {
+      "label": Object {
+        "id": "shared.published",
+      },
+      "value": "published",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.unpublished",
+      },
+      "value": "unpublished",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.onModeration",
+      },
+      "value": "on_moderation",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.draft",
+      },
+      "value": "in_draft",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.blocked",
+      },
+      "value": "blocked",
+    },
+  ],
+  "LISTING_TABLE_COLUMNS_KEY": Object {
+    "BATHS": "baths",
+    "BEDROOMS": "bedrooms",
+    "BEDS": "beds",
+    "DATE_CREATED": "dateCreated",
+    "GUESTS": "guests",
+    "HIDDEN_TITLE": "hiddenTitle",
+    "LAST_UPDATED": "lastUpdated",
+    "LISTING": "listing",
+    "LOCATION": "location",
+    "SETTINGS": "settings",
+    "STATUS": "status",
+  },
+  "LISTING_TABLE_DEFAULT_COLUMNS_SETTINGS": Array [
+    "listing",
+    "hiddenTitle",
+    "guests",
+    "bedrooms",
+    "beds",
+    "baths",
+    "location",
+    "dateCreated",
+    "lastUpdated",
+    "status",
+  ],
+  "LISTING_TABLE_SETTINGS": Array [
+    Object {
+      "hiddenInSettings": true,
+      "key": "listing",
+      "label": Object {
+        "id": "shared.listing",
+      },
+      "props": Object {
+        "fixed": "left",
+        "width": 364,
+      },
+    },
+    Object {
+      "key": "hiddenTitle",
+      "label": Object {
+        "id": "shared.hiddenTitle",
+      },
+      "props": Object {
+        "width": 280,
+      },
+    },
+    Object {
+      "key": "guests",
+      "label": Object {
+        "id": "shared.guests",
+      },
+      "props": Object {
+        "width": 100,
+      },
+      "sortKey": "guests_number",
+    },
+    Object {
+      "key": "bedrooms",
+      "label": Object {
+        "id": "shared.bedrooms",
+      },
+      "sortKey": "bedrooms_amount",
+      "width": 120,
+    },
+    Object {
+      "key": "beds",
+      "label": Object {
+        "id": "shared.beds",
+      },
+      "props": Object {
+        "width": 89,
+      },
+      "sortKey": "beds_amount",
+    },
+    Object {
+      "key": "baths",
+      "label": Object {
+        "id": "shared.baths",
+      },
+      "props": Object {
+        "width": 94,
+      },
+      "sortKey": "bathrooms_amount",
+    },
+    Object {
+      "key": "location",
+      "label": Object {
+        "id": "shared.location",
+      },
+      "props": Object {
+        "width": 240,
+      },
+      "sortKey": "location",
+    },
+    Object {
+      "key": "dateCreated",
+      "label": Object {
+        "id": "shared.dateCreated",
+      },
+      "props": Object {
+        "width": 137,
+      },
+      "sortKey": "created_at",
+    },
+    Object {
+      "key": "lastUpdated",
+      "label": Object {
+        "id": "shared.lastUpdated",
+      },
+      "props": Object {
+        "width": 138,
+      },
+      "sortKey": "updated_at",
+    },
+    Object {
+      "key": "status",
+      "label": Object {
+        "id": "shared.status",
+      },
+      "props": Object {
+        "width": 134,
+      },
+      "sortKey": "status",
+    },
+  ],
+  "LISTING_TAG_BY_STATUS": Object {
+    "blocked": Object {
+      "CLASSNAME": "tag--error",
+      "TITLE": Object {
+        "id": "shared.blocked",
+      },
+    },
+    "deleted": Object {
+      "CLASSNAME": "tag--error",
+      "TITLE": Object {
+        "id": "shared.removed",
+      },
+    },
+    "in_draft": Object {
+      "CLASSNAME": "tag--draft",
+      "TITLE": Object {
+        "id": "shared.draft",
+      },
+    },
+    "on_moderation": Object {
+      "CLASSNAME": "tag--warning",
+      "TITLE": Object {
+        "id": "shared.onModeration",
+      },
+    },
+    "published": Object {
+      "CLASSNAME": "tag--success",
+      "TITLE": Object {
+        "id": "shared.published",
+      },
+    },
+    "unpublished": Object {
+      "CLASSNAME": "tag--cancel",
+      "TITLE": Object {
+        "id": "shared.unpublished",
+      },
+    },
+  },
+  "SUCCESS_MESSAGE_BY_STATUS": Object {
+    "deleted": Object {
+      "description": Object {
+        "id": "listing.status.modal.remove.success",
+      },
+    },
+    "published": Object {
+      "description": Object {
+        "id": "listing.status.modal.publish.success",
+      },
+    },
+    "unpublished": Object {
+      "description": Object {
+        "id": "listing.status.modal.unpublish.success",
+      },
+    },
+  },
+  "SUCCESS_MODAL_BY_STATUS": Object {
+    "on_moderation": Object {
+      "modalType": "PUBLISH_LISTING_MODAL",
+    },
+  },
+}
+`;

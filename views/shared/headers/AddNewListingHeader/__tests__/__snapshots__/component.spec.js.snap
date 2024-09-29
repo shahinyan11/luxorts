@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNewListingHeader component matches snapshot 1`] = `
+<header
+  className="main-header"
+>
+  <div
+    className="main-header__container"
+  >
+    <Link
+      href="/"
+    >
+      <a
+        className="main-header__logo"
+      >
+        <Image
+          alt=""
+          height="32"
+          src="/images/logo.svg"
+          width="138"
+        />
+      </a>
+    </Link>
+    <div
+      className="d-flex flex-wrap flex-column flex-sm-row justify-content-space-between align-items-center w-100"
+    >
+      <p
+        className="text-body-2 mb-0 ml-auto ml-md-24 mb-8 mb-sm-0"
+      >
+        <Memo(FormattedMessage)
+          id="title.id"
+        />
+      </p>
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium min-width-120 ml-auto ml-md-0"
+        disabled={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.saveAndExit",
+          }
+        }
+        variant="tertiary"
+      />
+    </div>
+  </div>
+</header>
+`;

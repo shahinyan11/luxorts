@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useFormattedOrRawMessage hook matches snapshot when message is object 1`] = `"{Translation id: message.id}"`;
+
+exports[`useFormattedOrRawMessage hook matches snapshot when message is string 1`] = `"message"`;

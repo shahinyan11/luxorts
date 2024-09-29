@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApartmentCard component matches snapshot 1`] = `
+<div
+  className="apartment-card"
+>
+  <ForwardRef
+    className="apartment-card__slider"
+  >
+    <img
+      alt=""
+      className="apartment-card__image"
+      key="115e2205-856f-4ed4-9f17-1dd6f37f7520"
+      src="https://luxorts-backend-staging.s3.us-east-2.amazonaws.com/uploads/listingphoto/115e2205-856f-4ed4-9f17-1dd6f37f7520/photo/small-cf3518983b1ecf97422a2bda10eca45b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXWPQSY4555KWNWFP%2F20220717%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220717T094425Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=128ecc291ddb112fec4d57ff3e1fb7b91249045e54e653d8b083113e9b9115a7"
+    />
+  </ForwardRef>
+  <Link
+    href="#"
+  >
+    <a
+      className="apartment-card__share"
+    >
+      <SvgIcon
+        icon="share"
+      />
+    </a>
+  </Link>
+  <Link
+    href="#"
+  >
+    <a
+      className="apartment-card__like"
+    >
+      <SvgIcon
+        icon="like"
+      />
+    </a>
+  </Link>
+  <div
+    className="apartment-card__content"
+  >
+    <h3
+      className="apartment-card__title mb-0"
+    >
+      <Link
+        href="#"
+      >
+        <a>
+          Alta Kling
+        </a>
+      </Link>
+    </h3>
+    <p
+      className="apartment-card__description"
+    >
+      Vanessa Swift
+    </p>
+    <div
+      className="apartment-card__wrapper d-flex justify-content-space-between"
+    >
+      <div
+        className="apartment-card__info d-flex align-items-center"
+      >
+        <Memo(FormattedMessage)
+          id="shared.guestsAmount"
+          values={
+            Object {
+              "amount": 3,
+            }
+          }
+        />
+        <SvgIcon
+          className="apartment-card__dot"
+          icon="dot"
+        />
+        <Memo(FormattedMessage)
+          id="shared.bedroomAmount"
+          values={
+            Object {
+              "amount": 1,
+            }
+          }
+        />
+        <SvgIcon
+          className="apartment-card__dot"
+          icon="dot"
+        />
+        <Memo(FormattedMessage)
+          id="shared.bedsAmount"
+          values={
+            Object {
+              "amount": 10,
+            }
+          }
+        />
+        <SvgIcon
+          className="apartment-card__dot"
+          icon="dot"
+        />
+        <Memo(FormattedMessage)
+          id="shared.bathsAmount"
+          values={
+            Object {
+              "amount": 28,
+            }
+          }
+        />
+      </div>
+      <p
+        className="apartment-card__price mb-0"
+      >
+        <span
+          className="apartment-card__text"
+        >
+          <Memo(FormattedMessage)
+            id="shared.priceNight"
+            values={
+              Object {
+                "price": <span
+                  className="apartment-card__accent"
+                >
+                  $6860000
+                </span>,
+              }
+            }
+          />
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+`;

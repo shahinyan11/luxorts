@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accommodation useContainer hook matches snapshot 1`] = `
+Object {
+  "formik": Object {
+    "setFieldValue": [MockFunction],
+    "setFormikState": [MockFunction],
+    "values": Object {
+      "bathrooms": Array [
+        Object {
+          "bathsForDeleting": Array [],
+          "customBaths": Array [],
+          "defaultBaths": Array [
+            Object {
+              "amount": 0,
+              "kind": "bathtub",
+              "uuid": "uuid/v4",
+            },
+            Object {
+              "amount": 0,
+              "kind": "shower",
+              "uuid": "uuid/v4",
+            },
+            Object {
+              "amount": 0,
+              "kind": "jetted_tub",
+              "uuid": "uuid/v4",
+            },
+            Object {
+              "amount": 0,
+              "kind": "double_vanity",
+              "uuid": "uuid/v4",
+            },
+          ],
+          "uuid": "uuid/v4",
+        },
+      ],
+      "bathroomsForDeleting": Array [],
+      "bedrooms": Array [
+        Object {
+          "bedsForDeleting": Array [],
+          "customBeds": Array [],
+          "defaultBeds": Array [
+            Object {
+              "amount": 0,
+              "kind": "double",
+              "uuid": "uuid/v4",
+            },
+            Object {
+              "amount": 0,
+              "kind": "queen",
+              "uuid": "uuid/v4",
+            },
+            Object {
+              "amount": 0,
+              "kind": "single",
+              "uuid": "uuid/v4",
+            },
+            Object {
+              "amount": 0,
+              "kind": "sofa_bed",
+              "uuid": "uuid/v4",
+            },
+          ],
+          "uuid": "uuid/v4",
+        },
+      ],
+      "bedroomsForDeleting": Array [],
+      "bedsAmount": 1,
+      "guestsNumber": 1,
+      "listingBathrooms": 1,
+      "listingBedrooms": 1,
+    },
+  },
+  "handleAddCustomBathCreator": [Function],
+  "handleAddCustomBedCreator": [Function],
+  "handleRemoveCustomBathCreator": [Function],
+  "handleRemoveCustomBedCreator": [Function],
+  "isLoading": false,
+  "makeBathroomHelper": [Function],
+  "makeBedroomHelper": [Function],
+  "onBackRoute": "/add-new-listing/property-type/listingId",
+  "onBedAmountChangeHandlerCreator": [Function],
+  "onListingBathroomsChange": [Function],
+  "onListingBedroomsChange": [Function],
+  "onMountHandler": [Function],
+  "showSkeleton": false,
+  "stepStatus": "accomodation",
+  "totalBedsAmount": 0,
+}
+`;

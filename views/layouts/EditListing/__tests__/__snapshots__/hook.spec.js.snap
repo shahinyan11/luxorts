@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditListingLayout useContainer hook matches snapshot 1`] = `
+Object {
+  "activeKey": "PROPERTY_TYPE",
+  "isListingPresent": true,
+  "listing": Object {
+    "applicationStep": "accomodation",
+    "id": "0645baf3-945d-4122-8a0b-5ab3e95a9b3e",
+    "listingDescription": null,
+    "listingLocation": Object {
+      "apartmentNumber": "12",
+      "city": "Phoenix",
+      "country": "United States",
+      "id": "2b4032ec-a469-4489-b7dc-536d8f9552eb",
+      "latitude": "40.764468117826794",
+      "longitude": "-73.97447621784085",
+      "state": "Arizona",
+      "street": "West Maryland Avenue",
+      "zipCode": "12345",
+    },
+    "listingPricing": Object {
+      "pricePerDay": 64,
+    },
+    "listingPropertyType": Object {
+      "id": "ea19f127-bc89-4799-bdbb-346126ac3845",
+      "propertyType": Object {
+        "description": "description repudiandae",
+        "id": "51e35121-c27e-46fc-9feb-b51dab2490ee",
+        "name": "repudiandae",
+      },
+      "typeOfPlace": "private_place",
+    },
+    "status": "in_draft",
+    "userAccount": Object {
+      "id": "6cbf2b68-4a26-41b5-bcd5-161cc37e1420",
+      "type": "hostAccount",
+    },
+  },
+  "listingId": "listingId",
+  "listings": Array [
+    Object {
+      "applicationStep": "finished",
+      "bathroomsAmount": 1,
+      "bedroomsAmount": 1,
+      "bedsAmount": 16,
+      "createdAt": "2022-07-08T08:38:03.619Z",
+      "guestsNumber": 13,
+      "hiddenTitle": "Bess Greenfelder",
+      "id": "7c749da7-752d-49c8-80ea-aa6977bee6bc",
+      "location": "Baltimore, Maryland, United States",
+      "mainListingPhoto": Object {
+        "description": "b6ej7q6xv7unn1w3w4dkq841c597dfxu0e7vm3y9a5c2q37x9uwwkb0zdc60es2mheo05e6yovbsr6slqesa5uz6t0yh0rk88n713s80fu82mbq1ane5imzzs9mv7ovyvqjyd4kv43d9oov1odov4bxl3naoutrryql0auzvucqyr1ojqxbey0lolqkiv8n7wtpkrlncakkx3sztk9k7zquioyh12ogiz7fuepy8k9im1ybvduvw17exhwq0h2o",
+        "id": "5c51fcbe-6303-4c5d-af99-e983138d42ae",
+        "photoUrls": Object {
+          "medium": "memory://listingphoto/5c51fcbe-6303-4c5d-af99-e983138d42ae/photo/medium-0478517e0a2ba650ae0554fe128f57d4.jpg",
+          "original": "memory://listingphoto/5c51fcbe-6303-4c5d-af99-e983138d42ae/photo/f8c45073f7146f4e6b3fb95455e9118e.jpg",
+          "small": "memory://listingphoto/5c51fcbe-6303-4c5d-af99-e983138d42ae/photo/small-65e0a9233425086de361327ab0b71516.jpg",
+        },
+        "position": 1,
+      },
+      "status": "in_draft",
+      "title": "Lenora Spinka",
+      "updatedAt": "2022-07-08T08:38:03.619Z",
+    },
+  ],
+  "onDropdownMenuItemClick": [Function],
+  "onMountHandler": [Function],
+  "onScrollNext": [Function],
+  "onTabClick": [Function],
+  "selectedListingDescription": undefined,
+  "selectedListingTitle": Object {
+    "id": "shared.withoutTitle",
+  },
+  "total": 1,
+}
+`;

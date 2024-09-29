@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItem component matches snapshot 1`] = `
+<li
+  className="account-menu__item d-flex"
+>
+  <Link
+    href="#"
+  >
+    <a
+      className="account-menu__link d-flex align-items-flex-start"
+    >
+      <span
+        className="account-menu__icon-container"
+      >
+        <SvgIcon
+          className="account-menu__icon"
+          icon="cross"
+        />
+      </span>
+      <div
+        className="account-menu__content"
+      >
+        <h2
+          className="account-menu__title"
+        >
+          <Memo(FormattedMessage)
+            id="shared.id"
+          />
+        </h2>
+        <p
+          className="account-menu__text"
+        >
+          <Memo(FormattedMessage)
+            id="shared.id"
+          />
+        </p>
+      </div>
+      <SvgIcon
+        className="account-menu__arrow"
+        icon="arrow-right-long"
+      />
+    </a>
+  </Link>
+</li>
+`;

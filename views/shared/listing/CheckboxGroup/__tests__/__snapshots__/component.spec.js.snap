@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxGroup component matches snapshot 1`] = `
+<div
+  className="new-listig__options mb-24 pb-8"
+>
+  <div
+    className="new-listig__option mb-16"
+    key="id"
+  >
+    <CheckboxField
+      name="pathName.id.checked"
+      title="name"
+    />
+    <Tooltip
+      arrowPointAtCenter={false}
+      autoAdjustOverflow={true}
+      mouseEnterDelay={0.1}
+      mouseLeaveDelay={0.1}
+      placement="topLeft"
+      title="description"
+    >
+      <span
+        className="tooltip"
+      >
+        <SvgIcon
+          className="new-listig__option-icon"
+          icon="info"
+        />
+      </span>
+    </Tooltip>
+  </div>
+</div>
+`;
+
+exports[`CheckboxGroup component matches snapshot when withPaid equals true 1`] = `
+<div
+  className="new-listig__options mb-24 pb-8"
+>
+  <div
+    className="new-listig__option mb-16"
+    key="id"
+  >
+    <CheckboxField
+      name="pathName.id.checked"
+      title="name"
+    />
+    <Tooltip
+      arrowPointAtCenter={false}
+      autoAdjustOverflow={true}
+      mouseEnterDelay={0.1}
+      mouseLeaveDelay={0.1}
+      placement="topLeft"
+      title="description"
+    >
+      <span
+        className="tooltip"
+      >
+        <SvgIcon
+          className="new-listig__option-icon"
+          icon="info"
+        />
+      </span>
+    </Tooltip>
+    <RadioGroupField
+      className="new-listig__radio-group mt-8 pl-32 w-100"
+      items={
+        Array [
+          Object {
+            "className": "ant-radio-wrapper--positive",
+            "label": Object {
+              "id": "shared.free",
+            },
+            "value": false,
+          },
+          Object {
+            "className": "ant-radio-wrapper--negative",
+            "label": Object {
+              "id": "shared.paid",
+            },
+            "value": true,
+          },
+        ]
+      }
+      name="pathName.id.paid"
+    />
+  </div>
+</div>
+`;

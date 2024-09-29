@@ -1,0 +1,14 @@
+.payout-details__image {
+  border-radius: $border-radius-secondary;
+}
+.payout-details__title {
+  @include text-subheader-big-2;
+  border-bottom: 1px solid get-color(secondary, 100);
+}
+.payout-details__subtitle {
+  @include text-body-2;
+  color: get-color(text, active-dark);
+}
+.payout-details__column:last-child {
+  margin-bottom: 0;
+}

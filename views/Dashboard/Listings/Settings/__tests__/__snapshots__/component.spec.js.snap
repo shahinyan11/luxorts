@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings component matches snapshot 1`] = `
+<Dropdown
+  mouseEnterDelay={0.15}
+  mouseLeaveDelay={0.1}
+  onVisibleChange={[MockFunction]}
+  overlay={
+    <Menu
+      className="table__settings-menu width-180"
+      items={Array []}
+    />
+  }
+  placement="bottomRight"
+  trigger="click"
+  visible={false}
+>
+  <Button
+    className="table__menu-btn main-btn main-btn--icon"
+    htmlType="button"
+  >
+    <SvgIcon
+      className="icon-right"
+      icon="three-dots"
+    />
+  </Button>
+</Dropdown>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseAddressComponents util matches snapshot 1`] = `
+Object {
+  "city": "Phoenix",
+  "country": "United States",
+  "state": "Arizona",
+  "street": "North 7th Avenue",
+  "streetNumber": "240",
+  "zipCode": "85007",
+}
+`;

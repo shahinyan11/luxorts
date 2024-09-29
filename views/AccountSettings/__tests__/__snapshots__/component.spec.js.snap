@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountSettings component matches snapshot 1`] = `
+<Fragment>
+  <input
+    accept="image/jpeg,image/jpg,image/png"
+    className="d-none"
+    onChange={[MockFunction]}
+    type="file"
+  />
+  <div
+    className="account"
+  >
+    <div
+      className="d-flex justify-content-space-between flex-column flex-sm-row align-items-center mb-40 mb-lg-80"
+    >
+      <h1
+        className="text-display-2 mb-16 mb-sm-0"
+      >
+        <Memo(FormattedMessage)
+          id="accountSettings.title"
+        />
+      </h1>
+    </div>
+    <div
+      className="account__user-header d-flex flex-column align-items-center mb-64"
+    >
+      <div
+        className="account__user-avatar mb-16"
+      >
+        <UserAvatar
+          currentUser={
+            Object {
+              "email": "evhenii.hryhoriev+10@rubygarage.org",
+              "id": "5c5d814c-8e06-433d-b006-4119311585bd",
+              "publicId": "c4toxHVi",
+              "userInvitation": Array [
+                Object {
+                  "created_at": "2022-06-23T06:32:55.588Z",
+                  "email": "12@mail.ru",
+                  "id": "52080e19-c5e0-45bb-af58-edbbe70e78fa",
+                  "last_sent_at": "2022-06-23T06:32:55.474Z",
+                  "resendable": true,
+                  "status": "pending",
+                  "user_account_id": "7211ccc2-1fca-4799-b1e1-4005e9fc42be",
+                },
+              ],
+              "userProfile": Object {
+                "about": null,
+                "address": null,
+                "avatarUrls": Object {
+                  "original": "/avatar-img-url",
+                },
+                "city": "city",
+                "country": "country",
+                "dateOfBirth": "1994-01-01",
+                "drivingLicenseFirstName": "Evhenii",
+                "drivingLicenseLastName": "Test",
+                "firstName": "Evhenii",
+                "gender": null,
+                "id": "52080e19-c5e0-45bb-af58-edbbe70e78fa",
+                "lastName": "Test",
+                "phoneNumber": "+299999999",
+                "state": "state",
+                "street": "street",
+                "zipCode": "zipCode",
+              },
+              "userType": "traveller_account",
+              "verifiedStatus": "unverified",
+            }
+          }
+          size="xxxl"
+        />
+        <Dropdown
+          mouseEnterDelay={0.15}
+          mouseLeaveDelay={0.1}
+          overlay={
+            <ul
+              className="account-controls"
+            >
+              <li
+                className="account-controls__item"
+              >
+                <a
+                  className="account-controls__link d-block w-100"
+                  onClick={[MockFunction]}
+                  role="button"
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.change"
+                  />
+                </a>
+              </li>
+              <li
+                className="account-controls__item"
+              >
+                <a
+                  className="account-controls__link d-block w-100"
+                  onClick={[MockFunction]}
+                  role="button"
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.remove"
+                  />
+                </a>
+              </li>
+            </ul>
+          }
+          placement="bottomCenter"
+        >
+          <Button
+            className="account__user-upload"
+            htmlType="button"
+          >
+            <SvgIcon
+              className="account__user-icon"
+              icon="camera"
+            />
+          </Button>
+        </Dropdown>
+      </div>
+      <p
+        className="account__user-name mb-4 text-headline-2"
+      >
+        Evhenii Test
+      </p>
+      <p
+        className="account__user-mail mb-0 text-body"
+      >
+        evhenii.hryhoriev+10@rubygarage.org
+      </p>
+    </div>
+  </div>
+  <ul
+    className="account-menu mb-40 mb-md-80 mb-lg-160"
+  >
+    <MenuItem
+      description={
+        Object {
+          "id": "shared.providePersonalDetailsAndHowWeCanReachYou",
+        }
+      }
+      href="/account-settings/personal-information"
+      icon="profile"
+      key="personalInformation.title"
+      title={
+        Object {
+          "id": "personalInformation.title",
+        }
+      }
+    />
+    <MenuItem
+      description={
+        Object {
+          "id": "shared.updateYourPasswordAndSecureYourAccount",
+        }
+      }
+      href="/account-settings/login-and-security"
+      icon="user-shield"
+      key="shared.loginSecurity"
+      title={
+        Object {
+          "id": "shared.loginSecurity",
+        }
+      }
+    />
+    <MenuItem
+      description={
+        Object {
+          "id": "shared.reviewPaymentsPayouts",
+        }
+      }
+      href="#"
+      icon="bank-card"
+      key="shared.paymentsPayouts"
+      title={
+        Object {
+          "id": "shared.paymentsPayouts",
+        }
+      }
+    />
+    <MenuItem
+      description={
+        Object {
+          "id": "shared.inviteFriendsToJoinLuxortsCommunity",
+        }
+      }
+      href="/account-settings/invite-friends"
+      icon="guests"
+      key="shared.inviteFriends"
+      title={
+        Object {
+          "id": "shared.inviteFriends",
+        }
+      }
+    />
+  </ul>
+</Fragment>
+`;
+
+exports[`AccountSettings component matches snapshot when avatarImgUrl isn\`t present 1`] = `
+<Fragment>
+  <input
+    accept="image/jpeg,image/jpg,image/png"
+    className="d-none"
+    onChange={[MockFunction]}
+    type="file"
+  />
+  <div
+    className="account"
+  >
+    <div
+      className="d-flex justify-content-space-between flex-column flex-sm-row align-items-center mb-40 mb-lg-80"
+    >
+      <h1
+        className="text-display-2 mb-16 mb-sm-0"
+      >
+        <Memo(FormattedMessage)
+          id="accountSettings.title"
+        />
+      </h1>
+    </div>
+    <div
+      className="account__user-header d-flex flex-column align-items-center mb-64"
+    >
+      <div
+        className="account__user-avatar mb-16"
+      >
+        <UserAvatar
+          currentUser={
+            Object {
+              "email": "evhenii.hryhoriev+10@rubygarage.org",
+              "id": "5c5d814c-8e06-433d-b006-4119311585bd",
+              "publicId": "c4toxHVi",
+              "userInvitation": Array [
+                Object {
+                  "created_at": "2022-06-23T06:32:55.588Z",
+                  "email": "12@mail.ru",
+                  "id": "52080e19-c5e0-45bb-af58-edbbe70e78fa",
+                  "last_sent_at": "2022-06-23T06:32:55.474Z",
+                  "resendable": true,
+                  "status": "pending",
+                  "user_account_id": "7211ccc2-1fca-4799-b1e1-4005e9fc42be",
+                },
+              ],
+              "userProfile": Object {
+                "about": null,
+                "address": null,
+                "avatarUrls": Object {
+                  "original": "/avatar-img-url",
+                },
+                "city": "city",
+                "country": "country",
+                "dateOfBirth": "1994-01-01",
+                "drivingLicenseFirstName": "Evhenii",
+                "drivingLicenseLastName": "Test",
+                "firstName": "Evhenii",
+                "gender": null,
+                "id": "52080e19-c5e0-45bb-af58-edbbe70e78fa",
+                "lastName": "Test",
+                "phoneNumber": "+299999999",
+                "state": "state",
+                "street": "street",
+                "zipCode": "zipCode",
+              },
+              "userType": "traveller_account",
+              "verifiedStatus": "unverified",
+            }
+          }
+          size="xxxl"
+        />
+        <Button
+          className="account__user-upload"
+          htmlType="button"
+          onClick={[MockFunction]}
+        >
+          <SvgIcon
+            className="account__user-icon"
+            icon="camera"
+          />
+        </Button>
+      </div>
+      <p
+        className="account__user-name mb-4 text-headline-2"
+      >
+        Evhenii Test
+      </p>
+      <p
+        className="account__user-mail mb-0 text-body"
+      >
+        evhenii.hryhoriev+10@rubygarage.org
+      </p>
+    </div>
+  </div>
+  <ul
+    className="account-menu mb-40 mb-md-80 mb-lg-160"
+  >
+    <MenuItem
+      description={
+        Object {
+          "id": "shared.providePersonalDetailsAndHowWeCanReachYou",
+        }
+      }
+      href="/account-settings/personal-information"
+      icon="profile"
+      key="personalInformation.title"
+      title={
+        Object {
+          "id": "personalInformation.title",
+        }
+      }
+    />
+    <MenuItem
+      description={
+        Object {
+          "id": "shared.updateYourPasswordAndSecureYourAccount",
+        }
+      }
+      href="/account-settings/login-and-security"
+      icon="user-shield"
+      key="shared.loginSecurity"
+      title={
+        Object {
+          "id": "shared.loginSecurity",
+        }
+      }
+    />
+    <MenuItem
+      description={
+        Object {
+          "id": "shared.reviewPaymentsPayouts",
+        }
+      }
+      href="#"
+      icon="bank-card"
+      key="shared.paymentsPayouts"
+      title={
+        Object {
+          "id": "shared.paymentsPayouts",
+        }
+      }
+    />
+    <MenuItem
+      description={
+        Object {
+          "id": "shared.inviteFriendsToJoinLuxortsCommunity",
+        }
+      }
+      href="/account-settings/invite-friends"
+      icon="guests"
+      key="shared.inviteFriends"
+      title={
+        Object {
+          "id": "shared.inviteFriends",
+        }
+      }
+    />
+  </ul>
+</Fragment>
+`;

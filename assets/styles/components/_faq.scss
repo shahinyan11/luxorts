@@ -1,0 +1,59 @@
+.faq__head {
+  padding-right: 16px;
+  padding-left: 16px;
+  background-image: url('/images/faq-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.faq__title {
+  @include text-jumbo-2;
+  color: get-color(text, white);
+}
+.faq__description {
+  @include text-subheader;
+  color: get-color(text, white);
+}
+.faq__content {
+  @include container;
+  padding-right: 16px;
+  padding-left: 16px;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .ant-tabs-tab-btn {
+    font-size: 16px;
+  }
+}
+.faq__footer {
+  @include container;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-top: 1px solid get-color(secondary, 100);
+  gap: 24px;
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+    gap: 48px;
+  }
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+    gap: 96px;
+  }
+}
+.faq__subtitle {
+  @include text-display-2;
+}
+.faq__text {
+  @include text-subheader;
+  color: get-color(text, black);
+}

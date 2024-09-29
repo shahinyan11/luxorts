@@ -1,0 +1,262 @@
+.main-btn {
+  @include text-body-2;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  transition: background-image 0.3s, background-color 0.3s, color 0.3s;
+  border-radius: 8px;
+  &:disabled {
+    background-color: get-color(secondary, 50);
+    background-image: none;
+    color: get-color(text, disabled-grey);
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: get-color(secondary, 50);
+      background-image: none;
+      color: get-color(text, disabled-grey);
+    }
+    .icon {
+      fill: get-color(secondary, 800);
+    }
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s, color 0.3s, fill 0.3s;
+  }
+  .icon-left {
+    margin-right: 8px;
+  }
+  .icon-right {
+    margin-left: 8px;
+  }
+}
+.main-btn--medium {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  &.main-btn--icon {
+    min-width: 40px;
+    height: 40px;
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+}
+.main-btn--small {
+  padding: 8px;
+  &.main-btn--icon {
+    min-width: 32px;
+    height: 32px;
+  }
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+.main-btn--primary {
+  @include gradient-primary;
+  color: white;
+  &:hover,
+  &:focus {
+    @include gradient-primary-hover;
+    color: white;
+  }
+  &:active {
+    @include gradient-primary-pressed;
+    color: white;
+  }
+  .icon {
+    fill: white;
+  }
+}
+.main-btn--secondary {
+  background-color: get-color(primary, 100);
+  color: get-color(text, primary);
+  &:hover,
+  &:focus {
+    background-color: get-color(primary, 200);
+    color: get-color(text, primary);
+  }
+  &:active {
+    background-color: get-color(primary, 300);
+    color: get-color(text, primary);
+  }
+  .icon {
+    fill: get-color(text, primary);
+  }
+}
+.main-btn--tertiary {
+  background-color: get-color(secondary, 50);
+  color: get-color(text, active-dark);
+  &:hover,
+  &:focus {
+    background-color: get-color(secondary, 100);
+    color: get-color(text, active-dark);
+  }
+  &:active {
+    background-color: get-color(secondary, 200);
+    color: get-color(text, active-dark);
+  }
+  .icon {
+    fill: get-color(text, active-dark);
+  }
+}
+.main-btn--filter,
+.main-btn--filter.ant-dropdown-trigger {
+  background-color: get-color(secondary, 50);
+  color: get-color(text, active-dark);
+  font-weight: 400;
+  &:hover,
+  &:focus {
+    background-color: get-color(secondary, 100);
+    color: get-color(text, active-dark);
+  }
+  &:active {
+    background-color: get-color(primary, 100);
+    color: get-color(primary, 1000);
+    .icon {
+      fill: get-color(primary, 1000);
+    }
+  }
+  .icon {
+    fill: get-color(secondary, 800);
+  }
+  &.ant-dropdown-open,
+  &.main-btn--filter-open,
+  &.main-btn--filter-active {
+    background-color: get-color(primary, 100);
+    color: get-color(primary, 1000);
+    &:hover,
+    &:focus {
+      background-color: get-color(primary, 200);
+    }
+    &:active {
+      background-color: get-color(primary, 300);
+    }
+    .icon {
+      transform: rotate(180deg);
+      fill: get-color(primary, 1000);
+    }
+  }
+  &.main-btn--filter-active {
+    .icon {
+      transform: rotate(0);
+    }
+    &.main-btn--filter-open .icon,
+    &.ant-dropdown-open .icon {
+      transform: rotate(180deg);
+    }
+  }
+}
+.main-btn--warning {
+  background-color: get-color(accent-3, 200);
+  color: get-color(text, accent);
+  &:hover,
+  &:focus {
+    background-color: get-color(accent-3, 250);
+    color: get-color(text, accent);
+  }
+  &:active {
+    background-color: get-color(accent-3, 300);
+    color: get-color(text, accent);
+  }
+  .icon {
+    fill: get-color(text, accent);
+  }
+}
+.main-btn--white {
+  @include shadow-1;
+  background-color: get-color(text, white);
+  color: get-color(text, active-dark);
+  font-weight: 400;
+}
+.main-btn--card {
+  background-color: get-color(text, grey);
+  color: get-color(text, active-dark);
+  &:hover,
+  &:focus {
+    background-color: get-color(secondary, 100);
+    color: get-color(text, active-dark);
+  }
+  &:active {
+    background-color: get-color(secondary, 200);
+    color: get-color(text, active-dark);
+  }
+}
+.main-btn--social {
+  justify-content: flex-start;
+  border: 1px solid get-color(secondary, 1000);
+  background-color: get-color(secondary, 50);
+  color: get-color(text, active-dark);
+  &:hover,
+  &:focus {
+    border: 1px solid get-color(secondary, 900);
+    color: get-color(secondary, 900);
+  }
+  &:active {
+    border: 1px solid get-color(secondary, 800);
+    color: get-color(secondary, 800);
+  }
+}
+.main-text-btn {
+  @include text-body-2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s;
+  color: get-color(text, primary);
+  &:disabled {
+    color: get-color(text, disabled-grey);
+  }
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1100);
+  }
+  &:active {
+    color: get-color(primary, 1200);
+  }
+}
+.main-text-btn--secondary {
+  color: get-color(text, black);
+  &:hover,
+  &:focus {
+    color: get-color(text, active-dark);
+  }
+  &:active {
+    color: get-color(primary, 1200);
+  }
+}
+.main-btn--icon {
+  min-width: 48px;
+  height: 48px;
+  .icon {
+    margin: 0;
+  }
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1000);
+  }
+  &:active {
+    color: get-color(primary, 1100);
+  }
+}
+.main-btn--rounded {
+  border-radius: 50%;
+}
+.main-btn__amount {
+  @include text-caption-2;
+  margin-left: 10px;
+  padding: 2px 7px;
+  border-radius: $border-radius-secondary;
+  background-color: get-color(primary, 1000);
+  color: get-color(text, white) !important;
+}
+.main-btn-container-two-items {
+  @include media-breakpoint-up(sm) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+  }
+}

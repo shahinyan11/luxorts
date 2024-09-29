@@ -1,0 +1,38 @@
+export default {
+  id: '5c5d814c-8e06-433d-b006-4119311585bd',
+  email: 'evhenii.hryhoriev+10@rubygarage.org',
+  publicId: 'c4toxHVi',
+  verifiedStatus: 'unverified',
+  userType: 'traveller_account',
+  userProfile: {
+    id: '52080e19-c5e0-45bb-af58-edbbe70e78fa',
+    about: null,
+    address: null,
+    avatarUrls: {
+      original: '/avatar-img-url',
+    },
+    dateOfBirth: '1994-01-01',
+    drivingLicenseFirstName: 'Evhenii',
+    drivingLicenseLastName: 'Test',
+    firstName: 'Evhenii',
+    gender: null,
+    lastName: 'Test',
+    phoneNumber: '+299999999',
+    street: 'street',
+    city: 'city',
+    state: 'state',
+    zipCode: 'zipCode',
+    country: 'country',
+  },
+  userInvitation: [
+    {
+      id: '52080e19-c5e0-45bb-af58-edbbe70e78fa',
+      created_at: '2022-06-23T06:32:55.588Z',
+      email: '12@mail.ru',
+      last_sent_at: '2022-06-23T06:32:55.474Z',
+      resendable: true,
+      status: 'pending',
+      user_account_id: '7211ccc2-1fca-4799-b1e1-4005e9fc42be',
+    },
+  ],
+};

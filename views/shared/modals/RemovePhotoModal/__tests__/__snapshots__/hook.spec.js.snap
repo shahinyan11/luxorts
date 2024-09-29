@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemovePhotoModal useContainer hook matches snapshot 1`] = `
+Object {
+  "handleRemove": [Function],
+  "isLoading": false,
+}
+`;

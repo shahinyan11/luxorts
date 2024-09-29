@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BedroomField useContainer hook matches snapshot 1`] = `
+Object {
+  "bedsList": Array [],
+  "disableInputs": [Function],
+  "field": Object {
+    "value": Object {
+      "bedsForDeleting": Array [],
+      "customBeds": Array [],
+      "defaultBeds": Array [
+        Object {
+          "amount": 0,
+          "kind": "double",
+          "uuid": "uuid/v4",
+        },
+        Object {
+          "amount": 0,
+          "kind": "queen",
+          "uuid": "uuid/v4",
+        },
+        Object {
+          "amount": 0,
+          "kind": "single",
+          "uuid": "uuid/v4",
+        },
+        Object {
+          "amount": 0,
+          "kind": "sofa_bed",
+          "uuid": "uuid/v4",
+        },
+      ],
+    },
+  },
+  "isEdit": false,
+  "onEditHandler": [Function],
+}
+`;
+
+exports[`BedroomField useContainer hook returns bedsList that has list of selected beds 1`] = `
+Array [
+  "{Translation id: shared.bedAmount}",
+]
+`;

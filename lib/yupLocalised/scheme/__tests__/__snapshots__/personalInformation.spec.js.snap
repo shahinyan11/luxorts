@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`personalInformation form validation schema matches snapshot 1`] = `
+Object {
+  "fields": Object {
+    "about": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+      ],
+      "type": "string",
+    },
+    "apartmentNumber": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+      ],
+      "type": "string",
+    },
+    "city": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+      ],
+      "type": "string",
+    },
+    "country": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [],
+      "type": "string",
+    },
+    "dateOfBirth": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "minAge",
+          "params": undefined,
+        },
+        Object {
+          "name": "required",
+          "params": undefined,
+        },
+      ],
+      "type": "string",
+    },
+    "drivingLicenseFirstName": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+      ],
+      "type": "string",
+    },
+    "drivingLicenseLastName": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+      ],
+      "type": "string",
+    },
+    "firstName": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+        Object {
+          "name": "required",
+          "params": undefined,
+        },
+      ],
+      "type": "string",
+    },
+    "lastName": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+        Object {
+          "name": "required",
+          "params": undefined,
+        },
+      ],
+      "type": "string",
+    },
+    "state": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [],
+      "type": "string",
+    },
+    "street": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+      ],
+      "type": "string",
+    },
+    "zipCode": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "min",
+          "params": Object {
+            "min": 5,
+          },
+        },
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 10,
+          },
+        },
+      ],
+      "type": "string",
+    },
+  },
+  "label": undefined,
+  "meta": undefined,
+  "notOneOf": Array [],
+  "oneOf": Array [],
+  "tests": Array [],
+  "type": "object",
+}
+`;

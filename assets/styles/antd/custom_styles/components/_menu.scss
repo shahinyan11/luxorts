@@ -1,0 +1,89 @@
+.ant-menu-title-content {
+  @include text-body;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.ant-menu-vertical > .ant-menu-item {
+  height: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 24px;
+}
+.ant-menu-vertical .ant-menu-item {
+  margin-top: 0;
+  margin-bottom: 0;
+  &:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+.ant-menu-horizontal {
+  line-height: 23px;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+  padding-right: 8px;
+  padding-left: 8px;
+  &:hover,
+  &:focus {
+    color: get-color(text, active-dark);
+  }
+  &:after {
+    border-bottom-color: get-color(primary, 1000);
+  }
+}
+.ant-menu-light .ant-menu-item,
+.ant-menu-light .ant-menu-submenu-title {
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1000);
+  }
+  &:active {
+    color: get-color(primary, 1100);
+  }
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: get-color(secondary, 100);
+  color: get-color(text, active-dark);
+}
+.ant-menu--main:not(.ant-menu-dark) > .ant-menu-item {
+  position: relative;
+  padding-right: 8px;
+  padding-left: 8px;
+  @include media-breakpoint-up(sm) {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  &:not(.ant-menu-item-selected):after {
+    display: none;
+  }
+  &.ant-menu-item-selected {
+    color: get-color(text, active-dark);
+    &:hover,
+    &:focus,
+    &:active {
+      color: get-color(text, active-dark);
+    }
+    &:after {
+      right: auto;
+      bottom: -16px;
+      left: 0;
+      width: 100%;
+      border-bottom-color: get-color(primary, 1000);
+      @include media-breakpoint-up(sm) {
+        bottom: -22px;
+      }
+    }
+  }
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1000);
+  }
+  &:active {
+    color: get-color(primary, 1100);
+  }
+  .ant-menu-title-content {
+    @include text-body-2;
+    margin-right: 0;
+  }
+}

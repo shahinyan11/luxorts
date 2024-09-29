@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmountsForm component matches snapshot 1`] = `
+<div
+  className="new-listing__item mb-24"
+>
+  <InputNumberField
+    addonBefore={
+      <Memo(FormattedMessage)
+        id="shared.guests"
+      />
+    }
+    formItemClassName="ant-form-item--light"
+    label={
+      Object {
+        "id": "shared.numberOfGuestsYouWillAccommodate",
+      }
+    }
+    max={16}
+    min={1}
+    name="guestsNumber"
+    withFormItem={true}
+  />
+  <InputNumberField
+    addonBefore={
+      <Memo(FormattedMessage)
+        id="shared.bedrooms"
+      />
+    }
+    formItemClassName="ant-form-item--light"
+    label={
+      Object {
+        "id": "shared.howManyBedroomsCanYourGuestsUse",
+      }
+    }
+    max={16}
+    min={1}
+    name="listingBedrooms"
+    onChange={[MockFunction]}
+    withFormItem={true}
+  />
+  <InputNumberField
+    addonBefore={
+      <Memo(FormattedMessage)
+        id="shared.beds"
+      />
+    }
+    formItemClassName="ant-form-item--light"
+    label={
+      Object {
+        "id": "shared.howManyBedsCanYourGuestsUse",
+      }
+    }
+    max={16}
+    min={1}
+    name="bedsAmount"
+    withFormItem={true}
+  />
+  <InputNumberField
+    addonBefore={
+      <Memo(FormattedMessage)
+        id="shared.bathrooms"
+      />
+    }
+    formItemClassName="ant-form-item--light"
+    label={
+      Object {
+        "id": "shared.howManyBathroomsCanYourGuestsUse",
+      }
+    }
+    max={16}
+    min={1}
+    name="listingBathrooms"
+    onChange={[MockFunction]}
+    withFormItem={true}
+  />
+</div>
+`;

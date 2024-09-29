@@ -1,0 +1,102 @@
+.listing-panel {
+  @include shadow-1;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.listing-panel__container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 16px;
+  gap: 16px;
+  @include media-breakpoint-up(sm) {
+    flex-direction: row;
+    padding-top: 0;
+  }
+}
+.listing-panel__column {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 512px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  &.ant-dropdown-open,
+  &:hover,
+  &:focus {
+    .listing-panel__btn {
+      background-color: get-color(secondary, 100);
+      color: get-color(text, active-dark);
+      .icon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  &:active {
+    .listing-panel__btn {
+      background-color: get-color(secondary, 200);
+      color: get-color(text, active-dark);
+      .icon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+.listing-panel__content {
+  margin-right: auto;
+}
+.listing-panel__image {
+  flex-shrink: 0;
+  margin-right: 16px;
+}
+.listing-panel__title {
+  @include text-subheader-big-2;
+}
+.listing-panel__text {
+  @include text-body;
+  color: get-color(text, black);
+}
+.listing-panel__btn {
+  flex-shrink: 0;
+  margin-left: 24px;
+}
+.listing-panel__list {
+  @include shadow-3;
+  width: 100%;
+  max-height: 336px;
+  margin-top: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  overflow-y: auto;
+  background-color: get-color(text, white);
+  @include media-breakpoint-up(sm) {
+    width: 512px;
+  }
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    outline: 4px solid get-color(text, white);
+    box-shadow: inset 0 0 6px get-color(secondary, 200);
+  }
+}
+.listing-panel__item {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  &:hover {
+    background-color: get-color(secondary, 50);
+  }
+}
+.listing-panel__item--selected {
+  background-color: get-color(primary, 50);
+}
+.listing-panel__name {
+  @include text-body;
+}

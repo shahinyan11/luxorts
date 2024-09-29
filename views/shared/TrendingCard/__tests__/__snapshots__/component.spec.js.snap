@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TrendingCard component matches snapshot 1`] = `
+<Link
+  href="#"
+>
+  <a
+    className="trending__card"
+  >
+    <Image
+      alt=""
+      className="trending__img"
+      height="238"
+      src="image"
+      width="558"
+    />
+    <div
+      className="trending__content"
+    >
+      <h3
+        className="trending__subtitle mb-4"
+      >
+        United States
+      </h3>
+      <p
+        className="trending__state mb-0"
+      >
+        Baltimore
+      </p>
+    </div>
+  </a>
+</Link>
+`;

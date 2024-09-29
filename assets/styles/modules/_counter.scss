@@ -1,0 +1,9 @@
+.counter {
+  @include text-body;
+  margin-bottom: 0;
+  color: get-color(text, black);
+}
+.counter__divider {
+  margin-right: 4px;
+  margin-left: 4px;
+}

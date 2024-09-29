@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`listing reservation preferences constants match snapshot 1`] = `
+Object {
+  "LISTING_APPROVAL_POLICY_OPTIONS": Array [
+    Object {
+      "description": Object {
+        "id": "shared.allowsBookingImmediately",
+      },
+      "label": Object {
+        "id": "shared.instantBook",
+      },
+      "value": "instant_book",
+    },
+    Object {
+      "description": Object {
+        "id": "shared.allows24Hours",
+      },
+      "label": Object {
+        "id": "shared.24HourReview",
+      },
+      "value": "24_hours_review",
+    },
+  ],
+  "LISTING_APPROVAL_POLICY_TYPE": Object {
+    "INSTANT_BOOK": "instant_book",
+    "TWENTY_FOUR_HOURS_REVIEW": "24_hours_review",
+  },
+  "LISTING_CANCELLATION_POLICY_OPTIONS": Array [
+    Object {
+      "description": Object {
+        "id": "shared.fullRefundNumberDay",
+        "values": Object {
+          "number": 1,
+        },
+      },
+      "label": Object {
+        "id": "shared.flexible",
+      },
+      "value": "flexible",
+    },
+    Object {
+      "description": Object {
+        "id": "shared.fullRefundNumberDay",
+        "values": Object {
+          "number": 5,
+        },
+      },
+      "label": Object {
+        "id": "shared.moderate",
+      },
+      "value": "moderate",
+    },
+    Object {
+      "description": Object {
+        "id": "shared.percentsRefundUpUntil",
+        "values": Object {
+          "percents": "50%",
+        },
+      },
+      "label": Object {
+        "id": "shared.strict",
+      },
+      "value": "strict",
+    },
+  ],
+  "LISTING_CANCELLATION_POLICY_TYPE": Object {
+    "FLEXIBLE": "flexible",
+    "MODERATE": "moderate",
+    "STRICT": "strict",
+  },
+  "LISTING_IN_ADVANCE_BOOKING_OPTIONS": Array [
+    Object {
+      "label": Object {
+        "id": "shared.anyTime",
+      },
+      "value": "any_time",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.numberMonthsInAdvance",
+        "values": Object {
+          "number": 3,
+        },
+      },
+      "value": "3_months_in_advance",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.numberMonthsInAdvance",
+        "values": Object {
+          "number": 6,
+        },
+      },
+      "value": "6_months_in_advance",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.numberMonthsInAdvance",
+        "values": Object {
+          "number": 9,
+        },
+      },
+      "value": "9_months_in_advance",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.yearNumber",
+        "values": Object {
+          "number": 1,
+        },
+      },
+      "value": "1_year",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.datesUnavailableByDefault",
+      },
+      "value": "unavailable",
+    },
+  ],
+  "LISTING_IN_ADVANCE_BOOKING_TYPE": Object {
+    "ANY_TIME": "any_time",
+    "NINE_MONTHS": "9_months_in_advance",
+    "ONE_YEAR": "1_year",
+    "SIX_MONTHS": "6_months_in_advance",
+    "THREE_MONTHS": "3_months_in_advance",
+    "UNAVAILABLE": "unavailable",
+  },
+  "LISTING_PREPARATION_TIME_OPTIONS": Array [
+    Object {
+      "label": Object {
+        "id": "shared.none",
+      },
+      "value": 0,
+    },
+    Object {
+      "label": Object {
+        "id": "shared.blockNumberNightBeforeAndAfterEachReservation",
+        "values": Object {
+          "number": 1,
+        },
+      },
+      "value": 1,
+    },
+    Object {
+      "label": Object {
+        "id": "shared.blockNumberNightBeforeAndAfterEachReservation",
+        "values": Object {
+          "number": 2,
+        },
+      },
+      "value": 2,
+    },
+  ],
+  "LISTING_PRIOR_NOTIFIED_OPTIONS": Array [
+    Object {
+      "label": Object {
+        "id": "shared.sameDay",
+      },
+      "value": "same_day",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.dayNumber",
+        "values": Object {
+          "number": 1,
+        },
+      },
+      "value": "1_day",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.dayNumberPlural",
+        "values": Object {
+          "number": 2,
+        },
+      },
+      "value": "2_days",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.dayNumberPlural",
+        "values": Object {
+          "number": 3,
+        },
+      },
+      "value": "3_days",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.dayNumberPlural",
+        "values": Object {
+          "number": 7,
+        },
+      },
+      "value": "7_days",
+    },
+  ],
+  "LISTING_PRIOR_NOTIFIED_TYPE": Object {
+    "ONE_DAY": "1_day",
+    "SAME_DAY": "same_day",
+    "SEVEN_DAYS": "7_days",
+    "THREE_DAYS": "3_days",
+    "TWO_DAYS": "2_days",
+  },
+  "LISTING_RESERVATION_PREFERENCES_VALIDATION": Object {
+    "GUESTS_STAY_TIME": Object {
+      "MAX": 30,
+      "MIN": 1,
+    },
+    "PREPARATION_TIME": 0,
+  },
+}
+`;

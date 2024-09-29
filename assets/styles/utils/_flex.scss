@@ -1,0 +1,100 @@
+$justifications: flex-end, space-between, center, flex-start;
+$flex-directions: row, row-reverse, column, column-reverse;
+$align-items: center, flex-start, flex-end;
+$flex-wraps: wrap, nowrap;
+$flex-shrinks: 0;
+$flex-grows: 1;
+
+@each $justify in $justifications {
+  .justify-content-#{$justify} {
+    justify-content: $justify;
+  }
+}
+@each $justify in $justifications {
+  @include media-breakpoint-up(md) {
+    .justify-content-md-#{$justify} {
+      justify-content: $justify;
+    }
+  }
+}
+@each $justify in $justifications {
+  @include media-breakpoint-up(lg) {
+    .justify-content-lg-#{$justify} {
+      justify-content: $justify;
+    }
+  }
+}
+@each $flex-direction in $flex-directions {
+  .flex-#{$flex-direction} {
+    flex-direction: $flex-direction;
+  }
+}
+@each $flex-direction in $flex-directions {
+  @include media-breakpoint-up(sm) {
+    .flex-sm-#{$flex-direction} {
+      flex-direction: $flex-direction;
+    }
+  }
+}
+@each $flex-direction in $flex-directions {
+  @include media-breakpoint-up(md) {
+    .flex-md-#{$flex-direction} {
+      flex-direction: $flex-direction;
+    }
+  }
+}
+@each $flex-direction in $flex-directions {
+  @include media-breakpoint-up(lg) {
+    .flex-lg-#{$flex-direction} {
+      flex-direction: $flex-direction;
+    }
+  }
+}
+@each $align-item in $align-items {
+  .align-items-#{$align-item} {
+    align-items: $align-item;
+  }
+}
+@each $align-item in $align-items {
+  .align-items-sm-#{$align-item} {
+    @include media-breakpoint-up(sm) {
+      align-items: $align-item;
+    }
+  }
+}
+@each $align-item in $align-items {
+  .align-items-md-#{$align-item} {
+    @include media-breakpoint-up(md) {
+      align-items: $align-item;
+    }
+  }
+}
+@each $flex-wrap in $flex-wraps {
+  .flex-#{$flex-wrap} {
+    flex-wrap: $flex-wrap;
+  }
+}
+@each $flex-wrap in $flex-wraps {
+  .flex-sm-#{$flex-wrap} {
+    @include media-breakpoint-up(sm) {
+      flex-wrap: $flex-wrap;
+    }
+  }
+}
+@each $flex-wrap in $flex-wraps {
+  .flex-xl-#{$flex-wrap} {
+    @include media-breakpoint-up(xl) {
+      flex-wrap: $flex-wrap;
+    }
+  }
+}
+@each $flex-shrink in $flex-shrinks {
+  .flex-shrink-#{$flex-shrink} {
+    flex-shrink: $flex-shrink;
+  }
+}
+@each $flex-grow in $flex-grows {
+  .flex-grow-#{$flex-grow} {
+    flex-grow: $flex-grow;
+  }
+}

@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`general constants match snapshot 1`] = `
+Object {
+  "ANTD_CLASSNAME": Object {
+    "INPUT_NUMBER": "ant-input-number-input",
+  },
+  "API_HOST": "http://localhost:3000",
+  "API_VERSION": "/api/v1",
+  "APPROVED": "APPROVED",
+  "AVATAR_SIZES": Array [
+    "xxs",
+    "xs",
+    "sm",
+    "md",
+    "lg",
+    "xl",
+    "xxl",
+    "xxxl",
+  ],
+  "DATE_FORMAT": "DD/MM/YYYY",
+  "DATE_FORMAT_WITH_TIME": "MM/DD/YYYY [at] HH:MM A",
+  "DAYS_IN": Object {
+    "MONTH": 31,
+    "WEEK": 7,
+  },
+  "DEFAULT_COUNTRY_CODE": "US",
+  "DIRECTION": Object {
+    "DOWN": "down",
+  },
+  "EMAIL_PLACEHOLDER": "jeremy.bogan@gmail.com",
+  "FORM_DATA_CONFIG": Object {
+    "headers": Object {
+      "Content-Type": "multipart/form-data",
+    },
+  },
+  "HOME_PAGINATION": Object {
+    "number": 1,
+    "size": 3,
+  },
+  "INVITATION_STATUSES": Object {
+    "ACCEPTED": "accepted",
+    "PENDING": "pending",
+  },
+  "LANDING_TYPES": Object {
+    "POLICY": "privacy_policy",
+    "TERMS": "terms_of_service",
+  },
+  "MAX_INPUT_LENGTH": 255,
+  "MAX_MESSAGE_LENGTH": 1000,
+  "NOT_APPROVED": "NOT_APPROVED",
+  "PAGE": Object {
+    "number": 1,
+    "size": 20,
+  },
+  "PROPERTY_TYPE_IMAGES": Array [
+    "/images/property-01.jpg",
+    "/images/property-02.jpg",
+    "/images/property-03.jpg",
+    "/images/property-04.jpg",
+  ],
+  "RADIO_GROUP_PAID_OPTIONS": Array [
+    Object {
+      "className": "ant-radio-wrapper--positive",
+      "label": Object {
+        "id": "shared.free",
+      },
+      "value": false,
+    },
+    Object {
+      "className": "ant-radio-wrapper--negative",
+      "label": Object {
+        "id": "shared.paid",
+      },
+      "value": true,
+    },
+  ],
+  "RECOVER": "recover",
+  "SESSION_REFRESH_ROUTE": "http://localhost:3000/api/v1/user_account/session",
+  "SORT_DIRECTIONS": Object {
+    "ASCEND": "ascend",
+    "DESCEND": "descend",
+  },
+  "SPECIAL_CHARACTERS": /\\[\`!@#\\$%\\^&\\*\\(\\)_\\+\\\\-=\\[\\\\\\]\\{\\};':"\\\\\\\\\\|,\\.<>/\\?~\\]/,
+  "SUPPORT_EMAIL": "support@luxorts.com",
+  "TIME_OPTIONS": Array [
+    Object {
+      "label": Object {
+        "id": "shared.timeAm",
+        "values": Object {
+          "time": 6,
+        },
+      },
+      "value": "6:00 AM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timeAm",
+        "values": Object {
+          "time": 7,
+        },
+      },
+      "value": "7:00 AM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timeAm",
+        "values": Object {
+          "time": 8,
+        },
+      },
+      "value": "8:00 AM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timeAm",
+        "values": Object {
+          "time": 9,
+        },
+      },
+      "value": "9:00 AM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timeAm",
+        "values": Object {
+          "time": 10,
+        },
+      },
+      "value": "10:00 AM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timeAm",
+        "values": Object {
+          "time": 11,
+        },
+      },
+      "value": "11:00 AM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timePm",
+        "values": Object {
+          "time": 12,
+        },
+      },
+      "value": "12:00 PM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timePm",
+        "values": Object {
+          "time": 1,
+        },
+      },
+      "value": "1:00 PM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timePm",
+        "values": Object {
+          "time": 2,
+        },
+      },
+      "value": "2:00 PM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timePm",
+        "values": Object {
+          "time": 3,
+        },
+      },
+      "value": "3:00 PM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timePm",
+        "values": Object {
+          "time": 4,
+        },
+      },
+      "value": "4:00 PM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timePm",
+        "values": Object {
+          "time": 5,
+        },
+      },
+      "value": "5:00 PM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timePm",
+        "values": Object {
+          "time": 6,
+        },
+      },
+      "value": "6:00 PM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timePm",
+        "values": Object {
+          "time": 7,
+        },
+      },
+      "value": "7:00 PM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timePm",
+        "values": Object {
+          "time": 8,
+        },
+      },
+      "value": "8:00 PM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timePm",
+        "values": Object {
+          "time": 9,
+        },
+      },
+      "value": "9:00 PM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timePm",
+        "values": Object {
+          "time": 10,
+        },
+      },
+      "value": "10:00 PM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timePm",
+        "values": Object {
+          "time": 11,
+        },
+      },
+      "value": "11:00 PM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timeAm",
+        "values": Object {
+          "time": 12,
+        },
+      },
+      "value": "12:00 AM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timeAm",
+        "values": Object {
+          "time": 1,
+        },
+      },
+      "value": "1:00 AM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timeAm",
+        "values": Object {
+          "time": 2,
+        },
+      },
+      "value": "2:00 AM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timeAm",
+        "values": Object {
+          "time": 3,
+        },
+      },
+      "value": "3:00 AM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timeAm",
+        "values": Object {
+          "time": 4,
+        },
+      },
+      "value": "4:00 AM",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.timeAm",
+        "values": Object {
+          "time": 5,
+        },
+      },
+      "value": "5:00 AM",
+    },
+  ],
+  "TRENDING_LOCATION_IMAGES": Array [
+    "/images/trending-location-01.jpg",
+    "/images/trending-location-02.jpg",
+    "/images/trending-location-03.jpg",
+    "/images/trending-location-04.jpg",
+    "/images/trending-location-05.jpg",
+  ],
+  "USER_ACCOUNT_ENTITIES": Array [
+    "hostAccount",
+    "userProfile",
+    "travellerAccount",
+  ],
+  "USER_LOGIN_REDIRECT_BY_STATUS": Object {
+    "email_verified": "/phone-verification",
+    "phone_verified": "/",
+    "unverified": "/email-verification",
+  },
+  "USER_ROLE": Object {
+    "GUEST": "guest",
+    "USER": "user",
+  },
+  "USER_TYPE": Object {
+    "HOST": "host_account",
+    "TRAVELLER": "traveller_account",
+  },
+  "USER_VERIFIED_STATUS": Object {
+    "EMAIL_VERIFIED": "email_verified",
+    "PHONE_VERIFIED": "phone_verified",
+    "UNVERIFIED": "unverified",
+  },
+}
+`;

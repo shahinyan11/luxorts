@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldWrapper useContainer hook matches snapshot 1`] = `
+Object {
+  "editMode": false,
+  "onSave": [Function],
+  "toggleEditMode": [Function],
+}
+`;

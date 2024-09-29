@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HouseRules useContainer hook matches snapshot 1`] = `
+Object {
+  "approvedHouseRules": Object {
+    "943a4405-32c8-4c6e-9251-b9a3eef80e7a": Object {
+      "checked": false,
+      "description": "Fugiat inventore totam numquam porro accusantium recusandae.",
+      "id": "943a4405-32c8-4c6e-9251-b9a3eef80e7a",
+      "name": "Ta Beier",
+      "selectedId": undefined,
+      "status": "active",
+    },
+    "ddf1ae63-b4eb-49c0-8130-1c5cffb14af1": Object {
+      "checked": false,
+      "description": "Tenetur eligendi similique nam repudiandae incidunt.",
+      "id": "ddf1ae63-b4eb-49c0-8130-1c5cffb14af1",
+      "name": "Kellie Zieme",
+      "selectedId": undefined,
+      "status": "active",
+    },
+  },
+  "formik": Object {
+    "handleSubmit": [MockFunction],
+    "setFieldValue": [MockFunction],
+    "setValues": [MockFunction],
+    "values": Object {
+      "additional": Object {
+        "name": "",
+      },
+      "houseRules": Object {
+        "APPROVED": Object {
+          "943a4405-32c8-4c6e-9251-b9a3eef80e7a": Object {
+            "checked": false,
+            "description": "Fugiat inventore totam numquam porro accusantium recusandae.",
+            "id": "943a4405-32c8-4c6e-9251-b9a3eef80e7a",
+            "name": "Ta Beier",
+            "selectedId": undefined,
+            "status": "active",
+          },
+          "ddf1ae63-b4eb-49c0-8130-1c5cffb14af1": Object {
+            "checked": false,
+            "description": "Tenetur eligendi similique nam repudiandae incidunt.",
+            "id": "ddf1ae63-b4eb-49c0-8130-1c5cffb14af1",
+            "name": "Kellie Zieme",
+            "selectedId": undefined,
+            "status": "active",
+          },
+        },
+      },
+      "listingId": "listingId",
+    },
+  },
+  "handleAddNotApprovedHouseRule": [Function],
+  "handleRemoveNotApprovedHouseRuleCreator": [Function],
+  "handleSubmit": [Function],
+  "isAddButtonDisabled": true,
+  "isLoading": false,
+  "notApprovedHouseRules": Array [],
+  "onBackRoute": "/add-new-listing/description/listingId",
+  "showSkeleton": false,
+  "stepStatus": "accomodation",
+}
+`;

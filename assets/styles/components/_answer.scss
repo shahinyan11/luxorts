@@ -1,0 +1,24 @@
+.answer {
+  width: 100%;
+  max-width: 752px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer__title {
+  @include text-jumbo-2;
+}
+.answer__text {
+  @include text-subheader;
+}
+.answer__subtitle {
+  @include text-headline-2;
+}
+.answer__list {
+  @include text-subheader;
+  margin-top: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.answer__accent {
+  font-weight: 500;
+}

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingLocationMap component matches snapshot 1`] = `
+<div
+  className="new-listing__container new-listing__container--wide mb-8"
+>
+  <h1
+    className="new-listing__title mb-8"
+  >
+    <Memo(FormattedMessage)
+      id="addNewListing.locationMap.title"
+    />
+  </h1>
+  <p
+    className="new-listing__description mb-32"
+  >
+    <Memo(FormattedMessage)
+      id="addNewListing.locationMap.description"
+    />
+  </p>
+  <p
+    className="new-listing__address mb-16"
+  >
+    address
+  </p>
+  <div
+    className="new-listing__map"
+  />
+</div>
+`;

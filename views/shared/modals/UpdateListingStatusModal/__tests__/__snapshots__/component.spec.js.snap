@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdateListingStatusModal component matches snapshot 1`] = `
+<Modal
+  className="modal"
+  closeIcon={
+    <SvgIcon
+      className="modal__icon"
+      icon="modal-cross"
+    />
+  }
+  confirmLoading={false}
+  footer={
+    <div
+      className="confirm__buttons d-flex flex-column flex-sm-row justify-content-space-between w-100"
+    >
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium mr-16 ml-sm-auto mb-8 mb-sm-0"
+        disabled={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.cancel",
+          }
+        }
+        variant="tertiary"
+      />
+      <GradientButton
+        addonAfter={null}
+        addonBefore={null}
+        className="main-btn--medium min-width-120"
+        foo="bar"
+        loading={false}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "confirmBtnText.id",
+          }
+        }
+        variant="primary"
+      />
+    </div>
+  }
+  okType="primary"
+  onCancel={[MockFunction]}
+  title={
+    <Memo(FormattedMessage)
+      id="title.id"
+    />
+  }
+  visible={true}
+  width={412}
+>
+  <div
+    className="modal__content"
+  >
+    <p
+      className="modal__text mb-16"
+    >
+      <Memo(FormattedMessage)
+        id="subtitle.id"
+      />
+    </p>
+    <p
+      className="modal__text mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="description.id"
+      />
+    </p>
+  </div>
+</Modal>
+`;

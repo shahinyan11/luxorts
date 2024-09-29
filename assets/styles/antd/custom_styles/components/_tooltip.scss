@@ -1,0 +1,6 @@
+.ant-tooltip-inner {
+  @include text-caption;
+  padding: 16px;
+  border-radius: $border-radius-tertiary;
+  background-color: get-color(secondary, 1000);
+}

@@ -1,0 +1,35 @@
+.ant-modal-mask {
+  background-color: rgba(0, 1, 40, 0.65);
+}
+.ant-modal-content {
+  @include shadow-3;
+  border-radius: $border-radius-secondary;
+}
+.ant-modal-header {
+  border-top-left-radius: $border-radius-secondary;
+  border-top-right-radius: $border-radius-secondary;
+  border-bottom-color: get-color(secondary, 100);
+  color: get-color(text, active-dark);
+}
+.ant-modal-footer {
+  padding: 24px;
+  border-top-color: get-color(secondary, 100);
+}
+.ant-modal-title {
+  @include text-subheader-2;
+  color: get-color(text, active-dark);
+}
+.ant-modal-close-x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s;
+  color: get-color(secondary, 800);
+  &:hover,
+  &:focus {
+    color: get-color(secondary, 1000);
+  }
+}
+.ant-modal-footer .ant-btn + .ant-btn:not(.ant-dropdown-trigger) {
+  margin-left: 0;
+}

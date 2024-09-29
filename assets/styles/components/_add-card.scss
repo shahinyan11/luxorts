@@ -1,0 +1,5 @@
+.add-card {
+  @include shadow-1;
+  padding: 32px;
+  border-radius: $border-radius-secondary;
+}

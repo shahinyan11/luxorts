@@ -1,0 +1,91 @@
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  @include text-body;
+  height: auto;
+  padding: 8px 12px;
+  transition: padding 0.3s, border 0.3s;
+  border: 1px solid get-color(secondary, 300);
+  border-radius: $border-radius-primary;
+  background-color: white;
+  color: get-color(text, active-dark);
+  &:hover,
+  &:focus-within {
+    border-color: get-color(primary, 1000);
+  }
+  .ant-select-selection-search-input {
+    height: 48px;
+  }
+}
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  box-shadow: none;
+}
+.ant-select-show-search.ant-select:not(.ant-select-customize-input)
+  .ant-select-selector
+  .ant-select-selection-search-input {
+  height: 50px;
+}
+.ant-select-item {
+  @include text-body;
+  color: get-color(text, active-dark);
+}
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  @include text-body;
+  background-color: transparent;
+  color: get-color(text, active-dark);
+}
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: get-color(primary, 100);
+}
+.ant-select-multiple .ant-select-selection-item {
+  height: auto;
+  margin-right: 8px;
+  padding: 4px 12px;
+  border-radius: $border-radius-secondary;
+  background-color: get-color(primary, 100);
+  color: get-color(primary, 1000);
+}
+.ant-select-selection-overflow {
+  row-gap: 8px;
+}
+.ant-select-multiple .ant-select-selection-item-remove {
+  color: get-color(primary, 1000);
+  font-size: 8px;
+}
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+  height: 50px;
+  padding: 6px 11px;
+}
+.ant-select-arrow svg {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+  color: get-color(secondary, 800);
+}
+.ant-select-open .ant-select-arrow svg {
+  transform: rotate(180deg);
+}
+.ant-select-multiple.ant-select-lg .ant-select-selection-item {
+  height: auto;
+  line-height: 22px;
+}
+.ant-select-multiple.ant-select-show-search.ant-select:not(.ant-select-customize-input)
+  .ant-select-selector
+  .ant-select-selection-search-input {
+  height: auto;
+}
+.ant-select-item-group {
+  @include text-caption-2;
+  min-height: auto;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  border-top: 1px solid get-color(secondary, 100);
+  color: get-color(text, secondary-black);
+}
+.ant-select-item-option-grouped {
+  padding-left: 12px;
+}
+.ant-select-selector-default {
+  @include text-body;
+  margin-left: 4px;
+  color: get-color(text, secondary-black);
+}

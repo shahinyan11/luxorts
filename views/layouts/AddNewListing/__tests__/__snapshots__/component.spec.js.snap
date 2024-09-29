@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNewListingLayout component matches snapshot 1`] = `
+<div
+  className="main-layout"
+>
+  <AddNewListingHeader
+    btnDisabled={false}
+    onExit={[MockFunction]}
+    title={
+      Object {
+        "id": "title.id",
+      }
+    }
+  />
+  <div
+    className="main-layout__content main-layout__content--full-width"
+  >
+    <Progress
+      className="main-layout__progress"
+      percent={14}
+      showInfo={false}
+      size="default"
+      strokeLinecap="round"
+      trailColor={null}
+      type="line"
+    />
+    <section
+      className="new-listing pt-32"
+    >
+      <div />
+      <div
+        className="new-listing__footer pt-24 pb-24"
+      >
+        <div
+          className="new-listing__container d-flex justify-content-space-between"
+        >
+          <GradientButton
+            addonAfter={null}
+            addonBefore={null}
+            className="min-width-140 ml-auto"
+            disabled={false}
+            loading={false}
+            onClick={[MockFunction]}
+            text={
+              Object {
+                "id": "shared.next",
+              }
+            }
+            variant="primary"
+          />
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`AddNewListingLayout component matches snapshot when onBackRoute is present 1`] = `
+<div
+  className="main-layout"
+>
+  <AddNewListingHeader
+    btnDisabled={true}
+    onExit={[MockFunction]}
+    title={
+      Object {
+        "id": "title.id",
+      }
+    }
+  />
+  <div
+    className="main-layout__content main-layout__content--full-width"
+  >
+    <Progress
+      className="main-layout__progress"
+      percent={14}
+      showInfo={false}
+      size="default"
+      strokeLinecap="round"
+      trailColor={null}
+      type="line"
+    />
+    <section
+      className="new-listing pt-32"
+    >
+      <div
+        className="new-listing__container"
+      >
+        <Skeleton
+          active={true}
+          avatar={false}
+          paragraph={true}
+          title={true}
+        />
+      </div>
+      <div
+        className="new-listing__footer pt-24 pb-24"
+      >
+        <div
+          className="new-listing__container d-flex justify-content-space-between"
+        >
+          <GradientButton
+            addonAfter={null}
+            addonBefore={null}
+            className="min-width-140"
+            disabled={true}
+            onClick={[MockFunction]}
+            text={
+              Object {
+                "id": "shared.back",
+              }
+            }
+            variant="tertiary"
+          />
+          <GradientButton
+            addonAfter={null}
+            addonBefore={null}
+            className="min-width-140 ml-auto"
+            disabled={true}
+            loading={false}
+            onClick={[MockFunction]}
+            text={
+              Object {
+                "id": "shared.next",
+              }
+            }
+            variant="primary"
+          />
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`AddNewListingLayout component matches snapshot when showSkeleton equals true 1`] = `
+<div
+  className="main-layout"
+>
+  <AddNewListingHeader
+    btnDisabled={true}
+    onExit={[MockFunction]}
+    title={
+      Object {
+        "id": "title.id",
+      }
+    }
+  />
+  <div
+    className="main-layout__content main-layout__content--full-width"
+  >
+    <Progress
+      className="main-layout__progress"
+      percent={14}
+      showInfo={false}
+      size="default"
+      strokeLinecap="round"
+      trailColor={null}
+      type="line"
+    />
+    <section
+      className="new-listing pt-32"
+    >
+      <div
+        className="new-listing__container"
+      >
+        <Skeleton
+          active={true}
+          avatar={false}
+          paragraph={true}
+          title={true}
+        />
+      </div>
+      <div
+        className="new-listing__footer pt-24 pb-24"
+      >
+        <div
+          className="new-listing__container d-flex justify-content-space-between"
+        >
+          <GradientButton
+            addonAfter={null}
+            addonBefore={null}
+            className="min-width-140 ml-auto"
+            disabled={true}
+            loading={false}
+            onClick={[MockFunction]}
+            text={
+              Object {
+                "id": "shared.next",
+              }
+            }
+            variant="primary"
+          />
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;

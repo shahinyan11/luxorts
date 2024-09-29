@@ -1,0 +1,32 @@
+.ant-slider:hover,
+.ant-slider:focus {
+  .ant-slider-rail {
+    background-color: get-color(primary, 200);
+  }
+  .ant-slider-track {
+    background-color: get-color(primary, 1100);
+  }
+  .ant-slider-handle:not(.ant-tooltip-open) {
+    border-color: get-color(text, white);
+  }
+}
+.ant-slider-rail {
+  border-radius: $border-radius-primary;
+  background-color: get-color(primary, 100);
+}
+.ant-slider-track {
+  border-radius: $border-radius-primary;
+  background-color: get-color(primary, 1000);
+}
+.ant-slider-handle {
+  @include shadow-1;
+  width: 20px;
+  height: 20px;
+  margin-top: -8px;
+  border: 3px solid get-color(text, white);
+  background-color: get-color(primary, 1000);
+  &:hover,
+  &:focus {
+    border-color: get-color(text, white);
+  }
+}

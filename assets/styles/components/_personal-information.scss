@@ -1,0 +1,173 @@
+.personal-information {
+  @include container;
+  padding-right: 16px;
+  padding-bottom: 36px;
+  padding-left: 16px;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.personal-information__content {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+  }
+}
+.personal-information__user {
+  width: 100%;
+  @include media-breakpoint-up(lg) {
+    max-width: 558px;
+  }
+}
+.personal-information__note {
+  @include shadow-1;
+  width: 100%;
+  padding: 32px;
+  border-radius: $border-radius-secondary;
+  @include media-breakpoint-up(lg) {
+    width: 364px;
+  }
+}
+.personal-information__icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  padding: 14px;
+  transition: background-color 0.3s;
+  border-radius: $border-radius-primary;
+  background-color: get-color(secondary, 100);
+  color: get-color(secondary, 800);
+}
+.personal-information__icon {
+  width: 20px;
+  height: 20px;
+}
+.personal-information__item {
+  border-bottom: 1px solid get-color(secondary, 100);
+}
+.personal-information__descr {
+  color: get-color(text, black);
+}
+.personal-information__text {
+  color: get-color(text, black);
+}
+.personal-information__edit {
+  color: get-color(secondary, 200);
+  &:hover,
+  &:focus,
+  &:active {
+    color: get-color(secondary, 200);
+  }
+}
+.personal-information__edit--active {
+  color: get-color(primary, 1000);
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1100);
+  }
+  &:active {
+    color: get-color(primary, 1200);
+  }
+}
+.personal-information__edit--hidden {
+  display: none;
+}
+.personal-information__label {
+  @include text-body;
+  color: get-color(text, black);
+}
+.personal-information__label--active {
+  @include text-body-2;
+  color: get-color(primary, 1000);
+}
+.personal-information__value {
+  @include text-subheader;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.personal-information__value--disabled {
+  color: get-color(text, secondary-black);
+}
+.personal-information__confirm-link {
+  @include text-caption-2;
+}
+.personal-information__caption {
+  text-transform: uppercase;
+}
+.personal-information__invite--disabled {
+  color: get-color(text, secondary-black);
+}
+.personal-information__dot {
+  width: 5px;
+  height: 5px;
+  fill: get-color(text, black);
+  font-size: 5px;
+}
+.personal-information__expiration {
+  color: get-color(text, black);
+}
+.personal-information__card-dropdown .ant-dropdown-menu-item {
+  @include text-body;
+  padding: 8px 16px;
+  color: get-color(text, active-dark);
+}
+.personal-information__card-btn {
+  min-width: auto;
+  margin-left: auto;
+  padding-right: 0;
+  padding-left: 0;
+  fill: get-color(secondary, 800);
+  font-size: 24px;
+  &:hover .personal-information__card-icon {
+    fill: get-color(secondary, 1000);
+  }
+  &:active .personal-information__card-icon {
+    fill: get-color(primary, 1000);
+  }
+  &:disabled .personal-information__card-icon {
+    fill: get-color(secondary, 300);
+  }
+}
+.personal-information__card-icon {
+  width: 24px;
+  height: 24px;
+  fill: get-color(secondary, 800);
+}
+.personal-information__tag + .personal-information__card-btn {
+  margin-left: 20px;
+}
+.personal-information__text-important {
+  color: get-color(text, active-dark);
+  font-weight: 600;
+}
+.personal-information__subtitle {
+  @include text-headline-2;
+}
+.personal-information__header-group {
+  flex-wrap: wrap;
+  padding-top: 24px;
+  border-top: 1px solid get-color(secondary, 100);
+  gap: 16px;
+}
+.personal-information__notice {
+  @include text-caption;
+  color: get-color(text, active-dark);
+}
+.personal-information__column {
+  max-width: 100%;
+  border: 1px solid get-color(secondary, 200);
+  border-radius: 10px;
+  @include media-breakpoint-up(lg) {
+    width: 364px;
+  }
+}
+.personal-information__footer {
+  @include text-caption;
+  color: get-color(text, black);
+}

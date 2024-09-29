@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateCellWrapper component matches snapshot 1`] = `
+<div
+  className="rbc-day-bg"
+>
+  <div
+    className="aviability-calendar__event aviability-calendar__event--today"
+  >
+    <p
+      className="aviability-calendar__counter mb-0"
+    >
+      15
+    </p>
+  </div>
+</div>
+`;
+
+exports[`DateCellWrapper component matches snapshot when isAnotherMonth equals true and isToday equals false 1`] = `
+<div
+  className="rbc-day-bg rbc-off-range-bg"
+>
+  <div
+    className="aviability-calendar__event"
+  />
+</div>
+`;
+
+exports[`DateCellWrapper component matches snapshot when isBlocked equals true and isToday equals false 1`] = `
+<div
+  className="rbc-day-bg"
+>
+  <div
+    className="aviability-calendar__event aviability-calendar__event--blocked"
+  >
+    <p
+      className="aviability-calendar__counter mb-0"
+    >
+      15
+    </p>
+  </div>
+</div>
+`;
+
+exports[`DateCellWrapper component matches snapshot when isSelectedCell equals true and isActual equals true and isAnotherMonth equals false 1`] = `
+<div
+  className="rbc-day-bg rbc-selected-cell"
+>
+  <div
+    className="aviability-calendar__event aviability-calendar__event--today"
+  >
+    <p
+      className="aviability-calendar__counter mb-0"
+    >
+      15
+    </p>
+  </div>
+</div>
+`;
+
+exports[`DateCellWrapper component matches snapshot when isToday equals false and isActual equals false 1`] = `
+<div
+  className="rbc-day-bg"
+>
+  <div
+    className="aviability-calendar__event aviability-calendar__event--overdue"
+  >
+    <p
+      className="aviability-calendar__counter mb-0"
+    >
+      15
+    </p>
+  </div>
+</div>
+`;

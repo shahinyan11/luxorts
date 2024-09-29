@@ -1,0 +1,122 @@
+.table .ant-tag {
+  display: inline-flex;
+}
+.table--listings {
+  .ant-table-cell:last-child {
+    padding: 8px;
+  }
+  .ant-table table {
+    width: 552px !important;
+    @include media-breakpoint-up(md) {
+      width: 1752px !important;
+    }
+  }
+  .table__column-name {
+    width: 120px;
+    @include media-breakpoint-up(md) {
+      width: 248px;
+    }
+  }
+}
+.table--bookings {
+  @include media-breakpoint-up(md) {
+    width: 1804px !important;
+  }
+  /* stylelint-disable selector-max-compound-selectors */
+  .ant-table-thead .ant-table-cell:nth-child(8) .ant-table-column-sorters {
+    justify-content: flex-end;
+  }
+  /* stylelint-enable selector-max-compound-selectors */
+}
+.table__column-name {
+  width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  @include media-breakpoint-up(md) {
+    width: 248px;
+  }
+}
+.table__time {
+  color: get-color(text, black);
+}
+.table__housing-img {
+  width: 51px;
+  height: 36px;
+  @include media-breakpoint-up(md) {
+    width: 68px;
+    height: 48px;
+  }
+}
+.table__email {
+  max-width: 184px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table__settings-content {
+  @include shadow-3;
+  width: 180px;
+  margin-top: -12px;
+  margin-right: 4px;
+  padding: 16px;
+  border-radius: $border-radius-secondary;
+  background-color: get-color(text, white);
+}
+.table__settings-menu {
+  @include shadow-3;
+  margin-top: -12px;
+  margin-right: 4px;
+  border-radius: $border-radius-secondary;
+  background-color: get-color(text, white);
+  &.ant-dropdown-open {
+    color: get-color(primary, 1000);
+  }
+}
+.table__menu-btn {
+  color: get-color(secondary, 800);
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    color: get-color(primary, 1000);
+  }
+  &.ant-dropdown-open {
+    color: get-color(primary, 1000);
+  }
+}
+.table__settings-checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  .ant-checkbox-wrapper {
+    margin-left: 0;
+  }
+}
+.table__settings-title {
+  @include text-caption-2;
+  color: get-color(text, secondary-black);
+}
+.table__settings-btn {
+  color: get-color(secondary, 800);
+  .icon {
+    width: 24px;
+    height: 24px;
+    fill: get-color(secondary, 800);
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    .icon {
+      fill: get-color(primary, 1000);
+    }
+  }
+  &.ant-dropdown-open .icon {
+    fill: get-color(primary, 1000);
+  }
+}

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checkDateInfo util matches snapshot 1`] = `
+Object {
+  "isActual": true,
+  "isToday": true,
+  "momentDate": "2022-02-01T00:00:00.000Z",
+}
+`;

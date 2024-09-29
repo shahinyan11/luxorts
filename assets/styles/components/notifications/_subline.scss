@@ -1,0 +1,28 @@
+.subline-message {
+  @include text-caption;
+  display: flex;
+  align-items: center;
+  color: get-color(text, secondary-black);
+  line-height: 19px;
+  .icon {
+    width: 19px;
+    height: 19px;
+    margin-right: 4px;
+    fill: get-color(text, secondary-black);
+  }
+}
+.subline-message--dark,
+.subline-message--success,
+.subline-message--alert,
+.subline-message--error {
+  color: get-color(text, active-dark);
+}
+.subline-message--success .icon {
+  fill: get-color(accent-1, 1000);
+}
+.subline-message--alert .icon {
+  fill: get-color(accent-2, 1100);
+}
+.subline-message--error .icon {
+  fill: get-color(text, accent);
+}

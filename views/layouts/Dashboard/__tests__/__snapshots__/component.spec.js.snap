@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardLayout component matches snapshot 1`] = `
+<div
+  className="main-layout"
+>
+  <DashboardHeader />
+  <div
+    className="main-layout__content main-layout__content--wide"
+  >
+    foo
+  </div>
+</div>
+`;

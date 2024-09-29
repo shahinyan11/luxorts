@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Amenities useContainer hook matches snapshot 1`] = `
+Object {
+  "approvedAmenities": Object {
+    "Amina Heaney": Object {
+      "5e066ad7-4194-4bd4-95ec-0d9715f8159b": Object {
+        "category": null,
+        "checked": false,
+        "description": "Maiores porro nostrum dolorum sunt.",
+        "id": "5e066ad7-4194-4bd4-95ec-0d9715f8159b",
+        "name": "Nolan Kertzmann",
+        "status": "active",
+      },
+    },
+    "Torrie Sawayn": Object {
+      "c277033f-1683-4d2d-a409-d00b0bbe8201": Object {
+        "category": null,
+        "checked": false,
+        "description": "Nemo magnam dolores quam voluptatibus distinctio unde.",
+        "id": "c277033f-1683-4d2d-a409-d00b0bbe8201",
+        "name": "Stephine Rohan",
+        "status": "active",
+      },
+    },
+  },
+  "formik": Object {
+    "handleSubmit": [MockFunction],
+    "setFieldValue": [MockFunction],
+    "setValues": [MockFunction],
+    "values": Object {
+      "additional": Object {
+        "description": "",
+        "name": "",
+      },
+      "amenities": Object {
+        "Amina Heaney": Object {
+          "5e066ad7-4194-4bd4-95ec-0d9715f8159b": Object {
+            "category": null,
+            "checked": false,
+            "description": "Maiores porro nostrum dolorum sunt.",
+            "id": "5e066ad7-4194-4bd4-95ec-0d9715f8159b",
+            "name": "Nolan Kertzmann",
+            "status": "active",
+          },
+        },
+        "Torrie Sawayn": Object {
+          "c277033f-1683-4d2d-a409-d00b0bbe8201": Object {
+            "category": null,
+            "checked": false,
+            "description": "Nemo magnam dolores quam voluptatibus distinctio unde.",
+            "id": "c277033f-1683-4d2d-a409-d00b0bbe8201",
+            "name": "Stephine Rohan",
+            "status": "active",
+          },
+        },
+      },
+      "listingId": "listingId",
+    },
+  },
+  "handleAddNotApprovedAmenity": [Function],
+  "handleRemoveNotApprovedAmenityCreator": [Function],
+  "handleSubmit": [Function],
+  "isAddButtonDisabled": true,
+  "isLoading": false,
+  "notApprovedAmenities": Array [],
+  "onBackRoute": "/add-new-listing/location-map/listingId",
+  "showSkeleton": false,
+  "stepStatus": "accomodation",
+}
+`;

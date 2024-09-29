@@ -1,0 +1,83 @@
+.main-footer__wrapper {
+  padding: 24px 16px;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.main-footer__wrapper--menu {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: get-color(secondary, 50);
+}
+.main-footer__container {
+  @include container;
+}
+.main-footer__text {
+  @include text-body;
+  color: get-color(text, black);
+}
+.main-footer__link {
+  font-weight: 400;
+}
+.main-footer__deactivate {
+  color: get-color(text, black);
+}
+.main-footer__dot {
+  width: 4px;
+  height: 4px;
+  margin-right: 8px;
+  margin-left: 8px;
+  color: get-color(text, black);
+  &:first-of-type {
+    margin-left: 0;
+    @include media-breakpoint-up(sm) {
+      margin-left: 8px;
+    }
+  }
+}
+.main-footer__language {
+  font-weight: 400;
+}
+.main-footer__globe {
+  color: get-color(secondary, 800);
+}
+.main-footer__list {
+  display: grid;
+  grid-gap: 24px;
+  grid-template-rows: repeat(3, auto);
+  @include media-breakpoint-up(sm) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+  @include media-breakpoint-up(md) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: repeat(3, 267px);
+  }
+}
+.main-footer__list-link {
+  @include text-body-2;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.main-footer__subitem:not(:last-child) {
+  margin-bottom: 16px;
+}
+.main-footer__sublink {
+  @include text-body;
+  color: get-color(text, black);
+}
+.main-footer__list-link,
+.main-footer__sublink {
+  transition: color 0.3s;
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1200);
+  }
+  &:active {
+    color: get-color(primary, 1000);
+  }
+}

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home useContainer hook matches snapshot 1`] = `
+Object {
+  "formik": Object {
+    "dirty": true,
+    "handleSubmit": [MockFunction],
+    "initialValues": Object {
+      "date": "",
+      "location": "",
+    },
+    "isValid": true,
+    "resetForm": [MockFunction],
+    "setFieldTouched": [MockFunction],
+    "setFieldValue": [MockFunction],
+    "setValues": [MockFunction],
+    "validateForm": [MockFunction],
+    "values": Object {},
+  },
+  "handleNext": [Function],
+  "handlePrev": [Function],
+  "popularApartments": Array [
+    Object {
+      "bathsAmount": 28,
+      "bedroomsAmount": 1,
+      "bedsAmount": 10,
+      "description": "Vanessa Swift",
+      "guestsNumber": 3,
+      "id": "06a30f07-23b5-4900-b83c-b56986f119bc",
+      "limitedListingPhotos": Array [
+        Object {
+          "id": "115e2205-856f-4ed4-9f17-1dd6f37f7520",
+          "photoUrls": Object {
+            "small": "https://luxorts-backend-staging.s3.us-east-2.amazonaws.com/uploads/listingphoto/115e2205-856f-4ed4-9f17-1dd6f37f7520/photo/small-cf3518983b1ecf97422a2bda10eca45b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXWPQSY4555KWNWFP%2F20220717%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220717T094425Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=128ecc291ddb112fec4d57ff3e1fb7b91249045e54e653d8b083113e9b9115a7",
+          },
+        },
+      ],
+      "pricePerDay": 6860000,
+      "propertyTypeMame": "voluptatum",
+      "title": "Alta Kling",
+      "typeOfPlace": "shared_room",
+    },
+  ],
+  "popularApartmentsLastPage": 7,
+  "popularApartmentsSelfPage": 1,
+  "propertyTypes": Array [
+    Object {
+      "id": "d46e3bec-bb9a-4574-ba6d-1a3e19332b5a",
+      "listingsCount": 1,
+      "name": "totam",
+    },
+  ],
+  "trendingLocations": Array [
+    Object {
+      "city": "Baltimore",
+      "country": "United States",
+      "id": "united-states-pennsylvania-mineral-point",
+      "state": "Maryland",
+    },
+  ],
+}
+`;

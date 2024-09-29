@@ -1,0 +1,26 @@
+.publish {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  width: 100%;
+  max-width: 558px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 16px;
+  padding-left: 16px;
+  text-align: center;
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.publish__title {
+  @include text-display-2;
+}
+.publish__description {
+  @include text-body;
+}
+.publish__card {
+  margin-top: auto;
+}

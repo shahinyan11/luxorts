@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmenitiesFilter component matches snapshot 1`] = `
+<Dropdown
+  className="table-head__dropdown-payment"
+  mouseEnterDelay={0.15}
+  mouseLeaveDelay={0.1}
+  onVisibleChange={[MockFunction]}
+  overlay={
+    <div
+      className="table-head__dropdown-content"
+    >
+      <div
+        className="table-head__search"
+      >
+        <ForwardRef(InternalForm)
+          size="middle"
+        >
+          <FormItem
+            className="mb-0"
+          >
+            <Search
+              allowClear={
+                Object {
+                  "clearIcon": <SvgIcon
+                    icon="cross"
+                  />,
+                }
+              }
+              className="width-328"
+              enterButton={
+                <SvgIcon
+                  icon="search"
+                />
+              }
+              onChange={[MockFunction]}
+              placeholder="{Translation id: shared.searchAmenity}"
+              value="search"
+            />
+          </FormItem>
+        </ForwardRef(InternalForm)>
+      </div>
+      <Context.Provider
+        value={
+          Object {
+            "values": Object {
+              "amenities-in": Array [],
+            },
+          }
+        }
+      >
+        <CheckboxGroupField
+          className="d-flex flex-column mb-0 table-head__checkboxes"
+          items={Array []}
+          name="amenities-in"
+        />
+      </Context.Provider>
+      <div
+        className="table-head__actions pt-24 pb-24 d-flex justify-content-flex-end"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium min-width-120"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.apply",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </div>
+  }
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <a
+    className="main-btn main-btn--medium main-btn--filter"
+  >
+    <Memo(FormattedMessage)
+      id="shared.amenities"
+    />
+    <SvgIcon
+      className="icon-right"
+      icon="arrow-down"
+    />
+  </a>
+</Dropdown>
+`;
+
+exports[`AmenitiesFilter component matches snapshot when filters[LISTING_FILTER_KEY.AMENITIES_IN].length more than 0 1`] = `
+<Dropdown
+  className="table-head__dropdown-payment"
+  mouseEnterDelay={0.15}
+  mouseLeaveDelay={0.1}
+  onVisibleChange={[MockFunction]}
+  overlay={
+    <div
+      className="table-head__dropdown-content"
+    >
+      <div
+        className="table-head__search"
+      >
+        <ForwardRef(InternalForm)
+          size="middle"
+        >
+          <FormItem
+            className="mb-0"
+          >
+            <Search
+              allowClear={
+                Object {
+                  "clearIcon": <SvgIcon
+                    icon="cross"
+                  />,
+                }
+              }
+              className="width-328"
+              enterButton={
+                <SvgIcon
+                  icon="search"
+                />
+              }
+              onChange={[MockFunction]}
+              placeholder="{Translation id: shared.searchAmenity}"
+              value="search"
+            />
+          </FormItem>
+        </ForwardRef(InternalForm)>
+      </div>
+      <Context.Provider
+        value={
+          Object {
+            "values": Object {
+              "amenities-in": Array [],
+            },
+          }
+        }
+      >
+        <CheckboxGroupField
+          className="d-flex flex-column mb-0 table-head__checkboxes"
+          items={Array []}
+          name="amenities-in"
+        />
+      </Context.Provider>
+      <div
+        className="table-head__actions pt-24 pb-24 d-flex justify-content-flex-end"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium min-width-120"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.apply",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </div>
+  }
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <a
+    className="main-btn main-btn--medium main-btn--filter main-btn--filter-active"
+  >
+    <Memo(FormattedMessage)
+      id="shared.amenitiesCount"
+      values={
+        Object {
+          "count": <span
+            className="main-btn__amount"
+          >
+            1
+          </span>,
+        }
+      }
+    />
+    <SvgIcon
+      className="icon-right"
+      icon="arrow-down"
+    />
+  </a>
+</Dropdown>
+`;
+
+exports[`AmenitiesFilter component matches snapshot when formik.values[LISTING_FILTER_KEY.AMENITIES_IN].length more than 0 1`] = `
+<Dropdown
+  className="table-head__dropdown-payment"
+  mouseEnterDelay={0.15}
+  mouseLeaveDelay={0.1}
+  onVisibleChange={[MockFunction]}
+  overlay={
+    <div
+      className="table-head__dropdown-content"
+    >
+      <div
+        className="table-head__search"
+      >
+        <ForwardRef(InternalForm)
+          size="middle"
+        >
+          <FormItem
+            className="mb-0"
+          >
+            <Search
+              allowClear={
+                Object {
+                  "clearIcon": <SvgIcon
+                    icon="cross"
+                  />,
+                }
+              }
+              className="width-328"
+              enterButton={
+                <SvgIcon
+                  icon="search"
+                />
+              }
+              onChange={[MockFunction]}
+              placeholder="{Translation id: shared.searchAmenity}"
+              value="search"
+            />
+          </FormItem>
+        </ForwardRef(InternalForm)>
+      </div>
+      <Context.Provider
+        value={
+          Object {
+            "values": Object {
+              "amenities-in": Array [
+                Object {},
+              ],
+            },
+          }
+        }
+      >
+        <CheckboxGroupField
+          className="d-flex flex-column mb-0 table-head__checkboxes"
+          items={Array []}
+          name="amenities-in"
+        />
+      </Context.Provider>
+      <div
+        className="table-head__actions pt-24 pb-24 d-flex justify-content-flex-end"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium mr-16"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.clear",
+            }
+          }
+          variant="tertiary"
+        />
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="main-btn--medium min-width-120"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.apply",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </div>
+  }
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <a
+    className="main-btn main-btn--medium main-btn--filter"
+  >
+    <Memo(FormattedMessage)
+      id="shared.amenities"
+    />
+    <SvgIcon
+      className="icon-right"
+      icon="arrow-down"
+    />
+  </a>
+</Dropdown>
+`;

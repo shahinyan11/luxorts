@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublishListingModal component matches snapshot 1`] = `
+<Modal
+  className="modal"
+  closeIcon={
+    <SvgIcon
+      className="modal__icon"
+      icon="modal-cross"
+    />
+  }
+  confirmLoading={false}
+  footer={
+    <div
+      className="d-flex justify-content-flex-end"
+    >
+      <Link
+        href="/dashboard/listings"
+      >
+        <a>
+          <GradientButton
+            addonAfter={null}
+            addonBefore={null}
+            className="main-btn--medium min-width-120"
+            onClick={[Function]}
+            text={
+              Object {
+                "id": "shared.goToListings",
+              }
+            }
+            variant="primary"
+          />
+        </a>
+      </Link>
+    </div>
+  }
+  okType="primary"
+  onCancel={[MockFunction]}
+  title={
+    <Memo(FormattedMessage)
+      id="title.id"
+    />
+  }
+  visible={true}
+  width={558}
+>
+  <div
+    className="modal__content text-align-center"
+  >
+    <div
+      className="mb-24"
+    >
+      <Image
+        alt=""
+        height="136"
+        src="/images/upload-done.png"
+        width="136"
+      />
+    </div>
+    <p
+      className="modal__text mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="description.id"
+      />
+    </p>
+  </div>
+</Modal>
+`;

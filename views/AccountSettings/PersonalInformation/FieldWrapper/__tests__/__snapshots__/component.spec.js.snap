@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldWrapper component matches snapshot 1`] = `
+<div
+  className="personal-information__item mb-24"
+>
+  <div
+    className="personal-information__header d-flex justify-content-space-between mb-8"
+  >
+    <p
+      className="personal-information__label mb-0"
+    >
+      <Memo(FormattedMessage)
+        id="shared.field"
+      />
+    </p>
+    <a
+      className="main-text-btn personal-information__edit text-body-2 personal-information__edit--active"
+      onClick={[MockFunction]}
+      role="button"
+    >
+      <Memo(FormattedMessage)
+        id="shared.add"
+      />
+    </a>
+  </div>
+  <p
+    className="personal-information__value mb-24 personal-information__value--disabled"
+  >
+    <Memo(FormattedMessage)
+      id="shared.notProvided"
+    />
+  </p>
+</div>
+`;

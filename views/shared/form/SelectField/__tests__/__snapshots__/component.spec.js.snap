@@ -1,0 +1,453 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectField component matches snapshot 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef(InternalSelect)
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    suffixIcon={
+      <SvgIcon
+        icon="arrow-down"
+      />
+    }
+    value="value"
+  >
+    <Option
+      key="51e35121-c27e-46fc-9feb-b51dab2490ee"
+      label={
+        <FormattedOrRawMessage
+          message="repudiandae"
+        />
+      }
+      value="51e35121-c27e-46fc-9feb-b51dab2490ee"
+    >
+      <FormattedOrRawMessage
+        message="repudiandae"
+      />
+    </Option>
+    <Option
+      key="995c5714-185d-4085-8512-690903334f6e"
+      label={
+        <FormattedOrRawMessage
+          message="molestias"
+        />
+      }
+      value="995c5714-185d-4085-8512-690903334f6e"
+    >
+      <FormattedOrRawMessage
+        message="molestias"
+      />
+    </Option>
+  </ForwardRef(InternalSelect)>
+</FormItem>
+`;
+
+exports[`SelectField component matches snapshot when formItemClassName is present 1`] = `
+<FormItem
+  className="test"
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef(InternalSelect)
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    suffixIcon={
+      <SvgIcon
+        icon="arrow-down"
+      />
+    }
+    value="value"
+  >
+    <Option
+      key="51e35121-c27e-46fc-9feb-b51dab2490ee"
+      label={
+        <FormattedOrRawMessage
+          message="repudiandae"
+        />
+      }
+      value="51e35121-c27e-46fc-9feb-b51dab2490ee"
+    >
+      <FormattedOrRawMessage
+        message="repudiandae"
+      />
+    </Option>
+    <Option
+      key="995c5714-185d-4085-8512-690903334f6e"
+      label={
+        <FormattedOrRawMessage
+          message="molestias"
+        />
+      }
+      value="995c5714-185d-4085-8512-690903334f6e"
+    >
+      <FormattedOrRawMessage
+        message="molestias"
+      />
+    </Option>
+  </ForwardRef(InternalSelect)>
+</FormItem>
+`;
+
+exports[`SelectField component matches snapshot when label is present 1`] = `
+<FormItem
+  htmlFor="name"
+  label={
+    <Memo(FormattedMessage)
+      id="label.id"
+    />
+  }
+  validateStatus={false}
+>
+  <ForwardRef(InternalSelect)
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    suffixIcon={
+      <SvgIcon
+        icon="arrow-down"
+      />
+    }
+    value="value"
+  >
+    <Option
+      key="51e35121-c27e-46fc-9feb-b51dab2490ee"
+      label={
+        <FormattedOrRawMessage
+          message="repudiandae"
+        />
+      }
+      value="51e35121-c27e-46fc-9feb-b51dab2490ee"
+    >
+      <FormattedOrRawMessage
+        message="repudiandae"
+      />
+    </Option>
+    <Option
+      key="995c5714-185d-4085-8512-690903334f6e"
+      label={
+        <FormattedOrRawMessage
+          message="molestias"
+        />
+      }
+      value="995c5714-185d-4085-8512-690903334f6e"
+    >
+      <FormattedOrRawMessage
+        message="molestias"
+      />
+    </Option>
+  </ForwardRef(InternalSelect)>
+</FormItem>
+`;
+
+exports[`SelectField component matches snapshot when optionComponent is present 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef(InternalSelect)
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    suffixIcon={
+      <SvgIcon
+        icon="arrow-down"
+      />
+    }
+    value="value"
+  >
+    <div
+      key="51e35121-c27e-46fc-9feb-b51dab2490ee"
+    />
+    <div
+      key="995c5714-185d-4085-8512-690903334f6e"
+    />
+  </ForwardRef(InternalSelect)>
+</FormItem>
+`;
+
+exports[`SelectField component matches snapshot when options aren\`t present 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef(InternalSelect)
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    suffixIcon={
+      <SvgIcon
+        icon="arrow-down"
+      />
+    }
+    value="value"
+  />
+</FormItem>
+`;
+
+exports[`SelectField component matches snapshot when placeholder is present 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef(InternalSelect)
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    placeholder="{Translation id: placeholder.id}"
+    suffixIcon={
+      <SvgIcon
+        icon="arrow-down"
+      />
+    }
+    value="value"
+  >
+    <Option
+      key="51e35121-c27e-46fc-9feb-b51dab2490ee"
+      label={
+        <FormattedOrRawMessage
+          message="repudiandae"
+        />
+      }
+      value="51e35121-c27e-46fc-9feb-b51dab2490ee"
+    >
+      <FormattedOrRawMessage
+        message="repudiandae"
+      />
+    </Option>
+    <Option
+      key="995c5714-185d-4085-8512-690903334f6e"
+      label={
+        <FormattedOrRawMessage
+          message="molestias"
+        />
+      }
+      value="995c5714-185d-4085-8512-690903334f6e"
+    >
+      <FormattedOrRawMessage
+        message="molestias"
+      />
+    </Option>
+  </ForwardRef(InternalSelect)>
+</FormItem>
+`;
+
+exports[`SelectField component matches snapshot when tooltip is present 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "tooltip.id",
+        }
+      }
+    />
+  }
+  htmlFor="name"
+  validateStatus={false}
+>
+  <ForwardRef(InternalSelect)
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    suffixIcon={
+      <SvgIcon
+        icon="arrow-down"
+      />
+    }
+    value="value"
+  >
+    <Option
+      key="51e35121-c27e-46fc-9feb-b51dab2490ee"
+      label={
+        <FormattedOrRawMessage
+          message="repudiandae"
+        />
+      }
+      value="51e35121-c27e-46fc-9feb-b51dab2490ee"
+    >
+      <FormattedOrRawMessage
+        message="repudiandae"
+      />
+    </Option>
+    <Option
+      key="995c5714-185d-4085-8512-690903334f6e"
+      label={
+        <FormattedOrRawMessage
+          message="molestias"
+        />
+      }
+      value="995c5714-185d-4085-8512-690903334f6e"
+    >
+      <FormattedOrRawMessage
+        message="molestias"
+      />
+    </Option>
+  </ForwardRef(InternalSelect)>
+</FormItem>
+`;
+
+exports[`SelectField component matches snapshot when touched and has error 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "error.id",
+        }
+      }
+      type="error"
+    />
+  }
+  htmlFor="name"
+  validateStatus="error"
+>
+  <ForwardRef(InternalSelect)
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    suffixIcon={
+      <SvgIcon
+        icon="arrow-down"
+      />
+    }
+    value="value"
+  >
+    <Option
+      key="51e35121-c27e-46fc-9feb-b51dab2490ee"
+      label={
+        <FormattedOrRawMessage
+          message="repudiandae"
+        />
+      }
+      value="51e35121-c27e-46fc-9feb-b51dab2490ee"
+    >
+      <FormattedOrRawMessage
+        message="repudiandae"
+      />
+    </Option>
+    <Option
+      key="995c5714-185d-4085-8512-690903334f6e"
+      label={
+        <FormattedOrRawMessage
+          message="molestias"
+        />
+      }
+      value="995c5714-185d-4085-8512-690903334f6e"
+    >
+      <FormattedOrRawMessage
+        message="molestias"
+      />
+    </Option>
+  </ForwardRef(InternalSelect)>
+</FormItem>
+`;
+
+exports[`SelectField component matches snapshot when touched and has error and tooltip is present 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon="alert"
+      text={
+        Object {
+          "id": "error.id",
+        }
+      }
+      type="error"
+    />
+  }
+  htmlFor="name"
+  validateStatus="error"
+>
+  <ForwardRef(InternalSelect)
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    suffixIcon={
+      <SvgIcon
+        icon="arrow-down"
+      />
+    }
+    value="value"
+  >
+    <Option
+      key="51e35121-c27e-46fc-9feb-b51dab2490ee"
+      label={
+        <FormattedOrRawMessage
+          message="repudiandae"
+        />
+      }
+      value="51e35121-c27e-46fc-9feb-b51dab2490ee"
+    >
+      <FormattedOrRawMessage
+        message="repudiandae"
+      />
+    </Option>
+    <Option
+      key="995c5714-185d-4085-8512-690903334f6e"
+      label={
+        <FormattedOrRawMessage
+          message="molestias"
+        />
+      }
+      value="995c5714-185d-4085-8512-690903334f6e"
+    >
+      <FormattedOrRawMessage
+        message="molestias"
+      />
+    </Option>
+  </ForwardRef(InternalSelect)>
+</FormItem>
+`;
+
+exports[`SelectField component matches snapshot when touched and has no error 1`] = `
+<FormItem
+  htmlFor="name"
+  validateStatus={null}
+>
+  <ForwardRef(InternalSelect)
+    id="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    suffixIcon={
+      <SvgIcon
+        icon="arrow-down"
+      />
+    }
+    value="value"
+  >
+    <Option
+      key="51e35121-c27e-46fc-9feb-b51dab2490ee"
+      label={
+        <FormattedOrRawMessage
+          message="repudiandae"
+        />
+      }
+      value="51e35121-c27e-46fc-9feb-b51dab2490ee"
+    >
+      <FormattedOrRawMessage
+        message="repudiandae"
+      />
+    </Option>
+    <Option
+      key="995c5714-185d-4085-8512-690903334f6e"
+      label={
+        <FormattedOrRawMessage
+          message="molestias"
+        />
+      }
+      value="995c5714-185d-4085-8512-690903334f6e"
+    >
+      <FormattedOrRawMessage
+        message="molestias"
+      />
+    </Option>
+  </ForwardRef(InternalSelect)>
+</FormItem>
+`;

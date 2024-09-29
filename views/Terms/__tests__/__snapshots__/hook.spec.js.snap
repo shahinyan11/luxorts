@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Terms useContainer hook matches snapshot 1`] = `
+Object {
+  "htmlString": "htmlString",
+  "titles": Array [
+    Object {
+      "children": Array [
+        Object {
+          "id": "h3_id",
+          "text": "h3 text",
+        },
+      ],
+      "id": "h2_id",
+      "text": "h2 text",
+    },
+  ],
+}
+`;

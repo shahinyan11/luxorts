@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`googleMaps constants match snapshot 1`] = `
+Object {
+  "DEFAULT_LANGUAGE_CODE": "en",
+  "FIELD_NAME_BY_TYPE": Object {
+    "administrative_area_level_1": "state",
+    "country": "country",
+    "locality": "city",
+    "postal_code": "zipCode",
+    "route": "street",
+    "street_number": "streetNumber",
+  },
+  "GOOGLE_MAPS_ADDRESS_TYPE": Object {
+    "ADMINISTRATIVE_AREA_LEVEL_1": "administrative_area_level_1",
+    "COUNTRY": "country",
+    "LOCALITY": "locality",
+    "POSTAL_CODE": "postal_code",
+    "ROUTE": "route",
+    "STREET_NUMBER": "street_number",
+  },
+  "GOOGLE_MAPS_API_KEY": undefined,
+  "GOOGLE_MAPS_GEOCODING_TYPE": Object {
+    "ADDRESS": "address",
+    "LAT_LNG": "latlng",
+  },
+  "NEW_YORK_COORDS": Array [
+    -73.97447621784085,
+    40.764468117826794,
+  ],
+}
+`;

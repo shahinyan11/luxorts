@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxField component matches snapshot 1`] = `
+<Checkbox
+  checked={true}
+  value={true}
+>
+  <FormattedOrRawMessage
+    message="title"
+  />
+</Checkbox>
+`;

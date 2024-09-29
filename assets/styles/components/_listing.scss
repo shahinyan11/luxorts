@@ -1,0 +1,26 @@
+.listing {
+  padding: 16px;
+  @include media-breakpoint-up(xl) {
+    padding: 32px 24px;
+  }
+}
+.listing__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.listing__title {
+  @include text-display-2;
+}
+.listing__counter {
+  color: get-color(text, secondary-black);
+}
+.listing__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.listing__text {
+  @include text-body;
+}

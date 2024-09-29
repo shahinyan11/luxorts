@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutUs useContainer hook matches snapshot 1`] = `
+Object {
+  "citiesCount": 1,
+  "hostsCount": 1,
+  "propertiesCount": 1,
+}
+`;

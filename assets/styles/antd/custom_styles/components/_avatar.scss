@@ -1,0 +1,71 @@
+.ant-avatar {
+  position: relative;
+  background-color: get-color(primary, 800);
+  .ant-avatar-string {
+    color: get-color(text, white);
+  }
+}
+.ant-avatar--xxs {
+  width: 24px;
+  height: 24px;
+  .ant-avatar-string {
+    @include text-small-2;
+    line-height: 24px;
+  }
+}
+.ant-avatar--xs {
+  width: 32px;
+  height: 32px;
+  .ant-avatar-string {
+    @include text-caption-2;
+    line-height: 32px;
+  }
+}
+.ant-avatar--sm {
+  width: 40px;
+  height: 40px;
+  .ant-avatar-string {
+    @include text-body-2;
+    line-height: 40px;
+  }
+}
+.ant-avatar--md {
+  width: 48px;
+  height: 48px;
+  .ant-avatar-string {
+    @include text-subheader-2;
+    line-height: 48px;
+  }
+}
+.ant-avatar--lg {
+  width: 64px;
+  height: 64px;
+  .ant-avatar-string {
+    @include text-subheader-big-2;
+    line-height: 64px;
+  }
+}
+.ant-avatar--xl {
+  width: 72px;
+  height: 72px;
+  .ant-avatar-string {
+    @include text-title-2;
+    line-height: 72px;
+  }
+}
+.ant-avatar--xxl {
+  width: 80px;
+  height: 80px;
+  .ant-avatar-string {
+    @include text-headline-2;
+    line-height: 80px;
+  }
+}
+.ant-avatar--xxxl {
+  width: 120px;
+  height: 120px;
+  .ant-avatar-string {
+    @include text-display;
+    line-height: 120px;
+  }
+}

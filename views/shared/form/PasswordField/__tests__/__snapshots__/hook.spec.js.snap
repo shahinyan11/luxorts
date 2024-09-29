@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PasswordField useContainer hook matches snapshot 1`] = `
+Object {
+  "formattedOrRawMessage": [Function],
+  "helperProps": Object {
+    "error": undefined,
+    "hasError": undefined,
+  },
+  "onBlurHandler": [Function],
+  "onChangeHandler": [Function],
+  "renderVisibilityIcon": [Function],
+  "value": undefined,
+}
+`;
+
+exports[`PasswordField useContainer hook tests \`renderVisibilityIcon\` method matches snapshot when visible equals false 1`] = `<ForwardRef(EyeOutlined) />`;
+
+exports[`PasswordField useContainer hook tests \`renderVisibilityIcon\` method matches snapshot when visible equals true 1`] = `<ForwardRef(EyeInvisibleOutlined) />`;

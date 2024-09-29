@@ -1,0 +1,13 @@
+.main-menu {
+  justify-content: flex-end;
+  width: 100%;
+  max-width: calc(100vw - 142px);
+  margin-right: auto;
+  margin-left: 12px;
+  border-bottom: none;
+  @include media-breakpoint-up(sm) {
+    justify-content: flex-start;
+    max-width: calc(100vw - 308px);
+    margin-left: 24px;
+  }
+}

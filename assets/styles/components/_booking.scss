@@ -1,0 +1,96 @@
+.booking {
+  padding: 16px 16px 32px;
+  @include media-breakpoint-up(xl) {
+    padding: 32px 0 60px;
+  }
+}
+.booking__header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  @include media-breakpoint-up(sm) {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+.booking__title {
+  @include text-display-2;
+}
+.booking__counter {
+  color: get-color(text, secondary-black);
+}
+.booking__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.booking__text {
+  @include text-body;
+}
+.booking__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.booking__sort {
+  min-width: initial;
+  height: auto;
+  min-height: initial;
+  padding: 0;
+  color: get-color(text, active-dark);
+}
+.booking__sort-icon {
+  width: 10px !important;
+  height: 10px !important;
+}
+.booking__sort-text {
+  @include text-body-2;
+  margin-right: 4px;
+  transition: color 0.3s;
+}
+.booking__sort-dropdown {
+  margin-left: auto;
+}
+.booking__sort-btn {
+  @include text-body;
+  padding: 0;
+  color: get-color(text, active-dark);
+  &:hover,
+  &:focus,
+  &:active {
+    color: get-color(text, active-dark);
+  }
+}
+.booking__sort-btn-icon {
+  fill: get-color(secondary, 800);
+  color: initial;
+}
+.booking__sorter {
+  display: flex;
+  align-items: center;
+  &:hover,
+  &.ant-dropdown-open {
+    .booking__sort,
+    .booking__sort-text {
+      color: get-color(primary, 1000);
+    }
+    .booking__sort-btn-icon {
+      transform: rotate(180deg);
+    }
+    .booking__sort-icon {
+      fill: get-color(primary, 1000);
+    }
+  }
+}
+.booking__items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

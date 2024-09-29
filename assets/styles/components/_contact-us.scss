@@ -1,0 +1,27 @@
+.contact-us {
+  margin-bottom: -30px;
+  padding-right: 16px;
+  padding-left: 16px;
+  background-image: url('/images/contact-us-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  @include media-breakpoint-up(md) {
+    margin-bottom: -60px;
+  }
+  @include media-breakpoint-up(xl) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.contact-us__container {
+  @include container;
+}
+.contact-us__title {
+  @include text-jumbo-2;
+  color: get-color(text, white);
+}
+.contact-us__description {
+  @include text-subheader;
+  color: get-color(text, white);
+}

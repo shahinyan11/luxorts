@@ -1,0 +1,12 @@
+.account-controls {
+  @include shadow-3;
+  width: 180px;
+  margin-top: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: get-color(text, white);
+}
+.account-controls__item {
+  @include text-body;
+  padding: 8px 16px;
+}

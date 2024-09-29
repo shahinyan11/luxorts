@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyCard component matches snapshot 1`] = `
+<Link
+  href="#"
+>
+  <a
+    className="property__card"
+    href="#"
+  >
+    <Image
+      alt=""
+      className="property__img"
+      height="188"
+      src="image"
+      width="267"
+    />
+    <div
+      className="property__content"
+    >
+      <h3
+        className="property__subtitle mb-4"
+      >
+        totam
+      </h3>
+      <p
+        className="property__text mb-0"
+      >
+        1 totams
+      </p>
+    </div>
+  </a>
+</Link>
+`;

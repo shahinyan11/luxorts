@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useListingLocationMap hook matches snapshot 1`] = `
+Object {
+  "coords": Object {
+    "lat": null,
+    "lng": null,
+  },
+  "createMap": [Function],
+  "formik": Object {
+    "dirty": true,
+    "enableReinitialize": true,
+    "handleSubmit": [MockFunction],
+    "initialValues": Object {
+      "apartmentNumber": "12",
+      "city": "Phoenix",
+      "country": "United States",
+      "latitude": "40.764468117826794",
+      "listingId": "listingId",
+      "longitude": "-73.97447621784085",
+      "message": Object {
+        "description": Object {
+          "id": "message.id",
+        },
+      },
+      "redirectRoute": "/add-new-listing/amenities/listingId",
+      "state": "Arizona",
+      "street": "West Maryland Avenue",
+      "zipCode": "12345",
+    },
+    "isValid": true,
+    "onSubmit": [Function],
+    "resetForm": [MockFunction],
+    "setFieldTouched": [MockFunction],
+    "setFieldValue": [MockFunction],
+    "setValues": [MockFunction],
+    "validateForm": [MockFunction],
+    "values": Object {},
+  },
+  "isDirty": false,
+  "isLoading": false,
+  "mapContainerRef": Object {
+    "current": "mapContainerRef",
+  },
+  "mapRef": Object {
+    "current": Object {
+      "addListener": [MockFunction],
+      "getCenter": [Function],
+      "setCenter": [MockFunction],
+    },
+  },
+  "markerRef": Object {
+    "current": Object {
+      "setPosition": [MockFunction],
+    },
+  },
+  "onBackRoute": "/add-new-listing/location/listingId",
+  "onMapDragEndHandler": [Function],
+  "onMapDragHandler": [Function],
+  "onMountHandler": [Function],
+  "showSkeleton": false,
+  "stepStatus": "accomodation",
+  "updateMapCenter": [Function],
+}
+`;

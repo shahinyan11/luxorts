@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingColumn component matches snapshot 1`] = `
+<div
+  className="d-flex align-items-center"
+>
+  <div
+    className="mr-8 mr-sm-16"
+  >
+    <Link
+      href="/listing/0645baf3-945d-4122-8a0b-5ab3e95a9b3e"
+    >
+      <a>
+        <Image
+          alt=""
+          className="table__housing-img"
+          height="48"
+          src="/images/housing-preview-01.png"
+          width="68"
+        />
+      </a>
+    </Link>
+  </div>
+  <p
+    className="mb-0 table__column-name"
+  >
+    <Link
+      href="/listing/0645baf3-945d-4122-8a0b-5ab3e95a9b3e"
+    >
+      <a>
+        <FormattedOrRawMessage
+          message={
+            Object {
+              "id": "shared.withoutTitle",
+            }
+          }
+        />
+      </a>
+    </Link>
+  </p>
+</div>
+`;

@@ -1,0 +1,21 @@
+.confirm {
+  width: 100%;
+  max-width: 558px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 20px;
+  @include media-breakpoint-up(md) {
+    padding: 0;
+  }
+}
+.confirm__title {
+  @include text-display-2;
+  text-align: center;
+}
+.confirm__text {
+  @include text-body;
+  text-align: center;
+}
+.confirm__text-bold {
+  font-weight: 600;
+}

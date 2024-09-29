@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyType component matches snapshot 1`] = `
+<Fragment>
+  <ListingPropertyType
+    formik={
+      Object {
+        "dirty": true,
+        "handleSubmit": [MockFunction],
+        "isValid": true,
+        "resetForm": [MockFunction],
+        "setFieldTouched": [MockFunction],
+        "setFieldValue": [MockFunction],
+        "setValues": [MockFunction],
+        "validateForm": [MockFunction],
+        "values": Object {},
+      }
+    }
+    propertyTypesOptions={
+      Array [
+        Object {
+          "description": "description repudiandae",
+          "label": "repudiandae",
+          "value": "51e35121-c27e-46fc-9feb-b51dab2490ee",
+        },
+        Object {
+          "description": "description molestias",
+          "label": "molestias",
+          "value": "995c5714-185d-4085-8512-690903334f6e",
+        },
+      ]
+    }
+    tooltip="tooltip"
+  />
+  <EditListingFooter
+    disabled={false}
+    isLoading={false}
+    onSave={[MockFunction]}
+  />
+</Fragment>
+`;
+
+exports[`PropertyType component matches snapshot when showSkeleton equals true 1`] = `
+<div
+  className="new-listing__container mb-24"
+>
+  <Skeleton
+    active={true}
+    avatar={false}
+    paragraph={true}
+    title={true}
+  />
+</div>
+`;

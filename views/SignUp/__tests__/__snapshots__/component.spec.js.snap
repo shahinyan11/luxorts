@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp component matches snapshot 1`] = `
+<div
+  className="sign-up"
+>
+  <h1
+    className="sign-up__title"
+  >
+    <Memo(FormattedMessage)
+      id="signUp.title"
+    />
+  </h1>
+  <p
+    className="sign-up__caption"
+  >
+    <Memo(FormattedMessage)
+      id="signUp.description"
+    />
+  </p>
+  <ForwardRef(InternalForm)
+    layout="vertical"
+    size="large"
+  >
+    <ContextProvider
+      value={
+        Object {
+          "dirty": true,
+          "handleSubmit": [MockFunction],
+          "isValid": true,
+          "resetForm": [MockFunction],
+          "setFieldTouched": [MockFunction],
+          "setFieldValue": [MockFunction],
+          "setValues": [MockFunction],
+          "validateForm": [MockFunction],
+          "values": Object {},
+        }
+      }
+    >
+      <div
+        className="main-btn-container-two-items"
+      >
+        <InputField
+          asComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "Group": [Function],
+              "Password": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "action": "click",
+                  "iconRender": [Function],
+                  "visibilityToggle": true,
+                },
+                "render": [Function],
+              },
+              "Search": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "TextArea": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          label={
+            Object {
+              "id": "shared.firstName",
+            }
+          }
+          name="userProfile.firstName"
+          numbersOnly={false}
+          withFormItem={true}
+        />
+        <InputField
+          asComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "Group": [Function],
+              "Password": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "action": "click",
+                  "iconRender": [Function],
+                  "visibilityToggle": true,
+                },
+                "render": [Function],
+              },
+              "Search": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "TextArea": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          label={
+            Object {
+              "id": "shared.lastName",
+            }
+          }
+          name="userProfile.lastName"
+          numbersOnly={false}
+          withFormItem={true}
+        />
+      </div>
+      <div
+        className="sign-up__container mb-20"
+      >
+        <DateField
+          className="w-100"
+          label={
+            Object {
+              "id": "shared.dateOfBirth",
+            }
+          }
+          name="userProfile.dateOfBirth"
+          placeholder={
+            Object {
+              "id": "shared.dateFormat",
+            }
+          }
+          size="large"
+          tooltip={
+            Object {
+              "id": "signUp.dateOfBirth.info",
+            }
+          }
+        />
+      </div>
+      <div
+        className="sign-up__container mb-16"
+      >
+        <InputField
+          asComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "Group": [Function],
+              "Password": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "action": "click",
+                  "iconRender": [Function],
+                  "visibilityToggle": true,
+                },
+                "render": [Function],
+              },
+              "Search": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "TextArea": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          label={
+            Object {
+              "id": "shared.email",
+            }
+          }
+          name="email"
+          numbersOnly={false}
+          placeholder="jeremy.bogan@gmail.com"
+          type="email"
+          withFormItem={true}
+        />
+      </div>
+      <div
+        className="sign-up__container"
+      >
+        <PhoneField
+          className="main-phone-input"
+          label={
+            Object {
+              "id": "shared.phoneNumber",
+            }
+          }
+          name="userProfile.phoneNumber"
+        />
+      </div>
+      <div
+        className="sign-up__container mb-36"
+      >
+        <PasswordField
+          autoComplete="new-password"
+          label={
+            Object {
+              "id": "shared.password",
+            }
+          }
+          name="password"
+          withProgress={true}
+        />
+      </div>
+      <div
+        className="d-flex justify-content-flex-end"
+      >
+        <GradientButton
+          addonAfter={null}
+          addonBefore={null}
+          className="min-width-140"
+          loading={false}
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "shared.signUp",
+            }
+          }
+          variant="primary"
+        />
+      </div>
+    </ContextProvider>
+  </ForwardRef(InternalForm)>
+</div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GradientButton component matches snapshot 1`] = `
+<Button
+  className="main-btn main-btn--secondary className"
+  onClick={[MockFunction]}
+>
+  <span>
+    <FormattedOrRawMessage
+      message={
+        Object {
+          "id": "shared.id",
+        }
+      }
+    />
+  </span>
+</Button>
+`;

@@ -1,0 +1,32 @@
+.main-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s;
+  color: get-color(primary, 1000);
+  font-size: 14px;
+  font-weight: 600;
+  &:disabled {
+    color: get-color(text, disabled-grey);
+  }
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1100);
+  }
+  &:active {
+    color: get-color(primary, 1200);
+  }
+}
+.main-link--secondary {
+  color: get-color(text, black);
+  &:hover,
+  &:focus {
+    color: get-color(text, active-dark);
+  }
+  &:active {
+    color: get-color(primary, 1200);
+  }
+}
+.main-link--small {
+  @include text-caption;
+}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeactivatedByAdminModal component matches snapshot 1`] = `
+<InfoModal
+  cancelText={
+    Object {
+      "id": "shared.cancel",
+    }
+  }
+  closable={false}
+  confirmText={
+    Object {
+      "id": "shared.ok",
+    }
+  }
+  description={
+    Object {
+      "id": "signIn.deactivatedByAdminModal.description",
+    }
+  }
+  onCancel={null}
+  onConfirm={[MockFunction]}
+/>
+`;

@@ -1,0 +1,297 @@
+.apartment-card {
+  @include shadow-1;
+  position: relative;
+  max-width: 343px;
+  transition: box-shadow 0.35s ease;
+  border-radius: $border-radius-secondary;
+  background-color: get-color(text, white);
+  @include media-breakpoint-up(md) {
+    max-width: 356px;
+  }
+  @include media-breakpoint-up(lg) {
+    max-width: 364px;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    @include shadow-3;
+  }
+}
+.apartment-card--sidebar {
+  position: static;
+  width: 100%;
+  max-width: 100%;
+  box-shadow: none;
+}
+.apartment-card--explore {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid get-color(secondary, 100);
+  border-radius: none;
+  box-shadow: none;
+  &:hover,
+  &:focus,
+  &:active {
+    box-shadow: none;
+  }
+  .ant-carousel .slick-next {
+    right: 12px;
+  }
+  .ant-carousel .slick-prev {
+    left: 12px;
+  }
+  .ant-carousel .slick-next,
+  .ant-carousel .slick-prev {
+    @include shadow-1;
+    z-index: -1;
+    width: 32px;
+    height: 32px;
+    transition: opacity 0.3s;
+    border-radius: 50%;
+    opacity: 0;
+    background-color: get-color(text, white);
+    color: get-color(secondary, 1000);
+    &:disabled {
+      color: get-color(secondary, 300);
+    }
+  }
+  .ant-carousel .icon {
+    width: 16px;
+    height: 16px;
+  }
+  .apartment-card__slider,
+  .ant-carousel {
+    width: 204px;
+  }
+  .apartment-card__image {
+    border-radius: $border-radius-secondary;
+  }
+  .apartment-card__content {
+    width: calc(100% - 204px);
+    padding: 0 0 0 24px;
+  }
+  .apartment-card__share,
+  .apartment-card__like {
+    top: 24px;
+    color: get-color(secondary, 800);
+  }
+  .apartment-card__like {
+    right: 0;
+  }
+  .apartment-card__like--active {
+    color: get-color(accent-3, 1000);
+  }
+  .apartment-card__share {
+    right: 32px;
+  }
+  .apartment-card__description {
+    margin-bottom: 12px;
+  }
+  .apartment-card__rating {
+    order: -1;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  .apartment-card__info {
+    order: 1;
+    width: auto;
+    margin-bottom: 0;
+  }
+  .apartment-card__price {
+    order: 2;
+  }
+}
+.apartment-card__image {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: $border-radius-secondary;
+  border-top-right-radius: $border-radius-secondary;
+}
+.apartment-card__share {
+  position: absolute;
+  top: 12px;
+  right: 44px;
+  color: get-color(text, white);
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1000);
+  }
+  &:active {
+    color: get-color(primary, 1200);
+  }
+}
+.apartment-card__like {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: get-color(text, white);
+  &:hover,
+  &:focus {
+    color: get-color(primary, 1000);
+  }
+  &:active {
+    color: get-color(primary, 1200);
+  }
+}
+.apartment-card__like--active {
+  color: get-color(accent-3, 1000);
+}
+.apartment-card__content {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 24px;
+}
+.apartment-card__title {
+  @include text-subheader-big-2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  a:hover,
+  a:focus {
+    color: get-color(primary, 1000);
+  }
+  a:active {
+    color: get-color(primary, 1200);
+  }
+}
+.apartment-card__description,
+.apartment-card__info {
+  @include text-body;
+  color: get-color(text, black);
+}
+.apartment-card__info {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.apartment-card__info--sidebar {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid get-color(secondary, 100);
+}
+.apartment-card__description {
+  margin-bottom: 8px;
+}
+.apartment-card__dot {
+  width: 4px;
+  height: 4px;
+  margin-right: 4px;
+  margin-left: 4px;
+  color: get-color(text, black);
+}
+.apartment-card__price {
+  @include text-subheader;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: get-color(text, black);
+}
+.apartment-card__accent {
+  @include text-subheader-2;
+  color: get-color(text, active-dark);
+}
+.apartment-card__rating {
+  margin-bottom: 0;
+}
+.apartment-card__rating--sidebar {
+  @include shadow-1;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  padding: 8px;
+  border-radius: $border-radius-secondary;
+  background-color: get-color(text, white);
+}
+.apartment-card__star {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  color: get-color(accent-2, 1100);
+}
+.apartment-card__value {
+  @include text-body-2;
+  margin-right: 4px;
+}
+.apartment-card__review {
+  @include text-body;
+  color: get-color(text, black);
+  text-decoration: underline;
+  &:hover,
+  &:focus,
+  &:active {
+    color: get-color(text, active-dark);
+  }
+}
+.apartment-card__slider {
+  .slick-dots li {
+    width: 6px;
+    height: 6px;
+    /* stylelint-disable selector-max-compound-selectors */
+    button {
+      height: 6px;
+      border-radius: 50%;
+      opacity: 0.5;
+    }
+    /* stylelint-enable selector-max-compound-selectors */
+  }
+  /* stylelint-disable selector-no-qualifying-type */
+  .slick-dots li.slick-active {
+    width: 6px;
+    /* stylelint-disable selector-max-compound-selectors */
+    button {
+      opacity: 1;
+    }
+    /* stylelint-enable selector-max-compound-selectors */
+  }
+  /* stylelint-enable selector-no-qualifying-type */
+  &:hover .slick-next,
+  &:hover .slick-prev {
+    z-index: 1;
+    opacity: 1;
+  }
+}
+.apartment-card__wrapper {
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.apartment-card__total {
+  @include text-caption-underline;
+  transition: color 0.3s;
+  color: get-color(text, black);
+  &:hover,
+  &:focus,
+  &.ant-popover-open {
+    color: get-color(primary, 1000);
+    text-decoration: underline;
+  }
+  &:active {
+    color: get-color(primary, 1100);
+    text-decoration: underline;
+  }
+}
+.apartment-card__badge {
+  @include shadow-1;
+  @include text-caption;
+  position: absolute;
+  top: 68px;
+  left: 12px;
+  padding: 4px 6px;
+  border-radius: $border-radius-secondary;
+  background-color: get-color(text, white);
+  color: get-color(accent-3, 1000);
+}
+.apartment-card__missing {
+  width: 100%;
+}
+.apartment-card__missing-title {
+  @include text-caption-2;
+  margin-right: 4px;
+  color: get-color(text, black);
+}
+.apartment-card__missing-value {
+  @include text-caption-strikethrough;
+  margin-right: 4px;
+  color: get-color(text, black);
+}

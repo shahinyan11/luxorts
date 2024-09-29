@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccommodationFilter useContainer hook matches snapshot 1`] = `
+Object {
+  "appliedFilters": 1,
+  "clearButtonVisible": true,
+  "formik": Object {
+    "isValid": true,
+    "resetForm": [MockFunction],
+    "values": Object {
+      "beds_amount-eq": 1,
+    },
+  },
+  "onApply": [Function],
+  "onClear": [Function],
+  "onVisibilityChangeHandler": [Function],
+  "setVisible": [Function],
+  "visible": false,
+}
+`;

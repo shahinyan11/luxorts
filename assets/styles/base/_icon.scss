@@ -1,0 +1,10 @@
+.icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon--color-primary {
+  color: get-color(primary, 800);
+}

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingPropertyType component matches snapshot 1`] = `
+<div
+  className="new-listing__container mb-24"
+>
+  <h1
+    className="new-listing__title mb-32"
+  >
+    <Memo(FormattedMessage)
+      id="addNewListing.propertyType.title"
+    />
+  </h1>
+  <ForwardRef(InternalForm)
+    layout="vertical"
+    size="large"
+  >
+    <ContextProvider
+      value={
+        Object {
+          "dirty": true,
+          "handleSubmit": [MockFunction],
+          "isValid": true,
+          "resetForm": [MockFunction],
+          "setFieldTouched": [MockFunction],
+          "setFieldValue": [MockFunction],
+          "setValues": [MockFunction],
+          "validateForm": [MockFunction],
+          "values": Object {},
+        }
+      }
+    >
+      <div
+        className="new-listig__item mb-24"
+      >
+        <SelectField
+          className="w-100"
+          formItemClassName="mb-8"
+          label={
+            Object {
+              "id": "shared.propertyType",
+            }
+          }
+          name="listingPropertyType.propertyTypeId"
+          optionComponent={[Function]}
+          options={
+            Array [
+              Object {
+                "description": "description repudiandae",
+                "label": "repudiandae",
+                "value": "51e35121-c27e-46fc-9feb-b51dab2490ee",
+              },
+              Object {
+                "description": "description molestias",
+                "label": "molestias",
+                "value": "995c5714-185d-4085-8512-690903334f6e",
+              },
+            ]
+          }
+          placeholder={
+            Object {
+              "id": "shared.selectPropertyType",
+            }
+          }
+          tooltip="tooltip"
+        />
+      </div>
+      <h2
+        className="new-listing__subtitle mb-24"
+      >
+        <Memo(FormattedMessage)
+          id="addNewListing.propertyType.place.title"
+        />
+      </h2>
+      <RadioGroupField
+        className="d-flex flex-column"
+        items={
+          Array [
+            Object {
+              "label": Object {
+                "id": "shared.entirePlace",
+              },
+              "value": "entire_room",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.privateRoom",
+              },
+              "value": "private_place",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.sharedRoom",
+              },
+              "value": "shared_room",
+            },
+          ]
+        }
+        name="listingPropertyType.typeOfPlace"
+      />
+    </ContextProvider>
+  </ForwardRef(InternalForm)>
+</div>
+`;
