@@ -66,7 +66,7 @@
     "cookie": "^0.5.0",
     "country-region-data": "^2.3.0",
     "formik": "^2.2.9",
-    "http-status": "^1.5.2",
+    "http-status": "^1.7.4",
     "json-api-normalizer": "^1.0.4",
     "lodash": "^4.17.21",
     "moment": "^2.29.3",
